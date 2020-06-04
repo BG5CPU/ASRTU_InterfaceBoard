@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : D:\workplace\AD\FpgaSchematic\OBC-FPGA.PcbDoc
+Date         : 2019/1/18
+Time         : 18:52:29
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 611
+    Connections routed, 611
+    Connections remaining, 0
+count : 4

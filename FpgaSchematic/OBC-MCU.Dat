@@ -1,0 +1,83 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~OBC-MCU.PrjPcb|ReportField=ProjectFullPath~E:\My Documents\SyncedWorkspace\阿斯图\分系统\综合电子\PCB工程\OBC Schematic\OBC-MCU.PrjPcb|ReportField=Title~Bill of Materials For Project [OBC-MCU.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~423|ReportField=ReportTime~16:20:36|ReportField=ReportDate~2017/11/8|ReportField=ReportDateTime~2017/11/8 16:20:36|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2017/11/8|ReportField=CurrentTime~16:15:21|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\My Documents\SyncedWorkspace\阿斯图\分系统\综合电子\PCB工程\OBC Schematic\OBC-MCUSYS.SchDoc|ReportField=DocumentName~OBC-MCUSYS.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2017/11/7|ReportField=Organization~|ReportField=ProjectName~OBC-MCU.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~OBC-MCU.PrjPcb|ReportField=DataSourceFullPath~E:\My Documents\SyncedWorkspace\阿斯图\分系统\综合电子\PCB工程\OBC Schematic\OBC-MCU.PrjPcb
+Bead|Inductor|B?|0603(1608)-R-IPC|Inductor_1|1
+1nF|Nonpolarized Capacitor (Surface Mount)|C?|0603(1608)-C-IPC|Cap_1|3
+1uF|Nonpolarized Capacitor (Surface Mount)|C?|0805(2012)-C-IPC|Cap_1|1
+2.2uF|Nonpolarized Capacitor (Surface Mount)|C?|1210(3225)-C-IPC|Cap_1|13
+10nF|Nonpolarized Capacitor (Surface Mount)|C?|0603(1608)-C-IPC|Cap_1|16
+10pF|Nonpolarized Capacitor (Surface Mount)|C?|0603(1608)-C-IPC|Cap_1|1
+15nF|Nonpolarized Capacitor (Surface Mount)|C?|0603(1608)-C-IPC|Cap_1|2
+33pF|Nonpolarized Capacitor (Surface Mount)|C?|0603(1608)-C-IPC|Cap_1|2
+47uF|Nonpolarized Capacitor (Surface Mount)|C?|1210(3225)-C-IPC|Cap_1|66
+100nF|Nonpolarized Capacitor (Surface Mount)|C?|0603(1608)-C-IPC|Cap_1|27
+100uF|Polarized Capacitor (Surface Mount)|C?|TanCap-D(7343)-C-IPC|Cap Pol_1|48
+220uF|Polarized Capacitor (Surface Mount)|C?|TanCap-D(7343)-C-IPC|Cap Pol_1|10
+1PS76SB10|Schottky Diode|D?|SOD-323-D-IPC|D Schottky|2
+2.2uH|Inductor|L?|Inductor-CoilCraft-MSS7341|Inductor_1|1
+4.7uH|Inductor|L?|Inductor-CoilCraft-MSS7341|Inductor_1|1
+Header 26X2H|Header, 26-Pin, Dual row, Right Angle|P1, P2|DIP 26x2-2.54mm|Header 26X2H|2
+ANTREL||P?|Header-Molex-53048-6|Header 6|2
+CAM||P?|Header-Molex-53048-4|Header 4|1
+CSUNS||P?|Header-Molex-53048-4|Header 4|1
+FIBERGYRO||P?|Header-Molex-53048-6|Header 6|1
+FSUNS||P?|Header-Molex-53048-4|Header 4|1
+FUELC_PL||P?|Header-Molex-53048-4|Header 4|1
+FWS||P?|Header-Molex-53048-4|Header 4|1
+FWXYZ||P?|Header-Molex-53048-6|Header 6|1
+Header 8x2||P?|DIP 8x2-1.27mm|Header 8x2|3
+Header 11||P?|Header-Molex-53048-11|Header 11|3
+JTAG||P?|Header-Molex-53048-10|Header 10|1
+MAGA||P?|Header-Molex-53048-4|Header 4|1
+MAGB||P?|Header-Molex-53048-6|Header 6|1
+MAGTRQX||P?|Header-Molex-53048-4|Header 4|1
+MAGTRQY||P?|Header-Molex-53048-4|Header 4|1
+MAGTRQZ||P?|Header-Molex-53048-4|Header 4|1
+MEMSGYRO||P?|Header-Molex-53048-6|Header 6|1
+PRESSURE||P?|Header-Molex-53048-4|Header 4|1
+PROP1||P?|Header-Molex-53048-4|Header 4|1
+PROP2||P?|Header-Molex-53048-4|Header 4|1
+PROP3||P?|Header-Molex-53048-4|Header 4|1
+PROP4||P?|Header-Molex-53048-4|Header 4|1
+PROP5||P?|Header-Molex-53048-4|Header 4|1
+STARS||P?|Header-Molex-53048-6|Header 6|1
+SUNS_PL||P?|Header-Molex-53048-4|Header 4|1
+MOSFET_N_1||Q?|SOT23-3-IPC|MOSFET_N_1|2
+MOSFET_P_1||Q?|SOT23-3-IPC|MOSFET_P_1|2
+0|Resistor|R?|0805(2012)-R-IPC|Res_1|2
+0.01|Resistor|R?|2512(6432)-R-IPC|Res_1|2
+0.5|Resistor|R?|2512(6432)-R-IPC|Res_1|3
+2.2K|Resistor|R?|0603(1608)-R-IPC|Res_1|28
+2.2K|Resistor|R?|0805(2012)-R-IPC|Res_1|3
+3.3K|Resistor|R?|0603(1608)-R-IPC|Res_1|19
+5.1K|Resistor|R?|0603(1608)-R-IPC|Res_1|3
+10|Resistor|R?|0603(1608)-R-IPC|Res_1|4
+10K|Resistor|R?|0603(1608)-R-IPC|Res_1|18
+11.7K|Resistor|R?|0603(1608)-R-IPC|Res_1|7
+15.4K|Resistor|R?|0603(1608)-R-IPC|Res_1|1
+24.3K|Resistor|R?|0603(1608)-R-IPC|Res_1|1
+25.5K|Resistor|R?|0603(1608)-R-IPC|Res_1|1
+30.1K|Resistor|R?|0805(2012)-R-IPC|Res_1|1
+33K|Resistor|R?|0603(1608)-R-IPC|Res_1|3
+49.9K|Resistor|R?|0603(1608)-R-IPC|Res_1|8
+51K|Resistor|R?|0603(1608)-R-IPC|Res_1|8
+63.3K|Resistor|R?|0805(2012)-R-IPC|Res_1|1
+84.5K|Resistor|R?|0603(1608)-R-IPC|Res_1|1
+89K|Resistor|R?|0603(1608)-R-IPC|Res_1|1
+100|Resistor|R?|0805(2012)-R-IPC|Res_1|2
+100K|Resistor|R?|0603(1608)-R-IPC|Res_1|2
+120|Resistor|R?|0805(2012)-R-IPC|Res_1|3
+150K|Resistor|R?|0603(1608)-R-IPC|Res_1|15
+TBD|Resistor|R?|0603(1608)-R-IPC|Res_1|9
+25Q64/FRAM|SPI  Bus Serial Flash|U?|SOP-8-5.28x5.28-IPC|25Qxx|1
+DRV8801|DMOS Full-Bridge Motor Drivers|U?|QFN-16-4x4-w.TP-IPC|DRV8801|3
+INA220|High- or Low-Side, Bidirectional Current and Power Monitor With Two-Wire Interface|U?|TSSOP-10-3x3-IPC|INA220|2
+MOLEX 5027740891|1.10mm Pitch microSD Memory Card Connector, Reverse Mount Surface Mount, Push-Push Type|U?|MOLEX 5027740891|MOLEX 5027740891|1
+PCA9513A|Hot swappable I2C-bus and SMBus bus buffer|U?|TSSOP-8-3x3-IPC|PCA9513A|1
+REF5030ID|Low-Noise, Very Low Drift, Precision Voltage Reference|U?|TSSOP-8-3x3-IPC|REF50xx|1
+SN65HVD233|3.3-V CAN Bus Transceivers|U?|SOP-8-3.9x4.9-IPC|SN65HVD233|3
+TMS570LS1224ZWT|16- and 32-Bit RISC Flash Microcontroller|U?|BGA337C80P19X19_1600X1600X140|TMS570LS1224ZWT|6
+TPS2552DBV-1|PRECISION ADJUSTABLE CURRENT-LIMITED POWER-DISTRIBUTION SWITCHES|U?|SOT23-6-IPC|TPS2553DBV|8
+TPS3823-33|TPS382x Voltage Monitor With Watchdog Timer|U?|SOT23-5-IPC|TPS3828|1
+TPS25940x|18V eFuse with True Reverse Blocking and DevSleep Support for SSDs|U?|QFN-20-0.5-3x4-w.TP-IPC|TPS25940x|16
+TPS54225|4.5V to 18V Input, 2-A Synchronous Step-Down SWIFT Converter|U?|TSSOP-14-4.4x5-0.65-w.TP-IPC|TPS54225|2
+TPS79301|ULTRALOW-NOISE, HIGH-PSRR, FAST RF 200-mA LOW-DROPOUT LINEAR REGULATORS|U?|SOT23-6-IPC|TPS79301|1
+16MHz|Passive Crystal, SMD|Y?|XTAL-5032|Crystal_1|1

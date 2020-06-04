@@ -1,0 +1,5 @@
+1、BQ24600，不在我这儿
+2、LC-SMD-3225_4P，是有源晶振，Ordering Information：SIT1602AI-22-33E-50.000000D，生产商：SiTime Corporation
+3、SOD-123-D-IPC，是肖特基二极管，封装为SOD-123FL，Ordering Information：NRVB130LSFT1G， 生产商：ON Semiconductor
+4、SZESDR0502BT1G，是瞬态抑制二极管，封装为SOT-416，Ordering Information：SZESDR0502BT1G，生产商：ON Semiconductor
+5、TPS79301，不在我这儿

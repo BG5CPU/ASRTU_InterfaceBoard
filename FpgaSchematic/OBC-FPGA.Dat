@@ -1,0 +1,118 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~OBC-FPGA.PrjPcb|ReportField=ProjectFullPath~D:\workplace\AD\FpgaSchematic\OBC-FPGA.PrjPcb|ReportField=Title~Bill of Materials For Project [OBC-FPGA.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~572|ReportField=ReportTime~17:13:27|ReportField=ReportDate~2018/12/29|ReportField=ReportDateTime~2018/12/29 17:13:27|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/12/29|ReportField=CurrentTime~17:09:26|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\workplace\AD\FpgaSchematic\OBC-MCUSYS.SchDoc|ReportField=DocumentName~OBC-MCUSYS.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/3/5|ReportField=Organization~|ReportField=ProjectName~OBC-FPGA.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~OBC-FPGA.PrjPcb|ReportField=DataSourceFullPath~D:\workplace\AD\FpgaSchematic\OBC-FPGA.PrjPcb|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|10uF|Nonpolarized Capacitor (Surface Mount)|C1|0805(2012)-C-IPC|Cap_1|1
+2|10pF|Nonpolarized Capacitor (Surface Mount)|C1, C7, C56, C419|0603(1608)-C-IPC|Cap_1|4
+3|100nF|Nonpolarized Capacitor (Surface Mount)|C2, C3, C6, C7, C12, C17, C19, C20, C21, C22, C23, C23, C25, C27, C29, C30, C31, C31, C33, C35, C38, C39, C40, C41, C42, C43, C44, C48, C49, C50, C54, C55, C56, C58, C61, C62, C63, C100, C103, C105, C106, C110, C300, C301, C302, C303, C400, C401, C404, C405, C414, C421, C422|0603(1608)-C-IPC|Cap_1|53
+4|47uF|Nonpolarized Capacitor (Surface Mount)|C3, C4, C8, C10, C13, C14, C18, C20, C24, C45, C46, C49, C51, C102, C107, C108, C406, C408, C410, C412, C417, C420, C423, C424, C425, C427, C500, C501, C502, C503, C504, C505, C506, C507, C508, C509, C510, C511, C512, C513, C514, C515, C516, C517, C518, C519, C520, C521, C522, C523, C524, C525, C526, C527, C528, C529, C530, C531, C534, C535, C536, C537, C538, C539, C540, C541, C546, C547, C548, C549, C550, C551, C552, C553, C554, C555, C556, C557, C558, C559, C560, C561, C562, C563, C564, C565, C571, C572, C573, C574, C577, C578, C581, C582, C583, C584, C587, C588, C600, C601, C602, C603, C604, C605, C606, C607, C608, C609, C610, C611, C612, C613, C614, C615, C616, C617, C618, C619, C700, C701, C702, C703|1210(3225)-C-IPC|Cap_1|122
+5|4.7nF|Nonpolarized Capacitor (Surface Mount)|C4, C416|0603(1608)-C-IPC|Cap_1|2
+6|220uF|Polarized Capacitor (Surface Mount)|C5, C11, C15, C21, C44, C47, C48, C52, C59, C60|TanCap-D(7343)-C-IPC|Cap Pol_1|10
+7|220nF|Nonpolarized Capacitor (Surface Mount)|C5, C418|0603(1608)-C-IPC|Cap_1|2
+8|15nF|Nonpolarized Capacitor (Surface Mount)|C6, C16, C47, C54|0603(1608)-C-IPC|Cap_1|4
+9|22uF|Nonpolarized Capacitor (Surface Mount)|C8, C10, C13, C15, C17, C28, C32, C34, C36, C38, C40, C45, C51, C57|1210(3225)-C-IPC|Cap_1|14
+10|100nF|Nonpolarized Capacitor (Surface Mount)|C9, C11, C14, C16, C18, C25, C29, C33, C35, C37, C39, C41, C46, C52|0805(2012)-C-IPC|Cap_1|14
+11|2.2uF|Nonpolarized Capacitor (Surface Mount)|C9, C19, C22, C24, C26, C28, C30, C32, C34, C50, C53, C55, C57|1210(3225)-C-IPC|Cap_1|13
+12|10nF|Nonpolarized Capacitor (Surface Mount)|C26, C545, C592, C594, C620|0603(1608)-C-IPC|Cap_1|5
+13|7pF|Nonpolarized Capacitor (Surface Mount)|C36, C37|0603(1608)-C-IPC|Cap_1|2
+14|1.0uF|Nonpolarized Capacitor (Surface Mount)|C42, C53|0603(1608)-C-IPC|Cap_1|2
+15|3.3nF|Nonpolarized Capacitor (Surface Mount)|C43|0603(1608)-C-IPC|Cap_1|1
+16|22uF|Nonpolarized Capacitor (Surface Mount)|C58|0805(2012)-C-IPC|Cap_1|1
+17|2.2uF|Nonpolarized Capacitor (Surface Mount)|C101|0805(2012)-C-IPC|Cap_1|1
+18|1uF|Nonpolarized Capacitor (Surface Mount)|C109|0805(2012)-C-IPC|Cap_1|1
+19|1nF|Nonpolarized Capacitor (Surface Mount)|C402, C403, C415|0603(1608)-C-IPC|Cap_1|3
+20|1PS76SB10|Schottky Diode|D1, D2, D3, D4, D5, D6|SOD-323-D-IPC|D Schottky|6
+21|B130LAW|Schottky Diode|D1, D400|SOD-123-D-IPC|D Schottky|2
+22|A3P1000PQ208|ProASIC3 Flash Family FPGAs|F1|SQFP50P3060X3060X410-208N|A3P100PQ208|1
+23|Header 4X2|Header, 4-Pin, Dual row|JTAG|HDR2X4|Header 4X2|1
+24|XAL4030-472|Inductor|L1, L1, L2, L400|Inductor-CoilCraft-XAL40xx|Inductor_1|4
+25|XAL4030-332|Inductor|L1, L3|Inductor-CoilCraft-XAL40xx|Inductor_1|2
+26|XAL4020-222|Inductor|L2|Inductor-CoilCraft-XAL40xx|Inductor_1|1
+27|Header 26X2H|Header, 26-Pin, Dual row, Right Angle|P1, P2|DIP 26x2-2.54mm|Header 26X2H|2
+28|JTAG||P3|Header-Molex-53047-10|Header 10|1
+29|Header 8x2||P200, P201, P202|DIP 8x2-1.27mm|Header 8x2|3
+30|PROP1_2||P700|Header-Molex-53047-6|Header 6|1
+31|SUNS_PL||P701|Header-Molex-53047-4|Header 4|1
+32|ANTREL||P702|Header-Molex-53047-8|Header 8|1
+33|FWXYZS||P703|Header-Molex-53047-8|Header 8|1
+34|STARS||P704|Header-Molex-53047-6|Header 6|1
+35|PROP3_4||P705|Header-Molex-53047-6|Header 6|1
+36|FUELC_PL||P706|Header-Molex-53047-4|Header 4|1
+37|FSUNS||P707|Header-Molex-53047-4|Header 4|1
+38|FIBERGYRO||P709|Header-Molex-53047-10|Header 10|1
+39|CAM||P711|Header-Molex-53047-6|Header 6|1
+40|MAGTRQX||P712|Header-Molex-53047-4|Header 4|1
+41|MEMSGYRO||P713|Header-Molex-53047-6|Header 6|1
+42|MAGA||P714|Header-Molex-53047-4|Header 4|1
+43|MAGTRQY||P716|Header-Molex-53047-4|Header 4|1
+44|MAGB||P718|Header-Molex-53047-6|Header 6|1
+45|PROP5||P719|Header-Molex-53047-4|Header 4|1
+46|MAGTRQZ||P720|Header-Molex-53047-4|Header 4|1
+47|CSUNS||P721|Header-Molex-53047-4|Header 4|1
+48|Header 11||P722, P723, P725|Header-Molex-53047-11|Header 11|3
+49|MOSFET_P_1||Q1, Q3|SOT23-3-IPC|MOSFET_P_1|2
+50|MOSFET_N_1||Q2, Q4|SOT23-3-IPC|MOSFET_N_1|2
+51|10|Resistor|R1, R4, R5, R5, R6, R7, R8, R11, R12, R33, R34, R46, R47, R54, R55, R416|0603(1608)-R-IPC|Res_1|16
+52|10K|Resistor|R1, R8, R9, R10, R11, R20, R21, R22, R23, R28, R30, R41, R48, R56, R57, R58, R59, R300, R301, R302, R308, R309, R320, R400, R401, R402, R403, R404, R405, R406, R407, R412, R417|0603(1608)-R-IPC|Res_1|33
+53|0.05|Resistor|R2, R9, R23, R28, R29, R31, R44, R45, R52, R53|1206(3216)-R-IPC|Res_1|10
+54|150K|Resistor|R2, R413|0603(1608)-R-IPC|Res_1|2
+55|412K|Resistor|R3, R19, R414, R513, R524, R525, R526, R527, R528|0603(1608)-R-IPC|Res_1|9
+56|84.5K|Resistor|R3, R50|0603(1608)-R-IPC|Res_1|2
+57|100K|Resistor|R4, R6, R12, R13, R14, R24, R26, R35, R40, R49, R415|0603(1608)-R-IPC|Res_1|11
+58|25.5K|Resistor|R7, R51, R611|0603(1608)-R-IPC|Res_1|3
+59|15.4K|Resistor|R10|0603(1608)-R-IPC|Res_1|1
+60|80K|Resistor|R13, R25|0603(1608)-R-IPC|Res_1|2
+61|24.3K|Resistor|R14|0603(1608)-R-IPC|Res_1|1
+62|DNC|Resistor|R15|0603(1608)-R-IPC|Res_1|1
+63|73.2K|Resistor|R15, R502, R503, R504, R505, R606|0603(1608)-R-IPC|Res_1|6
+64|Rt|Resistor|R16, R17|0603(1608)-R-IPC|Res_1|2
+65|2.2K|Resistor|R16, R17, R19, R20, R22, R24, R25, R303, R304, R305, R306, R307, R312, R313, R314, R315, R316, R317, R318, R319, R322, R323, R324, R325, R326, R327, R328, R329, R330, R331, R712, R713|0603(1608)-R-IPC|Res_1|32
+66|0|Resistor|R18|0603(1608)-R-IPC|Res_1|1
+67|931K|Resistor|R18, R521, R529, R530, R531, R532, R533|0603(1608)-R-IPC|Res_1|7
+68|1000K|Resistor|R21, R26|0603(1608)-R-IPC|Res_1|2
+69|100|Resistor|R27|0603(1608)-R-IPC|Res_1|1
+70|210K|Resistor|R27, R501, R514, R607|0603(1608)-R-IPC|Res_1|4
+71|24K|Resistor|R32, R43|0603(1608)-R-IPC|Res_1|2
+72|24.9K|Resistor|R36, R42|0603(1608)-R-IPC|Res_1|2
+73|ResX4|Resistor|R60|LC-0603_Rx4|ResX4|1
+74|1K|Resistor|R61|0603(1608)-R-IPC|Res_1|1
+75|100|Resistor|R100, R103|0805(2012)-R-IPC|Res_1|2
+76|56K|Resistor|R101|0603(1608)-R-IPC|Res_1|1
+77|30.1K|Resistor|R102, R509, R517, R518, R522, R535, R608, R609, R610|0603(1608)-R-IPC|Res_1|9
+78|120|Resistor|R310, R311, R321|0603(1608)-R-IPC|Res_1|3
+79|1|Resistor|R408, R409, R418|1206(3216)-R-IPC|Res_1|3
+80|5.1K|Resistor|R410, R411, R419|0603(1608)-R-IPC|Res_1|3
+81|51K|Resistor|R500, R506, R600|0603(1608)-R-IPC|Res_1|3
+82|16.9K|Resistor|R510, R511, R516, R519, R523, R601, R602, R603|0603(1608)-R-IPC|Res_1|8
+83|147K|Resistor|R520|0603(1608)-R-IPC|Res_1|1
+84|86.6K|Resistor|R534, R605|0603(1608)-R-IPC|Res_1|2
+85|48.7K|Resistor|R539|0603(1608)-R-IPC|Res_1|1
+86|88.7K|Resistor|R541|0603(1608)-R-IPC|Res_1|1
+87|221K|Resistor|R542|0603(1608)-R-IPC|Res_1|1
+88|442K|Resistor|R544|0603(1608)-R-IPC|Res_1|1
+89|39.2K|Resistor|R546|0603(1608)-R-IPC|Res_1|1
+90|97.6K|Resistor|R547|0603(1608)-R-IPC|Res_1|1
+91|59K|Resistor|R604|0603(1608)-R-IPC|Res_1|1
+92|3.3K|Resistor|R700, R701, R702, R703, R704, R705, R706, R707, R708, R709, R710, R711|0603(1608)-R-IPC|Res_1|12
+93|90.9K|Resistor|R714|0603(1608)-R-IPC|Res_1|1
+94|40.2K|Resistor|R715|0603(1608)-R-IPC|Res_1|1
+95|TVS-0502B|ESD Protection Array|T1, T2|SOT23-3|TVS-0502B|2
+96|TPS54225|4.5V to 18V Input, 2-A Synchronous Step-Down SWIFT Converter|U1, U1, U3, U4, U7|TSSOP-14-4.4x5-0.65-w.TP-IPC|TPS54225|5
+97|INA220|High- or Low-Side, Bidirectional Current and Power Monitor With Two-Wire Interface|U2, U2, U4, U5, U8|TSSOP-10-3x3-IPC|INA220|5
+98|TMS570LS1224ZWT|16- and 32-Bit RISC Flash Microcontroller|U3|BGA337C80P19X19_1600X1600X140|TMS570LS1224ZWT|1
+99|SN65HVD76|3.3-V 422/485 Transceivers|U05|SOIC127P600X175-14N|SN65HVD76|1
+100|MAX3227E|RS-232 Transceiver|U06|SSOP-16_208mil|MAX3227E|1
+101|TPS3823-33|TPS382x Voltage Monitor With Watchdog Timer|U6|SOT23-5-IPC|TPS3828|1
+102|TCA9517|I2C A-side drivers and B-side drivers|U07|TSSOP-8-3x3-IPC|TCA9517|1
+103|TPS79301|ULTRALOW-NOISE, HIGH-PSRR, FAST RF 200-mA LOW-DROPOUT LINEAR REGULATORS|U100|SOT23-6-IPC|TPS79301|1
+104|REF5030ID|Low-Noise, Very Low Drift, Precision Voltage Reference|U102|TSSOP-8-3x3-IPC|REF50xx|1
+105|PCA9513A|Hot swappable I2C-bus and SMBus bus buffer|U301|TSSOP-8-3x3-IPC|PCA9513A|1
+106|SN65HVD233|3.3-V CAN Bus Transceivers|U302, U303, U304|SOP-8-3.9x4.9-IPC|SN65HVD233|3
+107|MOLEX 5027740891|1.10mm Pitch microSD Memory Card Connector, Reverse Mount Surface Mount, Push-Push Type|U400|MOLEX 5027740891|MOLEX 5027740891|1
+108|DRV8801|DMOS Full-Bridge Motor Drivers|U401, U402, U405|QFN-16-4x4-w.TP-IPC|DRV8801|3
+109|25Q64/FRAM|SPI  Bus Serial Flash|U403|SOP-8-5.28x5.28-IPC|25Qxx|1
+110|TPS63700|DC-DC Inverter|U404, UP01|DFN-10-0.5-3x3-w.TP-IPC|TPS63700|2
+111|TPS2557DRB|PRECISION ADJUSTABLE CURRENT-LIMITED POWER-DISTRIBUTION SWITCHES|U500, U501, U502, U503, U505, U602|SON-8-3x3-w.TP-IPC|TPS2556DRB|6
+112|TPS2552DBV-1|PRECISION ADJUSTABLE CURRENT-LIMITED POWER-DISTRIBUTION SWITCHES|U504, U507, U508, U509, U600, U601, U603|SOT23-6-IPC|TPS2553DBV|7
+113|TPS25940x|18V eFuse with True Reverse Blocking and DevSleep Support for SSDs|U506, U510, U511, U512, U513, U514, U515, U516, U518, U604, U700, UC03|QFN-20-0.5-3x4-w.TP-IPC|TPS25940x|12
+114|TPS2553DBV|PRECISION ADJUSTABLE CURRENT-LIMITED POWER-DISTRIBUTION SWITCHES|UC01, UC04, UC05|SOT23-6-IPC|TPS2553DBV|3
+115|TPS2556DRB|PRECISION ADJUSTABLE CURRENT-LIMITED POWER-DISTRIBUTION SWITCHES|UC02|SON-8-3x3-w.TP-IPC|TPS2556DRB|1
+116|50Mhz|Standard Frequency Oscillator SiT1602|X1|LC-SMD-3225_4P|SiT1602|1
+117|TSX-3225-16M|Passive Crystal, SMD|Y1|XTAL-3225-4P|Crystal_4P|1
