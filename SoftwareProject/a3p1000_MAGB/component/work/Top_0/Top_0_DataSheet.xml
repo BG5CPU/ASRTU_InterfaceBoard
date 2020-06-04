@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>Top_0</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P1000</die>
+    <package>208 PQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>D:/FPGA/a3p1000_MAGB/component/work/Top_0</location>
+    <state>GENERATED ( Thu Feb 28 09:58:29 2019 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>D:\FPGA\a3p1000_MAGB\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v</file>
+    <file>D:\FPGA\a3p1000_MAGB\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v</file>
+    <file>D:\FPGA\a3p1000_MAGB\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
+    <file>D:\FPGA\a3p1000_MAGB\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v</file>
+    <file>D:\FPGA\a3p1000_MAGB\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v</file>
+    <file>D:\FPGA\a3p1000_MAGB\component\work\Top_0\Top_0.v</file>
+    <file>D:\FPGA\a3p1000_MAGB\hdl\MAGB_control.v</file>
+  </fileset>
+  <io>
+    <port-name>data[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAGB_PC_EN</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[4]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[4]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[4]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[2]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>EN_MAGB_5</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[2]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[3]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>EN_MAGB_3</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[7]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>PCLK</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[5]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[6]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>FLT_MAGB_5</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>FLT_MAGB_3</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[1]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[6]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[6]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[5]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[5]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SCL</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>PRESETN</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[3]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[0]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ADDR[1]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data[7]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[7]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>data_in[0]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SDA</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreAPB3</core-intname>
+    <core-ver>4.1.100</core-ver>
+    <core-desc>
+The CoreAPB3 component implements an APB3 (AMBA3 APB) fabric, which is backwards compatible with APB2 slave peripherals.
+
+There is one APB3 Master interface.
+
+        </core-desc>
+    <core-param>
+      <param-name>APB Master Data Bus Width</param-name>
+      <param-value>8-bit</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT0ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT1ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT2ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT3ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT4ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT5ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT6ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT7ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT8ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT9ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT10ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT11ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT12ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT13ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT14ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT15ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Indirect Addressing:</param-name>
+      <param-value>Not in use</param-value>
+      <param-hdlname>IADDR_OPTION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of address bits driven by master:</param-name>
+      <param-value>12</param-value>
+      <param-hdlname>MADDR_BITS</param-hdlname>
+      <param-hdlvalue>12</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_0</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_1</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_2</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_3</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_4</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_5</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_6</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_7</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_8</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_9</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_10</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_11</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_12</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_13</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_14</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_15</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Position in slave address of upper 4 bits of master address:</param-name>
+      <param-value>[11:8] (Ignored if master address width >= 16 bits)</param-value>
+      <param-hdlname>UPR_NIBBLE_POSN</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreAPB3_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>COREI2C</core-intname>
+    <core-ver>7.2.101</core-ver>
+    <core-desc>CoreI2C provides an APB-driven serial interface, supporting I2C, SMBus, PMBus, and IPMI data transfers. Verilog/VHDL parameters are available to configure operation modes and minimize FPGA fabric area for a given application.  CoreI2C allows for the generation of up to 16 I2C Channels per APB slot.</core-desc>
+    <core-param>
+      <param-name>Enable 2nd Address Decode (Slave1 Address):</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>ADD_SLAVE1_ADDRESS_EN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Fixed Baud Rate:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>BAUD_RATE_FIXED</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Fixed Baud Rate Value:</param-name>
+      <param-value>PCLK frequency / 60 </param-value>
+      <param-hdlname>BAUD_RATE_VALUE</param-hdlname>
+      <param-hdlvalue>6</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Enable BCLK Signal:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>BCLK_ENABLED</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Fixed Slave0 Address:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>FIXED_SLAVE0_ADDR_EN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Fixed Slave0 Address Value:</param-name>
+      <param-value>0x0</param-value>
+      <param-hdlname>FIXED_SLAVE0_ADDR_VALUE</param-hdlname>
+      <param-hdlvalue>'h0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Fixed Slave1 Address:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>FIXED_SLAVE1_ADDR_EN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Fixed Slave1 Address Value:</param-name>
+      <param-value>0x0</param-value>
+      <param-hdlname>FIXED_SLAVE1_ADDR_VALUE</param-hdlname>
+      <param-hdlvalue>'h0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>PCLK Frequency in MHz (Required to Calibrate Timeout Counters):</param-name>
+      <param-value>30</param-value>
+      <param-hdlname>FREQUENCY</param-hdlname>
+      <param-hdlvalue>30</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Supression Width:</param-name>
+      <param-value> 3 PCLK Periods</param-value>
+      <param-hdlname>GLITCHREG_NUM</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I2C Channels:</param-name>
+      <param-value> 1 Channel</param-value>
+      <param-hdlname>I2C_NUM</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Generate IPMI Logic (Register, and 3 ms SCL Low Timeout):</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>IPMI_EN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Operating Mode:</param-name>
+      <param-value>Full Master RX/TX, Slave RX/TX Modes (Largest Tile Count)</param-value>
+      <param-hdlname>OPERATING_MODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Generate SMBus Logic (Register, Timeouts, Bus Reset, and Alert/Suspend Signals):</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SMB_EN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>COREI2C_0</core-name>
+  </core>
+  <core>
+    <core-name>MAGB_control_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for Top_0</title>
+    <description>The project contains the following subsystems:</description>
+    <subsystems>
+      <subsystem>
+        <name>MAGB_control_0</name>
+        <master>MAGB_control_0</master>
+        <addressNames>
+          <count>1</count>
+          <name>
+          </name>
+        </addressNames>
+        <slave>
+          <name>COREI2C_0</name>
+          <fullPinName>COREI2C_0:APBslave</fullPinName>
+          <remapAddress>0x00000000</remapAddress>
+          <fullAddressSpace>0x00000000 - 0x000000FF</fullAddressSpace>
+          <range>0x00000100</range>
+          <memoryMap>
+            <name>RegisterMap</name>
+            <addressBlock>
+              <baseAddress>0x0</baseAddress>
+              <range format="long">0x80</range>
+              <width format="long" id="width">8</width>
+              <register>
+                <name>CTRL</name>
+                <addressOffset>0x00</addressOffset>
+                <absoluteAddress>0x00000000</absoluteAddress>
+                <size>8</size>
+                <access>R/W</access>
+                <resetValue>0x00</resetValue>
+                <field>
+                  <name>cr2</name>
+                  <bitNumber>7</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>ens1</name>
+                  <bitNumber>6</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sta</name>
+                  <bitNumber>5</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sto</name>
+                  <bitNumber>4</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>si</name>
+                  <bitNumber>3</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>aa</name>
+                  <bitNumber>2</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>cr1</name>
+                  <bitNumber>1</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>cr0</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+              </register>
+              <register>
+                <name>STAT</name>
+                <addressOffset>0x04</addressOffset>
+                <absoluteAddress>0x00000004</absoluteAddress>
+                <size>8</size>
+                <access>R</access>
+                <resetValue>0xF8</resetValue>
+                <field>
+                  <name>status</name>
+                  <bitNumber>7:0</bitNumber>
+                  <access>R</access>
+                  <description>Refer to Handbook</description>
+                </field>
+              </register>
+              <register>
+                <name>DATA</name>
+                <addressOffset>0x08</addressOffset>
+                <absoluteAddress>0x00000008</absoluteAddress>
+                <size>8</size>
+                <access>R/W</access>
+                <resetValue>0x00</resetValue>
+                <field>
+                  <name>sd7</name>
+                  <bitNumber>7</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd6</name>
+                  <bitNumber>6</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd5</name>
+                  <bitNumber>5</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd4</name>
+                  <bitNumber>4</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd3</name>
+                  <bitNumber>3</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd2</name>
+                  <bitNumber>2</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd1</name>
+                  <bitNumber>1</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>sd0</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+              </register>
+              <register>
+                <name>ADDR0</name>
+                <addressOffset>0x0C</addressOffset>
+                <absoluteAddress>0x0000000C</absoluteAddress>
+                <size>8</size>
+                <access>R/W</access>
+                <resetValue>0x00</resetValue>
+                <field>
+                  <name>adr6</name>
+                  <bitNumber>7</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr5</name>
+                  <bitNumber>6</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr4</name>
+                  <bitNumber>5</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr3</name>
+                  <bitNumber>4</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr2</name>
+                  <bitNumber>3</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr1</name>
+                  <bitNumber>2</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr0</name>
+                  <bitNumber>1</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>gc</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+              </register>
+              <register>
+                <name>SMB</name>
+                <addressOffset>0x10</addressOffset>
+                <absoluteAddress>0x00000010</absoluteAddress>
+                <size>8</size>
+                <access>R/W</access>
+                <resetValue>0x78</resetValue>
+                <field>
+                  <name>SMBus_Reset</name>
+                  <bitNumber>7</bitNumber>
+                  <access>W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMBSUS_NO</name>
+                  <bitNumber>6</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMBSUS_NI</name>
+                  <bitNumber>5</bitNumber>
+                  <access>R</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMBALERT_NO</name>
+                  <bitNumber>4</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMBALERT_NI</name>
+                  <bitNumber>3</bitNumber>
+                  <access>R</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMB_IPMI_EN</name>
+                  <bitNumber>2</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMBSUS_IE</name>
+                  <bitNumber>1</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>SMBALERT_IE</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+              </register>
+              <register>
+                <name>ADDR1</name>
+                <addressOffset>0x1C</addressOffset>
+                <absoluteAddress>0x0000001C</absoluteAddress>
+                <size>8</size>
+                <access>R/W</access>
+                <resetValue>0x00</resetValue>
+                <field>
+                  <name>adr6</name>
+                  <bitNumber>7</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr5</name>
+                  <bitNumber>6</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr4</name>
+                  <bitNumber>5</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr3</name>
+                  <bitNumber>4</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr2</name>
+                  <bitNumber>3</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr1</name>
+                  <bitNumber>2</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>adr0</name>
+                  <bitNumber>1</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+                <field>
+                  <name>GC_or_EnAdr</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R/W</access>
+                  <description>Refer to Handbook</description>
+                </field>
+              </register>
+            </addressBlock>
+          </memoryMap>
+        </slave>
+      </subsystem>
+    </subsystems>
+  </memorysystem>
+</datasheet>

@@ -1,0 +1,3 @@
+@W: BN132 :"d:\fpga\a3p1000_can\hdl\hdl\can_if.vhd":59:2:59:3|Removing sequential instance C7.canb_addr_o[5:0] because it is equivalent to instance C7.cana_addr_o[5:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga\a3p1000_can\hdl\hdl\can_if.vhd":59:2:59:3|Removing sequential instance C7.canb_data_o[7:0] because it is equivalent to instance C7.cana_data_o[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock piu_top|clk_i with period 10.00ns. Please declare a user-defined clock on object "p:clk_i"

@@ -1,0 +1,31 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9 SP5
+Version: 11.9.5.5
+Date: Mon Mar 16 09:55:16 2020
+Design Name: piu_top  Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    3117              Net   : sysclk_c
+                      Driver: C0/U_GL
+    890               Net   : sysrst_c
+                      Driver: C1/U_GL
+    817               Net   : cana_rst_c
+                      Driver: C6/cana_rst_o_RNI0MDE/U_GL
+    819               Net   : canb_rst_c
+                      Driver: C6/canb_rst_o_RNI1SS2/U_GL
+    645               Net   : cana_addr_c[3]
+                      Driver: C7/cana_addr_o_RNIEIMB[3]/U_GL
+    312               Net   : rst_i_c
+                      Driver: rst_i_pad/U0/U1/U_GL
+
+
+
+

@@ -1,0 +1,991 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: D:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: YOGA
+
+# Tue Jul 16 18:25:29 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_MAGA\hdl\LED_blink.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\hdl\MAGA_control.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Clock_gen.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Clock_gen.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\hdl\UART_control.v" (library work)
+@I::"D:\FPGA\a3p1000_MAGA\component\work\Top\Top.v" (library work)
+Verilog syntax check successful!
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Clock_gen.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Clock_gen.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v changed - recompiling
+File D:\FPGA\a3p1000_MAGA\component\work\Top\Top.v changed - recompiling
+Selecting top level module Top
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Clock_gen.v":38:7:38:30|Synthesizing module Top_COREUART_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Top_COREUART_0_Clock_gen_0s_0s
+
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":31:7:31:29|Synthesizing module Top_COREUART_0_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000000
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = Top_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v":30:7:30:29|Synthesizing module Top_COREUART_0_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+	receive_states_rx_wait_state=32'b00000000000000000000000000000011
+   Generated name = Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s
+
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@W: CL177 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":31:7:31:29|Synthesizing module Top_COREUART_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Top_COREUART_0_COREUART_0s_0s_0s_15s_0s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@W: CG133 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":376:0:376:5|Pruning unused register overflow_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":326:0:326:5|Pruning unused register rx_dout_reg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Pruning unused register rx_state[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":278:0:278:5|Pruning unused register clear_framing_error_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":278:0:278:5|Pruning unused register clear_framing_error_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":263:0:263:5|Pruning unused register clear_parity_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":263:0:263:5|Pruning unused register clear_parity_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":159:0:159:5|Pruning unused register fifo_write_tx. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Clock_gen.v":38:7:38:30|Synthesizing module Top_COREUART_1_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Top_COREUART_1_Clock_gen_0s_0s
+
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":31:7:31:29|Synthesizing module Top_COREUART_1_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000001
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = Top_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":30:7:30:29|Synthesizing module Top_COREUART_1_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000001
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+	receive_states_rx_wait_state=32'b00000000000000000000000000000011
+   Generated name = Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s
+
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@W: CL177 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Optimizing register bit receive_full_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Pruning unused register receive_full_int. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":31:7:31:29|Synthesizing module Top_COREUART_1_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1976:7:1976:14|Synthesizing module FIFO4K18 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v":61:7:61:35|Synthesizing module Top_COREUART_1_fifo_256x8_pa3 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v":32:7:32:31|Synthesizing module Top_COREUART_1_fifo_256x8 in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	LEVEL=8'b11111111
+   Generated name = Top_COREUART_1_fifo_256x8_0s_4294967295s
+
+@W: CG360 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v":46:14:46:18|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\hdl\LED_blink.v":21:7:21:15|Synthesizing module LED_blink in library work.
+
+@N: CG179 :"D:\FPGA\a3p1000_MAGA\hdl\LED_blink.v":44:17:44:21|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\hdl\MAGA_control.v":21:7:21:18|Synthesizing module MAGA_control in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\hdl\UART_control.v":21:7:21:18|Synthesizing module UART_control in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_MAGA\component\work\Top\Top.v":9:7:9:9|Synthesizing module Top in library work.
+
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\hdl\MAGA_control.v":23:27:23:34|Input MAGA_FLT is unused.
+@W: CL157 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":286:0:286:5|Optimizing register bit overflow_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":286:0:286:5|Pruning unused register overflow_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":206:0:206:5|Optimizing register bit overflow to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":206:0:206:5|Pruning unused register overflow. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":68:8:68:19|Input read_rx_byte is unused.
+@N: CL201 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":42:6:42:17|Input rst_tx_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":43:11:43:21|Input tx_hold_reg is unused.
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Clock_gen.v":51:15:51:31|Input BAUD_VAL_FRACTION is unused.
+@N: CL201 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":44:11:44:21|Input tx_dout_reg is unused.
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":45:6:45:15|Input fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":46:6:46:14|Input fifo_full is unused.
+@N: CL159 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Clock_gen.v":51:15:51:31|Input BAUD_VAL_FRACTION is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 77MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 16 18:25:30 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 16 18:25:30 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 16 18:25:30 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+File D:\FPGA\a3p1000_MAGA\synthesis\synwork\Top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 16 18:25:32 2019
+
+###########################################################]
+# Tue Jul 16 18:25:32 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\FPGA\a3p1000_MAGA\synthesis\Top_scck.rpt 
+Printing clock  summary report in "D:\FPGA\a3p1000_MAGA\synthesis\Top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MO111 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|Tristate driver AFULL (in view: work.Top_COREUART_1_fifo_256x8_pa3_0(verilog)) on net AFULL (in view: work.Top_COREUART_1_fifo_256x8_pa3_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|Tristate driver AFULL (in view: work.Top_COREUART_1_fifo_256x8_pa3_1(verilog)) on net AFULL (in view: work.Top_COREUART_1_fifo_256x8_pa3_1(verilog)) has its enable tied to GND.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":501:0:501:5|Removing sequential instance fifo_write (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":501:0:501:5|Removing sequential instance clear_parity_en_1 (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":286:0:286:5|Removing sequential instance stop_strobe (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":376:0:376:5|Removing sequential instance overflow_reg (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":206:0:206:5|Removing sequential instance overflow (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":447:0:447:5|Removing sequential instance parity_err (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":231:0:231:5|Removing sequential instance framing_error (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":231:0:231:5|Removing sequential instance framing_error (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":286:0:286:5|Removing sequential instance overflow_int (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":286:0:286:5|Removing sequential instance framing_error_int (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":286:0:286:5|Removing sequential instance framing_error_int (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":278:0:278:5|Removing sequential instance clear_framing_error_reg (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":278:0:278:5|Removing sequential instance clear_framing_error_reg0 (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start       Requested     Requested     Clock        Clock                   Clock
+Clock       Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------
+Top|CLK     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     278  
+==================================================================================
+
+@W: MT530 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found inferred clock Top|CLK which controls 278 sequential elements including COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[12:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\FPGA\a3p1000_MAGA\synthesis\Top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Encoding state machine xmit_state[5:0] (in view: work.Top_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[3:0] (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+Encoding state machine xmit_state[6:0] (in view: work.Top_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+Encoding state machine rx_state[3:0] (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog)); safe FSM implementation is not required.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 16 18:25:33 2019
+
+###########################################################]
+# Tue Jul 16 18:25:33 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":421:0:421:5|Register bit rx_parity_calc (in view view:work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":421:0:421:5|Register bit rx_parity_calc (in view view:work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO111 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|Tristate driver AFULL (in view: work.Top_COREUART_1_fifo_256x8_pa3(verilog)) on net AFULL (in view: work.Top_COREUART_1_fifo_256x8_pa3(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.Top_COREUART_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\clock_gen.v":310:0:310:5|Found counter in view:work.Top_COREUART_0_Clock_gen_0s_0s(verilog) instance xmit_cntr[3:0] 
+Encoding state machine xmit_state[5:0] (in view: work.Top_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\tx_async.v":119:0:119:5|Register bit xmit_state[4] (in view view:work.Top_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\tx_async.v":268:0:268:5|Found counter in view:work.Top_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog) instance xmit_bit_sel[3:0] 
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\tx_async.v":339:0:339:5|Removing sequential instance tx_parity (in view: work.Top_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":377:0:377:5|Found counter in view:work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog) instance rx_bit_cnt[3:0] 
+Encoding state machine rx_state[3:0] (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":181:0:181:5|Found counter in view:work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog) instance receive_count[3:0] 
+@W: MO161 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":261:0:261:5|Register bit last_bit[3] (in view view:work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":261:0:261:5|Register bit last_bit[2] (in view view:work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":261:0:261:5|Register bit last_bit[1] (in view view:work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_0\rtl\vlog\core\rx_async.v":377:0:377:5|Removing sequential instance rx_shift[8] (in view: work.Top_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine rx_state[3:0] (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.Top_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.Top_COREUART_1_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\clock_gen.v":310:0:310:5|Found counter in view:work.Top_COREUART_1_Clock_gen_0s_0s(verilog) instance xmit_cntr[3:0] 
+Encoding state machine xmit_state[6:0] (in view: work.Top_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\tx_async.v":119:0:119:5|Register bit xmit_state[4] (in view view:work.Top_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\tx_async.v":268:0:268:5|Found counter in view:work.Top_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog) instance xmit_bit_sel[3:0] 
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\tx_async.v":339:0:339:5|Removing sequential instance tx_parity (in view: work.Top_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":377:0:377:5|Found counter in view:work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance rx_bit_cnt[3:0] 
+Encoding state machine rx_state[3:0] (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":181:0:181:5|Found counter in view:work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance receive_count[3:0] 
+@W: MO161 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":261:0:261:5|Register bit last_bit[3] (in view view:work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":261:0:261:5|Register bit last_bit[2] (in view view:work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":261:0:261:5|Register bit last_bit[1] (in view view:work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":377:0:377:5|Removing sequential instance rx_shift[8] (in view: work.Top_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF238 :"d:\fpga\a3p1000_maga\hdl\led_blink.v":34:19:34:33|Found 24-bit incrementor, 'un3_CLK_5Hz_1[23:0]'
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@W: MO160 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":447:0:447:5|Register bit COREUART_1.make_RX.parity_err (in view view:work.Top(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":263:0:263:5|Removing sequential instance COREUART_1.clear_parity_reg (in view: work.Top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\coreuart.v":263:0:263:5|Removing sequential instance COREUART_1.clear_parity_reg0 (in view: work.Top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_maga\component\work\top\coreuart_1\rtl\vlog\core\rx_async.v":501:0:501:5|Removing sequential instance COREUART_1.make_RX.clear_parity_en_1 (in view: work.Top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+RESETN_pad / Y                 236 : 234 asynchronous set/reset
+===============================================================
+
+@N: FP130 |Promoting Net RESETN_c on CLKBUF  RESETN_pad 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 254 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+@K:CKID0001       CLK                 port                   254        UART_control_0.count[1]
+===============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 112MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_MAGA\synthesis\synwork\Top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 112MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+@W: MT420 |Found inferred clock Top|CLK with period 10.00ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jul 16 18:25:35 2019
+#
+
+
+Top view:               Top
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.292
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+Top|CLK            100.0 MHz     97.2 MHz      10.000        10.292        -0.292     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+Top|CLK   Top|CLK  |  10.000      -0.292  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Top|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                            Arrival           
+Instance                                            Reference     Type         Pin     Net              Time        Slack 
+                                                    Clock                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[0]     Top|CLK       DFN1C0       Q       baud_cntr[0]     0.737       -0.292
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[0]     Top|CLK       DFN1C0       Q       baud_cntr[0]     0.737       -0.292
+COREUART_0.make_RX.rx_state[1]                      Top|CLK       DFN1E1C0     Q       rx_state[1]      0.737       0.200 
+COREUART_1.make_RX.rx_state[1]                      Top|CLK       DFN1E1C0     Q       rx_state[1]      0.737       0.248 
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[1]     Top|CLK       DFN1C0       Q       baud_cntr[1]     0.737       0.311 
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[1]     Top|CLK       DFN1C0       Q       baud_cntr[1]     0.737       0.311 
+COREUART_0.make_RX.rx_state[0]                      Top|CLK       DFN1E1C0     Q       rx_state[0]      0.737       0.441 
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[2]     Top|CLK       DFN1C0       Q       baud_cntr[2]     0.737       0.469 
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[2]     Top|CLK       DFN1C0       Q       baud_cntr[2]     0.737       0.469 
+COREUART_1.make_RX.rx_state[0]                      Top|CLK       DFN1E1C0     Q       rx_state[0]      0.737       0.490 
+==========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                 Required           
+Instance                                             Reference     Type       Pin     Net                     Time         Slack 
+                                                     Clock                                                                       
+---------------------------------------------------------------------------------------------------------------------------------
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[12]     Top|CLK       DFN1C0     D       baud_cntr_RNO_0[12]     9.427        -0.292
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[12]     Top|CLK       DFN1C0     D       baud_cntr_RNO[12]       9.427        -0.292
+COREUART_0.make_RX.receive_count[0]                  Top|CLK       DFN1C0     D       N_27                    9.427        0.200 
+COREUART_1.make_RX.receive_count[0]                  Top|CLK       DFN1C0     D       N_26                    9.427        0.248 
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[10]     Top|CLK       DFN1C0     D       baud_cntr_RNO[10]       9.461        0.315 
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[10]     Top|CLK       DFN1C0     D       baud_cntr_RNO_0[10]     9.461        0.315 
+COREUART_0.make_RX.receive_count[1]                  Top|CLK       DFN1C0     D       N_25                    9.461        0.464 
+COREUART_0.make_RX.receive_count[2]                  Top|CLK       DFN1C0     D       N_23                    9.461        0.464 
+COREUART_0.make_RX.receive_count[3]                  Top|CLK       DFN1C0     D       N_21                    9.461        0.464 
+COREUART_1.make_RX.receive_count[1]                  Top|CLK       DFN1C0     D       N_24                    9.461        0.519 
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.719
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.292
+
+    Number of logic level(s):                6
+    Starting point:                          COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[0] / Q
+    Ending point:                            COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[12] / D
+    The start point is clocked by            Top|CLK [rising] on pin CLK
+    The end   point is clocked by            Top|CLK [rising] on pin CLK
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[0]               DFN1C0     Q        Out     0.737     0.737       -         
+baud_cntr[0]                                                  Net        -        -       1.184     -           4         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI0PPL[2]       OR3        B        In      -         1.921       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI0PPL[2]       OR3        Y        Out     0.714     2.635       -         
+baud_cntr_c2                                                  Net        -        -       0.386     -           2         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI2E2T[3]       OR2        A        In      -         3.021       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI2E2T[3]       OR2        Y        Out     0.507     3.528       -         
+baud_cntr_c3                                                  Net        -        -       1.279     -           5         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIR6E12[8]      OR3A       B        In      -         4.807       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIR6E12[8]      OR3A       Y        Out     0.714     5.521       -         
+baud_cntr_c8                                                  Net        -        -       0.806     -           3         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIJ9HO2[10]     OR3        B        In      -         6.328       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIJ9HO2[10]     OR3        Y        Out     0.714     7.042       -         
+baud_cntr_c10                                                 Net        -        -       0.386     -           2         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO_0[12]        OR2        B        In      -         7.428       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO_0[12]        OR2        Y        Out     0.646     8.075       -         
+baud_cntr_25_0                                                Net        -        -       0.322     -           1         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO[12]          AX1B       B        In      -         8.396       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO[12]          AX1B       Y        Out     1.001     9.397       -         
+baud_cntr_RNO_0[12]                                           Net        -        -       0.322     -           1         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[12]              DFN1C0     D        In      -         9.719       -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 10.292 is 5.608(54.5%) logic and 4.684(45.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.719
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.292
+
+    Number of logic level(s):                6
+    Starting point:                          COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[0] / Q
+    Ending point:                            COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[12] / D
+    The start point is clocked by            Top|CLK [rising] on pin CLK
+    The end   point is clocked by            Top|CLK [rising] on pin CLK
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[0]               DFN1C0     Q        Out     0.737     0.737       -         
+baud_cntr[0]                                                  Net        -        -       1.184     -           4         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNITCKE1[2]      OR3        B        In      -         1.921       -         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNITCKE1[2]      OR3        Y        Out     0.714     2.635       -         
+baud_cntr_c2                                                  Net        -        -       0.386     -           2         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNIUT5U1[3]      OR2        A        In      -         3.021       -         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNIUT5U1[3]      OR2        Y        Out     0.507     3.528       -         
+baud_cntr_c3                                                  Net        -        -       1.279     -           5         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNII2UB4[8]      OR3A       B        In      -         4.807       -         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNII2UB4[8]      OR3A       Y        Out     0.714     5.521       -         
+baud_cntr_c8                                                  Net        -        -       0.806     -           3         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNI8SES4[10]     OR3        B        In      -         6.328       -         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNI8SES4[10]     OR3        Y        Out     0.714     7.042       -         
+baud_cntr_c10                                                 Net        -        -       0.386     -           2         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNO_0[12]        OR2        B        In      -         7.428       -         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNO_0[12]        OR2        Y        Out     0.646     8.075       -         
+baud_cntr_25_0                                                Net        -        -       0.322     -           1         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNO[12]          AX1B       B        In      -         8.396       -         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr_RNO[12]          AX1B       Y        Out     1.001     9.397       -         
+baud_cntr_RNO[12]                                             Net        -        -       0.322     -           1         
+COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[12]              DFN1C0     D        In      -         9.719       -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 10.292 is 5.608(54.5%) logic and 4.684(45.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.227
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.200
+
+    Number of logic level(s):                4
+    Starting point:                          COREUART_0.make_RX.rx_state[1] / Q
+    Ending point:                            COREUART_0.make_RX.receive_count[0] / D
+    The start point is clocked by            Top|CLK [rising] on pin CLK
+    The end   point is clocked by            Top|CLK [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+COREUART_0.make_RX.rx_state[1]                   DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[1]                                      Net          -        -       1.526     -           7         
+COREUART_0.make_RX.rx_state_RNIJP7J_1[0]         NOR2         B        In      -         2.263       -         
+COREUART_0.make_RX.rx_state_RNIJP7J_1[0]         NOR2         Y        Out     0.646     2.909       -         
+N_162_1                                          Net          -        -       2.218     -           17        
+COREUART_0.make_RX.receive_count_RNI15S22[3]     NOR3B        B        In      -         5.127       -         
+COREUART_0.make_RX.receive_count_RNI15S22[3]     NOR3B        Y        Out     0.624     5.751       -         
+N_66                                             Net          -        -       0.386     -           2         
+COREUART_0.make_RX.receive_count_RNIK1U46[3]     OR3          C        In      -         6.137       -         
+COREUART_0.make_RX.receive_count_RNIK1U46[3]     OR3          Y        Out     0.683     6.820       -         
+N_217                                            Net          -        -       1.184     -           4         
+COREUART_0.make_RX.receive_count_RNO[0]          AXOI4        A        In      -         8.003       -         
+COREUART_0.make_RX.receive_count_RNO[0]          AXOI4        Y        Out     0.902     8.905       -         
+N_27                                             Net          -        -       0.322     -           1         
+COREUART_0.make_RX.receive_count[0]              DFN1C0       D        In      -         9.227       -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 9.800 is 4.166(42.5%) logic and 5.635(57.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.178
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.248
+
+    Number of logic level(s):                4
+    Starting point:                          COREUART_1.make_RX.rx_state[1] / Q
+    Ending point:                            COREUART_1.make_RX.receive_count[0] / D
+    The start point is clocked by            Top|CLK [rising] on pin CLK
+    The end   point is clocked by            Top|CLK [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+COREUART_1.make_RX.rx_state[1]                  DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[1]                                     Net          -        -       1.526     -           7         
+COREUART_1.make_RX.rx_state_RNIL157_0[0]        NOR2         B        In      -         2.263       -         
+COREUART_1.make_RX.rx_state_RNIL157_0[0]        NOR2         Y        Out     0.646     2.909       -         
+N_163_1                                         Net          -        -       2.127     -           15        
+COREUART_1.make_RX.receive_count_RNI7HCC[1]     NOR3C        C        In      -         5.037       -         
+COREUART_1.make_RX.receive_count_RNI7HCC[1]     NOR3C        Y        Out     0.666     5.702       -         
+N_56                                            Net          -        -       0.386     -           2         
+COREUART_1.make_RX.rx_state_RNI5RU62[0]         OR3          C        In      -         6.088       -         
+COREUART_1.make_RX.rx_state_RNI5RU62[0]         OR3          Y        Out     0.683     6.771       -         
+N_218                                           Net          -        -       1.184     -           4         
+COREUART_1.make_RX.receive_count_RNO[0]         AXOI4        A        In      -         7.955       -         
+COREUART_1.make_RX.receive_count_RNO[0]         AXOI4        Y        Out     0.902     8.857       -         
+N_26                                            Net          -        -       0.322     -           1         
+COREUART_1.make_RX.receive_count[0]             DFN1C0       D        In      -         9.178       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 9.752 is 4.207(43.1%) logic and 5.544(56.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.115
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.311
+
+    Number of logic level(s):                6
+    Starting point:                          COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[1] / Q
+    Ending point:                            COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[12] / D
+    The start point is clocked by            Top|CLK [rising] on pin CLK
+    The end   point is clocked by            Top|CLK [rising] on pin CLK
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[1]               DFN1C0     Q        Out     0.737     0.737       -         
+baud_cntr[1]                                                  Net        -        -       0.806     -           3         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI0PPL[2]       OR3        A        In      -         1.543       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI0PPL[2]       OR3        Y        Out     0.488     2.032       -         
+baud_cntr_c2                                                  Net        -        -       0.386     -           2         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI2E2T[3]       OR2        A        In      -         2.417       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNI2E2T[3]       OR2        Y        Out     0.507     2.925       -         
+baud_cntr_c3                                                  Net        -        -       1.279     -           5         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIR6E12[8]      OR3A       B        In      -         4.204       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIR6E12[8]      OR3A       Y        Out     0.714     4.918       -         
+baud_cntr_c8                                                  Net        -        -       0.806     -           3         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIJ9HO2[10]     OR3        B        In      -         5.725       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNIJ9HO2[10]     OR3        Y        Out     0.714     6.439       -         
+baud_cntr_c10                                                 Net        -        -       0.386     -           2         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO_0[12]        OR2        B        In      -         6.825       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO_0[12]        OR2        Y        Out     0.646     7.471       -         
+baud_cntr_25_0                                                Net        -        -       0.322     -           1         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO[12]          AX1B       B        In      -         7.793       -         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr_RNO[12]          AX1B       Y        Out     1.001     8.794       -         
+baud_cntr_RNO_0[12]                                           Net        -        -       0.322     -           1         
+COREUART_1.make_CLOCK_GEN.genblk1\.baud_cntr[12]              DFN1C0     D        In      -         9.115       -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 9.689 is 5.382(55.6%) logic and 4.307(44.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell Top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     7      1.0        7.0
+              AND3    32      1.0       32.0
+               AO1     2      1.0        2.0
+              AO1C     2      1.0        2.0
+              AO1D     1      1.0        1.0
+              AOI1    10      1.0       10.0
+             AOI1B     9      1.0        9.0
+              AX1A     5      1.0        5.0
+              AX1B    16      1.0       16.0
+              AX1C     3      1.0        3.0
+              AX1D     2      1.0        2.0
+              AX1E     2      1.0        2.0
+             AXOI4     2      1.0        2.0
+             AXOI5     2      1.0        2.0
+               GND    16      0.0        0.0
+               INV     9      1.0        9.0
+              MAJ3     1      1.0        1.0
+              MIN3     1      1.0        1.0
+               MX2     8      1.0        8.0
+              MX2A     3      1.0        3.0
+              MX2B     2      1.0        2.0
+              MX2C    13      1.0       13.0
+              NOR2    15      1.0       15.0
+             NOR2A    40      1.0       40.0
+             NOR2B    62      1.0       62.0
+              NOR3     5      1.0        5.0
+             NOR3A    13      1.0       13.0
+             NOR3B    11      1.0       11.0
+             NOR3C    13      1.0       13.0
+               OA1     1      1.0        1.0
+              OA1B     2      1.0        2.0
+              OA1C     1      1.0        1.0
+               OR2    13      1.0       13.0
+              OR2A     9      1.0        9.0
+              OR2B     4      1.0        4.0
+               OR3    10      1.0       10.0
+              OR3A     4      1.0        4.0
+              OR3C     2      1.0        2.0
+               VCC    16      0.0        0.0
+               XA1     8      1.0        8.0
+              XA1B     2      1.0        2.0
+              XA1C     4      1.0        4.0
+             XNOR2     2      1.0        2.0
+              XO1A     2      1.0        2.0
+              XOR2    34      1.0       34.0
+
+
+          DFI1E0P0     1      1.0        1.0
+              DFN1    16      1.0       16.0
+            DFN1C0   112      1.0      112.0
+          DFN1E0C0     9      1.0        9.0
+          DFN1E0P0     4      1.0        4.0
+          DFN1E1C0    93      1.0       93.0
+          DFN1E1P0     6      1.0        6.0
+            DFN1P0     9      1.0        9.0
+          FIFO4K18     2      0.0        0.0
+                   -----          ----------
+             TOTAL   673               639.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     4
+            OUTBUF     6
+                   -----
+             TOTAL    12
+
+
+Core Cells         : 639 of 24576 (3%)
+IO Cells           : 12
+
+  RAM/ROM Usage Summary
+Block Rams : 2 of 32 (6%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 25MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 16 18:25:35 2019
+
+###########################################################]

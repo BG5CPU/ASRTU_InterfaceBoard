@@ -1,0 +1,81 @@
+Microsemi Libero Software
+Version: 11.9.2.1
+Release: v11.9 SP2
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'D:\FPGA\a3p1000_INA220\designer'
+Info: The design Top_0.adb was last modified by software version 11.9.2.1.
+Opened an existing Libero design Top_0.adb.
+
+The Execute Script command succeeded ( 00:00:15 )
+Checking for software updates...
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Mar 10 20:57:52 2019
+
+Placer Finished: Sun Mar 10 20:58:06 2019
+Total Placer CPU Time:     00:00:14
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: Top_0                           Started: Sun Mar 10 20:58:09 2019
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: Top_0                           
+Finished: Sun Mar 10 20:58:39 2019
+Total CPU Time:     00:00:30            Total Elapsed Time: 00:00:30
+Total Memory Usage: 382.5 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:54 )
+Warning: The following files already exist:
+         
+         D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.pdb
+         
+         Do you want to replace the files? [YES]
+
+The Export-map command succeeded ( 00:00:21 )
+Warning: Overwriting the existing file: D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.pdb.
+Wrote to the file: D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.pdb
+CHECKSUM: DE31
+
+The Generate programming file command succeeded ( 00:00:23 )
+Design saved to file D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.adb.
+Wrote pin report to file: D:\FPGA\a3p1000_INA220\designer\impl1\Top_0_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: D:\FPGA\a3p1000_INA220\designer\impl1\Top_0_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

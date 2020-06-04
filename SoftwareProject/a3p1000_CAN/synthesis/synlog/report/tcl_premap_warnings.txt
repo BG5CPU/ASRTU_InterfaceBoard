@@ -1,0 +1,1 @@
+@W: MT530 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":435:0:435:5|Found inferred clock tcl|clk which controls 61 sequential elements including halt_int. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,1 @@
+@W: MT530 :"d:\fpga\a3p1000_fiber\component\work\top_0\coreuart_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found inferred clock Top_0|CLK which controls 121 sequential elements including COREUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[12:0]. This clock has no specified timing constraint which may adversely impact design performance. 

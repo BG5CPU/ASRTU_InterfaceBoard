@@ -1,0 +1,30 @@
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
+@W: CL177 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CG133 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":376:0:376:5|Pruning unused register overflow_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":326:0:326:5|Pruning unused register rx_dout_reg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Pruning unused register rx_state[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":278:0:278:5|Pruning unused register clear_framing_error_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":278:0:278:5|Pruning unused register clear_framing_error_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":263:0:263:5|Pruning unused register clear_parity_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":263:0:263:5|Pruning unused register clear_parity_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_0\rtl\vlog\core\CoreUART.v":159:0:159:5|Pruning unused register fifo_write_tx. Make sure that there are no unused intermediate registers.
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W: CL177 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Optimizing register bit receive_full_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Pruning unused register receive_full_int. Make sure that there are no unused intermediate registers.
+@W: CG360 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v":46:14:46:18|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@W: CL157 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":286:0:286:5|Optimizing register bit overflow_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":286:0:286:5|Pruning unused register overflow_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":206:0:206:5|Optimizing register bit overflow to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_MAGA\component\work\Top\COREUART_1\rtl\vlog\core\Rx_async.v":206:0:206:5|Pruning unused register overflow. Make sure that there are no unused intermediate registers.
+

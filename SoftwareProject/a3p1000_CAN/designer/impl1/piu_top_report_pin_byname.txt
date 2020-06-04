@@ -1,0 +1,69 @@
+*****************************************************************
+Pin Report - Date: Mon Mar 16 09:55:20 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP5
+Version: 11.9.5.5
+Design Name: piu_top
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port            |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+----------------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+ad_csn_o         56   No     GEC2/IO185RSB2  LVTTL    12                 High  None           No    35                No           No
+ad_eoc_i         39   No     IO197PSB3       LVTTL    ---                ---   None           ---   ---               No           No
+ad_sclk_o        38   No     IO199NDB3       LVTTL    12                 High  None           No    35                No           No
+ad_sdi_o         64   No     IO176RSB2       LVTTL    12                 High  None           No    35                No           No
+ad_sdo_i         37   No     IO199PDB3       LVTTL    ---                ---   None           ---   ---               No           No
+atob_cmd_o       63   No     IO178RSB2       LVTTL    12                 High  None           No    35                No           No
+atob_st_i        44   No     GEC1/IO190PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+cana_rxd_i       181  No     IO33RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+cana_txd_o       174  No     IO48RSB0        LVTTL    12                 High  None           No    35                No           No
+canb_rxd_i       76   No     IO156RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+canb_txd_o       73   No     IO162RSB2       LVTTL    12                 High  None           No    35                No           No
+clj_x_cmd_o[0]   197  No     IO11RSB0        LVTTL    12                 High  None           No    35                No           No
+clj_x_cmd_o[1]   191  No     IO16RSB0        LVTTL    12                 High  None           No    35                No           No
+clj_y_cmd_o[0]   192  No     IO15RSB0        LVTTL    12                 High  None           No    35                No           No
+clj_y_cmd_o[1]   196  No     IO12RSB0        LVTTL    12                 High  None           No    35                No           No
+clj_z_cmd_o[0]   193  No     IO14RSB0        LVTTL    12                 High  None           No    35                No           No
+clj_z_cmd_o[1]   194  No     IO13RSB0        LVTTL    12                 High  None           No    35                No           No
+clk_i            24   No     GFB0/IO208NDB3  LVTTL    ---                ---   None           ---   ---               No           No
+cmd_en_o         95   No     IO118RSB2       LVTTL    12                 High  None           No    35                No           No
+dog_clr_o        188  No     IO22RSB0        LVTTL    12                 High  None           No    35                No           No
+gps_a_cmd_o      136  No     GCC0/IO91NDB1   LVTTL    12                 High  None           No    35                No           No
+gps_b_cmd_o      134  No     GCB0/IO92NDB1   LVTTL    12                 High  None           No    35                No           No
+hi_addr_o[0]     32   No     GFB2/IO205PDB3  LVTTL    12                 High  None           No    35                No           No
+hi_addr_o[1]     34   No     GFC2/IO204PDB3  LVTTL    12                 High  None           No    35                No           No
+hi_addr_o[2]     30   No     GFA2/IO206PDB3  LVTTL    12                 High  None           No    35                No           No
+hi_addr_o[3]     23   No     GFB1/IO208PDB3  LVTTL    12                 High  None           No    35                No           No
+rst_i            131  No     GCA2/IO94PSB1   LVTTL    ---                ---   None           ---   ---               No           No
+sja_ale_o        173  No     IO51RSB0        LVTTL    12                 High  None           No    35                No           No
+sja_cs_o         167  No     IO63RSB0        LVTTL    12                 High  None           No    35                No           No
+sja_re_o         168  No     IO60RSB0        LVTTL    12                 High  None           No    35                No           No
+start_o          184  No     IO27RSB0        LVTTL    12                 High  None           No    35                No           No
+tc_a_cmd_o[0]    119  No     IO106NDB1       LVTTL    12                 High  None           No    35                No           No
+tc_a_cmd_o[1]    121  No     IO104PSB1       LVTTL    12                 High  None           No    35                No           No
+tc_b_cmd_o[0]    118  No     IO109PDB1       LVTTL    12                 High  None           No    35                No           No
+tc_b_cmd_o[1]    125  No     IO99PDB1        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[0]   160  No     GBB1/IO75RSB0   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[1]   165  No     IO70RSB0        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[2]   166  No     IO67RSB0        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[3]   163  No     GBC1/IO73RSB0   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[4]   169  No     IO57RSB0        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[5]   161  No     GBB0/IO74RSB0   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[6]   164  No     GBC0/IO72RSB0   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[7]   172  No     IO54RSB0        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[8]   135  No     GCB1/IO92PDB1   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[9]   120  No     IO106PDB1       LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[10]  144  No     IO84NDB1        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[11]  132  No     GCA1/IO93PDB1   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[12]  138  No     IO88NDB1        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[13]  133  No     GCA0/IO93NDB1   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[14]  99   No     GDA2/IO114RSB2  LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[15]  124  No     IO99NDB1        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[16]  139  No     IO88PDB1        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[17]  128  No     GCC2/IO96PDB1   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[18]  143  No     IO86PSB1        LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[19]  129  No     GCB2/IO95PSB1   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[20]  137  No     GCC1/IO91PDB1   LVTTL    12                 High  None           No    35                No           No
+therm_cmd_o[21]  127  No     IO96NDB1        LVTTL    12                 High  None           No    35                No           No

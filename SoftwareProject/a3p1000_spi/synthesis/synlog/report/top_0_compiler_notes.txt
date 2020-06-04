@@ -1,0 +1,117 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2447:7:2447:9|Synthesizing module PLL in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\smartgen\clok\clok.v":5:7:5:10|Synthesizing module clok in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2:7:2:10|Synthesizing module AND2 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1905:7:1905:11|Synthesizing module XNOR2 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1929:7:1929:10|Synthesizing module XOR2 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":977:7:977:14|Synthesizing module DFN1E1C0 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":8:7:8:11|Synthesizing module AND2A in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":929:7:929:12|Synthesizing module DFN1C0 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":86:7:86:9|Synthesizing module AO1 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2086:8:2086:16|Synthesizing module RAM512X18 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1001:7:1001:12|Synthesizing module DFN1P0 in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\smartgen\sp_fifo\sp_fifo.v":5:7:5:13|Synthesizing module sp_fifo in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":21:7:21:16|Synthesizing module SPI_master in library work.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":181:24:181:31|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":193:24:193:31|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":199:24:199:31|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_spi\hdl\uart_tx.v":32:7:32:13|Synthesizing module uart_tx in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\hdl\uart_rx.v":32:7:32:13|Synthesizing module uart_rx in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\hdl\uart.v":32:7:32:10|Synthesizing module uart in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v":21:7:21:17|Synthesizing module UART_AD7606 in library work.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v":194:32:194:47|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v":195:33:195:49|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v":197:35:197:54|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v":198:26:198:35|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_spi\smartgen\UART_fifo\UART_fifo.v":5:7:5:15|Synthesizing module UART_fifo in library work.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\work\top_0\top_0.v":9:7:9:11|Synthesizing module top_0 in library work.
+@N: CL159 :"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v":69:34:69:40|Input rx_busy is unused.
+@N: CL201 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":72:0:72:5|Trying to extract state machine for register current_state.
+@N: CL159 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":23:25:23:30|Input PREADY is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":24:25:24:31|Input PSLVERR is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\hdl\SPI_master.v":28:25:28:32|Input SPITXRFM is unused.
+@N: CL201 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL134 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=8, width=1
+@N: CL134 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=8, width=16
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":521:0:521:7|Input PRDATAS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":528:0:528:7|Input PRDATAS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:7|Input PREADYS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:7|Input PREADYS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:8|Input PSLVERRS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:8|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
+@N|Running in 64-bit mode
+

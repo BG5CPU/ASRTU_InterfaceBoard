@@ -1,0 +1,23 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
+
+Date      :  Thu Feb 28 10:00:15 2019
+Project   :  D:\FPGA\a3p1000_SUNSEN
+Component :  Top_0
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/FPGA/a3p1000_SUNSEN/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v
+    D:/FPGA/a3p1000_SUNSEN/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    D:/FPGA/a3p1000_SUNSEN/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    D:/FPGA/a3p1000_SUNSEN/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    D:/FPGA/a3p1000_SUNSEN/component/work/Top_0/COREI2C_0/rtl/vlog/core/corei2c.v
+    D:/FPGA/a3p1000_SUNSEN/component/work/Top_0/Top_0.v
+
+Stimulus files for all Simulation tools:
+    D:/FPGA/a3p1000_SUNSEN/component/work/Top_0/subsystem.bfm
+
+    D:/FPGA/a3p1000_SUNSEN/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/test/user/i2c_spk.v
+    D:/FPGA/a3p1000_SUNSEN/component/work/Top_0/COREI2C_0/coreparameters.v
+    D:/FPGA/a3p1000_SUNSEN/component/work/Top_0/COREI2C_0/rtl/vlog/test/user/tb_user_corei2c.v
+

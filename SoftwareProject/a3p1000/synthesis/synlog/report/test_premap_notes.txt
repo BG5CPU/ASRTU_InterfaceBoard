@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"d:\fpga\a3p1000\hdl\test.v":23:7:23:10|Tristate driver data (in view: work.test(verilog)) on net data (in view: work.test(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\fpga\a3p1000\hdl\test.v":23:7:23:10|Tristate driver data (in view: work.test(verilog)) on net data (in view: work.test(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file D:\FPGA\a3p1000\synthesis\test.sap.

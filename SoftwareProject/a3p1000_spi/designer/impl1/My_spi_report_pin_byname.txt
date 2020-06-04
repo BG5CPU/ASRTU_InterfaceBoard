@@ -1,0 +1,58 @@
+*****************************************************************
+Pin Report - Date: Fri Feb 08 18:14:41 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: My_spi
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port       |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+PADDR[2]    85   No     IO137RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PADDR[3]    182  No     IO31RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+PADDR[4]    177  No     IO40RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+PADDR[5]    79   No     IO150RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PADDR[6]    74   No     IO160RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PCLK        128  No     GCC2/IO96PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+PENABLE     21   No     GFC1/IO209PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+PRDATA[0]   180  No     IO35RSB0        LVTTL    12                 High  None           No    35                No           No
+PRDATA[1]   179  No     IO38RSB0        LVTTL    12                 High  None           No    35                No           No
+PRDATA[2]   181  No     IO33RSB0        LVTTL    12                 High  None           No    35                No           No
+PRDATA[3]   76   No     IO156RSB2       LVTTL    12                 High  None           No    35                No           No
+PRDATA[4]   172  No     IO54RSB0        LVTTL    12                 High  None           No    35                No           No
+PRDATA[5]   173  No     IO51RSB0        LVTTL    12                 High  None           No    35                No           No
+PRDATA[6]   125  No     IO99PDB1        LVTTL    12                 High  None           No    35                No           No
+PRDATA[7]   87   No     IO133RSB2       LVTTL    12                 High  None           No    35                No           No
+PREADY      165  No     IO70RSB0        LVTTL    12                 High  None           No    35                No           No
+PRESETN     23   No     GFB1/IO208PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+PSEL        22   No     GFC0/IO209NDB3  LVTTL    ---                ---   None           ---   ---               No           No
+PSLVERR     206  No     GAA0/IO00RSB0   LVTTL    12                 High  None           No    35                No           No
+PWDATA[0]   86   No     IO135RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[1]   84   No     IO139RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[2]   95   No     IO118RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[3]   90   No     IO128RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[4]   168  No     IO60RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[5]   175  No     IO45RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[6]   99   No     GDA2/IO114RSB2  LVTTL    ---                ---   None           ---   ---               No           No
+PWDATA[7]   127  No     IO96NDB1        LVTTL    ---                ---   None           ---   ---               No           No
+PWRITE      176  No     IO42RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+SPICLKI     73   No     IO162RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+SPIINT      174  No     IO48RSB0        LVTTL    12                 High  None           No    35                No           No
+SPIMODE     75   No     IO158RSB2       LVTTL    12                 High  None           No    35                No           No
+SPIOEN      77   No     IO154RSB2       LVTTL    12                 High  None           No    35                No           No
+SPIRXAVAIL  129  No     GCB2/IO95PSB1   LVTTL    12                 High  None           No    35                No           No
+SPISCLKO    80   No     IO148RSB2       LVTTL    12                 High  None           No    35                No           No
+SPISDI      78   No     IO152RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+SPISDO      82   No     IO143RSB2       LVTTL    12                 High  None           No    35                No           No
+SPISS[0]    91   No     IO126RSB2       LVTTL    12                 High  None           No    35                No           No
+SPISS[1]    83   No     IO141RSB2       LVTTL    12                 High  None           No    35                No           No
+SPISS[2]    169  No     IO57RSB0        LVTTL    12                 High  None           No    35                No           No
+SPISS[3]    98   No     GDB2/IO115RSB2  LVTTL    12                 High  None           No    35                No           No
+SPISS[4]    131  No     GCA2/IO94PSB1   LVTTL    12                 High  None           No    35                No           No
+SPISS[5]    133  No     GCA0/IO93NDB1   LVTTL    12                 High  None           No    35                No           No
+SPISS[6]    96   No     GDC2/IO116RSB2  LVTTL    12                 High  None           No    35                No           No
+SPISS[7]    92   No     IO124RSB2       LVTTL    12                 High  None           No    35                No           No
+SPISSI      93   No     IO122RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+SPITXRFM    94   No     IO120RSB2       LVTTL    12                 High  None           No    35                No           No

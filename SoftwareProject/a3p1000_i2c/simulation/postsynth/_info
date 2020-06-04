@@ -1,0 +1,470 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/a3p1000_i2c/simulation
+vCAPB3II
+Z1 !s110 1552132278
+!i10b 1
+!s100 H919=o_=o]lbc3N<m]=ai0
+ILFl8]fK^[[3KBijA5e35k3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1552032584
+Z4 8D:/FPGA/a3p1000_i2c/synthesis/top_0.v
+Z5 FD:/FPGA/a3p1000_i2c/synthesis/top_0.v
+L0 369
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1552132278.000000
+Z8 !s107 D:/FPGA/a3p1000_i2c/synthesis/top_0.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_i2c/synthesis/top_0.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postsynth -O0
+Z11 tCvgOpt 0
+n@c@a@p@b3@i@i
+vCAPB3II_0
+R1
+!i10b 1
+!s100 2ga3i?Pil6M^Ho86bzE>J0
+I>BziV2>bR^]GR5T[QdoDM3
+R2
+R0
+R3
+R4
+R5
+L0 982
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@a@p@b3@i@i_0
+vCOREAPB3_MUXPTOB3
+!s110 1550832270
+!i10b 1
+!s100 nUcPJ8:G4AO6h5lRk:fLQ1
+IH^R6Q=mTR4L[GHLACOaI:3
+R2
+R0
+w1550832262
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1550832270.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@a@p@b3_@m@u@x@p@t@o@b3
+vCoreAPB3_Z1
+R1
+!i10b 1
+!s100 M=Y41>b^hcZ3Q9IbFjUl=3
+I[XP:NO_4C;2NOcjN<LUE42
+R2
+R0
+R3
+R4
+R5
+L0 430
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@core@a@p@b3_@z1
+vCoreAPB3_Z1_0
+R1
+!i10b 1
+!s100 fJ=1ehcbI8>@fBCe]HGcZ2
+IhL<Km1zEM[VXNn_RL<U771
+R2
+R0
+R3
+R4
+R5
+L0 1073
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@core@a@p@b3_@z1_0
+vCoreAPB3_Z1_1
+!s110 1551099830
+!i10b 1
+!s100 LJNEUT;D=oD9[OBU6OI_^0
+IgX4L;H6`90n4R=amC:JzL1
+R2
+R0
+w1551099818
+R4
+R5
+L0 392
+R6
+r1
+!s85 0
+31
+!s108 1551099830.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@core@a@p@b3_@z1_1
+vCOREI2C_COREI2CREAL_Z3
+Z12 !s110 1551705012
+!i10b 1
+!s100 gDU6A5cRnKQRh4aaLiRbl2
+Io@1=km:0mC]:0go4LX>hU0
+R2
+R0
+Z13 w1551705005
+R4
+R5
+L0 610
+R6
+r1
+!s85 0
+31
+Z14 !s108 1551705012.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l_@z3
+vCOREI2C_COREI2CREAL_Z3_0
+R1
+!i10b 1
+!s100 :H`ZgfV2?S]PNgQIQ0Zai2
+IG8]>:YaT9_3KTK6o`R<L11
+R2
+R0
+R3
+R4
+R5
+L0 1146
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l_@z3_0
+vCOREI2C_COREI2CREAL_Z3_1
+R1
+!i10b 1
+!s100 Akz`J@:J:nG4jDbXS>]C[3
+IjoKcZ4AIR;UbPUob`H0eh1
+R2
+R0
+R3
+R4
+R5
+L0 2877
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l_@z3_1
+vCOREI2C_COREI2CREAL_Z5
+Z15 !s110 1551152751
+!i10b 1
+!s100 UYG9;kci?eI;Qz=fn4jlb3
+Imdg8P0`fIbRXa98:K<@HP2
+R2
+R0
+Z16 w1551152742
+R4
+R5
+L0 2836
+R6
+r1
+!s85 0
+31
+Z17 !s108 1551152751.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l_@z5
+vI2C_slave_Z5
+R1
+!i10b 1
+!s100 8R2N5LYKA9;D46`X[oSzE2
+IEVnR651m>]6;W]H0;e[I50
+R2
+R0
+R3
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_slave_@z5
+vI2C_slave_Z6
+R15
+!i10b 1
+!s100 djbKMLJfCGi@Q]=zSjMKW3
+I_A:l]<f]imk7dA;53mHEW1
+R2
+R0
+R16
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R17
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_slave_@z6
+vI2C_test_Z4
+R12
+!i10b 1
+!s100 UoWUBNnk7P;@bgS`OTRZV1
+I[E;X2U4B<DEIKLFnif7f60
+R2
+R0
+R13
+R4
+R5
+L0 126
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_test_@z4
+vI2C_test_Z6
+R1
+!i10b 1
+!s100 8g72fFPP;BWNNFPoMeo:70
+I2=4LfPSB7H1hS_1@3YO9R1
+R2
+R0
+R3
+R4
+R5
+Z18 L0 490
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_test_@z6
+vI2C_test_Z7
+R15
+!i10b 1
+!s100 V_91BI:RnP9?jAJ@@K_];0
+IO4_Fi0>[PW3KGD^aX?7Lf1
+R2
+R0
+R16
+R4
+R5
+R18
+R6
+r1
+!s85 0
+31
+R17
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_test_@z7
+vRX_test
+R1
+!i10b 1
+!s100 zZXldDde:7C[F]llLbYMY1
+IK5hXjJK:]RemQJ2aTG1IV3
+R2
+R0
+w1552032547
+8D:/FPGA/a3p1000_i2c/stimulus/RX_test.v
+FD:/FPGA/a3p1000_i2c/stimulus/RX_test.v
+Z19 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA/a3p1000_i2c/stimulus/RX_test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_i2c/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_i2c/stimulus/RX_test.v|
+!s101 -O0
+!i113 1
+R10
+Z20 !s92 +incdir+D:/FPGA/a3p1000_i2c/stimulus -vlog01compat -work postsynth -O0
+R11
+n@r@x_test
+vtest
+!s110 1550832271
+!i10b 1
+!s100 <OjG_[<eDb56YkdMW9Km51
+ITL?ANnW5<:3QFBg2>UH5<0
+R2
+R0
+w1550801652
+8D:/FPGA/a3p1000_i2c/stimulus/test.v
+FD:/FPGA/a3p1000_i2c/stimulus/test.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1550832271.000000
+!s107 D:/FPGA/a3p1000_i2c/stimulus/test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_i2c/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_i2c/stimulus/test.v|
+!s101 -O0
+!i113 1
+R10
+R20
+R11
+vtop_0
+R1
+!i10b 1
+!s100 SMQXQFO5cE[IfD0m@fLzi3
+I;X6dicBklD4DfV1kREmnn2
+R2
+R0
+R3
+R4
+R5
+L0 4567
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vtop_0_COREI2C_0_COREI2C_Z2
+R1
+!i10b 1
+!s100 TON5A4HY68S<UZ0E@fQ<L2
+IN@GO2?D;?9WkSG=YkoMDY1
+R2
+R0
+R3
+R4
+R5
+L0 2753
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+ntop_0_@c@o@r@e@i2@c_0_@c@o@r@e@i2@c_@z2
+vtop_0_COREI2C_1_COREI2C_Z4
+R1
+!i10b 1
+!s100 AR]B`SJ5j[^7j=`3:@_?Q3
+IFf9J2>JN_bX=lEQVddAn51
+R2
+R0
+R3
+R4
+R5
+L0 4434
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+ntop_0_@c@o@r@e@i2@c_1_@c@o@r@e@i2@c_@z4

@@ -1,0 +1,612 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.5.5"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS8X8M2"
+KEY VendorTechnology_Package "pq208"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "D:\Work_space\libero_soc\FPGA\a3p1000_CAN"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "piu_top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\top_0\top_0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1554802615"
+SIZE="1055"
+ENDFILE
+VALUE "<project>\designer\impl1\AD_ACQ.adb,adb"
+STATE="utd"
+TIME="1554731549"
+SIZE="308736"
+ENDFILE
+VALUE "<project>\designer\impl1\AD_ACQ_1.adb,adb"
+STATE="utd"
+TIME="1554795802"
+SIZE="711680"
+ENDFILE
+VALUE "<project>\designer\impl1\AD_ACQ_1.ide_des,ide_des"
+STATE="utd"
+TIME="1554795802"
+SIZE="931"
+ENDFILE
+VALUE "<project>\designer\impl1\AD_ACQ_compile_log.rpt,log"
+STATE="utd"
+TIME="1554795802"
+SIZE="9337"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top.adb,adb"
+STATE="ood"
+TIME="1554732851"
+SIZE="2142208"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top_1.adb,adb"
+STATE="utd"
+TIME="1554796016"
+SIZE="5442560"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top_1.ide_des,ide_des"
+STATE="utd"
+TIME="1554796016"
+SIZE="934"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top_compile_log.rpt,log"
+STATE="utd"
+TIME="1554796017"
+SIZE="28224"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1584323723"
+SIZE="2448"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1584324058"
+SIZE="788"
+ENDFILE
+VALUE "<project>\designer\impl1\piu_top_verifypower_log.rpt,log"
+STATE="utd"
+TIME="1584323780"
+SIZE="475"
+ENDFILE
+VALUE "<project>\designer\impl1\RAM_1024B.ide_des,ide_des"
+STATE="utd"
+TIME="1554795553"
+SIZE="180"
+ENDFILE
+VALUE "<project>\designer\impl1\rx_buf_13x8.ide_des,ide_des"
+STATE="utd"
+TIME="1554732005"
+SIZE="182"
+ENDFILE
+VALUE "<project>\designer\impl1\status_buffer.ide_des,ide_des"
+STATE="utd"
+TIME="1554795556"
+SIZE="184"
+ENDFILE
+VALUE "<project>\designer\impl1\tick.ide_des,ide_des"
+STATE="utd"
+TIME="1554795549"
+SIZE="175"
+ENDFILE
+VALUE "<project>\hdl\hdl\AD_ACQ.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="28998"
+ENDFILE
+VALUE "<project>\hdl\hdl\AD_Comp.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="7843"
+ENDFILE
+VALUE "<project>\hdl\hdl\bsp.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="3964"
+ENDFILE
+VALUE "<project>\hdl\hdl\btl_1ph_clk.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="16115"
+ENDFILE
+VALUE "<project>\hdl\hdl\buf_13x8.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="2684"
+ENDFILE
+VALUE "<project>\hdl\hdl\can_core.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="17218"
+ENDFILE
+VALUE "<project>\hdl\hdl\can_if.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="4300"
+ENDFILE
+VALUE "<project>\hdl\hdl\eml.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="5583"
+ENDFILE
+VALUE "<project>\hdl\hdl\fifo_ctrl.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="8037"
+ENDFILE
+VALUE "<project>\hdl\hdl\iml.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="26058"
+ENDFILE
+VALUE "<project>\hdl\hdl\mcu.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="102615"
+ENDFILE
+VALUE "<project>\hdl\hdl\mm.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="12539"
+ENDFILE
+VALUE "<project>\hdl\hdl\onoff.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="1816"
+ENDFILE
+VALUE "<project>\hdl\hdl\piu_top.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="24300"
+ENDFILE
+VALUE "<project>\hdl\hdl\RST_IF.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="1888"
+ENDFILE
+VALUE "<project>\hdl\hdl\rx_buffer.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="3958"
+ENDFILE
+VALUE "<project>\hdl\hdl\rx_buf_13x8.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="3635"
+ENDFILE
+VALUE "<project>\hdl\hdl\status_buffer.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="2461"
+ENDFILE
+VALUE "<project>\hdl\hdl\tcl.v,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="105737"
+ENDFILE
+VALUE "<project>\hdl\hdl\tick.vhd,hdl"
+STATE="utd"
+TIME="1554795572"
+SIZE="2606"
+ENDFILE
+VALUE "<project>\smartgen\RAM_1024B\RAM_1024B.cxf,actgen_cxf"
+STATE="utd"
+TIME="1554795779"
+SIZE="2021"
+ENDFILE
+VALUE "<project>\smartgen\RAM_1024B\RAM_1024B.gen,gen"
+STATE="utd"
+TIME="1554795777"
+SIZE="630"
+PARENT="<project>\smartgen\RAM_1024B\RAM_1024B.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\RAM_1024B\RAM_1024B.log,log"
+STATE="utd"
+TIME="1554795778"
+SIZE="3025"
+PARENT="<project>\smartgen\RAM_1024B\RAM_1024B.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\RAM_1024B\RAM_1024B.v,hdl"
+STATE="utd"
+TIME="1554795778"
+SIZE="4077"
+PARENT="<project>\smartgen\RAM_1024B\RAM_1024B.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\RAM_128X12\RAM_128X12.cxf,actgen_cxf"
+STATE="utd"
+TIME="1554795715"
+SIZE="2027"
+ENDFILE
+VALUE "<project>\smartgen\RAM_128X12\RAM_128X12.gen,gen"
+STATE="utd"
+TIME="1554795713"
+SIZE="632"
+PARENT="<project>\smartgen\RAM_128X12\RAM_128X12.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\RAM_128X12\RAM_128X12.log,log"
+STATE="utd"
+TIME="1554795714"
+SIZE="3028"
+PARENT="<project>\smartgen\RAM_128X12\RAM_128X12.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\RAM_128X12\RAM_128X12.v,hdl"
+STATE="utd"
+TIME="1554795714"
+SIZE="2532"
+PARENT="<project>\smartgen\RAM_128X12\RAM_128X12.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\synthesis\AD_ACQ.edn,syn_edn"
+STATE="utd"
+TIME="1554795794"
+SIZE="928318"
+ENDFILE
+VALUE "<project>\synthesis\AD_ACQ.so,so"
+STATE="utd"
+TIME="1554795794"
+SIZE="201"
+ENDFILE
+VALUE "<project>\synthesis\AD_ACQ_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1554795794"
+SIZE="399"
+ENDFILE
+VALUE "<project>\synthesis\AD_ACQ_syn.prj,prj"
+STATE="utd"
+TIME="1554795794"
+SIZE="1804"
+ENDFILE
+VALUE "<project>\synthesis\can_core.so,so"
+STATE="utd"
+TIME="1554732091"
+SIZE="205"
+ENDFILE
+VALUE "<project>\synthesis\can_core_syn.prj,prj"
+STATE="utd"
+TIME="1554732092"
+SIZE="2325"
+ENDFILE
+VALUE "<project>\synthesis\piu_top.edn,syn_edn"
+STATE="utd"
+TIME="1554796000"
+SIZE="7100879"
+ENDFILE
+VALUE "<project>\synthesis\piu_top.so,so"
+STATE="utd"
+TIME="1554796000"
+SIZE="203"
+ENDFILE
+VALUE "<project>\synthesis\piu_top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1554796000"
+SIZE="400"
+ENDFILE
+VALUE "<project>\synthesis\piu_top_syn.prj,prj"
+STATE="utd"
+TIME="1554796001"
+SIZE="3051"
+ENDFILE
+VALUE "<project>\synthesis\tcl.so,so"
+STATE="utd"
+TIME="1554731869"
+SIZE="195"
+ENDFILE
+VALUE "<project>\synthesis\tcl_syn.prj,prj"
+STATE="utd"
+TIME="1554731870"
+SIZE="1658"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "AD_ACQ::work"
+FILE "<project>\hdl\hdl\AD_ACQ.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\AD_ACQ.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\AD_ACQ_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\AD_ACQ_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+LIST "piu_top::work"
+FILE "<project>\hdl\hdl\piu_top.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\piu_top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\piu_top_1.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\piu_top_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\piu_top_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=top_0
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="D:\Work\Microsemi\Libero_SOC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="D:\Work\Microsemi\Libero_SOC_v11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="D:\Work\Microsemi\Libero_SOC_v11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="D:\Work\Microsemi\Libero_SOC_v11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "AD_ACQ::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\AD_ACQ.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "piu_top::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\piu_top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\piu_top_1.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Compile:piu_top_compile_report.txt
+HDL;hdl\hdl\AD_ACQ.vhd;0
+HDL;hdl\hdl\mcu.vhd;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "AD_ACQ::work","hdl\hdl\AD_ACQ.vhd","FALSE","FALSE"
+SUBBLOCK "RAM_128X12::work","smartgen\RAM_128X12\RAM_128X12.v","TRUE","FALSE"
+ENDLIST
+LIST "AD_Comp::work","hdl\hdl\AD_Comp.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bsp::work","hdl\hdl\bsp.v","FALSE","FALSE"
+ENDLIST
+LIST "btl_1ph_clk::work","hdl\hdl\btl_1ph_clk.v","FALSE","FALSE"
+ENDLIST
+LIST "buf_13x8::work","hdl\hdl\buf_13x8.v","FALSE","FALSE"
+ENDLIST
+LIST "can_core::work","hdl\hdl\can_core.v","FALSE","FALSE"
+SUBBLOCK "bsp::work","hdl\hdl\bsp.v","FALSE","FALSE"
+SUBBLOCK "btl_1ph_clk::work","hdl\hdl\btl_1ph_clk.v","FALSE","FALSE"
+SUBBLOCK "buf_13x8::work","hdl\hdl\buf_13x8.v","FALSE","FALSE"
+SUBBLOCK "eml::work","hdl\hdl\eml.v","FALSE","FALSE"
+SUBBLOCK "fifo_ctrl::work","hdl\hdl\fifo_ctrl.v","FALSE","FALSE"
+SUBBLOCK "iml::work","hdl\hdl\iml.v","FALSE","FALSE"
+SUBBLOCK "mm::work","hdl\hdl\mm.v","FALSE","FALSE"
+SUBBLOCK "tcl::work","hdl\hdl\tcl.v","FALSE","FALSE"
+ENDLIST
+LIST "can_if::work","hdl\hdl\can_if.vhd","FALSE","FALSE"
+ENDLIST
+LIST "eml::work","hdl\hdl\eml.v","FALSE","FALSE"
+ENDLIST
+LIST "fifo_ctrl::work","hdl\hdl\fifo_ctrl.v","FALSE","FALSE"
+SUBBLOCK "rx_buffer::work","hdl\hdl\rx_buffer.v","FALSE","FALSE"
+SUBBLOCK "status_buffer::work","hdl\hdl\status_buffer.v","FALSE","FALSE"
+ENDLIST
+LIST "iml::work","hdl\hdl\iml.v","FALSE","FALSE"
+ENDLIST
+LIST "MCU::work","hdl\hdl\mcu.vhd","FALSE","FALSE"
+SUBBLOCK "RAM_1024B::work","smartgen\RAM_1024B\RAM_1024B.v","TRUE","FALSE"
+SUBBLOCK "onoff::work","hdl\hdl\onoff.vhd","FALSE","FALSE"
+ENDLIST
+LIST "mm::work","hdl\hdl\mm.v","FALSE","FALSE"
+ENDLIST
+LIST "onoff::work","hdl\hdl\onoff.vhd","FALSE","FALSE"
+ENDLIST
+LIST "piu_top::work","hdl\hdl\piu_top.vhd","FALSE","FALSE"
+SUBBLOCK "AD_ACQ::work","hdl\hdl\AD_ACQ.vhd","FALSE","FALSE"
+SUBBLOCK "AD_Comp::work","hdl\hdl\AD_Comp.vhd","FALSE","FALSE"
+SUBBLOCK "RST_IF::work","hdl\hdl\RST_IF.vhd","FALSE","FALSE"
+SUBBLOCK "can_core::work","hdl\hdl\can_core.v","FALSE","FALSE"
+SUBBLOCK "can_if::work","hdl\hdl\can_if.vhd","FALSE","FALSE"
+SUBBLOCK "MCU::work","hdl\hdl\mcu.vhd","FALSE","FALSE"
+SUBBLOCK "tick::work","hdl\hdl\tick.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RAM_1024B::work","smartgen\RAM_1024B\RAM_1024B.v","TRUE","FALSE"
+ENDLIST
+LIST "RAM_128X12::work","smartgen\RAM_128X12\RAM_128X12.v","TRUE","FALSE"
+ENDLIST
+LIST "RST_IF::work","hdl\hdl\RST_IF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "rx_buf_13x8::work","hdl\hdl\rx_buf_13x8.v","FALSE","FALSE"
+ENDLIST
+LIST "rx_buffer::work","hdl\hdl\rx_buffer.v","FALSE","FALSE"
+SUBBLOCK "rx_buf_13x8::work","hdl\hdl\rx_buf_13x8.v","FALSE","FALSE"
+ENDLIST
+LIST "status_buffer::work","hdl\hdl\status_buffer.v","FALSE","FALSE"
+ENDLIST
+LIST "tcl::work","hdl\hdl\tcl.v","FALSE","FALSE"
+ENDLIST
+LIST "tick::work","hdl\hdl\tick.vhd","FALSE","FALSE"
+ENDLIST
+LIST "top_0::work","component\work\top_0\top_0.cxf","TRUE","FALSE"
+SUBBLOCK "MCU::work","hdl\hdl\mcu.vhd","FALSE","FALSE"
+SUBBLOCK "RST_IF::work","hdl\hdl\RST_IF.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

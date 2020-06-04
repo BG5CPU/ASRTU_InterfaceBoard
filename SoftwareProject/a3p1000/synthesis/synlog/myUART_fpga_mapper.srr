@@ -1,0 +1,543 @@
+# Sun Feb 03 15:47:35 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+@N: MO111 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|Tristate driver AFULL (in view: work.myUART_myUART_0_fifo_256x8_pa3(verilog)) on net AFULL (in view: work.myUART_myUART_0_fifo_256x8_pa3(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+Encoding state machine rx_state[3:0] (in view: work.myUART_myUART_0_COREUART_1s_1s_0s_15s_1s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.myUART_myUART_0_COREUART_1s_1s_0s_15s_1s_0s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\clock_gen.v":310:0:310:5|Found counter in view:work.myUART_myUART_0_Clock_gen_1s_0s(verilog) instance xmit_cntr[3:0] 
+@N: MF239 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\clock_gen.v":119:47:119:64|Found 13-bit decrementor, 'un3_baud_cntr[12:0]'
+Encoding state machine xmit_state[6:0] (in view: work.myUART_myUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\tx_async.v":268:0:268:5|Found counter in view:work.myUART_myUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog) instance xmit_bit_sel[3:0] 
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\rx_async.v":377:0:377:5|Found counter in view:work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance rx_bit_cnt[3:0] 
+Encoding state machine rx_state[3:0] (in view: work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\rx_async.v":181:0:181:5|Found counter in view:work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance receive_count[3:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 109MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@W: BN132 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\coreuart.v":263:0:263:5|Removing sequential instance myUART_0.clear_parity_reg0 because it is equivalent to instance myUART_0.clear_framing_error_reg0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\coreuart.v":278:0:278:5|Removing sequential instance myUART_0.clear_framing_error_reg because it is equivalent to instance myUART_0.clear_parity_reg. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+RESET_N_pad / Y                109 : 107 asynchronous set/reset
+===============================================================
+
+@N: FP130 |Promoting Net RESET_N_c on CLKBUF  RESET_N_pad 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 112MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 112MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 127 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+@K:CKID0001       CLK                 port                   127        myUART_0.rx_dout_reg[7]
+===============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+Writing Analyst data base D:\FPGA\a3p1000\synthesis\synwork\myUART_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+@W: MT420 |Found inferred clock myUART|CLK with period 10.00ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Feb 03 15:47:37 2019
+#
+
+
+Top view:               myUART
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.636
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+myUART|CLK         100.0 MHz     94.0 MHz      10.000        10.636        -0.636     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------
+Starting    Ending      |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------
+myUART|CLK  myUART|CLK  |  10.000      -0.636  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: myUART|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                             Arrival           
+Instance                                            Reference      Type         Pin     Net              Time        Slack 
+                                                    Clock                                                                  
+---------------------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.rx_state[1]                        myUART|CLK     DFN1E1C0     Q       rx_state[1]      0.737       -0.636
+myUART_0.make_RX.rx_state[0]                        myUART|CLK     DFN1E1C0     Q       rx_state[0]      0.737       -0.353
+myUART_0.make_CLOCK_GEN.genblk1\.baud_clock_int     myUART|CLK     DFN1C0       Q       baud_clock       0.737       0.003 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[3]       myUART|CLK     DFN1C0       Q       baud_cntr[3]     0.737       0.191 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[7]       myUART|CLK     DFN1C0       Q       baud_cntr[7]     0.737       0.264 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[2]       myUART|CLK     DFN1C0       Q       baud_cntr[2]     0.737       0.292 
+myUART_0.make_CLOCK_GEN.xmit_cntr[1]                myUART|CLK     DFN1E1C0     Q       xmit_cntr[1]     0.580       0.337 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[5]       myUART|CLK     DFN1C0       Q       baud_cntr[5]     0.737       0.403 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[1]       myUART|CLK     DFN1C0       Q       baud_cntr[1]     0.737       0.534 
+myUART_0.make_CLOCK_GEN.xmit_cntr[2]                myUART|CLK     DFN1E1C0     Q       xmit_cntr[2]     0.580       0.601 
+===========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                   Required           
+Instance                                          Reference      Type       Pin     Net                      Time         Slack 
+                                                  Clock                                                                         
+--------------------------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.receive_count[0]                 myUART|CLK     DFN1C0     D       receive_count_RNO[0]     9.427        -0.636
+myUART_0.make_RX.receive_count[1]                 myUART|CLK     DFN1C0     D       N_27                     9.461        -0.372
+myUART_0.make_RX.receive_count[2]                 myUART|CLK     DFN1C0     D       N_25                     9.461        -0.372
+myUART_0.make_RX.receive_count[3]                 myUART|CLK     DFN1C0     D       N_23                     9.461        -0.372
+myUART_0.make_TX.xmit_state[3]                    myUART|CLK     DFN1C0     D       xmit_state_RNO[3]        9.427        0.003 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[0]     myUART|CLK     DFN1C0     D       baud_cntr_35[0]          9.461        0.191 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[1]     myUART|CLK     DFN1C0     D       baud_cntr_35[1]          9.461        0.191 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[2]     myUART|CLK     DFN1C0     D       baud_cntr_35[2]          9.461        0.191 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[3]     myUART|CLK     DFN1C0     D       baud_cntr_35[3]          9.461        0.191 
+myUART_0.make_CLOCK_GEN.genblk1\.baud_cntr[4]     myUART|CLK     DFN1C0     D       baud_cntr_35[4]          9.461        0.191 
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      10.063
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.636
+
+    Number of logic level(s):                4
+    Starting point:                          myUART_0.make_RX.rx_state[1] / Q
+    Ending point:                            myUART_0.make_RX.receive_count[0] / D
+    The start point is clocked by            myUART|CLK [rising] on pin CLK
+    The end   point is clocked by            myUART|CLK [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.rx_state[1]                   DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[1]                                    Net          -        -       1.423     -           6         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         B        In      -         2.160       -         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         Y        Out     0.646     2.807       -         
+N_250_1                                        Net          -        -       2.263     -           18        
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        B        In      -         5.070       -         
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        Y        Out     0.624     5.694       -         
+rx_state_0_sqmuxa                              Net          -        -       1.279     -           5         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          C        In      -         6.973       -         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          Y        Out     0.683     7.656       -         
+N_309                                          Net          -        -       1.184     -           4         
+myUART_0.make_RX.receive_count_RNO[0]          AXOI4        A        In      -         8.839       -         
+myUART_0.make_RX.receive_count_RNO[0]          AXOI4        Y        Out     0.902     9.741       -         
+receive_count_RNO[0]                           Net          -        -       0.322     -           1         
+myUART_0.make_RX.receive_count[0]              DFN1C0       D        In      -         10.063      -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 10.636 is 4.166(39.2%) logic and 6.471(60.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.780
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.353
+
+    Number of logic level(s):                4
+    Starting point:                          myUART_0.make_RX.rx_state[0] / Q
+    Ending point:                            myUART_0.make_RX.receive_count[0] / D
+    The start point is clocked by            myUART|CLK [rising] on pin CLK
+    The end   point is clocked by            myUART|CLK [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.rx_state[0]                   DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[0]                                    Net          -        -       1.279     -           5         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         A        In      -         2.016       -         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         Y        Out     0.507     2.523       -         
+N_250_1                                        Net          -        -       2.263     -           18        
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        B        In      -         4.786       -         
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        Y        Out     0.624     5.410       -         
+rx_state_0_sqmuxa                              Net          -        -       1.279     -           5         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          C        In      -         6.689       -         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          Y        Out     0.683     7.372       -         
+N_309                                          Net          -        -       1.184     -           4         
+myUART_0.make_RX.receive_count_RNO[0]          AXOI4        A        In      -         8.556       -         
+myUART_0.make_RX.receive_count_RNO[0]          AXOI4        Y        Out     0.902     9.458       -         
+receive_count_RNO[0]                           Net          -        -       0.322     -           1         
+myUART_0.make_RX.receive_count[0]              DFN1C0       D        In      -         9.780       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 10.353 is 4.027(38.9%) logic and 6.326(61.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.767
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.341
+
+    Number of logic level(s):                4
+    Starting point:                          myUART_0.make_RX.rx_state[1] / Q
+    Ending point:                            myUART_0.make_RX.receive_count[1] / D
+    The start point is clocked by            myUART|CLK [rising] on pin CLK
+    The end   point is clocked by            myUART|CLK [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.rx_state[1]                   DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[1]                                    Net          -        -       1.423     -           6         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         B        In      -         2.160       -         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         Y        Out     0.646     2.807       -         
+N_250_1                                        Net          -        -       2.263     -           18        
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        B        In      -         5.070       -         
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        Y        Out     0.624     5.694       -         
+rx_state_0_sqmuxa                              Net          -        -       1.279     -           5         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          C        In      -         6.973       -         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          Y        Out     0.683     7.656       -         
+N_309                                          Net          -        -       1.184     -           4         
+myUART_0.make_RX.receive_count_RNO[1]          AOI1         A        In      -         8.839       -         
+myUART_0.make_RX.receive_count_RNO[1]          AOI1         Y        Out     0.607     9.446       -         
+N_27                                           Net          -        -       0.322     -           1         
+myUART_0.make_RX.receive_count[1]              DFN1C0       D        In      -         9.767       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 10.341 is 3.870(37.4%) logic and 6.471(62.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.767
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.341
+
+    Number of logic level(s):                4
+    Starting point:                          myUART_0.make_RX.rx_state[1] / Q
+    Ending point:                            myUART_0.make_RX.receive_count[3] / D
+    The start point is clocked by            myUART|CLK [rising] on pin CLK
+    The end   point is clocked by            myUART|CLK [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.rx_state[1]                   DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[1]                                    Net          -        -       1.423     -           6         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         B        In      -         2.160       -         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         Y        Out     0.646     2.807       -         
+N_250_1                                        Net          -        -       2.263     -           18        
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        B        In      -         5.070       -         
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        Y        Out     0.624     5.694       -         
+rx_state_0_sqmuxa                              Net          -        -       1.279     -           5         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          C        In      -         6.973       -         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          Y        Out     0.683     7.656       -         
+N_309                                          Net          -        -       1.184     -           4         
+myUART_0.make_RX.receive_count_RNO[3]          AOI1         A        In      -         8.839       -         
+myUART_0.make_RX.receive_count_RNO[3]          AOI1         Y        Out     0.607     9.446       -         
+N_23                                           Net          -        -       0.322     -           1         
+myUART_0.make_RX.receive_count[3]              DFN1C0       D        In      -         9.767       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 10.341 is 3.870(37.4%) logic and 6.471(62.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      9.767
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.341
+
+    Number of logic level(s):                4
+    Starting point:                          myUART_0.make_RX.rx_state[1] / Q
+    Ending point:                            myUART_0.make_RX.receive_count[2] / D
+    The start point is clocked by            myUART|CLK [rising] on pin CLK
+    The end   point is clocked by            myUART|CLK [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+myUART_0.make_RX.rx_state[1]                   DFN1E1C0     Q        Out     0.737     0.737       -         
+rx_state[1]                                    Net          -        -       1.423     -           6         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         B        In      -         2.160       -         
+myUART_0.make_RX.rx_state_RNID183_1[0]         NOR2         Y        Out     0.646     2.807       -         
+N_250_1                                        Net          -        -       2.263     -           18        
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        B        In      -         5.070       -         
+myUART_0.make_RX.receive_count_RNIF0JP1[3]     NOR3B        Y        Out     0.624     5.694       -         
+rx_state_0_sqmuxa                              Net          -        -       1.279     -           5         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          C        In      -         6.973       -         
+myUART_0.make_RX.receive_count_RNI1LNU4[3]     OR3          Y        Out     0.683     7.656       -         
+N_309                                          Net          -        -       1.184     -           4         
+myUART_0.make_RX.receive_count_RNO[2]          AOI1         A        In      -         8.839       -         
+myUART_0.make_RX.receive_count_RNO[2]          AOI1         Y        Out     0.607     9.446       -         
+N_25                                           Net          -        -       0.322     -           1         
+myUART_0.make_RX.receive_count[2]              DFN1C0       D        In      -         9.767       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 10.341 is 3.870(37.4%) logic and 6.471(62.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 112MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell myUART.verilog
+  Core Cell usage:
+              cell count     area count*area
+               AO1     4      1.0        4.0
+              AO17     1      1.0        1.0
+              AO1A     5      1.0        5.0
+              AO1D     2      1.0        2.0
+              AOI1     6      1.0        6.0
+              AX1A     1      1.0        1.0
+              AX1C     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+             AXOI5     1      1.0        1.0
+               GND     9      0.0        0.0
+               INV     6      1.0        6.0
+              MIN3     1      1.0        1.0
+               MX2    28      1.0       28.0
+              MX2A     1      1.0        1.0
+              NOR2    12      1.0       12.0
+             NOR2A    30      1.0       30.0
+             NOR2B    20      1.0       20.0
+              NOR3     7      1.0        7.0
+             NOR3A    22      1.0       22.0
+             NOR3B    13      1.0       13.0
+             NOR3C     7      1.0        7.0
+               OA1     6      1.0        6.0
+              OA1A     2      1.0        2.0
+              OA1B     3      1.0        3.0
+              OA1C     2      1.0        2.0
+               OR2    11      1.0       11.0
+              OR2A     4      1.0        4.0
+              OR2B     6      1.0        6.0
+               OR3    20      1.0       20.0
+              OR3B     1      1.0        1.0
+              OR3C     1      1.0        1.0
+               VCC     9      0.0        0.0
+               XA1     1      1.0        1.0
+              XA1B     1      1.0        1.0
+              XA1C     7      1.0        7.0
+             XNOR2    13      1.0       13.0
+               XO1     2      1.0        2.0
+              XOR2    10      1.0       10.0
+
+
+          DFI1E0P0     1      1.0        1.0
+              DFN1    16      1.0       16.0
+            DFN1C0    36      1.0       36.0
+          DFN1E0C0    17      1.0       17.0
+          DFN1E0P0     2      1.0        2.0
+          DFN1E1C0    42      1.0       42.0
+          DFN1E1P0     5      1.0        5.0
+            DFN1P0     4      1.0        4.0
+          FIFO4K18     2      0.0        0.0
+                   -----          ----------
+             TOTAL   402               382.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    31
+            OUTBUF    14
+                   -----
+             TOTAL    47
+
+
+Core Cells         : 382 of 24576 (2%)
+IO Cells           : 47
+
+  RAM/ROM Usage Summary
+Block Rams : 2 of 32 (6%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 25MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Feb 03 15:47:37 2019
+
+###########################################################]

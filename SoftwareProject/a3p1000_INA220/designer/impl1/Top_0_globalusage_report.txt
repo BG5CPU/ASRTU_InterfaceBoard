@@ -1,0 +1,29 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Date: Sun Mar 10 21:49:51 2019
+Design Name: Top_0  Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    278               Net   : PCLK_c
+                      Driver: PCLK_pad/U0/U1/U_GL
+
+
+The following nets have been routed to a quadrant global resource:
+
+    Fanout            Name
+    ----------------------
+    260               Net   : PRESETN_c
+                      Driver: PRESETN_pad/U0/U1/U_GL
+                      Region : quadrant_UL
+
+
+

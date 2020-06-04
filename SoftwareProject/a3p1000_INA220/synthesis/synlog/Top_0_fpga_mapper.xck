@@ -1,0 +1,2 @@
+CKID0001:@|S:COREI2C_0.I2C_NUM_GENERATION[0].ui2c.SCLO_int@|E:IIC_control_0.ACK_count[3]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:PCLK@|E:UART_control_0.count[1]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

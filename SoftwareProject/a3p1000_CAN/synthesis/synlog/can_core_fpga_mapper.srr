@@ -1,0 +1,932 @@
+# Mon Apr 08 22:00:52 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MO230 :"d:\fpga\a3p1000_can\hdl\hdl\iml.v":222:0:222:5|Found up-down counter in view:work.iml(verilog) instance address[3:0]  
+Encoding state machine err_1[7:0] (in view: work.tcl(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":2489:11:2489:14|Found ROM .delname. (in view: work.tcl(verilog)) with 12 words by 1 bit.
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":211:10:211:21|Found 6-bit incrementor, 'un1_b_0[5:0]'
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":313:23:313:49|Found 4-bit decrementor, 'un1_dlc[6:3]'
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":113:0:113:5|Found counter in view:work.btl_1ph_clk(verilog) instance count[7:0] 
+@N: MF176 |Default generator successful 
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":333:24:333:29|Found 5 by 5 bit subtractor, 'un1_k2_0_0[4:0]'
+@N: MF176 |Default generator successful 
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:38:109:63|Found 5 by 5 bit less-than operator ('<') un1_timing_3 (in view: work.btl_1ph_clk(verilog))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":306:24:306:47|Found 5 by 5 bit less-than operator ('<') k225 (in view: work.btl_1ph_clk(verilog))
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:42:109:62|Found 4-bit incrementor, 'un1_timing_1[4:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":272:23:272:50|Found 5 by 5 bit less-than operator ('<') t13 (in view: work.btl_1ph_clk(verilog))
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF135 :"d:\fpga\a3p1000_can\hdl\hdl\status_buffer.v":68:0:68:5|RAM i_status_buffer.reg0[1:0] (in view: work.fifo_ctrl(verilog)) is 4 words by 2 bits.
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\fifo_ctrl.v":121:18:121:29|Found 2 by 2 bit subtractor, 'diff_ptr_0_0[1:0]'
+
+Starting factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 130MB peak: 153MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 152MB peak: 160MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 147MB peak: 160MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 147MB peak: 160MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 148MB peak: 208MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 150MB peak: 208MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:35s; Memory used current: 200MB peak: 208MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:35s; Memory used current: 199MB peak: 208MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:35s; Memory used current: 198MB peak: 208MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:36s; Memory used current: 183MB peak: 228MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name       Fanout, notes                   
+-----------------------------------------------------------------
+top_tcl.transmit / Q             64                              
+top_iml.address[1] / Q           26                              
+top_iml.address[2] / Q           42                              
+top_iml.trrequ1 / Q              52                              
+top_iml.reset_request / Q        93 : 91 asynchronous set/reset  
+top_bsp.dataout[0] / Q           65                              
+top_bsp.dataout[1] / Q           65                              
+top_bsp.dataout[2] / Q           65                              
+top_bsp.dataout[3] / Q           68                              
+top_bsp.dataout[4] / Q           68                              
+top_bsp.dataout[5] / Q           68                              
+top_bsp.dataout[6] / Q           68                              
+top_bsp.dataout[7] / Q           67                              
+top_btl.clock / Q                39                              
+top_tcl.equal[0] / Q             39                              
+top_btl.sample / Q               40                              
+top_btl.rx2tcl / Q               84                              
+top_btl.tq_work_tic / Q          26                              
+top_tcl.b[4] / Q                 26                              
+top_tcl.bnull / Q                35                              
+top_tcl.acf / Q                  25                              
+top_tcl.err_1[0] / Q             39                              
+top_tcl.err_1[7] / Q             25                              
+top_tcl.err_1[1] / Q             27                              
+top_tcl.err_1[3] / Q             27                              
+top_tcl.err_1[4] / Q             25                              
+top_tcl.err_1[5] / Q             28                              
+adr_pad[0] / Y                   58                              
+adr_pad[1] / Y                   107                             
+adr_pad[2] / Y                   234                             
+adr_pad[3] / Y                   357                             
+datain_pad[0] / Y                33                              
+datain_pad[1] / Y                35                              
+datain_pad[2] / Y                35                              
+datain_pad[3] / Y                40                              
+datain_pad[4] / Y                41                              
+datain_pad[5] / Y                40                              
+datain_pad[6] / Y                41                              
+datain_pad[7] / Y                41                              
+rst_b_pad / Y                    803 : 803 asynchronous set/reset
+top_eml.trcount_int[8] / Q       38                              
+top_tcl.stfb_1 / Y               31                              
+top_tcl.b_l1_0[5] / Y            29                              
+top_tcl.bnull72 / Y              31                              
+top_tcl.bnull73 / Y              34                              
+top_tcl.equal38 / Y              60                              
+top_tcl.eof / Y                  31                              
+top_tcl.b_l1_0[0] / Y            30                              
+top_tcl.un1_b_60_m[3] / Y        45                              
+top_tcl.err_1_ns_0_o3[3] / Y     29                              
+top_tcl.un1_receive_stop / Y     49                              
+top_tcl.err_1_tr0_5_2 / Y        29                              
+top_tcl.un1_b_60_m_0[4] / Y      52                              
+top_tcl.b_m4 / Y                 33                              
+top_mm.adr_m4 / Y                71                              
+top_mm.adr_trbuf[1] / Y          38                              
+top_tcl.un1_b_60_m_0[0] / Y      35                              
+top_tcl.b_l24 / Y                30                              
+top_tcl.b_m2_0_a2 / Y            51                              
+top_tcl.b_m12_0 / Y              32                              
+top_tcl.err_1_tr0_19_0 / Y       28                              
+=================================================================
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net rst_b_c on CLKBUF  rst_b_pad 
+@N: FP130 |Promoting Net adr_c[3] on CLKINT  I_201 
+@N: FP130 |Promoting Net adr_c[2] on CLKINT  I_202 
+@N: FP130 |Promoting Net adr_c[1] on CLKINT  I_203 
+@N: FP130 |Promoting Net reset_request on CLKINT  I_204 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:37s; Memory used current: 183MB peak: 228MB)
+
+Replicating Combinational Instance top_tcl.err_1_tr0_19_0, fanout 28 segments 2
+Replicating Combinational Instance top_tcl.b_m12_0, fanout 32 segments 2
+Replicating Combinational Instance top_tcl.b_m2_0_a2, fanout 51 segments 3
+Replicating Combinational Instance top_tcl.b_l24, fanout 30 segments 2
+Replicating Combinational Instance top_tcl.un1_b_60_m_0[0], fanout 35 segments 2
+Replicating Combinational Instance top_mm.adr_trbuf[1], fanout 38 segments 2
+Replicating Combinational Instance top_mm.adr_m4, fanout 71 segments 3
+Replicating Combinational Instance top_tcl.b_m4, fanout 33 segments 2
+Replicating Combinational Instance top_tcl.un1_b_60_m_0[4], fanout 52 segments 3
+Replicating Combinational Instance top_tcl.err_1_tr0_5_2, fanout 29 segments 2
+Replicating Combinational Instance top_tcl.un1_receive_stop, fanout 50 segments 3
+Replicating Combinational Instance top_tcl.err_1_ns_0_o3[3], fanout 29 segments 2
+Replicating Combinational Instance top_tcl.un1_b_60_m[3], fanout 45 segments 2
+Replicating Combinational Instance top_tcl.b_l1_0[0], fanout 30 segments 2
+Replicating Combinational Instance top_tcl.eof, fanout 31 segments 2
+Replicating Combinational Instance top_tcl.equal38, fanout 60 segments 3
+Replicating Combinational Instance top_tcl.bnull73, fanout 34 segments 2
+Replicating Combinational Instance top_tcl.bnull72, fanout 31 segments 2
+Replicating Combinational Instance top_tcl.b_l1_0[5], fanout 29 segments 2
+Replicating Combinational Instance top_tcl.stfb_1, fanout 31 segments 2
+Replicating Sequential Instance top_eml.trcount_int[8], fanout 38 segments 2
+Buffering datain_c[7], fanout 41 segments 2
+Buffering datain_c[6], fanout 41 segments 2
+Buffering datain_c[5], fanout 40 segments 2
+Buffering datain_c[4], fanout 41 segments 2
+Buffering datain_c[3], fanout 40 segments 2
+Buffering datain_c[2], fanout 35 segments 2
+Buffering datain_c[1], fanout 35 segments 2
+Buffering datain_c[0], fanout 33 segments 2
+Buffering adr_c[0], fanout 58 segments 3
+Replicating Sequential Instance top_tcl.err_1[5], fanout 28 segments 2
+Replicating Sequential Instance top_tcl.err_1[4], fanout 25 segments 2
+Replicating Sequential Instance top_tcl.err_1[3], fanout 27 segments 2
+Replicating Sequential Instance top_tcl.err_1[1], fanout 27 segments 2
+Replicating Sequential Instance top_tcl.err_1[7], fanout 25 segments 2
+Replicating Sequential Instance top_tcl.err_1[0], fanout 39 segments 2
+Replicating Sequential Instance top_tcl.acf, fanout 25 segments 2
+Replicating Sequential Instance top_tcl.bnull, fanout 35 segments 2
+Replicating Sequential Instance top_tcl.b[4], fanout 28 segments 2
+Replicating Sequential Instance top_btl.tq_work_tic, fanout 26 segments 2
+Replicating Sequential Instance top_btl.rx2tcl, fanout 86 segments 4
+Replicating Sequential Instance top_btl.sample, fanout 49 segments 3
+Replicating Sequential Instance top_tcl.equal[0], fanout 39 segments 2
+Replicating Sequential Instance top_btl.clock, fanout 39 segments 2
+Replicating Sequential Instance top_bsp.dataout[7], fanout 67 segments 3
+Replicating Sequential Instance top_bsp.dataout[6], fanout 68 segments 3
+Replicating Sequential Instance top_bsp.dataout[5], fanout 68 segments 3
+Replicating Sequential Instance top_bsp.dataout[4], fanout 68 segments 3
+Replicating Sequential Instance top_bsp.dataout[3], fanout 68 segments 3
+Replicating Sequential Instance top_bsp.dataout[2], fanout 65 segments 3
+Replicating Sequential Instance top_bsp.dataout[1], fanout 65 segments 3
+Replicating Sequential Instance top_bsp.dataout[0], fanout 65 segments 3
+Replicating Sequential Instance top_iml.trrequ1, fanout 52 segments 3
+Replicating Sequential Instance top_iml.address[2], fanout 42 segments 2
+Replicating Sequential Instance top_iml.address[1], fanout 26 segments 2
+Replicating Sequential Instance top_tcl.transmit, fanout 67 segments 3
+
+Added 10 Buffers
+Added 65 Cells via replication
+	Added 40 Sequential Cells via replication
+	Added 25 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:37s; Memory used current: 184MB peak: 228MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 934 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     
+--------------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   934        transbuf.ff_buf[103]
+============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:37s; Memory used current: 168MB peak: 228MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_CAN\synthesis\synwork\can_core_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:37s; Memory used current: 173MB peak: 228MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:38s; Memory used current: 178MB peak: 228MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:38s; Memory used current: 173MB peak: 228MB)
+
+@W: MT420 |Found inferred clock can_core|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Apr 08 22:01:31 2019
+#
+
+
+Top view:               can_core
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -23.236
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+can_core|clk       100.0 MHz     30.1 MHz      10.000        33.236        -23.236     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+can_core|clk  can_core|clk  |  10.000      -23.236  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: can_core|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                              Arrival            
+Instance                Reference        Type         Pin     Net             Time        Slack  
+                        Clock                                                                    
+-------------------------------------------------------------------------------------------------
+top_tcl.b_0[4]          can_core|clk     DFN1E1C1     Q       b_0[4]          0.737       -23.236
+top_tcl.b[5]            can_core|clk     DFN1E1C1     Q       b[5]            0.737       -23.189
+top_tcl.b[3]            can_core|clk     DFN1E1C1     Q       b[3]            0.737       -23.180
+top_tcl.b[0]            can_core|clk     DFN1E1C1     Q       b[0]            0.737       -23.179
+top_tcl.b[2]            can_core|clk     DFN1E1C1     Q       b[2]            0.737       -23.161
+top_tcl.b[1]            can_core|clk     DFN1E1C1     Q       b[1]            0.737       -22.965
+top_tcl.crc_reg[8]      can_core|clk     DFN1E0C1     Q       crc_reg[8]      0.580       -22.614
+top_tcl.receive         can_core|clk     DFN1E1C1     Q       receive         0.580       -22.435
+top_tcl.err_1_0[0]      can_core|clk     DFN1E1P1     Q       err_1_0[0]      0.737       -22.247
+top_tcl.crc_reg[11]     can_core|clk     DFN1E0C1     Q       crc_reg[11]     0.737       -22.047
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                 Required            
+Instance                Reference        Type         Pin     Net                Time         Slack  
+                        Clock                                                                        
+-----------------------------------------------------------------------------------------------------
+top_tcl.crc_reg[11]     can_core|clk     DFN1E0C1     D       crc_reg_38[11]     9.461        -23.236
+top_tcl.equal[0]        can_core|clk     DFN1E0P1     D       equal_555[0]       9.461        -23.179
+top_tcl.equal_0[0]      can_core|clk     DFN1E0P1     D       equal_555[0]       9.461        -23.179
+top_tcl.equal[1]        can_core|clk     DFN1E0P1     D       equal_555[1]       9.461        -23.115
+top_tcl.equal[2]        can_core|clk     DFN1E0C1     D       equal_555[2]       9.461        -23.115
+top_tcl.equal[3]        can_core|clk     DFN1E0C1     D       equal_555[3]       9.461        -23.115
+top_tcl.equal[4]        can_core|clk     DFN1E0P1     D       equal_555[4]       9.461        -23.115
+top_tcl.crc_reg[13]     can_core|clk     DFN1E0C1     D       crc_reg_38[13]     9.461        -22.941
+top_tcl.crc_reg[1]      can_core|clk     DFN1E0C1     D       crc_reg_38[1]      9.461        -22.913
+top_tcl.crc_reg[2]      can_core|clk     DFN1E0C1     D       crc_reg_38[2]      9.461        -22.913
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.697
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -23.236
+
+    Number of logic level(s):                21
+    Starting point:                          top_tcl.b_0[4] / Q
+    Ending point:                            top_tcl.crc_reg[11] / D
+    The start point is clocked by            can_core|clk [rising] on pin CLK
+    The end   point is clocked by            can_core|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+top_tcl.b_0[4]                     DFN1E1C1     Q        Out     0.737     0.737       -         
+b_0[4]                             Net          -        -       2.082     -           14        
+top_tcl.crc_reg_RNIQQGP[8]         NOR3A        C        In      -         2.819       -         
+top_tcl.crc_reg_RNIQQGP[8]         NOR3A        Y        Out     0.716     3.535       -         
+next_m3_e_0                        Net          -        -       0.806     -           3         
+top_tcl.b_RNIPMUD1[2]              NOR2B        A        In      -         4.341       -         
+top_tcl.b_RNIPMUD1[2]              NOR2B        Y        Out     0.488     4.830       -         
+next_m3_e_1                        Net          -        -       0.322     -           1         
+top_tcl.b_RNIKEC22[1]              NOR2B        A        In      -         5.151       -         
+top_tcl.b_RNIKEC22[1]              NOR2B        Y        Out     0.488     5.640       -         
+un1_crc_reg_12                     Net          -        -       1.184     -           4         
+top_mm.adr_m3_0_a2_0               NOR2         B        In      -         6.823       -         
+top_mm.adr_m3_0_a2_0               NOR2         Y        Out     0.514     7.338       -         
+adr_m3_0_a2_0                      Net          -        -       0.322     -           1         
+top_mm.adr_m2_e_0                  NOR2A        A        In      -         7.659       -         
+top_mm.adr_m2_e_0                  NOR2A        Y        Out     0.627     8.286       -         
+adr_m2_e_0                         Net          -        -       0.322     -           1         
+top_mm.adr_m2_e                    NOR2A        A        In      -         8.608       -         
+top_mm.adr_m2_e                    NOR2A        Y        Out     0.627     9.235       -         
+next_N_5                           Net          -        -       1.184     -           4         
+top_tcl.busidle_RNI3M8R5           NOR3B        C        In      -         10.419      -         
+top_tcl.busidle_RNI3M8R5           NOR3B        Y        Out     0.488     10.907      -         
+next_start_id_reg                  Net          -        -       1.994     -           12        
+top_tcl.b_l1_a0_0[0]               NOR2A        B        In      -         12.901      -         
+top_tcl.b_l1_a0_0[0]               NOR2A        Y        Out     0.386     13.287      -         
+b_l1_a0_0_0[0]                     Net          -        -       0.322     -           1         
+top_tcl.b_l1_a0[0]                 NOR2A        A        In      -         13.608      -         
+top_tcl.b_l1_a0[0]                 NOR2A        Y        Out     0.627     14.235      -         
+b_l1_a0[0]                         Net          -        -       0.386     -           2         
+top_tcl.b_l1_a0_RNI45NOS[0]        OR2          B        In      -         14.621      -         
+top_tcl.b_l1_a0_RNI45NOS[0]        OR2          Y        Out     0.646     15.268      -         
+b_l1[0]                            Net          -        -       2.127     -           15        
+top_tcl.b_l1_a0_RNI3NVJ41[0]       NOR2A        A        In      -         17.395      -         
+top_tcl.b_l1_a0_RNI3NVJ41[0]       NOR2A        Y        Out     0.627     18.022      -         
+b_l2[0]                            Net          -        -       1.184     -           4         
+top_tcl.b_l1_a0_RNI56L093_0[0]     NOR2B        A        In      -         19.206      -         
+top_tcl.b_l1_a0_RNI56L093_0[0]     NOR2B        Y        Out     0.514     19.720      -         
+err109_1                           Net          -        -       1.423     -           6         
+top_tcl.b_l1_a0_RNI0573T6_0[0]     NOR3B        B        In      -         21.144      -         
+top_tcl.b_l1_a0_RNI0573T6_0[0]     NOR3B        Y        Out     0.607     21.750      -         
+halt_int18_4                       Net          -        -       0.806     -           3         
+top_tcl.b_0_RNIQK2CI8[4]           OR2          A        In      -         22.557      -         
+top_tcl.b_0_RNIQK2CI8[4]           OR2          Y        Out     0.507     23.064      -         
+un1_b_l2_117                       Net          -        -       0.322     -           1         
+top_tcl.df_l_2_m_RNIR004CA         OA1C         A        In      -         23.386      -         
+top_tcl.df_l_2_m_RNIR004CA         OA1C         Y        Out     0.931     24.317      -         
+crc_reg46                          Net          -        -       0.386     -           2         
+top_tcl.crc_reg_RNIVAV3PA[14]      NOR3B        B        In      -         24.703      -         
+top_tcl.crc_reg_RNIVAV3PA[14]      NOR3B        Y        Out     0.624     25.327      -         
+crc_reg_2_sqmuxa_227               Net          -        -       0.322     -           1         
+top_tcl.crc_reg_RNIEM3NQM[14]      OR2          B        In      -         25.648      -         
+top_tcl.crc_reg_RNIEM3NQM[14]      OR2          Y        Out     0.514     26.163      -         
+un1_crc_reg_2_sqmuxa               Net          -        -       0.386     -           2         
+top_tcl.crc_reg_RNI0R8QNL1[11]     AO1A         C        In      -         26.549      -         
+top_tcl.crc_reg_RNI0R8QNL1[11]     AO1A         Y        Out     0.655     27.204      -         
+N_1859                             Net          -        -       1.526     -           7         
+top_tcl.crc_reg_RNIFV3MAC2[11]     OR2A         B        In      -         28.730      -         
+top_tcl.crc_reg_RNIFV3MAC2[11]     OR2A         Y        Out     0.514     29.244      -         
+N_1862                             Net          -        -       1.639     -           8         
+top_tcl.crc_reg_RNO_1[11]          NOR2B        A        In      -         30.883      -         
+top_tcl.crc_reg_RNO_1[11]          NOR2B        Y        Out     0.488     31.371      -         
+crc_reg_m_4[10]                    Net          -        -       0.322     -           1         
+top_tcl.crc_reg_RNO[11]            OR3          C        In      -         31.693      -         
+top_tcl.crc_reg_RNO[11]            OR3          Y        Out     0.683     32.376      -         
+crc_reg_38[11]                     Net          -        -       0.322     -           1         
+top_tcl.crc_reg[11]                DFN1E0C1     D        In      -         32.697      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 33.236 is 13.552(40.8%) logic and 19.684(59.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.650
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -23.189
+
+    Number of logic level(s):                21
+    Starting point:                          top_tcl.b[5] / Q
+    Ending point:                            top_tcl.crc_reg[11] / D
+    The start point is clocked by            can_core|clk [rising] on pin CLK
+    The end   point is clocked by            can_core|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+top_tcl.b[5]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[5]                               Net          -        -       2.263     -           18        
+top_tcl.crc_reg_RNIQQGP[8]         NOR3A        B        In      -         3.000       -         
+top_tcl.crc_reg_RNIQQGP[8]         NOR3A        Y        Out     0.488     3.488       -         
+next_m3_e_0                        Net          -        -       0.806     -           3         
+top_tcl.b_RNIPMUD1[2]              NOR2B        A        In      -         4.295       -         
+top_tcl.b_RNIPMUD1[2]              NOR2B        Y        Out     0.488     4.783       -         
+next_m3_e_1                        Net          -        -       0.322     -           1         
+top_tcl.b_RNIKEC22[1]              NOR2B        A        In      -         5.104       -         
+top_tcl.b_RNIKEC22[1]              NOR2B        Y        Out     0.488     5.593       -         
+un1_crc_reg_12                     Net          -        -       1.184     -           4         
+top_mm.adr_m3_0_a2_0               NOR2         B        In      -         6.776       -         
+top_mm.adr_m3_0_a2_0               NOR2         Y        Out     0.514     7.291       -         
+adr_m3_0_a2_0                      Net          -        -       0.322     -           1         
+top_mm.adr_m2_e_0                  NOR2A        A        In      -         7.612       -         
+top_mm.adr_m2_e_0                  NOR2A        Y        Out     0.627     8.239       -         
+adr_m2_e_0                         Net          -        -       0.322     -           1         
+top_mm.adr_m2_e                    NOR2A        A        In      -         8.561       -         
+top_mm.adr_m2_e                    NOR2A        Y        Out     0.627     9.188       -         
+next_N_5                           Net          -        -       1.184     -           4         
+top_tcl.busidle_RNI3M8R5           NOR3B        C        In      -         10.372      -         
+top_tcl.busidle_RNI3M8R5           NOR3B        Y        Out     0.488     10.860      -         
+next_start_id_reg                  Net          -        -       1.994     -           12        
+top_tcl.b_l1_a0_0[0]               NOR2A        B        In      -         12.854      -         
+top_tcl.b_l1_a0_0[0]               NOR2A        Y        Out     0.386     13.240      -         
+b_l1_a0_0_0[0]                     Net          -        -       0.322     -           1         
+top_tcl.b_l1_a0[0]                 NOR2A        A        In      -         13.561      -         
+top_tcl.b_l1_a0[0]                 NOR2A        Y        Out     0.627     14.188      -         
+b_l1_a0[0]                         Net          -        -       0.386     -           2         
+top_tcl.b_l1_a0_RNI45NOS[0]        OR2          B        In      -         14.574      -         
+top_tcl.b_l1_a0_RNI45NOS[0]        OR2          Y        Out     0.646     15.221      -         
+b_l1[0]                            Net          -        -       2.127     -           15        
+top_tcl.b_l1_a0_RNI3NVJ41[0]       NOR2A        A        In      -         17.348      -         
+top_tcl.b_l1_a0_RNI3NVJ41[0]       NOR2A        Y        Out     0.627     17.976      -         
+b_l2[0]                            Net          -        -       1.184     -           4         
+top_tcl.b_l1_a0_RNI56L093_0[0]     NOR2B        A        In      -         19.159      -         
+top_tcl.b_l1_a0_RNI56L093_0[0]     NOR2B        Y        Out     0.514     19.674      -         
+err109_1                           Net          -        -       1.423     -           6         
+top_tcl.b_l1_a0_RNI0573T6_0[0]     NOR3B        B        In      -         21.097      -         
+top_tcl.b_l1_a0_RNI0573T6_0[0]     NOR3B        Y        Out     0.607     21.703      -         
+halt_int18_4                       Net          -        -       0.806     -           3         
+top_tcl.b_0_RNIQK2CI8[4]           OR2          A        In      -         22.510      -         
+top_tcl.b_0_RNIQK2CI8[4]           OR2          Y        Out     0.507     23.017      -         
+un1_b_l2_117                       Net          -        -       0.322     -           1         
+top_tcl.df_l_2_m_RNIR004CA         OA1C         A        In      -         23.339      -         
+top_tcl.df_l_2_m_RNIR004CA         OA1C         Y        Out     0.931     24.270      -         
+crc_reg46                          Net          -        -       0.386     -           2         
+top_tcl.crc_reg_RNIVAV3PA[14]      NOR3B        B        In      -         24.656      -         
+top_tcl.crc_reg_RNIVAV3PA[14]      NOR3B        Y        Out     0.624     25.280      -         
+crc_reg_2_sqmuxa_227               Net          -        -       0.322     -           1         
+top_tcl.crc_reg_RNIEM3NQM[14]      OR2          B        In      -         25.601      -         
+top_tcl.crc_reg_RNIEM3NQM[14]      OR2          Y        Out     0.514     26.116      -         
+un1_crc_reg_2_sqmuxa               Net          -        -       0.386     -           2         
+top_tcl.crc_reg_RNI0R8QNL1[11]     AO1A         C        In      -         26.502      -         
+top_tcl.crc_reg_RNI0R8QNL1[11]     AO1A         Y        Out     0.655     27.157      -         
+N_1859                             Net          -        -       1.526     -           7         
+top_tcl.crc_reg_RNIFV3MAC2[11]     OR2A         B        In      -         28.683      -         
+top_tcl.crc_reg_RNIFV3MAC2[11]     OR2A         Y        Out     0.514     29.197      -         
+N_1862                             Net          -        -       1.639     -           8         
+top_tcl.crc_reg_RNO_1[11]          NOR2B        A        In      -         30.836      -         
+top_tcl.crc_reg_RNO_1[11]          NOR2B        Y        Out     0.488     31.324      -         
+crc_reg_m_4[10]                    Net          -        -       0.322     -           1         
+top_tcl.crc_reg_RNO[11]            OR3          C        In      -         31.646      -         
+top_tcl.crc_reg_RNO[11]            OR3          Y        Out     0.683     32.329      -         
+crc_reg_38[11]                     Net          -        -       0.322     -           1         
+top_tcl.crc_reg[11]                DFN1E0C1     D        In      -         32.650      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 33.189 is 13.324(40.1%) logic and 19.865(59.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.642
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -23.180
+
+    Number of logic level(s):                21
+    Starting point:                          top_tcl.b[3] / Q
+    Ending point:                            top_tcl.crc_reg[11] / D
+    The start point is clocked by            can_core|clk [rising] on pin CLK
+    The end   point is clocked by            can_core|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+top_tcl.b[3]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[3]                               Net          -        -       2.308     -           19        
+top_tcl.b_RNIVRDK_0[2]             NOR2A        B        In      -         3.045       -         
+top_tcl.b_RNIVRDK_0[2]             NOR2A        Y        Out     0.407     3.452       -         
+un1_crc_reg_12_1                   Net          -        -       0.806     -           3         
+top_tcl.b_RNIPMUD1[2]              NOR2B        B        In      -         4.258       -         
+top_tcl.b_RNIPMUD1[2]              NOR2B        Y        Out     0.516     4.774       -         
+next_m3_e_1                        Net          -        -       0.322     -           1         
+top_tcl.b_RNIKEC22[1]              NOR2B        A        In      -         5.096       -         
+top_tcl.b_RNIKEC22[1]              NOR2B        Y        Out     0.488     5.584       -         
+un1_crc_reg_12                     Net          -        -       1.184     -           4         
+top_mm.adr_m3_0_a2_0               NOR2         B        In      -         6.768       -         
+top_mm.adr_m3_0_a2_0               NOR2         Y        Out     0.514     7.282       -         
+adr_m3_0_a2_0                      Net          -        -       0.322     -           1         
+top_mm.adr_m2_e_0                  NOR2A        A        In      -         7.603       -         
+top_mm.adr_m2_e_0                  NOR2A        Y        Out     0.627     8.231       -         
+adr_m2_e_0                         Net          -        -       0.322     -           1         
+top_mm.adr_m2_e                    NOR2A        A        In      -         8.552       -         
+top_mm.adr_m2_e                    NOR2A        Y        Out     0.627     9.180       -         
+next_N_5                           Net          -        -       1.184     -           4         
+top_tcl.busidle_RNI3M8R5           NOR3B        C        In      -         10.363      -         
+top_tcl.busidle_RNI3M8R5           NOR3B        Y        Out     0.488     10.852      -         
+next_start_id_reg                  Net          -        -       1.994     -           12        
+top_tcl.b_l1_a0_0[0]               NOR2A        B        In      -         12.845      -         
+top_tcl.b_l1_a0_0[0]               NOR2A        Y        Out     0.386     13.231      -         
+b_l1_a0_0_0[0]                     Net          -        -       0.322     -           1         
+top_tcl.b_l1_a0[0]                 NOR2A        A        In      -         13.552      -         
+top_tcl.b_l1_a0[0]                 NOR2A        Y        Out     0.627     14.180      -         
+b_l1_a0[0]                         Net          -        -       0.386     -           2         
+top_tcl.b_l1_a0_RNI45NOS[0]        OR2          B        In      -         14.566      -         
+top_tcl.b_l1_a0_RNI45NOS[0]        OR2          Y        Out     0.646     15.212      -         
+b_l1[0]                            Net          -        -       2.127     -           15        
+top_tcl.b_l1_a0_RNI3NVJ41[0]       NOR2A        A        In      -         17.339      -         
+top_tcl.b_l1_a0_RNI3NVJ41[0]       NOR2A        Y        Out     0.627     17.967      -         
+b_l2[0]                            Net          -        -       1.184     -           4         
+top_tcl.b_l1_a0_RNI56L093_0[0]     NOR2B        A        In      -         19.150      -         
+top_tcl.b_l1_a0_RNI56L093_0[0]     NOR2B        Y        Out     0.514     19.665      -         
+err109_1                           Net          -        -       1.423     -           6         
+top_tcl.b_l1_a0_RNI0573T6_0[0]     NOR3B        B        In      -         21.088      -         
+top_tcl.b_l1_a0_RNI0573T6_0[0]     NOR3B        Y        Out     0.607     21.695      -         
+halt_int18_4                       Net          -        -       0.806     -           3         
+top_tcl.b_0_RNIQK2CI8[4]           OR2          A        In      -         22.501      -         
+top_tcl.b_0_RNIQK2CI8[4]           OR2          Y        Out     0.507     23.009      -         
+un1_b_l2_117                       Net          -        -       0.322     -           1         
+top_tcl.df_l_2_m_RNIR004CA         OA1C         A        In      -         23.330      -         
+top_tcl.df_l_2_m_RNIR004CA         OA1C         Y        Out     0.931     24.262      -         
+crc_reg46                          Net          -        -       0.386     -           2         
+top_tcl.crc_reg_RNIVAV3PA[14]      NOR3B        B        In      -         24.647      -         
+top_tcl.crc_reg_RNIVAV3PA[14]      NOR3B        Y        Out     0.624     25.271      -         
+crc_reg_2_sqmuxa_227               Net          -        -       0.322     -           1         
+top_tcl.crc_reg_RNIEM3NQM[14]      OR2          B        In      -         25.593      -         
+top_tcl.crc_reg_RNIEM3NQM[14]      OR2          Y        Out     0.514     26.107      -         
+un1_crc_reg_2_sqmuxa               Net          -        -       0.386     -           2         
+top_tcl.crc_reg_RNI0R8QNL1[11]     AO1A         C        In      -         26.493      -         
+top_tcl.crc_reg_RNI0R8QNL1[11]     AO1A         Y        Out     0.655     27.148      -         
+N_1859                             Net          -        -       1.526     -           7         
+top_tcl.crc_reg_RNIFV3MAC2[11]     OR2A         B        In      -         28.674      -         
+top_tcl.crc_reg_RNIFV3MAC2[11]     OR2A         Y        Out     0.514     29.189      -         
+N_1862                             Net          -        -       1.639     -           8         
+top_tcl.crc_reg_RNO_1[11]          NOR2B        A        In      -         30.827      -         
+top_tcl.crc_reg_RNO_1[11]          NOR2B        Y        Out     0.488     31.316      -         
+crc_reg_m_4[10]                    Net          -        -       0.322     -           1         
+top_tcl.crc_reg_RNO[11]            OR3          C        In      -         31.637      -         
+top_tcl.crc_reg_RNO[11]            OR3          Y        Out     0.683     32.320      -         
+crc_reg_38[11]                     Net          -        -       0.322     -           1         
+top_tcl.crc_reg[11]                DFN1E0C1     D        In      -         32.642      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 33.180 is 13.270(40.0%) logic and 19.910(60.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.640
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -23.179
+
+    Number of logic level(s):                20
+    Starting point:                          top_tcl.b[0] / Q
+    Ending point:                            top_tcl.equal[0] / D
+    The start point is clocked by            can_core|clk [rising] on pin CLK
+    The end   point is clocked by            can_core|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+top_tcl.b[0]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                               Net          -        -       2.409     -           22        
+top_tcl.b_RNIRNDK_0[1]             NOR2B        B        In      -         3.146       -         
+top_tcl.b_RNIRNDK_0[1]             NOR2B        Y        Out     0.627     3.773       -         
+revalid_1                          Net          -        -       1.423     -           6         
+top_tcl.b_RNIKEC22[1]              NOR2B        B        In      -         5.197       -         
+top_tcl.b_RNIKEC22[1]              NOR2B        Y        Out     0.627     5.824       -         
+un1_crc_reg_12                     Net          -        -       1.184     -           4         
+top_mm.adr_m3_0_a2_0               NOR2         B        In      -         7.008       -         
+top_mm.adr_m3_0_a2_0               NOR2         Y        Out     0.646     7.654       -         
+adr_m3_0_a2_0                      Net          -        -       0.322     -           1         
+top_mm.adr_m2_e_0                  NOR2A        A        In      -         7.976       -         
+top_mm.adr_m2_e_0                  NOR2A        Y        Out     0.516     8.492       -         
+adr_m2_e_0                         Net          -        -       0.322     -           1         
+top_mm.adr_m2_e                    NOR2A        A        In      -         8.813       -         
+top_mm.adr_m2_e                    NOR2A        Y        Out     0.516     9.329       -         
+next_N_5                           Net          -        -       1.184     -           4         
+top_tcl.busidle_RNI3M8R5           NOR3B        C        In      -         10.513      -         
+top_tcl.busidle_RNI3M8R5           NOR3B        Y        Out     0.360     10.873      -         
+next_start_id_reg                  Net          -        -       1.994     -           12        
+top_tcl.b_l1_a0_0[0]               NOR2A        B        In      -         12.866      -         
+top_tcl.b_l1_a0_0[0]               NOR2A        Y        Out     0.407     13.273      -         
+b_l1_a0_0_0[0]                     Net          -        -       0.322     -           1         
+top_tcl.b_l1_a0[0]                 NOR2A        A        In      -         13.594      -         
+top_tcl.b_l1_a0[0]                 NOR2A        Y        Out     0.516     14.110      -         
+b_l1_a0[0]                         Net          -        -       0.386     -           2         
+top_tcl.b_l1_a0_RNI45NOS_0[0]      OR2          B        In      -         14.496      -         
+top_tcl.b_l1_a0_RNI45NOS_0[0]      OR2          Y        Out     0.514     15.011      -         
+b_l1_0[0]                          Net          -        -       2.127     -           15        
+top_tcl.b_RNI9NBVV2[1]             AO1          C        In      -         17.138      -         
+top_tcl.b_RNI9NBVV2[1]             AO1          Y        Out     0.655     17.793      -         
+equal226_N_4_0                     Net          -        -       1.526     -           7         
+top_tcl.b_RNIVQ4JH6_0[3]           NOR3B        B        In      -         19.319      -         
+top_tcl.b_RNIVQ4JH6_0[3]           NOR3B        Y        Out     0.624     19.943      -         
+cd_N_5_mux                         Net          -        -       0.386     -           2         
+top_tcl.b_RNIP7NKGA[5]             NOR3B        C        In      -         20.329      -         
+top_tcl.b_RNIP7NKGA[5]             NOR3B        Y        Out     0.360     20.688      -         
+b_RNIP7NKGA[5]                     Net          -        -       0.386     -           2         
+top_tcl.cd_RNIF4FPBM               OR2          B        In      -         21.074      -         
+top_tcl.cd_RNIF4FPBM               OR2          Y        Out     0.646     21.721      -         
+cd_l                               Net          -        -       2.466     -           24        
+top_tcl.transmit_RNIJ0C2871        NOR2B        B        In      -         24.187      -         
+top_tcl.transmit_RNIJ0C2871        NOR2B        Y        Out     0.627     24.814      -         
+equal_17_sqmuxa                    Net          -        -       0.322     -           1         
+top_tcl.acf_RNIEIV2IF              OR3          B        In      -         25.136      -         
+top_tcl.acf_RNIEIV2IF              OR3          Y        Out     0.714     25.850      -         
+equal_555_sn_m69_i_o2_6_3          Net          -        -       0.386     -           2         
+top_tcl.cd_RNI66IAET3              OR3          C        In      -         26.236      -         
+top_tcl.cd_RNI66IAET3              OR3          Y        Out     0.751     26.987      -         
+equal_555_sn_m69_i_o2_6            Net          -        -       1.423     -           6         
+top_tcl.cd_RNI8TFJSK2              NOR2A        B        In      -         28.410      -         
+top_tcl.cd_RNI8TFJSK2              NOR2A        Y        Out     0.407     28.817      -         
+equal_N_3_mux                      Net          -        -       0.386     -           2         
+top_tcl.cd_RNISH0G8                NOR2A        B        In      -         29.203      -         
+top_tcl.cd_RNISH0G8                NOR2A        Y        Out     0.386     29.588      -         
+cd_RNISH0G8                        Net          -        -       1.279     -           5         
+top_tcl.crc_reg_RNICI8C382[14]     MX2B         S        In      -         30.868      -         
+top_tcl.crc_reg_RNICI8C382[14]     MX2B         Y        Out     0.480     31.347      -         
+N_1813                             Net          -        -       0.322     -           1         
+top_tcl.equal_RNI5V0CJ73[0]        MX2          B        In      -         31.669      -         
+top_tcl.equal_RNI5V0CJ73[0]        MX2          Y        Out     0.586     32.254      -         
+equal_555[0]                       Net          -        -       0.386     -           2         
+top_tcl.equal[0]                   DFN1E0P1     D        In      -         32.640      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 33.179 is 12.241(36.9%) logic and 20.937(63.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.640
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -23.179
+
+    Number of logic level(s):                20
+    Starting point:                          top_tcl.b[0] / Q
+    Ending point:                            top_tcl.equal_0[0] / D
+    The start point is clocked by            can_core|clk [rising] on pin CLK
+    The end   point is clocked by            can_core|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+top_tcl.b[0]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                               Net          -        -       2.409     -           22        
+top_tcl.b_RNIRNDK_0[1]             NOR2B        B        In      -         3.146       -         
+top_tcl.b_RNIRNDK_0[1]             NOR2B        Y        Out     0.627     3.773       -         
+revalid_1                          Net          -        -       1.423     -           6         
+top_tcl.b_RNIKEC22[1]              NOR2B        B        In      -         5.197       -         
+top_tcl.b_RNIKEC22[1]              NOR2B        Y        Out     0.627     5.824       -         
+un1_crc_reg_12                     Net          -        -       1.184     -           4         
+top_mm.adr_m3_0_a2_0               NOR2         B        In      -         7.008       -         
+top_mm.adr_m3_0_a2_0               NOR2         Y        Out     0.646     7.654       -         
+adr_m3_0_a2_0                      Net          -        -       0.322     -           1         
+top_mm.adr_m2_e_0                  NOR2A        A        In      -         7.976       -         
+top_mm.adr_m2_e_0                  NOR2A        Y        Out     0.516     8.492       -         
+adr_m2_e_0                         Net          -        -       0.322     -           1         
+top_mm.adr_m2_e                    NOR2A        A        In      -         8.813       -         
+top_mm.adr_m2_e                    NOR2A        Y        Out     0.516     9.329       -         
+next_N_5                           Net          -        -       1.184     -           4         
+top_tcl.busidle_RNI3M8R5           NOR3B        C        In      -         10.513      -         
+top_tcl.busidle_RNI3M8R5           NOR3B        Y        Out     0.360     10.873      -         
+next_start_id_reg                  Net          -        -       1.994     -           12        
+top_tcl.b_l1_a0_0[0]               NOR2A        B        In      -         12.866      -         
+top_tcl.b_l1_a0_0[0]               NOR2A        Y        Out     0.407     13.273      -         
+b_l1_a0_0_0[0]                     Net          -        -       0.322     -           1         
+top_tcl.b_l1_a0[0]                 NOR2A        A        In      -         13.594      -         
+top_tcl.b_l1_a0[0]                 NOR2A        Y        Out     0.516     14.110      -         
+b_l1_a0[0]                         Net          -        -       0.386     -           2         
+top_tcl.b_l1_a0_RNI45NOS_0[0]      OR2          B        In      -         14.496      -         
+top_tcl.b_l1_a0_RNI45NOS_0[0]      OR2          Y        Out     0.514     15.011      -         
+b_l1_0[0]                          Net          -        -       2.127     -           15        
+top_tcl.b_RNI9NBVV2[1]             AO1          C        In      -         17.138      -         
+top_tcl.b_RNI9NBVV2[1]             AO1          Y        Out     0.655     17.793      -         
+equal226_N_4_0                     Net          -        -       1.526     -           7         
+top_tcl.b_RNIVQ4JH6_0[3]           NOR3B        B        In      -         19.319      -         
+top_tcl.b_RNIVQ4JH6_0[3]           NOR3B        Y        Out     0.624     19.943      -         
+cd_N_5_mux                         Net          -        -       0.386     -           2         
+top_tcl.b_RNIP7NKGA[5]             NOR3B        C        In      -         20.329      -         
+top_tcl.b_RNIP7NKGA[5]             NOR3B        Y        Out     0.360     20.688      -         
+b_RNIP7NKGA[5]                     Net          -        -       0.386     -           2         
+top_tcl.cd_RNIF4FPBM               OR2          B        In      -         21.074      -         
+top_tcl.cd_RNIF4FPBM               OR2          Y        Out     0.646     21.721      -         
+cd_l                               Net          -        -       2.466     -           24        
+top_tcl.transmit_RNIJ0C2871        NOR2B        B        In      -         24.187      -         
+top_tcl.transmit_RNIJ0C2871        NOR2B        Y        Out     0.627     24.814      -         
+equal_17_sqmuxa                    Net          -        -       0.322     -           1         
+top_tcl.acf_RNIEIV2IF              OR3          B        In      -         25.136      -         
+top_tcl.acf_RNIEIV2IF              OR3          Y        Out     0.714     25.850      -         
+equal_555_sn_m69_i_o2_6_3          Net          -        -       0.386     -           2         
+top_tcl.cd_RNI66IAET3              OR3          C        In      -         26.236      -         
+top_tcl.cd_RNI66IAET3              OR3          Y        Out     0.751     26.987      -         
+equal_555_sn_m69_i_o2_6            Net          -        -       1.423     -           6         
+top_tcl.cd_RNI8TFJSK2              NOR2A        B        In      -         28.410      -         
+top_tcl.cd_RNI8TFJSK2              NOR2A        Y        Out     0.407     28.817      -         
+equal_N_3_mux                      Net          -        -       0.386     -           2         
+top_tcl.cd_RNISH0G8                NOR2A        B        In      -         29.203      -         
+top_tcl.cd_RNISH0G8                NOR2A        Y        Out     0.386     29.588      -         
+cd_RNISH0G8                        Net          -        -       1.279     -           5         
+top_tcl.crc_reg_RNICI8C382[14]     MX2B         S        In      -         30.868      -         
+top_tcl.crc_reg_RNICI8C382[14]     MX2B         Y        Out     0.480     31.347      -         
+N_1813                             Net          -        -       0.322     -           1         
+top_tcl.equal_RNI5V0CJ73[0]        MX2          B        In      -         31.669      -         
+top_tcl.equal_RNI5V0CJ73[0]        MX2          Y        Out     0.586     32.254      -         
+equal_555[0]                       Net          -        -       0.386     -           2         
+top_tcl.equal_0[0]                 DFN1E0P1     D        In      -         32.640      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 33.179 is 12.241(36.9%) logic and 20.937(63.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:38s; Memory used current: 173MB peak: 228MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:38s; Memory used current: 173MB peak: 228MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell can_core.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    41      1.0       41.0
+              AND3     5      1.0        5.0
+               AO1   185      1.0      185.0
+              AO13     4      1.0        4.0
+              AO18    12      1.0       12.0
+              AO1A    66      1.0       66.0
+              AO1B    13      1.0       13.0
+              AO1C    23      1.0       23.0
+              AO1D    14      1.0       14.0
+              AOI1    32      1.0       32.0
+             AOI1B    38      1.0       38.0
+               AX1     9      1.0        9.0
+              AX1A     1      1.0        1.0
+              AX1B     6      1.0        6.0
+              AX1C     5      1.0        5.0
+              AX1D     2      1.0        2.0
+              AXO2     1      1.0        1.0
+              AXO6     1      1.0        1.0
+             AXOI1     1      1.0        1.0
+             AXOI3     1      1.0        1.0
+             AXOI7     2      1.0        2.0
+              BUFF    10      1.0       10.0
+            CLKINT     4      0.0        0.0
+               GND    15      0.0        0.0
+               INV     1      1.0        1.0
+              MAJ3     5      1.0        5.0
+              MIN3     4      1.0        4.0
+               MX2   971      1.0      971.0
+              MX2A    14      1.0       14.0
+              MX2B    24      1.0       24.0
+              MX2C    24      1.0       24.0
+              NOR2   168      1.0      168.0
+             NOR2A   544      1.0      544.0
+             NOR2B   430      1.0      430.0
+              NOR3    45      1.0       45.0
+             NOR3A   141      1.0      141.0
+             NOR3B   225      1.0      225.0
+             NOR3C   200      1.0      200.0
+               OA1    81      1.0       81.0
+              OA1A    57      1.0       57.0
+              OA1B    30      1.0       30.0
+              OA1C    66      1.0       66.0
+              OAI1    16      1.0       16.0
+               OR2   183      1.0      183.0
+              OR2A    79      1.0       79.0
+              OR2B    17      1.0       17.0
+               OR3   160      1.0      160.0
+              OR3A    25      1.0       25.0
+              OR3B    13      1.0       13.0
+               VCC    15      0.0        0.0
+               XA1     7      1.0        7.0
+              XA1A     3      1.0        3.0
+              XA1B    68      1.0       68.0
+              XA1C     9      1.0        9.0
+             XNOR2    15      1.0       15.0
+             XNOR3     8      1.0        8.0
+               XO1     3      1.0        3.0
+              XO1A     2      1.0        2.0
+              XOR2    97      1.0       97.0
+              XOR3     6      1.0        6.0
+
+
+            DFN1C0    37      1.0       37.0
+            DFN1C1    18      1.0       18.0
+          DFN1E0C0    34      1.0       34.0
+          DFN1E0C1    45      1.0       45.0
+          DFN1E0P0    17      1.0       17.0
+          DFN1E0P1     6      1.0        6.0
+          DFN1E1C0   113      1.0      113.0
+          DFN1E1C1    43      1.0       43.0
+          DFN1E1P0   603      1.0      603.0
+          DFN1E1P1     5      1.0        5.0
+            DFN1P0    10      1.0       10.0
+            DFN1P1     3      1.0        3.0
+                   -----          ----------
+             TOTAL  5181              5147.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    18
+            OUTBUF    29
+                   -----
+             TOTAL    49
+
+
+Core Cells         : 5147 of 24576 (21%)
+IO Cells           : 49
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:38s; Memory used current: 37MB peak: 228MB)
+
+Process took 0h:00m:39s realtime, 0h:00m:38s cputime
+# Mon Apr 08 22:01:31 2019
+
+###########################################################]

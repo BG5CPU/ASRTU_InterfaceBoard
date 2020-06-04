@@ -1,0 +1,24 @@
+*****************************************************************
+Pin Report - Date: Mon Mar 04 19:03:16 2019 UNCOMPLETED LAYOUT
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: top_0
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port         |Pin |Fixed |Function       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------------|----|------|---------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+CLK           129  Yes    GCB2/IO95PSB1   LVCMOS33  ---                ---   None           ---   ---               No           No
+GD            205  Yes    GAA1/IO01RSB0   LVCMOS33  12                 High  None           No    35                No           No
+LED_1         39   Yes    IO197PSB3       LVCMOS33  12                 High  None           No    35                No           No
+MAGA_EN       11   Yes    IO220NDB3       LVCMOS33  12                 High  None           No    35                No           No
+MAGA_INVALID  8    Yes    IO222PDB3       LVCMOS33  ---                ---   None           ---   ---               No           No
+MAGA_PC_RD    9    Yes    IO222NDB3       LVCMOS33  ---                ---   None           ---   ---               No           No
+MAGA_PC_TD    7    Yes    IO223NDB3       LVCMOS33  12                 High  None           No    35                No           No
+MAGA_READY    6    Yes    GAC2/IO223PDB3  LVCMOS33  ---                ---   None           ---   ---               No           No
+my_TX         204  Yes    GAB0/IO02RSB0   LVCMOS33  12                 High  None           No    35                No           No
+PC_MAGA_RX    202  Yes    GAC0/IO04RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+PC_MAGA_TX    203  Yes    GAB1/IO03RSB0   LVCMOS33  12                 High  None           No    35                No           No
+RESETN        206  Yes    GAA0/IO00RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No

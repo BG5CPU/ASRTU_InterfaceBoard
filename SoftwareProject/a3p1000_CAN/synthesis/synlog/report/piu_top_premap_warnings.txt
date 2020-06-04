@@ -1,0 +1,1 @@
+@W: MT530 :"d:\fpga\a3p1000_can\hdl\hdl\rst_if.vhd":40:8:40:9|Found inferred clock piu_top|clk_i which controls 2975 sequential elements including C2.rst_reg[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,559 @@
+***************************************************************************
+                               Status Report
+                          Mon Mar 16 09:55:15 2020 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP5
+Version: 11.9.5.5
+File Name: D:\Work_space\libero_soc\FPGA\a3p1000_CAN\designer\impl1\piu_top_1.adb
+Design Name: piu_top  Design State: layout
+Last Saved: Tue Apr 09 15:46:56 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Apr 09 15:46:45 2019:
+        D:\Work_space\libero_soc\FPGA\a3p1000_CAN\synthesis\piu_top.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\FPGA\a3p1000_CAN\synthesis\piu_top.edn
+Format      : EDIF
+Topcell     : piu_top
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net C3/RAM2/RAM_128X12_R0C0_RD12 drives no load.
+Warning: CMP201: Net C3/RAM2/RAM_128X12_R0C0_RD13 drives no load.
+Warning: CMP201: Net C3/RAM2/RAM_128X12_R0C0_RD14 drives no load.
+Warning: CMP201: Net C3/RAM2/RAM_128X12_R0C0_RD15 drives no load.
+Warning: CMP201: Net C3/RAM2/RAM_128X12_R0C0_RD16 drives no load.
+Warning: CMP201: Net C3/RAM2/RAM_128X12_R0C0_RD17 drives no load.
+Warning: CMP201: Net C3/RAM1/RAM_128X12_R0C0_RD12_0 drives no load.
+Warning: CMP201: Net C3/RAM1/RAM_128X12_R0C0_RD13_0 drives no load.
+Warning: CMP201: Net C3/RAM1/RAM_128X12_R0C0_RD14_0 drives no load.
+Warning: CMP201: Net C3/RAM1/RAM_128X12_R0C0_RD15_0 drives no load.
+Warning: CMP201: Net C3/RAM1/RAM_128X12_R0C0_RD16_0 drives no load.
+Warning: CMP201: Net C3/RAM1/RAM_128X12_R0C0_RD17_0 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA0_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA1_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA2_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA3_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA4_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA5_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA6_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA7_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTA8_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTB4_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTB5_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTB6_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTB7_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C0_DOUTB8_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA0_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA1_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA2_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA3_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA4_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA5_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA6_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA7_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTA8_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTB4_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTB5_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTB6_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTB7_5 drives no load.
+Warning: CMP201: Net C6/RAM2/RAM_1024B_R0C1_DOUTB8_5 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA0_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA1_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA2_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA3_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA4_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA5_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA6_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA7_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTA8_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTB4_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTB5_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTB6_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTB7_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C0_DOUTB8_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA0_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA1_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA2_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA3_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA4_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA5_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA6_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA7_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTA8_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTB4_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTB5_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTB6_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTB7_6 drives no load.
+Warning: CMP201: Net C6/RAM1/RAM_1024B_R0C1_DOUTB8_6 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA0_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA1_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA2_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA3_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA4_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA5_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA6_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA7_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTA8_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTB4_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTB5_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTB6_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTB7_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C0_DOUTB8_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA0_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA1_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA2_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA3_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA4_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA5_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA6_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA7_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTA8_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTB4_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTB5_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTB6_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTB7_3 drives no load.
+Warning: CMP201: Net C6/RAM4/RAM_1024B_R0C1_DOUTB8_3 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA0_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA1_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA2_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA3_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA4_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA5_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA6_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA7_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTA8_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTB4_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTB5_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTB6_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTB7_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C0_DOUTB8_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA0_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA1_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA2_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA3_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA4_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA5_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA6_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA7_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTA8_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTB4_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTB5_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTB6_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTB7_2 drives no load.
+Warning: CMP201: Net C6/RAM5/RAM_1024B_R0C1_DOUTB8_2 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA0_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA1_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA2_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA3_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA4_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA5_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA6_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA7_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTA8_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTB4_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTB5_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTB6_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTB7_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C0_DOUTB8_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA0_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA1_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA2_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA3_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA4_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA5_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA6_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA7_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTA8_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTB4_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTB5_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTB6_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTB7_4 drives no load.
+Warning: CMP201: Net C6/RAM3/RAM_1024B_R0C1_DOUTB8_4 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA0_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA1_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA2_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA3_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA4_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA5_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA6_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA7_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTA8_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTB4_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTB5_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTB6_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTB7_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C0_DOUTB8_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA0_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA1_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA2_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA3_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA4_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA5_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA6_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA7_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTA8_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTB4_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTB5_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTB6_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTB7_0 drives no load.
+Warning: CMP201: Net C6/RAM7/RAM_1024B_R0C1_DOUTB8_0 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA0 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA1 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA2 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA3 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA4 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA5 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA6 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA7 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTA8 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTB4 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTB5 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTB6 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTB7 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C0_DOUTB8 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA0 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA1 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA2 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA3 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA4 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA5 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA6 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA7 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTA8 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTB4 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTB5 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTB6 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTB7 drives no load.
+Warning: CMP201: Net C6/RAM8/RAM_1024B_R0C1_DOUTB8 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA0_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA1_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA2_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA3_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA4_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA5_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA6_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA7_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTA8_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTB4_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTB5_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTB6_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTB7_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C0_DOUTB8_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA0_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA1_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA2_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA3_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA4_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA5_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA6_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA7_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTA8_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTB4_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTB5_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTB6_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTB7_1 drives no load.
+Warning: CMP201: Net C6/RAM6/RAM_1024B_R0C1_DOUTB8_1 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA0_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA1_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA2_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA3_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA4_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA5_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA6_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA7_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTA8_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTB4_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTB5_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTB6_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTB7_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C0_DOUTB8_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA0_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA1_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA2_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA3_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA4_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA5_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA6_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA7_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTA8_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTB4_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTB5_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTB6_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTB7_7 drives no load.
+Warning: CMP201: Net C6/RAM0/RAM_1024B_R0C1_DOUTB8_7 drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   31
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        555
+
+    Total macros optimized  586
+
+Warning: CMP503: Remapped 196 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 265 warning(s) in this design.
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:  15374  Total:  24576   (62.56%)
+    IO (W/ clocks)             Used:     57  Total:    154   (37.01%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:     20  Total:     32   (62.50%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 6      | 6  (100.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 12297        | 12297
+    SEQ     | 3077         | 3077
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 7             | 0            | 0
+    Output I/O                            | 50            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 7     | 50     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:  57 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    24      SET/RESET_NET Net   : C9/reset_request_0
+                          Driver: C9/top_iml/reset_request_0
+    24      SET/RESET_NET Net   : C9/reset_request_2
+                          Driver: C9/top_iml/reset_request_2
+    24      SET/RESET_NET Net   : C9/reset_request_3
+                          Driver: C9/top_iml/reset_request_3
+    24      SET/RESET_NET Net   : C8/reset_request_0
+                          Driver: C8/top_iml/reset_request_0
+    24      SET/RESET_NET Net   : C8/reset_request_1
+                          Driver: C8/top_iml/reset_request_1
+    23      SET/RESET_NET Net   : C8/reset_request_3
+                          Driver: C8/top_iml/reset_request_3
+    13      SET/RESET_NET Net   : C9/reset_request_1
+                          Driver: C9/top_iml/reset_request_1
+    13      SET/RESET_NET Net   : C9/reset_request_1_0
+                          Driver: C9/top_iml/reset_request_1_0
+    13      SET/RESET_NET Net   : C8/reset_request_2
+                          Driver: C8/top_iml/reset_request_2
+    13      SET/RESET_NET Net   : C8/reset_request_2_0
+                          Driver: C8/top_iml/reset_request_2_0
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    3117    CLK_NET       Net   : sysclk_c
+                          Driver: C0
+                          Source: NETLIST
+    890     SET/RESET_NET Net   : sysrst_c
+                          Driver: C1
+                          Source: NETLIST
+    819     SET/RESET_NET Net   : canb_rst_c
+                          Driver: C6/canb_rst_o_RNI1SS2
+                          Source: NETLIST
+    817     SET/RESET_NET Net   : cana_rst_c
+                          Driver: C6/cana_rst_o_RNI0MDE
+                          Source: NETLIST
+    645     INT_NET       Net   : cana_addr_c[3]
+                          Driver: C7/cana_addr_o_RNIEIMB[3]
+                          Source: NETLIST
+    312     SET/RESET_NET Net   : rst_i_c
+                          Driver: rst_i_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    25      INT_NET       Net   : C9/top_tcl/err_1[7]
+                          Driver: C9/top_tcl/err_1[7]/U1
+    25      INT_NET       Net   : C9/top_tcl/err_1[1]
+                          Driver: C9/top_tcl/err_1[1]/U1
+    25      INT_NET       Net   : C8/acf
+                          Driver: C8/top_tcl/acf/U1
+    25      INT_NET       Net   : C8/top_tcl/err_1[2]
+                          Driver: C8/top_tcl/err_1[2]/U1
+    24      INT_NET       Net   : hi_addr_o_c[1]
+                          Driver: C3/hi_addr[1]
+    24      INT_NET       Net   : cana_datain_c_0[2]
+                          Driver: C7/cana_data_o_0[2]
+    24      INT_NET       Net   : cana_datain_c_1[2]
+                          Driver: C7/cana_data_o_1[2]
+    24      INT_NET       Net   : cana_datain_c_0[1]
+                          Driver: C7/cana_data_o_0[1]
+    24      INT_NET       Net   : cana_datain_c_1[1]
+                          Driver: C7/cana_data_o_1[1]
+    24      INT_NET       Net   : cana_addr_c_0[2]
+                          Driver: C7/cana_addr_o_0[2]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    25      INT_NET       Net   : C9/top_tcl/err_1[7]
+                          Driver: C9/top_tcl/err_1[7]/U1
+    25      INT_NET       Net   : C9/top_tcl/err_1[1]
+                          Driver: C9/top_tcl/err_1[1]/U1
+    25      INT_NET       Net   : C8/acf
+                          Driver: C8/top_tcl/acf/U1
+    25      INT_NET       Net   : C8/top_tcl/err_1[2]
+                          Driver: C8/top_tcl/err_1[2]/U1
+    24      INT_NET       Net   : hi_addr_o_c[1]
+                          Driver: C3/hi_addr[1]
+    24      INT_NET       Net   : cana_datain_c_0[2]
+                          Driver: C7/cana_data_o_0[2]
+    24      INT_NET       Net   : cana_datain_c_1[2]
+                          Driver: C7/cana_data_o_1[2]
+    24      INT_NET       Net   : cana_datain_c_0[1]
+                          Driver: C7/cana_data_o_0[1]
+    24      INT_NET       Net   : cana_datain_c_1[1]
+                          Driver: C7/cana_data_o_1[1]
+    24      INT_NET       Net   : cana_addr_c_0[2]
+                          Driver: C7/cana_addr_o_0[2]
+
+
+Layout Output:
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Mon Mar 16 09:49:47 2020
+
+Placer Finished: Mon Mar 16 09:52:52 2020
+Total Placer CPU Time:     00:03:05
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: piu_top_1                       Started: Mon Mar 16 09:53:01 2020
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: piu_top_1                       
+Finished: Mon Mar 16 09:55:02 2020
+Total CPU Time:     00:02:00            Total Elapsed Time: 00:02:01
+Total Memory Usage: 583.0 Mbytes
+                        o - o - o - o - o - o
+
+
+

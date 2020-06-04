@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>test</design>
+	<target_edif>D:\FPGA\a3p1000\synthesis\test.edn</target_edif>
+</SynplifyOutput>

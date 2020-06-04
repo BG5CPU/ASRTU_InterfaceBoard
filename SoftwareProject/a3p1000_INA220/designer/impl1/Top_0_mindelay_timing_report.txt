@@ -1,0 +1,666 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.9 SP2
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
+Date: Sun Mar 10 21:49:59 2019
+
+
+Design: Top_0
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+Temperature Range: 0 - 70 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 70 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.809
+
+Clock Domain:               PCLK
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         -0.116
+Min Clock-To-Out (ns):      2.553
+
+                            Input to Output
+Min Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+
+SET Register to Register
+
+Path 1
+  From:                  IIC_control_0/ACK_count[2]:CLK
+  To:                    IIC_control_0/ACK_count[2]:D
+  Delay (ns):            0.585
+  Slack (ns):
+  Arrival (ns):          0.705
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 2
+  From:                  IIC_control_0/ACK_count[2]:CLK
+  To:                    IIC_control_0/ACK_count[0]:D
+  Delay (ns):            1.261
+  Slack (ns):
+  Arrival (ns):          1.381
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 3
+  From:                  IIC_control_0/ACK_count[3]:CLK
+  To:                    IIC_control_0/ACK_count[0]:D
+  Delay (ns):            1.150
+  Slack (ns):
+  Arrival (ns):          1.458
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 4
+  From:                  IIC_control_0/ACK_count[0]:CLK
+  To:                    IIC_control_0/ACK_count[1]:D
+  Delay (ns):            0.984
+  Slack (ns):
+  Arrival (ns):          1.479
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 5
+  From:                  IIC_control_0/ACK_count[2]:CLK
+  To:                    IIC_control_0/ACK_count[3]:D
+  Delay (ns):            1.151
+  Slack (ns):
+  Arrival (ns):          1.271
+  Required (ns):
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: IIC_control_0/ACK_count[2]:CLK
+  To: IIC_control_0/ACK_count[2]:D
+  data arrival time                              0.705
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+               +     0.000          Clock source
+  0.000                        COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q (f)
+               +     0.120          net: SCLO_int
+  0.120                        IIC_control_0/ACK_count[2]:CLK (f)
+               +     0.202          cell: ADLIB:DFN0C1
+  0.322                        IIC_control_0/ACK_count[2]:Q (r)
+               +     0.141          net: IIC_control_0/ACK_count[2]
+  0.463                        IIC_control_0/un4_ACK_count_1_I_7:C (r)
+               +     0.120          cell: ADLIB:AX1C
+  0.583                        IIC_control_0/un4_ACK_count_1_I_7:Y (r)
+               +     0.122          net: IIC_control_0/I_7
+  0.705                        IIC_control_0/ACK_count[2]:D (r)
+                                    
+  0.705                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+               +     0.000          Clock source
+  N/C                          COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q (f)
+               +     0.120          net: SCLO_int
+  N/C                          IIC_control_0/ACK_count[2]:CLK (f)
+               +     0.000          Library hold time: ADLIB:DFN0C1
+  N/C                          IIC_control_0/ACK_count[2]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  IIC_control_0/OUT_EN:CLK
+  To:                    SDA
+  Delay (ns):            2.405
+  Slack (ns):
+  Arrival (ns):          2.809
+  Required (ns):
+  Clock to Out (ns):     2.809
+
+
+Expanded Path 1
+  From: IIC_control_0/OUT_EN:CLK
+  To: SDA
+  data arrival time                              2.809
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+               +     0.000          Clock source
+  0.000                        COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q (f)
+               +     0.404          net: SCLO_int
+  0.404                        IIC_control_0/OUT_EN:CLK (f)
+               +     0.202          cell: ADLIB:DFN0P0
+  0.606                        IIC_control_0/OUT_EN:Q (r)
+               +     1.169          net: IIC_control_0_OUT_EN
+  1.775                        SDA_pad/U0/U1:E (r)
+               +     0.149          cell: ADLIB:IOBI_IB_OB_EB
+  1.924                        SDA_pad/U0/U1:EOUT (r)
+               +     0.000          net: SDA_pad/U0/NET2
+  1.924                        SDA_pad/U0/U0:E (r)
+               +     0.885          cell: ADLIB:IOPAD_BI
+  2.809                        SDA_pad/U0/U0:PAD (r)
+               +     0.000          net: SDA
+  2.809                        SDA (r)
+                                    
+  2.809                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+               +     0.000          Clock source
+  N/C                          COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q (r)
+                                    
+  N/C                          SDA (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                  PRESETN
+  To:                    IIC_control_0/OUT_EN:PRE
+  Delay (ns):            0.702
+  Slack (ns):
+  Arrival (ns):          0.702
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -0.202
+
+Path 2
+  From:                  PRESETN
+  To:                    IIC_control_0/ACK_count[0]:CLR
+  Delay (ns):            1.371
+  Slack (ns):
+  Arrival (ns):          1.371
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -0.758
+
+Path 3
+  From:                  PRESETN
+  To:                    IIC_control_0/ACK_count[1]:CLR
+  Delay (ns):            1.540
+  Slack (ns):
+  Arrival (ns):          1.540
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -0.927
+
+Path 4
+  From:                  PRESETN
+  To:                    IIC_control_0/ACK_count[2]:CLR
+  Delay (ns):            1.369
+  Slack (ns):
+  Arrival (ns):          1.369
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.221
+
+Path 5
+  From:                  PRESETN
+  To:                    IIC_control_0/ACK_count[3]:CLR
+  Delay (ns):            1.823
+  Slack (ns):
+  Arrival (ns):          1.823
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.442
+
+
+Expanded Path 1
+  From: PRESETN
+  To: IIC_control_0/OUT_EN:PRE
+  data arrival time                              0.702
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PRESETN (r)
+               +     0.000          net: PRESETN
+  0.000                        PRESETN_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  0.314                        PRESETN_pad/U0/U0:Y (r)
+               +     0.000          net: PRESETN_pad/U0/NET1
+  0.314                        PRESETN_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.435                        PRESETN_pad/U0/U1:Y (r)
+               +     0.267          net: PRESETN_c
+  0.702                        IIC_control_0/OUT_EN:PRE (r)
+                                    
+  0.702                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q
+               +     0.000          Clock source
+  N/C                          COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:Q (f)
+               +     0.500          net: SCLO_int
+  N/C                          IIC_control_0/OUT_EN:CLK (f)
+               +     0.000          Library removal time: ADLIB:DFN0P0
+  N/C                          IIC_control_0/OUT_EN:PRE
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain PCLK
+
+SET Register to Register
+
+Path 1
+  From:                  COREUART_0/fifo_write_tx:CLK
+  To:                    COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WEN
+  Delay (ns):            0.383
+  Slack (ns):
+  Arrival (ns):          1.198
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 2
+  From:                  UART_control_0/WE:CLK
+  To:                    IIC_FIFO_0/FIFOBLOCK0:WEN
+  Delay (ns):            0.383
+  Slack (ns):
+  Arrival (ns):          1.198
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 3
+  From:                  COREUART_0/tx_hold_reg[6]:CLK
+  To:                    COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WD6
+  Delay (ns):            0.389
+  Slack (ns):
+  Arrival (ns):          1.204
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 4
+  From:                  COREUART_0/rx_dout_reg[6]:CLK
+  To:                    IIC_FIFO_0/FIFOBLOCK0:WD6
+  Delay (ns):            0.389
+  Slack (ns):
+  Arrival (ns):          1.204
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 5
+  From:                  COREUART_0/tx_hold_reg[7]:CLK
+  To:                    COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WD7
+  Delay (ns):            0.390
+  Slack (ns):
+  Arrival (ns):          1.205
+  Required (ns):
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: COREUART_0/fifo_write_tx:CLK
+  To: COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WEN
+  data arrival time                              1.198
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PCLK
+               +     0.000          Clock source
+  0.000                        PCLK (r)
+               +     0.000          net: PCLK
+  0.000                        PCLK_pad/U0/U0:PAD (r)
+               +     0.318          cell: ADLIB:IOPAD_IN
+  0.318                        PCLK_pad/U0/U0:Y (r)
+               +     0.000          net: PCLK_pad/U0/NET1
+  0.318                        PCLK_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.439                        PCLK_pad/U0/U1:Y (r)
+               +     0.376          net: PCLK_c
+  0.815                        COREUART_0/fifo_write_tx:CLK (r)
+               +     0.202          cell: ADLIB:DFN1P0
+  1.017                        COREUART_0/fifo_write_tx:Q (r)
+               +     0.181          net: COREUART_0/fifo_write_tx
+  1.198                        COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WEN (r)
+                                    
+  1.198                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PCLK
+               +     0.000          Clock source
+  N/C                          PCLK (r)
+               +     0.000          net: PCLK
+  N/C                          PCLK_pad/U0/U0:PAD (r)
+               +     0.318          cell: ADLIB:IOPAD_IN
+  N/C                          PCLK_pad/U0/U0:Y (r)
+               +     0.000          net: PCLK_pad/U0/NET1
+  N/C                          PCLK_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  N/C                          PCLK_pad/U0/U1:Y (r)
+               +     0.504          net: PCLK_c
+  N/C                          COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WCLK (r)
+               +     0.000          Library hold time: ADLIB:FIFO4K18
+  N/C                          COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:WEN
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                  RX
+  To:                    COREUART_0/make_RX/samples[2]:D
+  Delay (ns):            1.117
+  Slack (ns):
+  Arrival (ns):          1.117
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -0.116
+
+Path 2
+  From:                  SDA
+  To:                    COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SDAI_ff_reg[0]:D
+  Delay (ns):            1.370
+  Slack (ns):
+  Arrival (ns):          1.370
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    -0.372
+
+
+Expanded Path 1
+  From: RX
+  To: COREUART_0/make_RX/samples[2]:D
+  data arrival time                              1.117
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        RX (f)
+               +     0.000          net: RX
+  0.000                        RX_pad/U0/U0:PAD (f)
+               +     0.218          cell: ADLIB:IOPAD_IN
+  0.218                        RX_pad/U0/U0:Y (f)
+               +     0.000          net: RX_pad/U0/NET1
+  0.218                        RX_pad/U0/U1:YIN (f)
+               +     0.014          cell: ADLIB:IOIN_IB
+  0.232                        RX_pad/U0/U1:Y (f)
+               +     0.885          net: RX_c
+  1.117                        COREUART_0/make_RX/samples[2]:D (f)
+                                    
+  1.117                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PCLK
+               +     0.000          Clock source
+  N/C                          PCLK (r)
+               +     0.000          net: PCLK
+  N/C                          PCLK_pad/U0/U0:PAD (r)
+               +     0.399          cell: ADLIB:IOPAD_IN
+  N/C                          PCLK_pad/U0/U0:Y (r)
+               +     0.000          net: PCLK_pad/U0/NET1
+  N/C                          PCLK_pad/U0/U1:A (r)
+               +     0.152          cell: ADLIB:CLKIO
+  N/C                          PCLK_pad/U0/U1:Y (r)
+               +     0.450          net: PCLK_c
+  N/C                          COREUART_0/make_RX/samples[2]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1P0
+  N/C                          COREUART_0/make_RX/samples[2]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  COREUART_0/make_TX/tx:CLK
+  To:                    TX
+  Delay (ns):            1.755
+  Slack (ns):
+  Arrival (ns):          2.553
+  Required (ns):
+  Clock to Out (ns):     2.553
+
+Path 2
+  From:                  COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLO_int:CLK
+  To:                    SCL
+  Delay (ns):            2.717
+  Slack (ns):
+  Arrival (ns):          3.512
+  Required (ns):
+  Clock to Out (ns):     3.512
+
+Path 3
+  From:                  COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SDAO_int:CLK
+  To:                    SDA
+  Delay (ns):            2.717
+  Slack (ns):
+  Arrival (ns):          3.518
+  Required (ns):
+  Clock to Out (ns):     3.518
+
+
+Expanded Path 1
+  From: COREUART_0/make_TX/tx:CLK
+  To: TX
+  data arrival time                              2.553
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PCLK
+               +     0.000          Clock source
+  0.000                        PCLK (r)
+               +     0.000          net: PCLK
+  0.000                        PCLK_pad/U0/U0:PAD (r)
+               +     0.318          cell: ADLIB:IOPAD_IN
+  0.318                        PCLK_pad/U0/U0:Y (r)
+               +     0.000          net: PCLK_pad/U0/NET1
+  0.318                        PCLK_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.439                        PCLK_pad/U0/U1:Y (r)
+               +     0.359          net: PCLK_c
+  0.798                        COREUART_0/make_TX/tx:CLK (r)
+               +     0.202          cell: ADLIB:DFN1E0P0
+  1.000                        COREUART_0/make_TX/tx:Q (r)
+               +     0.535          net: TX_c
+  1.535                        TX_pad/U0/U1:D (r)
+               +     0.209          cell: ADLIB:IOTRI_OB_EB
+  1.744                        TX_pad/U0/U1:DOUT (r)
+               +     0.000          net: TX_pad/U0/NET1
+  1.744                        TX_pad/U0/U0:D (r)
+               +     0.809          cell: ADLIB:IOPAD_TRI
+  2.553                        TX_pad/U0/U0:PAD (r)
+               +     0.000          net: TX
+  2.553                        TX (r)
+                                    
+  2.553                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PCLK
+               +     0.000          Clock source
+  N/C                          PCLK (r)
+                                    
+  N/C                          TX (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                  PRESETN
+  To:                    IIC_FIFO_1/FIFOBLOCK0:RESET
+  Delay (ns):            0.816
+  Slack (ns):
+  Arrival (ns):          0.816
+  Required (ns):
+  Removal (ns):          0.144
+  External Removal (ns): 0.457
+
+Path 2
+  From:                  PRESETN
+  To:                    COREUART_0/genblk3.rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:RESET
+  Delay (ns):            0.829
+  Slack (ns):
+  Arrival (ns):          0.829
+  Required (ns):
+  Removal (ns):          0.144
+  External Removal (ns): 0.444
+
+Path 3
+  From:                  PRESETN
+  To:                    IIC_FIFO_0/FIFOBLOCK0:RESET
+  Delay (ns):            0.831
+  Slack (ns):
+  Arrival (ns):          0.831
+  Required (ns):
+  Removal (ns):          0.144
+  External Removal (ns): 0.442
+
+Path 4
+  From:                  PRESETN
+  To:                    COREUART_0/genblk2.tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0:RESET
+  Delay (ns):            0.837
+  Slack (ns):
+  Arrival (ns):          0.837
+  Required (ns):
+  Removal (ns):          0.144
+  External Removal (ns): 0.436
+
+Path 5
+  From:                  PRESETN
+  To:                    COREUART_0/rx_dout_reg[0]:CLR
+  Delay (ns):            0.688
+  Slack (ns):
+  Arrival (ns):          0.688
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): 0.344
+
+
+Expanded Path 1
+  From: PRESETN
+  To: IIC_FIFO_1/FIFOBLOCK0:RESET
+  data arrival time                              0.816
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PRESETN (r)
+               +     0.000          net: PRESETN
+  0.000                        PRESETN_pad/U0/U0:PAD (r)
+               +     0.314          cell: ADLIB:IOPAD_IN
+  0.314                        PRESETN_pad/U0/U0:Y (r)
+               +     0.000          net: PRESETN_pad/U0/NET1
+  0.314                        PRESETN_pad/U0/U1:A (r)
+               +     0.121          cell: ADLIB:CLKIO
+  0.435                        PRESETN_pad/U0/U1:Y (r)
+               +     0.381          net: PRESETN_c
+  0.816                        IIC_FIFO_1/FIFOBLOCK0:RESET (r)
+                                    
+  0.816                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          PCLK
+               +     0.000          Clock source
+  N/C                          PCLK (r)
+               +     0.000          net: PCLK
+  N/C                          PCLK_pad/U0/U0:PAD (r)
+               +     0.399          cell: ADLIB:IOPAD_IN
+  N/C                          PCLK_pad/U0/U0:Y (r)
+               +     0.000          net: PCLK_pad/U0/NET1
+  N/C                          PCLK_pad/U0/U1:A (r)
+               +     0.152          cell: ADLIB:CLKIO
+  N/C                          PCLK_pad/U0/U1:Y (r)
+               +     0.578          net: PCLK_c
+  N/C                          IIC_FIFO_1/FIFOBLOCK0:WCLK (r)
+               +     0.144          Library removal time: ADLIB:FIFO4K18
+  N/C                          IIC_FIFO_1/FIFOBLOCK0:RESET
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

@@ -1,0 +1,692 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: D:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: YOGA
+
+# Sat Feb 09 18:18:38 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000\hdl\APB3_test.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_pa3.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Clock_gen.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Rx_async.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\fifo_256x8_pa3.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v" (library work)
+@I::"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"D:\FPGA\a3p1000\component\work\top_0\top_0.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top_0
+@N: CG364 :"D:\FPGA\a3p1000\hdl\APB3_test.v":21:7:21:15|Synthesizing module APB3_test in library work.
+
+@W: CG146 :"D:\FPGA\a3p1000\hdl\APB3_test.v":21:7:21:15|Creating black box for empty module APB3_test
+
+@W: CG775 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+
+@N: CG364 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b001000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000001111
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v":38:7:38:35|Synthesizing module top_0_CoreUARTapb_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = top_0_CoreUARTapb_0_Clock_gen_0s_0s
+
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":31:7:31:34|Synthesizing module top_0_CoreUARTapb_0_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000001
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = top_0_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":30:7:30:34|Synthesizing module top_0_CoreUARTapb_0_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000001
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+	receive_states_rx_wait_state=32'b00000000000000000000000000000011
+   Generated name = top_0_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@W: CL177 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Optimizing register bit receive_full_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Pruning unused register receive_full_int. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v":31:7:31:34|Synthesizing module top_0_CoreUARTapb_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = top_0_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1976:7:1976:14|Synthesizing module FIFO4K18 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_pa3.v":61:7:61:40|Synthesizing module top_0_CoreUARTapb_0_fifo_256x8_pa3 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_pa3.v":32:7:32:36|Synthesizing module top_0_CoreUARTapb_0_fifo_256x8 in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	LEVEL=8'b11111111
+   Generated name = top_0_CoreUARTapb_0_fifo_256x8_0s_4294967295s
+
+@W: CG360 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_pa3.v":46:14:46:18|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v":59:7:59:37|Synthesizing module top_0_CoreUARTapb_0_CoreUARTapb in library work.
+
+	FAMILY=32'b00000000000000000000000000001111
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	BAUD_VALUE=32'b00000000000000000000000000000001
+	FIXEDMODE=32'b00000000000000000000000000000000
+	PRG_BIT8=32'b00000000000000000000000000000000
+	PRG_PARITY=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = top_0_CoreUARTapb_0_CoreUARTapb_Z2
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@W: CG133 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v":158:20:158:30|Object controlReg3 is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Clock_gen.v":38:7:38:35|Synthesizing module top_0_CoreUARTapb_1_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = top_0_CoreUARTapb_1_Clock_gen_0s_0s
+
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":31:7:31:34|Synthesizing module top_0_CoreUARTapb_1_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000000
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = top_0_CoreUARTapb_1_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@W: CL190 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":119:0:119:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":119:0:119:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Rx_async.v":30:7:30:34|Synthesizing module top_0_CoreUARTapb_1_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+	receive_states_rx_wait_state=32'b00000000000000000000000000000011
+   Generated name = top_0_CoreUARTapb_1_Rx_async_0s_0s_0s_1s_2s_3s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@W: CL177 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":31:7:31:34|Synthesizing module top_0_CoreUARTapb_1_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = top_0_CoreUARTapb_1_COREUART_0s_0s_0s_15s_0s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@W: CG133 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":376:0:376:5|Pruning unused register overflow_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":326:0:326:5|Pruning unused register rx_dout_reg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":293:0:293:5|Pruning unused register rx_state[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":278:0:278:5|Pruning unused register clear_framing_error_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":278:0:278:5|Pruning unused register clear_framing_error_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":263:0:263:5|Pruning unused register clear_parity_reg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":263:0:263:5|Pruning unused register clear_parity_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUART.v":159:0:159:5|Pruning unused register fifo_write_tx. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v":59:7:59:37|Synthesizing module top_0_CoreUARTapb_1_CoreUARTapb in library work.
+
+	FAMILY=32'b00000000000000000000000000001111
+	TX_FIFO=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	BAUD_VALUE=32'b00000000000000000000000000000001
+	FIXEDMODE=32'b00000000000000000000000000000000
+	PRG_BIT8=32'b00000000000000000000000000000000
+	PRG_PARITY=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = top_0_CoreUARTapb_1_CoreUARTapb_Z3
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@W: CG133 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v":158:20:158:30|Object controlReg3 is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":9:7:9:11|Synthesizing module top_0 in library work.
+
+@W: CL168 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":354:0:354:12|Removing instance CoreUARTapb_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":320:0:320:12|Removing instance CoreUARTapb_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":220:0:220:9|Removing instance CoreAPB3_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":160:10:160:20|Removing instance APB3_test_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":20:13:20:16|Input PCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":21:13:21:19|Input PRESETN is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":22:13:22:18|Input data_0 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\top_0.v":23:13:23:18|Input data_1 is unused.
+@W: CL246 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v":104:20:104:24|Input port bits 1 to 0 of PADDR[4:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\CoreUARTapb.v":158:20:158:30|*Unassigned bits of controlReg3[2:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":44:11:44:21|Input tx_dout_reg is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":45:6:45:15|Input fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Tx_async.v":46:6:46:14|Input fifo_full is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_1\rtl\vlog\core\Clock_gen.v":51:15:51:31|Input BAUD_VAL_FRACTION is unused.
+@W: CL246 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v":104:20:104:24|Input port bits 1 to 0 of PADDR[4:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUARTapb.v":158:20:158:30|*Unassigned bits of controlReg3[2:0] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Optimizing register bit overflow_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Pruning unused register overflow_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":206:0:206:5|Optimizing register bit overflow to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":206:0:206:5|Pruning unused register overflow. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Rx_async.v":68:8:68:19|Input read_rx_byte is unused.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":42:6:42:17|Input rst_tx_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Tx_async.v":43:11:43:21|Input tx_hold_reg is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\top_0\CoreUARTapb_0\rtl\vlog\core\Clock_gen.v":51:15:51:31|Input BAUD_VAL_FRACTION is unused.
+@W: CL246 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":75:18:75:22|Input port bits 27 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@A: CL153 :"D:\FPGA\a3p1000\hdl\APB3_test.v":28:15:28:19|*Unassigned bits of PADDR[4:0] are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"D:\FPGA\a3p1000\hdl\APB3_test.v":29:15:29:20|*Unassigned bits of PWDATA[7:0] are referenced and tied to 0 -- simulation mismatch possible.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 09 18:18:38 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 09 18:18:39 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 09 18:18:39 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 09 18:18:40 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Feb 09 18:18:41 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\FPGA\a3p1000\synthesis\top_0_scck.rpt 
+Printing clock  summary report in "D:\FPGA\a3p1000\synthesis\top_0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock     Clock
+Clock     Frequency     Period        Type      Group     Load 
+---------------------------------------------------------------
+===============================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\FPGA\a3p1000\synthesis\top_0.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Feb 09 18:18:41 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Feb 09 18:18:41 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Writing Analyst data base D:\FPGA\a3p1000\synthesis\synwork\top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Feb 09 18:18:42 2019
+#
+
+
+Top view:               top_0
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell top_0.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+                   -----
+             TOTAL     0
+
+
+Core Cells         : 0 of 24576 (0%)
+IO Cells           : 0
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Feb 09 18:18:42 2019
+
+###########################################################]

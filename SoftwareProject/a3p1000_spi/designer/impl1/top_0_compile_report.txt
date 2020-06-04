@@ -1,0 +1,244 @@
+***************************************************************************
+                               Status Report
+                          Tue Dec 03 22:16:55 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+File Name: D:\FPGA\a3p1000_spi\designer\impl1\top_0.adb
+Design Name: top_0  Design State: compile
+Last Saved: Wed Jul 17 17:31:20 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Dec 03 22:16:49 2019:
+        D:\FPGA\a3p1000_spi\synthesis\top_0.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: off
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\FPGA\a3p1000_spi\synthesis\top_0.edn
+Format      : EDIF
+Topcell     : top_0
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net clok_0/Core_GLB drives no load.
+Warning: CMP201: Net clok_0/Core_GLC drives no load.
+Warning: CMP201: Net clok_0/LOCK drives no load.
+Warning: CMP201: Net clok_0/Core_YB drives no load.
+Warning: CMP201: Net clok_0/Core_YC drives no load.
+Warning: CMP201: Net sp_fifo_0/RAM512X18_QXI[15]_RD8 drives no load.
+Warning: CMP201: Net sp_fifo_0/RAM512X18_QXI[15]_RD17 drives no load.
+Warning: CMP201: Net UART_fifo_0/RAM512X18_QXI[15]_RD8_0 drives no load.
+Warning: CMP201: Net UART_fifo_0/RAM512X18_QXI[15]_RD17_0 drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   21
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 16
+  - Logic combining:        137
+
+    Total macros optimized  174
+
+There were 0 error(s) and 9 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   2154  Total:  24576   (8.76%)
+    IO (W/ clocks)             Used:     42  Total:    154   (27.27%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      1  Total:      1   (100.00%)
+    RAM/FIFO                   Used:      2  Total:     32   (6.25%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 5      | 6  (83.33%)*
+    Quadrant global | 1      | 12 (8.33%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 1435         | 1435
+    SEQ     | 719          | 719
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 4             | 0            | 0
+    Output I/O                            | 38            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 4     | 38     | 0
+
+I/O Placement:
+
+    Locked  :   6 ( 14.29% )
+    Placed  :   0
+    UnPlaced:  36 ( 85.71% )
+
+Warning: Only some I/Os are locked
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    723     CLK_NET       Net   : GLA
+                          Driver: clok_0/Core
+                          Source: ESSENTIAL
+    138     INT_NET       Net   : uart_0/uart_rx_inst/prescale_reg_0_sqmuxa_0
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNIMRRQ_2[3]
+                          Source: NETLIST
+    74      INT_NET       Net   : uart_0/uart_tx_inst/un1_prescale_b_I_0[1]
+                          Driver: uart_0/uart_tx_inst/bit_cnt_RNIFO9D2_0[0]
+                          Source: NETLIST
+    71      INT_NET       Net   : CORESPI_0/USPI/UTXF/rd_pointer_q[0]
+                          Driver: CORESPI_0/USPI/UTXF/rd_pointer_q_RNI4TP4[0]
+                          Source: NETLIST
+    71      INT_NET       Net   : CORESPI_0/USPI/URXF/rd_pointer_q[0]
+                          Driver: CORESPI_0/USPI/URXF/rd_pointer_q_RNI2P6B[0]
+                          Source: NETLIST
+
+The following nets have been assigned to a quadrant global resource:
+    Fanout  Type          Name
+    --------------------------
+    453     SET/RESET_NET Net   : PRESETN_c
+                          Driver: PRESETN_pad
+                          Region: quadrant_UL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : uart_0/uart_tx_inst/s_axis_tready_reg11
+                          Driver: uart_0/uart_tx_inst/prescale_reg_RNINMAK4[10]
+    23      INT_NET       Net   : uart_0/uart_rx_inst/prescale_reg46
+                          Driver: uart_0/uart_rx_inst/prescale_reg_RNIHVPE5[5]
+    21      INT_NET       Net   : uart_0/uart_tx_inst/bit_cnt20
+                          Driver: uart_0/uart_tx_inst/bit_cnt_RNI81RE1[3]
+    21      INT_NET       Net   : uart_0/uart_rx_inst/prescale_reg47
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNI7C4B6[0]
+    20      INT_NET       Net   : UART_AD7606_0/s_axis_tready_reg8
+                          Driver: UART_AD7606_0/PC_data_count_RNIPTB9[1]
+    20      INT_NET       Net   : uart_0/uart_tx_inst/un1_s_axis_tready_reg11_1
+                          Driver: uart_0/uart_tx_inst/bit_cnt_RNILBPI6[0]
+    20      INT_NET       Net   : uart_0/uart_rx_inst/bit_cnt_1_sqmuxa
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNIMRRQ[3]
+    20      INT_NET       Net   : CORESPI_0/USPI/UTXF/awe7
+                          Driver: CORESPI_0/USPI/UTXF/fifo_mem_q_awe7
+    20      INT_NET       Net   : CORESPI_0/USPI/URXF/awe7
+                          Driver: CORESPI_0/USPI/URXF/fifo_mem_q_awe7
+    19      INT_NET       Net   : uart_0/uart_rx_inst/un1_prescale_reg_1_m_sn_N_3
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNIJKA28[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : uart_0/uart_tx_inst/s_axis_tready_reg11
+                          Driver: uart_0/uart_tx_inst/prescale_reg_RNINMAK4[10]
+    23      INT_NET       Net   : uart_0/uart_rx_inst/prescale_reg46
+                          Driver: uart_0/uart_rx_inst/prescale_reg_RNIHVPE5[5]
+    21      INT_NET       Net   : uart_0/uart_tx_inst/bit_cnt20
+                          Driver: uart_0/uart_tx_inst/bit_cnt_RNI81RE1[3]
+    21      INT_NET       Net   : uart_0/uart_rx_inst/prescale_reg47
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNI7C4B6[0]
+    20      INT_NET       Net   : UART_AD7606_0/s_axis_tready_reg8
+                          Driver: UART_AD7606_0/PC_data_count_RNIPTB9[1]
+    20      INT_NET       Net   : uart_0/uart_tx_inst/un1_s_axis_tready_reg11_1
+                          Driver: uart_0/uart_tx_inst/bit_cnt_RNILBPI6[0]
+    20      INT_NET       Net   : uart_0/uart_rx_inst/bit_cnt_1_sqmuxa
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNIMRRQ[3]
+    20      INT_NET       Net   : CORESPI_0/USPI/UTXF/awe7
+                          Driver: CORESPI_0/USPI/UTXF/fifo_mem_q_awe7
+    20      INT_NET       Net   : CORESPI_0/USPI/URXF/awe7
+                          Driver: CORESPI_0/USPI/URXF/fifo_mem_q_awe7
+    19      INT_NET       Net   : uart_0/uart_rx_inst/un1_prescale_reg_1_m_sn_N_3
+                          Driver: uart_0/uart_rx_inst/bit_cnt_RNIJKA28[3]
+
+

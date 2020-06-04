@@ -1,0 +1,304 @@
+***************************************************************************
+                               Status Report
+                          Sun Mar 10 21:48:34 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+File Name: D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.adb
+Design Name: Top_0  Design State: compile
+Last Saved: Sun Mar 10 21:27:47 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Sun Mar 10 21:48:30 2019:
+        D:\FPGA\a3p1000_INA220\synthesis\Top_0.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: off
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\FPGA\a3p1000_INA220\synthesis\Top_0.edn
+Format      : EDIF
+Topcell     : Top_0
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net IIC_FIFO_0/AEMPTY drives no load.
+Warning: CMP201: Net IIC_FIFO_0/EMPTY drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FULL drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD8_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD9_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD10_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD11_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD12_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD13_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD14_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD15_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD16_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_0/FIFOBLOCK0_RD17_1 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/AEMPTY drives no load.
+Warning: CMP201: Net IIC_FIFO_1/AFULL drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FULL drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD8_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD9_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD10_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD11_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD12_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD13_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD14_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD15_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD16_2 drives no load.
+Warning: CMP201: Net IIC_FIFO_1/FIFOBLOCK0_RD17_2 drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/AEMPTY drives no
+         load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_FULL
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD8
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD9
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD10
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD11
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD12
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD13
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD14
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD15
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD16
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD17
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/AEMPTY drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_FULL_0 drives no
+         load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD8_0
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD9_0
+         drives no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD10_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD11_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD12_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD13_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD14_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD15_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD16_0 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/Top_0_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD17_0 drives no
+         load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        36
+
+    Total macros optimized  36
+
+There were 0 error(s) and 50 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   1193  Total:  24576   (4.85%)
+    IO (W/ clocks)             Used:      7  Total:    154   (4.55%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     18   (11.11%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      4  Total:     32   (12.50%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 1      | 6  (16.67%)*
+    Quadrant global | 1      | 12 (8.33%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 918          | 918
+    SEQ     | 275          | 275
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 3             | 0            | 0
+    Bidirectional I/O                     | 1             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 3      | 1
+
+I/O Placement:
+
+    Locked  :   7 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    278     CLK_NET       Net   : PCLK_c
+                          Driver: PCLK_pad
+                          Source: NETLIST
+
+The following nets have been assigned to a quadrant global resource:
+    Fanout  Type          Name
+    --------------------------
+    260     SET/RESET_NET Net   : PRESETN_c
+                          Driver: PRESETN_pad
+                          Region: quadrant_UL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    23      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+    22      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+    21      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_N_3_mux_0_0
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_0_RNIRFO06[4]
+    21      INT_NET       Net   : IIC_control_0/next_state[1]
+                          Driver: IIC_control_0/next_state[1]
+    19      INT_NET       Net   : IIC_control_0/next_state[2]
+                          Driver: IIC_control_0/next_state[2]
+    19      INT_NET       Net   : COREUART_0/baud_clock
+                          Driver: COREUART_0/make_CLOCK_GEN/genblk1.baud_clock_int
+    18      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_0[4]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_0[4]
+    18      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+    18      INT_NET       Net   : IIC_control_0/next_state[4]
+                          Driver: IIC_control_0/next_state[4]
+    17      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[4]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[4]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    23      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+    22      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+    21      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_N_3_mux_0_0
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_0_RNIRFO06[4]
+    21      INT_NET       Net   : IIC_control_0/next_state[1]
+                          Driver: IIC_control_0/next_state[1]
+    19      INT_NET       Net   : IIC_control_0/next_state[2]
+                          Driver: IIC_control_0/next_state[2]
+    19      INT_NET       Net   : COREUART_0/baud_clock
+                          Driver: COREUART_0/make_CLOCK_GEN/genblk1.baud_clock_int
+    18      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_0[4]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_0[4]
+    18      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+    18      INT_NET       Net   : IIC_control_0/next_state[4]
+                          Driver: IIC_control_0/next_state[4]
+    17      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[4]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[4]
+
+

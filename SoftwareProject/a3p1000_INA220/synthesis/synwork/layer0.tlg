@@ -1,0 +1,460 @@
+Selecting top level module Top_0
+@W: CG775 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b001000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0010
+	FAMILY=32'b00000000000000000000000000001111
+	SYNC_RESET=32'b00000000000000000000000000000000
+	CAPB3OOl=32'b00000000000000000000000000000000
+	CAPB3IOl=32'b00000000000000000000000000000001
+	CAPB3lOl=32'b00000000000000000000000000000010
+	CAPB3OIl=32'b00000000000000000000000000000011
+	CAPB3IIl=32'b00000000000000000000000000000100
+	CAPB3lIl=32'b00000000000000000000000000000101
+	CAPB3Oll=32'b00000000000000000000000000000110
+	CAPB3Ill=32'b00000000000000000000000000000111
+	CAPB3lll=32'b00000000000000000000000000001000
+	CAPB3O0l=32'b00000000000000000000000000001001
+	CAPB3I0l=32'b00000000000000000000000000001010
+	CAPB3l0l=32'b00000000000000000000000000001011
+	CAPB3O1l=32'b00000000000000000000000000001100
+	CAPB3I1l=32'b00000000000000000000000000001101
+	CAPB3l1l=32'b00000000000000000000000000001110
+	CAPB3OO0=32'b00000000000000000000000000001111
+	CAPB3IO0=32'b00000000000000000000000000010000
+	CAPB3lO0=32'b00000000000000000000000000010001
+	CAPB3OI0=16'b0000000000000001
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b0000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+	CAPB3II1=16'b0000000000000000
+	CAPB3lI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v":21:7:21:29|Synthesizing module Top_0_COREI2C_0_COREI2C in library work.
+
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000001
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000110
+	BCLK_ENABLED=32'b00000000000000000000000000000000
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	I2C_NUM=32'b00000000000000000000000000000001
+	serADR0_ID=5'b01100
+	serADR0_RV=8'b00000000
+	serADR1_ID=5'b11100
+	serADR1_RV=8'b00000000
+   Generated name = Top_0_COREI2C_0_COREI2C_Z2
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":26:7:26:25|Synthesizing module COREI2C_COREI2CREAL in library work.
+
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000001
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000110
+	BCLK_ENABLED=32'b00000000000000000000000000000000
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	DELLONGINX=32'b00000000000000000000000000000100
+	INFILTERDELAY=4'b0101
+	MST_TX_SLV_RX=1'b0
+	SLAVE_ONLY_EN=1'b0
+	serCON_ID=5'b00000
+	serCON_RV=8'b00000000
+	serSTA_ID=5'b00100
+	serSTA_RV=8'b11111000
+	serDAT_ID=5'b01000
+	serDAT_RV=8'b00000000
+	serSMB_ID=5'b10000
+	serSMB_RV=8'b01x1x000
+	serADR0_ID=5'b01100
+	serADR0_RV=8'b00000000
+	serADR1_ID=5'b11100
+	serADR1_RV=8'b00000000
+	FSMSTA08=5'b00000
+	FSMSTA10=5'b00001
+	FSMSTAE0=5'b11101
+	FSMSTA18=5'b00010
+	FSMSTA20=5'b00011
+	FSMSTA28=5'b00100
+	FSMSTA30=5'b00101
+	FSMSTA38=5'b00110
+	FSMSTA40=5'b00111
+	FSMSTA48=5'b01000
+	FSMSTA50=5'b01001
+	FSMSTA58=5'b01010
+	FSMSTA60=5'b01011
+	FSMSTA68=5'b01100
+	FSMSTA70=5'b01101
+	FSMSTA78=5'b01110
+	FSMSTA80=5'b01111
+	FSMSTA88=5'b10000
+	FSMSTA90=5'b10001
+	FSMSTA98=5'b10010
+	FSMSTAA0=5'b10011
+	FSMSTAA8=5'b10100
+	FSMSTAB0=5'b10101
+	FSMSTAB8=5'b10110
+	FSMSTAC0=5'b10111
+	FSMSTAC8=5'b11000
+	FSMSTAF8=5'b11001
+	FSMSTA00=5'b11010
+	FSMSTAD0=5'b11011
+	FSMSTAD8=5'b11100
+	FSMDET0=3'b000
+	FSMDET1=3'b001
+	FSMDET2=3'b010
+	FSMDET3=3'b011
+	FSMDET4=3'b100
+	FSMDET5=3'b101
+	FSMDET6=3'b110
+	FSMSYNC0=3'b000
+	FSMSYNC1=3'b001
+	FSMSYNC2=3'b010
+	FSMSYNC3=3'b011
+	FSMSYNC4=3'b100
+	FSMSYNC5=3'b101
+	FSMSYNC6=3'b110
+	FSMSYNC7=3'b111
+	FSMMOD0=3'b000
+	FSMMOD1=3'b001
+	FSMMOD2=3'b010
+	FSMMOD3=3'b011
+	FSMMOD4=3'b100
+	FSMMOD5=3'b101
+	FSMMOD6=3'b110
+	DATAWIDTH=32'b00000000000000000000000000001000
+	ADDRWIDTH=32'b00000000000000000000000000000111
+   Generated name = COREI2C_COREI2CREAL_Z3
+
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":261:14:261:20|Object sersmb7 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":262:14:262:20|Object sersmb6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":264:14:264:20|Object sersmb4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":266:14:266:20|Object sersmb2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":267:14:267:20|Object sersmb1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":268:14:268:20|Object sersmb0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":289:8:289:18|Object SMBSUS_NI_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":289:20:289:31|Object SMBSUS_NI_d2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":290:8:290:20|Object SMBALERT_NI_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":290:22:290:35|Object SMBALERT_NI_d2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3238:2:3238:7|Pruning unused register term_cnt_3ms_reg[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3212:2:3212:7|Pruning unused register term_cnt_25ms_reg[6:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3181:2:3181:7|Pruning unused register term_cnt_35ms_reg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1613:3:1613:8|Pruning unused register PCLK_count2[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1087:6:1087:11|Pruning unused register smbus_mst_reset_ff0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1087:6:1087:11|Pruning unused register smbus_mst_reset_ff1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1087:6:1087:11|Pruning unused register smbus_mst_reset_ff2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2603:3:2603:8|Pruning unused register set_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2603:3:2603:8|Optimizing register bit ens1_pre to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2603:3:2603:8|Pruning unused register ens1_pre. Make sure that there are no unused intermediate registers.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v":109:12:109:21|Object seradr1apb is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v":143:0:143:5|Pruning unused register BCLK_ff0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v":143:0:143:5|Pruning unused register BCLK_ff. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v":118:0:118:5|Pruning unused register term_cnt_215us_reg[12:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Clock_gen.v":38:7:38:32|Synthesizing module Top_0_COREUART_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Top_0_COREUART_0_Clock_gen_0s_0s
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":31:7:31:31|Synthesizing module Top_0_COREUART_0_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000001
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = Top_0_COREUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@N: CG179 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":30:7:30:31|Synthesizing module Top_0_COREUART_0_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000001
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+	receive_states_rx_wait_state=32'b00000000000000000000000000000011
+   Generated name = Top_0_COREUART_0_Rx_async_0s_1s_0s_1s_2s_3s
+
+@N: CG179 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@W: CL177 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Optimizing register bit receive_full_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Pruning unused register receive_full_int. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\CoreUART.v":31:7:31:31|Synthesizing module Top_0_COREUART_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Top_0_COREUART_0_COREUART_1s_1s_0s_15s_0s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1976:7:1976:14|Synthesizing module FIFO4K18 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v":61:7:61:37|Synthesizing module Top_0_COREUART_0_fifo_256x8_pa3 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v":32:7:32:33|Synthesizing module Top_0_COREUART_0_fifo_256x8 in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	LEVEL=8'b11111111
+   Generated name = Top_0_COREUART_0_fifo_256x8_0s_4294967295s
+
+@W: CG360 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v":46:14:46:18|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":21:7:21:17|Synthesizing module IIC_control in library work.
+
+	IDLE=32'b00000000000000000000000000000000
+	S0=32'b00000000000000000000000000000001
+	S1=32'b00000000000000000000000000000010
+	S2=32'b00000000000000000000000000000011
+	S3=32'b00000000000000000000000000000100
+	S4=32'b00000000000000000000000000000101
+	S5=32'b00000000000000000000000000000110
+	S6=32'b00000000000000000000000000000111
+	S7=32'b00000000000000000000000000001000
+	S8=32'b00000000000000000000000000001001
+	S9=32'b00000000000000000000000000001010
+	S10=32'b00000000000000000000000000001011
+	S11=32'b00000000000000000000000000001100
+	S12=32'b00000000000000000000000000001101
+	S13=32'b00000000000000000000000000001110
+	S14=32'b00000000000000000000000000001111
+	S_15=32'b00000000000000000000000000010000
+	S_16=32'b00000000000000000000000000010001
+	S_17=32'b00000000000000000000000000010010
+	CTRL=32'b00000000000000000000000000000000
+	STAT=32'b00000000000000000000000000000100
+	DATA=32'b00000000000000000000000000001000
+	ADDR0=32'b00000000000000000000000000001100
+	SMB=32'b00000000000000000000000000010000
+	ADDR1=32'b00000000000000000000000000011100
+	READ_COUNT=32'b00000000000000000000000000000010
+	WRITE_COUNT=32'b00000000000000000000000000000100
+   Generated name = IIC_control_Z4
+
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":157:30:157:34|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":301:31:301:41|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":305:26:305:31|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":310:26:310:31|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":311:31:311:41|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":389:31:389:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":397:31:397:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":403:31:403:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":404:31:404:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":415:31:415:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":419:31:419:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":420:31:420:37|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":425:27:425:33|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":426:27:426:33|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":436:27:436:33|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":437:27:437:33|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_INA220\smartgen\IIC_FIFO\IIC_FIFO.v":5:7:5:14|Synthesizing module IIC_FIFO in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\hdl\UART_control.v":21:7:21:18|Synthesizing module UART_control in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\Top_0.v":9:7:9:11|Synthesizing module Top_0 in library work.
+
+@W: CL279 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":200:0:200:5|Pruning register bits 8 to 4 of PADDR[8:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":200:0:200:5|Pruning register bit 1 of PADDR[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":200:0:200:5|Register bit PADDR[0] is always 0.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":200:0:200:5|Pruning unused register PADDR[0]. Make sure that there are no unused intermediate registers.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":23:26:23:31|Input PREADY is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\hdl\IIC_control.v":24:26:24:32|Input PSLVERR is unused.
+@W: CL157 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Optimizing register bit overflow_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Pruning unused register overflow_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":206:0:206:5|Optimizing register bit overflow to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":206:0:206:5|Pruning unused register overflow. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v":68:8:68:19|Input read_rx_byte is unused.
+@N: CL201 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":42:6:42:17|Input rst_tx_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v":43:11:43:21|Input tx_hold_reg is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREUART_0\rtl\vlog\core\Clock_gen.v":51:15:51:31|Input BAUD_VAL_FRACTION is unused.
+@N: CL201 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3117:3:3117:8|Trying to extract state machine for register fsmmod.
+Extracted state machine for register fsmmod
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2846:3:2846:8|Trying to extract state machine for register fsmdet.
+Extracted state machine for register fsmdet
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Trying to extract state machine for register fsmsync.
+Extracted state machine for register fsmsync
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":42:7:42:17|Input pulse_215us is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":45:7:45:17|Input seradr1apb0 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":51:7:51:11|Input BCLKe is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":66:7:66:17|Input SMBALERT_NI is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":69:7:69:15|Input SMBSUS_NI is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\work\Top_0\COREI2C_0\rtl\vlog\core\corei2c.v":41:7:41:10|Input BCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":521:0:521:7|Input PRDATAS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":528:0:528:7|Input PRDATAS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:7|Input PREADYS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:7|Input PREADYS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:8|Input PSLVERRS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:8|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_INA220\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.

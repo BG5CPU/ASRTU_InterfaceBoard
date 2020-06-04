@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1470:3:1470:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_0(verilog) instance PCLK_count1[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1340:3:1340:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_0(verilog) instance indelay[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1470:3:1470:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_1(verilog) instance PCLK_count1[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1340:3:1340:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_1(verilog) instance indelay[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_i2c\hdl\i2c_slave.v":266:0:266:5|Found counter in view:work.I2C_slave_Z5(verilog) instance count[3:0] 
+@N: MF238 :"d:\fpga\a3p1000_i2c\hdl\i2c_slave.v":150:22:150:39|Found 4-bit incrementor, 'un3_data_count[3:0]'
+@N: MO231 :"d:\fpga\a3p1000_i2c\hdl\i2c_test.v":302:0:302:5|Found counter in view:work.I2C_test_Z6(verilog) instance ACK_count[3:0] 
+@N: MF238 :"d:\fpga\a3p1000_i2c\hdl\i2c_test.v":169:22:169:39|Found 4-bit incrementor, 'un3_data_count[3:0]'
+@N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
+@N: FP130 |Promoting Net PCLK_c on CLKBUF  PCLK_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

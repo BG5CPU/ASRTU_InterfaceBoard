@@ -1,0 +1,654 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/a3p1000_uart/simulation
+vtest
+Z1 !s110 1551528155
+!i10b 1
+!s100 l]TeXFL6Mn0^5c:7WN@G80
+IOfZMaiC6YB^3_]e8DgzUP1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551528110
+8D:/FPGA/a3p1000_uart/stimulus/test.v
+FD:/FPGA/a3p1000_uart/stimulus/test.v
+L0 21
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1551528155.000000
+!s107 D:/FPGA/a3p1000_uart/stimulus/test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_uart/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_uart/stimulus/test.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work postsynth -O0
+!s92 +incdir+D:/FPGA/a3p1000_uart/stimulus -vlog01compat -work postsynth -O0
+Z5 tCvgOpt 0
+vUART_control_1
+R1
+!i10b 1
+!s100 60W26YO4f?1PnKN2Wej?N0
+IZWeAQh<dnT`6hOPj5ci8d0
+R2
+R0
+Z6 w1551528146
+Z7 8D:/FPGA/a3p1000_uart/synthesis/UART_test.v
+Z8 FD:/FPGA/a3p1000_uart/synthesis/UART_test.v
+L0 988
+R3
+r1
+!s85 0
+31
+Z9 !s108 1551528154.000000
+Z10 !s107 D:/FPGA/a3p1000_uart/synthesis/UART_test.v|
+Z11 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_uart/synthesis/UART_test.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_control_1
+vUART_control_1_0
+R1
+!i10b 1
+!s100 :jZQ_hjAGEkmhECM?ni>42
+Iie:lCOZ5>RPFAQ?eNTWZi2
+R2
+R0
+R6
+R7
+R8
+L0 901
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_control_1_0
+vUART_test
+R1
+!i10b 1
+!s100 Q`lNXJI;XBP`[i=f`gUcV2
+IjYjCZS0mSo_<bkFOKFOZB3
+R2
+R0
+R6
+R7
+R8
+L0 2002
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test
+vUART_test_COREUART_0_Clock_gen_0s_0s
+R1
+!i10b 1
+!s100 D]4z2lg59Ah1zHBHGz4Po2
+IaZb`ggJQQ:;3lgYJCB>GG1
+R2
+R0
+R6
+R7
+R8
+L0 1579
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@clock_gen_0s_0s
+vUART_test_COREUART_0_COREUART_0s_0s_0s_15s_0s_0s
+Z12 !s110 1551523701
+!i10b 1
+!s100 2GzQBS`18ZE`8m`><89Pa3
+I<aRITO;c<;bT_BnWM4EgX2
+R2
+R0
+Z13 w1551523692
+R7
+R8
+L0 1073
+R3
+r1
+!s85 0
+31
+Z14 !s108 1551523701.000000
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@c@o@r@e@u@a@r@t_0s_0s_0s_15s_0s_0s
+vUART_test_COREUART_0_COREUART_1s_1s_0s_15s_0s_0s
+R1
+!i10b 1
+!s100 W>d_OLUH_j3lXjckGKzjI3
+IYV8AzFSl9jhQUeKzU4Fm<3
+R2
+R0
+R6
+R7
+R8
+L0 1866
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@c@o@r@e@u@a@r@t_1s_1s_0s_15s_0s_0s
+vUART_test_COREUART_0_fifo_256x8_0s_4294967295s
+R1
+!i10b 1
+!s100 >H1H`NbRO?A<JOR67[<Qm2
+ISkHKL6^XLB7H5G5L]65;n2
+R2
+R0
+R6
+R7
+R8
+L0 1397
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_fifo_256x8_0s_4294967295s
+vUART_test_COREUART_0_fifo_256x8_0s_4294967295s_0
+R1
+!i10b 1
+!s100 fDPneRFTN5zZ7aKFKdmZD0
+I6_=@;>=>J^m`3=5PgRPQ60
+R2
+R0
+R6
+R7
+R8
+L0 1822
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_fifo_256x8_0s_4294967295s_0
+vUART_test_COREUART_0_fifo_256x8_0s_4294967295s_1
+Z15 !s110 1551527524
+!i10b 1
+!s100 F[hG<9aYJl:7a_:dR_C8G0
+I:z^MJYNTa3^Q5`0BOL47>1
+R2
+R0
+Z16 w1551527515
+R7
+R8
+L0 1486
+R3
+r1
+!s85 0
+31
+Z17 !s108 1551527524.000000
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_fifo_256x8_0s_4294967295s_1
+vUART_test_COREUART_0_fifo_256x8_pa3
+R1
+!i10b 1
+!s100 9G_W4fA@7h7]542237_k72
+If:74cSALPcSnN1Cg45RCn1
+R2
+R0
+R6
+R7
+R8
+L0 1306
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_fifo_256x8_pa3
+vUART_test_COREUART_0_fifo_256x8_pa3_0
+R1
+!i10b 1
+!s100 a71UIXT>DH>zc5GlA_WJQ3
+I0E]moN9`c>M?Wd>cK;GZl2
+R2
+R0
+R6
+R7
+R8
+L0 1724
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_fifo_256x8_pa3_0
+vUART_test_COREUART_0_fifo_256x8_pa3_1
+R15
+!i10b 1
+!s100 S@P[7f?JNddgJgA[QXF@C3
+IcPOZlPU28:dhcMESm=RkW3
+R2
+R0
+R16
+R7
+R8
+L0 1266
+R3
+r1
+!s85 0
+31
+R17
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_fifo_256x8_pa3_1
+vUART_test_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s
+R12
+!i10b 1
+!s100 dmCKSBYDPA]Df;eI:=WkT2
+ID]1:Y`I@dIm?M5WP=PZPQ2
+R2
+R0
+R13
+R7
+R8
+L0 754
+R3
+r1
+!s85 0
+31
+R14
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@rx_async_0s_0s_0s_1s_2s_3s
+vUART_test_COREUART_0_Rx_async_0s_1s_0s_1s_2s_3s
+R1
+!i10b 1
+!s100 jUMSEE73h_SfoaPNMQLM?2
+IZ:7T47cn3Zb<3W4Rmm8L72
+R2
+R0
+R6
+R7
+R8
+L0 1075
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@rx_async_0s_1s_0s_1s_2s_3s
+vUART_test_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+R12
+!i10b 1
+!s100 b?ZKa_DUbT1oP1R9ai6193
+I5afbU06BX_Oj_z:^h[Zf:0
+R2
+R0
+R13
+R7
+R8
+L0 620
+R3
+r1
+!s85 0
+31
+R14
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+vUART_test_COREUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+R1
+!i10b 1
+!s100 P=Pa4<Y2H>BoHlOXeD`mT0
+Imm81z^DgDe_@5_8Sic:>h2
+R2
+R0
+R6
+R7
+R8
+L0 1441
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_0_@tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+vUART_test_COREUART_1_Clock_gen_0s_0s
+Z18 !s110 1551528154
+!i10b 1
+!s100 6MbY;K0A>Am7;nzdJ:BKM2
+I_NmO1Y<a9AR_b^G0BS>Na2
+R2
+R0
+R6
+R7
+R8
+L0 143
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@clock_gen_0s_0s
+vUART_test_COREUART_1_COREUART_0s_0s_0s_15s_0s_0s
+R12
+!i10b 1
+!s100 Yen^]]GnN@g>IdXHPKL=A2
+Ic=BdHMTdcdnnmJR_^]G@;2
+R2
+R0
+R13
+R7
+R8
+L0 460
+R3
+r1
+!s85 0
+31
+R14
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@c@o@r@e@u@a@r@t_0s_0s_0s_15s_0s_0s
+vUART_test_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s
+R1
+!i10b 1
+!s100 N2d>bTEZZjli:[@=DZMz30
+IHVdQHf6bc_cgW06[ZSIYX0
+R2
+R0
+R6
+R7
+R8
+L0 786
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@c@o@r@e@u@a@r@t_1s_1s_0s_15s_0s_0s
+vUART_test_COREUART_1_fifo_256x8_0s_4294967295s_0
+R1
+!i10b 1
+!s100 Kj3TcTlhG^E=@ZENBC<]10
+I4R5VDWkBMHP]BG697KOak0
+R2
+R0
+R6
+R7
+R8
+L0 386
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_fifo_256x8_0s_4294967295s_0
+vUART_test_COREUART_1_fifo_256x8_0s_4294967295s_1
+R1
+!i10b 1
+!s100 YgITIO]SJDb:fzPNo0:i83
+INl8oRzCBL2ae?ga:0FJ4C2
+R2
+R0
+R6
+R7
+R8
+L0 510
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_fifo_256x8_0s_4294967295s_1
+vUART_test_COREUART_1_fifo_256x8_pa3_0
+R1
+!i10b 1
+!s100 KGO`V3R?9891lzo78inU11
+I2jah?0URWcFP8C5k^0kbH3
+R2
+R0
+R6
+R7
+R8
+L0 418
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_fifo_256x8_pa3_0
+vUART_test_COREUART_1_fifo_256x8_pa3_1
+R1
+!i10b 1
+!s100 :C;aBcgABkI^GU6FVG_NX1
+I6M:;4]2fe48g_``7<?oYJ3
+R2
+R0
+R6
+R7
+R8
+L0 289
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_fifo_256x8_pa3_1
+vUART_test_COREUART_1_Rx_async_0s_0s_0s_1s_2s_3s
+R12
+!i10b 1
+!s100 o`JEGk`[ZNOnBm1^<cX=21
+IQ9f5DCjQ0kYo@g=ORXzXY2
+R2
+R0
+R13
+R7
+R8
+L0 139
+R3
+r1
+!s85 0
+31
+R14
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@rx_async_0s_0s_0s_1s_2s_3s
+vUART_test_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s
+R1
+!i10b 1
+!s100 O8;NIXi8NWR^Qe`RN>jN`0
+I:?O]l7aczFWOPmPGhBl[N0
+R2
+R0
+R6
+R7
+R8
+L0 554
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@rx_async_0s_1s_0s_1s_2s_3s
+vUART_test_COREUART_1_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+R12
+!i10b 1
+!s100 g47ahL7bg5n`HiM3Mzm9R0
+IX2Ygb<j0NB@O_S4]UB]P70
+R2
+R0
+R13
+R7
+R8
+L0 5
+R3
+r1
+!s85 0
+31
+R14
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+vUART_test_COREUART_1_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+R18
+!i10b 1
+!s100 cQ[OWcZAYMd7n8^eB3PXG1
+I7:bncB2d5d7;KnXckD4AB2
+R2
+R0
+R6
+R7
+R8
+L0 5
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R4
+R5
+n@u@a@r@t_test_@c@o@r@e@u@a@r@t_1_@tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s

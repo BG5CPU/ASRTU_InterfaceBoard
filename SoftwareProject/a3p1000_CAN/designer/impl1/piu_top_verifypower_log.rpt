@@ -1,0 +1,15 @@
+Microsemi Libero Software
+Version: 11.9.5.5
+Release: v11.9 SP5
+
+Info: The design piu_top_1.adb was last modified by software version 11.9.5.5.
+Opened an existing Libero design piu_top_1.adb.
+  - Reading netlist
+  - Initializing power engine...
+  - Restoring saved options...
+  - Power analysis done!
+
+The Execute Script command succeeded ( 00:00:47 )
+Design saved to file D:\Work_space\libero_soc\FPGA\a3p1000_CAN\designer\impl1\piu_top_1.adb.
+Design closed.
+

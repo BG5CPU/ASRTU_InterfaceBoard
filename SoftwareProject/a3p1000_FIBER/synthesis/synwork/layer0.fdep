@@ -1,0 +1,48 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\FPGA\\a3p1000_FIBER\\synthesis\\synwork\\Top_0_comp.srs|-top|Top_0|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|D:\\FPGA\\a3p1000_FIBER\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\hdl\\FIBERGYRO_control.v":1551259806
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\component\\work\\Top_0\\COREUART_0\\rtl\\vlog\\core\\Clock_gen.v":1551260246
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\component\\work\\Top_0\\COREUART_0\\rtl\\vlog\\core\\Rx_async.v":1551260246
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\component\\work\\Top_0\\COREUART_0\\rtl\\vlog\\core\\Tx_async.v":1551260246
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\component\\work\\Top_0\\COREUART_0\\rtl\\vlog\\core\\fifo_256x8_pa3.v":1551260246
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\component\\work\\Top_0\\COREUART_0\\rtl\\vlog\\core\\CoreUART.v":1551260246
+#CUR:"D:\\FPGA\\a3p1000_FIBER\\component\\work\\Top_0\\Top_0.v":1551260246
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\FPGA\a3p1000_FIBER\hdl\FIBERGYRO_control.v" verilog
+1			"D:\FPGA\a3p1000_FIBER\component\work\Top_0\COREUART_0\rtl\vlog\core\Clock_gen.v" verilog
+2			"D:\FPGA\a3p1000_FIBER\component\work\Top_0\COREUART_0\rtl\vlog\core\Rx_async.v" verilog
+3			"D:\FPGA\a3p1000_FIBER\component\work\Top_0\COREUART_0\rtl\vlog\core\Tx_async.v" verilog
+4			"D:\FPGA\a3p1000_FIBER\component\work\Top_0\COREUART_0\rtl\vlog\core\fifo_256x8_pa3.v" verilog
+5			"D:\FPGA\a3p1000_FIBER\component\work\Top_0\COREUART_0\rtl\vlog\core\CoreUART.v" verilog
+6			"D:\FPGA\a3p1000_FIBER\component\work\Top_0\Top_0.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 1 3 2 4
+6 5 0
+#Dependency Lists(Users Of)
+0 6
+1 5
+2 5
+3 5
+4 5
+5 6
+6 -1
+#Design Unit to File Association
+module work FIBERGYRO_control 0
+module work Top_0_COREUART_0_Clock_gen 1
+module work Top_0_COREUART_0_Rx_async 2
+module work Top_0_COREUART_0_Tx_async 3
+module work Top_0_COREUART_0_fifo_256x8_pa3 4
+module work Top_0_COREUART_0_fifo_256x8 4
+module work Top_0_COREUART_0_COREUART 5
+module work Top_0 6

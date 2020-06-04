@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top_0</header>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin clok_0:LOCK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/clok_0:LOCK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESPI_0:SPIINT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/CORESPI_0:SPIINT</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESPI_0:SPIOEN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/CORESPI_0:SPIOEN</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESPI_0:SPIMODE</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/CORESPI_0:SPIMODE</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CORESPI_0:SPISS</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/CORESPI_0:SPISS</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin sp_fifo_0:full</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/sp_fifo_0:full</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin uart_0:rx_overrun_error</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/uart_0:rx_overrun_error</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin uart_0:rx_frame_error</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/uart_0:rx_frame_error</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin UART_fifo_0:full</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/UART_fifo_0:full</crossprobe>
+  </drc>
+</drcreport>

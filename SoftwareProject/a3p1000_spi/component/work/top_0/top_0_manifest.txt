@@ -1,0 +1,24 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
+
+Date      :  Tue Dec 03 22:15:53 2019
+Project   :  D:\FPGA\a3p1000_spi
+Component :  top_0
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    D:/FPGA/a3p1000_spi/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    D:/FPGA/a3p1000_spi/component/work/top_0/top_0.v
+
+Stimulus files for all Simulation tools:
+    D:/FPGA/a3p1000_spi/component/work/top_0/subsystem.bfm
+

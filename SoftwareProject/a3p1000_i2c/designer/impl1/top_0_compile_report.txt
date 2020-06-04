@@ -1,0 +1,217 @@
+***************************************************************************
+                               Status Report
+                          Tue Feb 26 11:52:53 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+File Name: D:\FPGA\a3p1000_i2c\designer\impl1\top_0.adb
+Design Name: top_0  Design State: compile
+Last Saved: Tue Feb 26 11:50:05 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Feb 26 11:52:49 2019:
+        D:\FPGA\a3p1000_i2c\synthesis\top_0.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\FPGA\a3p1000_i2c\synthesis\top_0.edn
+Format      : EDIF
+Topcell     : top_0
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        32
+
+    Total macros optimized  32
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:    858  Total:  24576   (3.49%)
+    IO (W/ clocks)             Used:     28  Total:    154   (18.18%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     18   (11.11%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     32   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 6  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 713          | 713
+    SEQ     | 145          | 145
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 18            | 0            | 0
+    Output I/O                            | 9             | 0            | 0
+    Bidirectional I/O                     | 1             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 18    | 9      | 1
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   4 ( 14.29% )
+    UnPlaced:  24 ( 85.71% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    145     SET/RESET_NET Net   : PRESETN_c
+                          Driver: PRESETN_pad
+                          Source: NETLIST
+    136     CLK_NET       Net   : PCLK_c
+                          Driver: PCLK_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    36      INT_NET       Net   : sercon[3]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon_0[3]
+    23      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+    22      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+    20      INT_NET       Net   : I2C_test_0/next_state[3]
+                          Driver: I2C_test_0/next_state[3]
+    20      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+    20      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[1]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[1]
+    18      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_N_5_mux
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmmod_RNI2CL75[4]
+    17      INT_NET       Net   : I2C_test_0/next_state[1]
+                          Driver: I2C_test_0/next_state[1]
+    17      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[4]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[4]
+    16      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmdet[3]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmdet[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    36      INT_NET       Net   : sercon[3]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon_0[3]
+    23      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]
+    22      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]
+    20      INT_NET       Net   : I2C_test_0/next_state[3]
+                          Driver: I2C_test_0/next_state[3]
+    20      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/SCLInt
+    20      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[1]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[1]
+    18      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_N_5_mux
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmmod_RNI2CL75[4]
+    17      INT_NET       Net   : I2C_test_0/next_state[1]
+                          Driver: I2C_test_0/next_state[1]
+    17      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[4]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/sercon[4]
+    16      INT_NET       Net   : COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmdet[3]
+                          Driver: COREI2C_0/I2C_NUM_GENERATION[0].ui2c/fsmdet[3]
+
+

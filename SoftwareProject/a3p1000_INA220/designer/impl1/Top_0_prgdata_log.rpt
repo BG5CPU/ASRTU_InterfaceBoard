@@ -1,0 +1,18 @@
+Microsemi Libero Software
+Version: 11.9.2.1
+Release: v11.9 SP2
+
+Info: The design D:/FPGA/a3p1000_INA220/designer/impl1/Top_0.adb was last modified by software
+      version 11.9.2.1.
+Opened an existing Libero design D:/FPGA/a3p1000_INA220/designer/impl1/Top_0.adb.
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file: D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.pdb
+CHECKSUM: 44B2
+
+The Generate programming file command succeeded ( 00:00:29 )
+Design saved to file D:/FPGA/a3p1000_INA220/designer/impl1/Top_0.adb.
+
+The Execute Script command succeeded ( 00:00:32 )
+Design closed.
+

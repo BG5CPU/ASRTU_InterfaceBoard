@@ -1,0 +1,54 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 03 22:16:56 2019 UNCOMPLETED LAYOUT
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: top_0
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port         |Pin        |Fixed      |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------------|-----------|-----------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+CLKA          Unassigned  Unassigned                 LVTTL    ---                ---   None           ---   ---               No           No
+dout[0]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[1]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[2]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[3]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[4]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[5]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[6]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[7]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[8]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[9]       Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[10]      Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[11]      Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[12]      Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[13]      Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[14]      Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+dout[15]      Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+empty         Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+PRESETN       202         Yes         GAC0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+RE            Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+rxd           204         Yes         GAB0/IO02RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+SPI_data[0]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[1]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[2]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[3]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[4]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[5]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[6]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[7]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[8]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[9]   Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[10]  Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[11]  Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[12]  Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[13]  Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[14]  Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPI_data[15]  Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPIRXAVAIL    Unassigned  Unassigned                 LVTTL    12                 High  None           No    35                No           No
+SPISCLKO      201         Yes         GAC1/IO05RSB0  LVTTL    12                 High  None           No    35                No           No
+SPISDI        205         Yes         GAA1/IO01RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+SPISDO        203         Yes         GAB1/IO03RSB0  LVTTL    12                 High  None           No    35                No           No
+txd           206         Yes         GAA0/IO00RSB0  LVTTL    12                 High  None           No    35                No           No

@@ -1,0 +1,70 @@
+
+fsm_encoding {912951292} onehot
+
+fsm_state_encoding {912951292} 000 {00000001}
+
+fsm_state_encoding {912951292} 001 {00000010}
+
+fsm_state_encoding {912951292} 010 {00000100}
+
+fsm_state_encoding {912951292} 011 {00001000}
+
+fsm_state_encoding {912951292} 100 {00010000}
+
+fsm_state_encoding {912951292} 101 {00100000}
+
+fsm_state_encoding {912951292} 110 {01000000}
+
+fsm_state_encoding {912951292} 111 {10000000}
+
+fsm_registers {912951292} {acq_phase[0]}  {acq_phase[1]}  {acq_phase[2]}  {acq_phase[3]}  {acq_phase[4]}  {acq_phase[5]}  {acq_phase[6]}  {acq_phase[7]} 
+
+fsm_encoding {912951291} onehot
+
+fsm_state_encoding {912951291} 0000 {0000000000000001}
+
+fsm_state_encoding {912951291} 0001 {0000000000000010}
+
+fsm_state_encoding {912951291} 0010 {0000000000000100}
+
+fsm_state_encoding {912951291} 0011 {0000000000001000}
+
+fsm_state_encoding {912951291} 0100 {0000000000010000}
+
+fsm_state_encoding {912951291} 0101 {0000000000100000}
+
+fsm_state_encoding {912951291} 0110 {0000000001000000}
+
+fsm_state_encoding {912951291} 0111 {0000000010000000}
+
+fsm_state_encoding {912951291} 1000 {0000000100000000}
+
+fsm_state_encoding {912951291} 1001 {0000001000000000}
+
+fsm_state_encoding {912951291} 1010 {0000010000000000}
+
+fsm_state_encoding {912951291} 1011 {0000100000000000}
+
+fsm_state_encoding {912951291} 1100 {0001000000000000}
+
+fsm_state_encoding {912951291} 1101 {0010000000000000}
+
+fsm_state_encoding {912951291} 1110 {0100000000000000}
+
+fsm_state_encoding {912951291} 1111 {1000000000000000}
+
+fsm_registers {912951291} {ad_addr[0]}  {ad_addr[1]}  {ad_addr[2]}  {ad_addr[3]}  {ad_addr[4]}  {ad_addr[5]}  {ad_addr[6]}  {ad_addr[7]}  {ad_addr[8]}  {ad_addr[9]}  {ad_addr[10]}  {ad_addr[11]}  {ad_addr[12]}  {ad_addr[13]}  {ad_addr[14]}  {ad_addr[15]} 
+
+fsm_encoding {912951293} onehot
+
+fsm_state_encoding {912951293} st1 {00001}
+
+fsm_state_encoding {912951293} st2 {00010}
+
+fsm_state_encoding {912951293} st3 {00100}
+
+fsm_state_encoding {912951293} st4 {01000}
+
+fsm_state_encoding {912951293} st5 {10000}
+
+fsm_registers {912951293} {acq_state[0]}  {acq_state[1]}  {acq_state[2]}  {acq_state[3]}  {acq_state[4]} 

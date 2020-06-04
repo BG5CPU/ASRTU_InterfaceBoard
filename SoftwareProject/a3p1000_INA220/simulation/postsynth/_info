@@ -1,0 +1,886 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/a3p1000_INA220/simulation
+vCAPB3II
+Z1 !s110 1552220631
+!i10b 1
+!s100 Qnznn81[=NlXMV2jn4;?c0
+In`9G[;mcnkV;XDjzD_cgS2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1552220205
+Z4 8D:/FPGA/a3p1000_INA220/synthesis/Top_0.v
+Z5 FD:/FPGA/a3p1000_INA220/synthesis/Top_0.v
+L0 600
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1552220630.000000
+Z8 !s107 D:/FPGA/a3p1000_INA220/synthesis/Top_0.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/synthesis/Top_0.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postsynth -O0
+Z11 tCvgOpt 0
+n@c@a@p@b3@i@i
+vCAPB3II_0
+Z12 !s110 1552222111
+!i10b 1
+!s100 9X<dJYHKf3=lo3f`BOBl[3
+IHUC^@3U@?zfMNW9KjaA]C0
+R2
+R0
+Z13 w1552222104
+R4
+R5
+L0 2127
+R6
+r1
+!s85 0
+31
+Z14 !s108 1552222111.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@a@p@b3@i@i_0
+vCoreAPB3_Z1
+R1
+!i10b 1
+!s100 zEJKXWW766@`Y3f4OzCzN1
+I9N8VMMje_RKUMGZK611eR1
+R2
+R0
+R3
+R4
+R5
+L0 624
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@core@a@p@b3_@z1
+vCoreAPB3_Z1_0
+R12
+!i10b 1
+!s100 WR=6lD3PeC9_[HilZ49@?3
+ISLaY8c][`b[Kc]cYaKL[81
+R2
+R0
+R13
+R4
+R5
+L0 2214
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@core@a@p@b3_@z1_0
+vCoreAPB3_Z1_1
+!s110 1552035740
+!i10b 1
+!s100 MTc?06Plgg[=?Oe[g22nM3
+I4OEQe0J24;MDU:zZ`Qf1[2
+R2
+R0
+w1552035731
+R4
+R5
+L0 767
+R6
+r1
+!s85 0
+31
+!s108 1552035740.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@core@a@p@b3_@z1_1
+vCOREI2C_COREI2CREAL_Z3_0
+R12
+!i10b 1
+!s100 3M6P_glGWEHdiYjgizDbB3
+Ib=7TlfJaDA7COHo;Q6R662
+R2
+R0
+R13
+R4
+R5
+L0 2346
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l_@z3_0
+vCOREI2C_COREI2CREAL_Z3_1
+Z15 !s110 1552222112
+!i10b 1
+!s100 TnA[79JMnXkMW;Xbb?aCY0
+I9h4X_Wme3TM4RYjn>a<MA3
+R2
+R0
+R13
+R4
+R5
+L0 4091
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l_@z3_1
+vfffff
+!s110 1552214541
+!i10b 1
+!s100 5>gcZ`KU<fm9N95H5=aBB3
+I2AR6n?XS;T_]gDiHJa[][0
+R2
+R0
+w1552214523
+8D:/FPGA/a3p1000_INA220/stimulus/fffff.v
+FD:/FPGA/a3p1000_INA220/stimulus/fffff.v
+Z16 L0 21
+R6
+r1
+!s85 0
+31
+!s108 1552214540.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/fffff.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/stimulus/fffff.v|
+!s101 -O0
+!i113 1
+R10
+Z17 !s92 +incdir+D:/FPGA/a3p1000_INA220/stimulus -vlog01compat -work postsynth -O0
+R11
+vI2C_slave_Z5
+R12
+!i10b 1
+!s100 ]ie]iIe3[`C<f3HfKg5Ga0
+IU2l:eghHH]T5XL9HfNoH92
+R2
+R0
+R13
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_slave_@z5
+vI2C_test_Z6
+Z18 !s110 1551707517
+!i10b 1
+!s100 Co:^;CzXz:m4[Y4Ia<@0D0
+I<6E9L@abGJV62`a041ka@3
+R2
+R0
+w1551707509
+R4
+R5
+L0 531
+R6
+r1
+!s85 0
+31
+Z19 !s108 1551707517.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i2@c_test_@z6
+vIIC_control_Z6
+R12
+!i10b 1
+!s100 95jV@D0?GS^a?I]_AYifL0
+I3]WDI;A77oJGV_F3d5?YD3
+R2
+R0
+R13
+R4
+R5
+L0 602
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i@i@c_control_@z6
+vIIC_FIFO
+!s110 1552216447
+!i10b 1
+!s100 n3GBh:IjJ`?9M`M6Ib`580
+IbQQTm4ElAEEl5^C<]6>LU3
+R2
+R0
+w1552216439
+R4
+R5
+L0 544
+R6
+r1
+!s85 0
+31
+!s108 1552216447.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i@i@c_@f@i@f@o
+vIIC_FIFO_0
+R12
+!i10b 1
+!s100 jd[CQFiF;YJ7bNK5iTe[W0
+I9>P^>;z>=;__o^l@>1ASh3
+R2
+R0
+R13
+R4
+R5
+L0 2282
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i@i@c_@f@i@f@o_0
+vIIC_FIFO_1
+R12
+!i10b 1
+!s100 ^n4HW;d>H[fiiDc_=F11e3
+Id2?9HY5>Q_7TEJnz05^fY1
+R2
+R0
+R13
+R4
+R5
+L0 539
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i@i@c_@f@i@f@o_1
+viic_test
+!s110 1552218835
+!i10b 1
+!s100 MB81ZiQ`C:T:_>M^RkZCc1
+ILnkZoRJ4>WdKk8AoYlVjI2
+R2
+R0
+w1552218198
+8D:/FPGA/a3p1000_INA220/stimulus/iic_test.v
+FD:/FPGA/a3p1000_INA220/stimulus/iic_test.v
+R16
+R6
+r1
+!s85 0
+31
+!s108 1552218835.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/iic_test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/stimulus/iic_test.v|
+!s101 -O0
+!i113 1
+R10
+R17
+R11
+vIN_test
+R15
+!i10b 1
+!s100 XhSg`<JVYQZbNBdXGKH9_0
+IhJ9nnln_5RBdNdZbnhgYT1
+R2
+R0
+w1552221518
+8D:/FPGA/a3p1000_INA220/stimulus/IN_test.v
+FD:/FPGA/a3p1000_INA220/stimulus/IN_test.v
+R16
+R6
+r1
+!s85 0
+31
+!s108 1552222112.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/IN_test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/stimulus/IN_test.v|
+!s101 -O0
+!i113 1
+R10
+R17
+R11
+n@i@n_test
+vINA220_control_Z6
+!s110 1552100309
+!i10b 1
+!s100 c0VH5_hm5_YIYbGPeI4CD1
+IfccVUFe8NzVH46YFIWiE=0
+R2
+R0
+w1552100300
+R4
+R5
+L0 1760
+R6
+r1
+!s85 0
+31
+!s108 1552100309.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@i@n@a220_control_@z6
+vINA220_test
+!s110 1552100310
+!i10b 1
+!s100 7BeIaoI<BmH[Nd5BM7ZLf0
+I3@ECUo8Hza_1XQiWnMFzM2
+R2
+R0
+w1552100256
+8D:/FPGA/a3p1000_INA220/stimulus/INA220_test.v
+FD:/FPGA/a3p1000_INA220/stimulus/INA220_test.v
+R16
+R6
+r1
+!s85 0
+31
+!s108 1552100310.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/INA220_test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/stimulus/INA220_test.v|
+!s101 -O0
+!i113 1
+R10
+R17
+R11
+n@i@n@a220_test
+vRX_test
+R18
+!i10b 1
+!s100 NC]BbJi6zRd@FEBa^J13_0
+In9d^=Ejl45aVhTmQE`49T1
+R2
+R0
+w1551707435
+8D:/FPGA/a3p1000_INA220/stimulus/RX_test.v
+FD:/FPGA/a3p1000_INA220/stimulus/RX_test.v
+R16
+R6
+r1
+!s85 0
+31
+R19
+!s107 D:/FPGA/a3p1000_INA220/stimulus/RX_test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/stimulus/RX_test.v|
+!s101 -O0
+!i113 1
+R10
+R17
+R11
+n@r@x_test
+vtest
+!s110 1551700315
+!i10b 1
+!s100 m:^5QMg1<25J39e_e1=_@2
+Iijib[QKPU_gGdZ1NhJLXM1
+R2
+R0
+w1551699808
+8D:/FPGA/a3p1000_INA220/stimulus/test.v
+FD:/FPGA/a3p1000_INA220/stimulus/test.v
+R16
+R6
+r1
+!s85 0
+31
+!s108 1551700315.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|postsynth|D:/FPGA/a3p1000_INA220/stimulus/test.v|
+!s101 -O0
+!i113 1
+R10
+R17
+R11
+vTop_0
+R15
+!i10b 1
+!s100 ZkBg025@`UTHJbXWT=Yh40
+Ii`hCmUfV19l8H@K02=kK>3
+R2
+R0
+R13
+R4
+R5
+L0 6646
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0
+vTop_0_COREI2C_0_COREI2C_Z2
+R15
+!i10b 1
+!s100 56C?@F8kmlIbg_R1eUnoh3
+I?2BV3@fdzjlG;oA>Rm5og0
+R2
+R0
+R13
+R4
+R5
+L0 3991
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@i2@c_0_@c@o@r@e@i2@c_@z2
+vTop_0_COREI2C_1_COREI2C_Z4
+R15
+!i10b 1
+!s100 LPil=^i`V@]CFF1I8o0Le1
+I_dGQWo?CILcLek2T6<Y`F1
+R2
+R0
+R13
+R4
+R5
+L0 5601
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@i2@c_1_@c@o@r@e@i2@c_@z4
+vTop_0_COREUART_0_Clock_gen_0s_0s
+R15
+!i10b 1
+!s100 n?o26?KneXm2`U0K6ojJ;0
+I`1Zbi5z02Hm<@5[_@C7C42
+R2
+R0
+R13
+R4
+R5
+L0 6227
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_@clock_gen_0s_0s
+vTop_0_COREUART_0_COREUART_1s_1s_0s_15s_0s_0s
+R15
+!i10b 1
+!s100 ><W?klWZZDYPD368aR5_71
+If@_Z:[Mo3@[dGg;ZKdhN10
+R2
+R0
+R13
+R4
+R5
+L0 6513
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_@c@o@r@e@u@a@r@t_1s_1s_0s_15s_0s_0s
+vTop_0_COREUART_0_fifo_256x8_0s_4294967295s
+R15
+!i10b 1
+!s100 laIRSg:VQbTBf7WdD2A2z1
+Ii[imDN>Hz`nFfdE^JGzQl0
+R2
+R0
+R13
+R4
+R5
+L0 6045
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_fifo_256x8_0s_4294967295s
+vTop_0_COREUART_0_fifo_256x8_0s_4294967295s_0
+R15
+!i10b 1
+!s100 kHm5U0G?VlQCFGKHSj43Z2
+I:M9AXBT;B4AmEjPOVR]0g3
+R2
+R0
+R13
+R4
+R5
+L0 6469
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_fifo_256x8_0s_4294967295s_0
+vTop_0_COREUART_0_fifo_256x8_pa3
+R15
+!i10b 1
+!s100 hII]C0RRk=57;j;bgQ]OX3
+Ik;g3A>D<oYENWMiCzB^3e0
+R2
+R0
+R13
+R4
+R5
+L0 5956
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_fifo_256x8_pa3
+vTop_0_COREUART_0_fifo_256x8_pa3_0
+R15
+!i10b 1
+!s100 KfCeeF<9E@o`GlSa<KPC;0
+IF5W<]]Ikj?9<PF2_eaI6U2
+R2
+R0
+R13
+R4
+R5
+L0 6372
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_fifo_256x8_pa3_0
+vTop_0_COREUART_0_Rx_async_0s_1s_0s_1s_2s_3s
+R15
+!i10b 1
+!s100 BI1NzW;VO4lIXQ;IFnI=51
+InGh9OJTDiP1gfDTUj2N251
+R2
+R0
+R13
+R4
+R5
+L0 5732
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_@rx_async_0s_1s_0s_1s_2s_3s
+vTop_0_COREUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+R15
+!i10b 1
+!s100 5<_4E;?@[B`3QmFRg9Fzz1
+Iea;GnzZONmPlIY>WXZgkn2
+R2
+R0
+R13
+R4
+R5
+L0 6089
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_0_@tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+vTop_0_COREUART_1_Clock_gen_0s_0s
+R12
+!i10b 1
+!s100 6MKTSI32B?AR39nIO1kG82
+IMZ[U]^Rg4ZbUcLbcZjcMm1
+R2
+R0
+R13
+R4
+R5
+L0 1465
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_1_@clock_gen_0s_0s
+vTop_0_COREUART_1_COREUART_1s_1s_0s_15s_0s_0s
+R12
+!i10b 1
+!s100 NfmHz?Ua2;i:MeQ5hIfzQ3
+IIM`nLie92_R0I20CLH[L;0
+R2
+R0
+R13
+R4
+R5
+L0 1967
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_1_@c@o@r@e@u@a@r@t_1s_1s_0s_15s_0s_0s
+vTop_0_COREUART_1_fifo_256x8_0s_4294967295s_0
+R12
+!i10b 1
+!s100 9TkmLHO0cXmC6WKXWPPKi2
+IkcL@HzM@lO3;_^ESSE9?d3
+R2
+R0
+R13
+R4
+R5
+L0 1700
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_1_fifo_256x8_0s_4294967295s_0
+vTop_0_COREUART_1_fifo_256x8_pa3_1
+R12
+!i10b 1
+!s100 [FjEi2kz0hTfRFR]02HUH1
+Ic4[Dk7>1LE<X>305l@RD;2
+R2
+R0
+R13
+R4
+R5
+L0 1603
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_1_fifo_256x8_pa3_1
+vTop_0_COREUART_1_Rx_async_0s_1s_0s_1s_2s_3s
+R12
+!i10b 1
+!s100 fTSBY2XdaGT5a8``jz4Ok0
+Ih3P77MMV;OX7MHeeFG<Q90
+R2
+R0
+R13
+R4
+R5
+L0 1744
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@top_0_@c@o@r@e@u@a@r@t_1_@rx_async_0s_1s_0s_1s_2s_3s
+vUART_control
+R12
+!i10b 1
+!s100 8ff_zgXKRTGHW3R[aWWR`2
+ILaJ109mohRKz:3D]84lTX2
+R2
+R0
+R13
+R4
+R5
+L0 2047
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@u@a@r@t_control
+vuart_test
+R12
+!i10b 1
+!s100 Vf`08WW`]HdghKemVl5`[1
+IL_d881m2Gg@9:ONeHPWHl2
+R2
+R0
+R13
+R4
+R5
+L0 2090
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11

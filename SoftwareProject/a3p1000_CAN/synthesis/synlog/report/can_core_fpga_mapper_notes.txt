@@ -1,0 +1,26 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO230 :"d:\fpga\a3p1000_can\hdl\hdl\iml.v":222:0:222:5|Found up-down counter in view:work.iml(verilog) instance address[3:0]  
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":2489:11:2489:14|Found ROM .delname. (in view: work.tcl(verilog)) with 12 words by 1 bit.
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":211:10:211:21|Found 6-bit incrementor, 'un1_b_0[5:0]'
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":313:23:313:49|Found 4-bit decrementor, 'un1_dlc[6:3]'
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":113:0:113:5|Found counter in view:work.btl_1ph_clk(verilog) instance count[7:0] 
+@N: MF176 |Default generator successful 
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":333:24:333:29|Found 5 by 5 bit subtractor, 'un1_k2_0_0[4:0]'
+@N: MF176 |Default generator successful 
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:38:109:63|Found 5 by 5 bit less-than operator ('<') un1_timing_3 (in view: work.btl_1ph_clk(verilog))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":306:24:306:47|Found 5 by 5 bit less-than operator ('<') k225 (in view: work.btl_1ph_clk(verilog))
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:42:109:62|Found 4-bit incrementor, 'un1_timing_1[4:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":272:23:272:50|Found 5 by 5 bit less-than operator ('<') t13 (in view: work.btl_1ph_clk(verilog))
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF135 :"d:\fpga\a3p1000_can\hdl\hdl\status_buffer.v":68:0:68:5|RAM i_status_buffer.reg0[1:0] (in view: work.fifo_ctrl(verilog)) is 4 words by 2 bits.
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\fifo_ctrl.v":121:18:121:29|Found 2 by 2 bit subtractor, 'diff_ptr_0_0[1:0]'
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net rst_b_c on CLKBUF  rst_b_pad 
+@N: FP130 |Promoting Net adr_c[3] on CLKINT  I_201 
+@N: FP130 |Promoting Net adr_c[2] on CLKINT  I_202 
+@N: FP130 |Promoting Net adr_c[1] on CLKINT  I_203 
+@N: FP130 |Promoting Net reset_request on CLKINT  I_204 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

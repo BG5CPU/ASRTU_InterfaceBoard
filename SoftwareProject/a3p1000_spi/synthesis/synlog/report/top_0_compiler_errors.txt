@@ -1,0 +1,2 @@
+@E: CS101 :"D:\FPGA\a3p1000_spi\hdl\uart_control.v":99:24:99:34|Index 7 is out of range for variable RX_rd_count
+

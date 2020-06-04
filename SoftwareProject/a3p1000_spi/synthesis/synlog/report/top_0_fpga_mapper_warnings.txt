@@ -1,0 +1,3 @@
+@W: MF136 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@W: MF136 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@W: MT420 |Found inferred clock clok|GLA_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:clok_0.GLA"

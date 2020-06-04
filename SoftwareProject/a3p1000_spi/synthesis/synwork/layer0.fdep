@@ -1,0 +1,107 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\FPGA\\a3p1000_spi\\synthesis\\synwork\\top_0_comp.srs|-top|top_0|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|D:\\FPGA\\a3p1000_spi\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"D:\\FPGA\\a3p1000_spi\\hdl\\SPI_master.v":1564732100
+#CUR:"D:\\FPGA\\a3p1000_spi\\hdl\\UART_AD7606.v":1564732958
+#CUR:"D:\\FPGA\\a3p1000_spi\\smartgen\\UART_fifo\\UART_fifo.v":1564730774
+#CUR:"D:\\FPGA\\a3p1000_spi\\smartgen\\clok\\clok.v":1575381980
+#CUR:"D:\\FPGA\\a3p1000_spi\\smartgen\\sp_fifo\\sp_fifo.v":1564730751
+#CUR:"D:\\FPGA\\a3p1000_spi\\hdl\\uart_rx.v":1562672517
+#CUR:"D:\\FPGA\\a3p1000_spi\\hdl\\uart_tx.v":1562672517
+#CUR:"D:\\FPGA\\a3p1000_spi\\hdl\\uart.v":1562672597
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1550885796
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1550885796
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1550885796
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi_clockmux.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi_chanctrl.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi_control.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi_fifo.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi_rf.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\corespi.v":1549620820
+#CUR:"D:\\FPGA\\a3p1000_spi\\component\\work\\top_0\\top_0.v":1575382550
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\FPGA\a3p1000_spi\hdl\SPI_master.v" verilog
+1			"D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v" verilog
+2			"D:\FPGA\a3p1000_spi\smartgen\UART_fifo\UART_fifo.v" verilog
+3			"D:\FPGA\a3p1000_spi\smartgen\clok\clok.v" verilog
+4			"D:\FPGA\a3p1000_spi\smartgen\sp_fifo\sp_fifo.v" verilog
+5			"D:\FPGA\a3p1000_spi\hdl\uart_rx.v" verilog
+6			"D:\FPGA\a3p1000_spi\hdl\uart_tx.v" verilog
+7			"D:\FPGA\a3p1000_spi\hdl\uart.v" verilog
+8			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+9			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+10			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+11			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v" verilog
+12			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v" verilog
+13			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v" verilog
+14			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v" verilog
+15			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v" verilog
+16			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v" verilog
+17			"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v" verilog
+18			"D:\FPGA\a3p1000_spi\component\work\top_0\top_0.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 6 5
+8 -1
+9 -1
+10 8 9
+11 -1
+12 11
+13 -1
+14 -1
+15 -1
+16 15 13 14 12
+17 16
+18 3 10 17 4 0 7 1 2
+#Dependency Lists(Users Of)
+0 18
+1 18
+2 18
+3 18
+4 18
+5 7
+6 7
+7 18
+8 10
+9 10
+10 18
+11 12
+12 16
+13 16
+14 16
+15 16
+16 17
+17 18
+18 -1
+#Design Unit to File Association
+module work SPI_master 0
+module work UART_AD7606 1
+module work UART_fifo 2
+module work clok 3
+module work sp_fifo 4
+module work uart_rx 5
+module work uart_tx 6
+module work uart 7
+module work top_0 18
+module COREAPB3_LIB CAPB3II 8
+module COREAPB3_LIB CAPB3O 9
+module COREAPB3_LIB CoreAPB3 10
+module CORESPI_LIB spi_clockmux 11
+module CORESPI_LIB spi_chanctrl 12
+module CORESPI_LIB spi_control 13
+module CORESPI_LIB spi_fifo 14
+module CORESPI_LIB spi_rf 15
+module CORESPI_LIB spi 16
+module CORESPI_LIB CORESPI 17

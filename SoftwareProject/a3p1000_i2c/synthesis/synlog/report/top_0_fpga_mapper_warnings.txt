@@ -1,0 +1,4 @@
+@W: MT420 |Found inferred clock top_0|PCLK with period 10.00ns. Please declare a user-defined clock on object "p:PCLK"
+@W: MT420 |Found inferred clock COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3] with period 10.00ns. Please declare a user-defined clock on object "n:COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.sercon[3]"
+@W: MT420 |Found inferred clock COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3] with period 10.00ns. Please declare a user-defined clock on object "n:COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon[3]"
+@W: MT420 |Found inferred clock COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.SCLO_int"

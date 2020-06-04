@@ -1,0 +1,20 @@
+
+fsm_encoding {543504351} onehot
+
+fsm_state_encoding {543504351} 000 {00000001}
+
+fsm_state_encoding {543504351} 001 {00000010}
+
+fsm_state_encoding {543504351} 010 {00000100}
+
+fsm_state_encoding {543504351} 011 {00001000}
+
+fsm_state_encoding {543504351} 100 {00010000}
+
+fsm_state_encoding {543504351} 101 {00100000}
+
+fsm_state_encoding {543504351} 110 {01000000}
+
+fsm_state_encoding {543504351} 111 {10000000}
+
+fsm_registers {543504351} {err_1[7]}  {err_1[6]}  {err_1[5]}  {err_1[4]}  {err_1[3]}  {err_1[2]}  {err_1[1]}  {err_1[0]} 

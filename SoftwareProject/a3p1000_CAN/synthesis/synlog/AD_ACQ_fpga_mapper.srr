@@ -1,0 +1,762 @@
+# Tue Apr 09 15:43:08 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance time_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance acq_cnt[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance ram_waddr[6:0] 
+Encoding state machine acq_phase[0:7] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine ad_addr[0:15] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine acq_state[0:4] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":373:41:373:82|Found 9-bit decrementor, 'ad_reg_9[12:4]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":174:21:174:33|Found 8-bit incrementor, 'un2_acq_cycle[7:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":394:41:394:82|Found 10-bit incrementor, 'un81_ad_reg[12:2]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":431:41:431:82|Found 9-bit incrementor, 'un118_ad_reg[12:3]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":445:41:445:82|Found 12-bit incrementor, 'un132_ad_reg[12:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":250:33:250:50|Found 12 by 12 bit less-than operator ('<') pro1\.un4_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":256:30:256:47|Found 12 by 12 bit less-than operator ('<') pro1\.un16_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":259:32:259:49|Found 12 by 12 bit less-than operator ('<') pro1\.un17_ad_done_i (in view: work.AD_ACQ(rtl))
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 115MB peak: 125MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 135MB peak: 136MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 125MB peak: 136MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 125MB peak: 136MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 125MB peak: 149MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 126MB peak: 149MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 129MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 128MB peak: 149MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 127MB peak: 149MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 162MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+ram_sel / Q                    31                              
+acq_state[0] / Q               63                              
+ad_sum[2] / Q                  29                              
+ad_sum[3] / Q                  31                              
+ad_sum[4] / Q                  40                              
+ad_sum[5] / Q                  52                              
+ad_sum[6] / Q                  58                              
+ad_sum[7] / Q                  59                              
+ad_sum[8] / Q                  64                              
+ad_sum[9] / Q                  57                              
+ad_sum[10] / Q                 58                              
+ad_sum[11] / Q                 57                              
+ad_sum[12] / Q                 54                              
+ad_sum[13] / Q                 46                              
+rst_i_pad / Y                  223 : 223 asynchronous set/reset
+hi_addr[0] / Q                 25                              
+hi_addr[1] / Q                 25                              
+hi_addr[3] / Q                 31                              
+===============================================================
+
+@N: FP130 |Promoting Net rst_i_c on CLKBUF  rst_i_pad 
+@N: FP130 |Promoting Net clk_i_c on CLKBUF  clk_i_pad 
+@N: FP130 |Promoting Net ad_sum[8] on CLKINT  I_849 
+@N: FP130 |Promoting Net acq_state[0] on CLKINT  I_850 
+@N: FP130 |Promoting Net ad_sum[7] on CLKINT  I_851 
+@N: FP130 |Promoting Net ad_sum[6] on CLKINT  I_852 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 162MB)
+
+Replicating Sequential Instance hi_addr[3], fanout 31 segments 2
+Replicating Sequential Instance hi_addr[1], fanout 25 segments 2
+Replicating Sequential Instance hi_addr[0], fanout 25 segments 2
+Replicating Sequential Instance ad_sum[13], fanout 46 segments 2
+Replicating Sequential Instance ad_sum[12], fanout 54 segments 3
+Replicating Sequential Instance ad_sum[11], fanout 57 segments 3
+Replicating Sequential Instance ad_sum[10], fanout 58 segments 3
+Replicating Sequential Instance ad_sum[9], fanout 57 segments 3
+Replicating Sequential Instance ad_sum[5], fanout 52 segments 3
+Replicating Sequential Instance ad_sum[4], fanout 40 segments 2
+Replicating Sequential Instance ad_sum[3], fanout 31 segments 2
+Replicating Sequential Instance ad_sum[2], fanout 29 segments 2
+Replicating Sequential Instance ram_sel, fanout 31 segments 2
+Replicating Combinational Instance un1_ad_sum.un1_acq_state_9, fanout 28 segments 2
+
+Added 0 Buffers
+Added 19 Cells via replication
+	Added 18 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 161MB peak: 162MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 245 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_i               port                   245        ram_sel_0      
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 156MB peak: 162MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_CAN\synthesis\synwork\AD_ACQ_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 158MB peak: 162MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 159MB peak: 162MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 158MB peak: 162MB)
+
+@W: MT420 |Found inferred clock AD_ACQ|clk_i with period 10.00ns. Please declare a user-defined clock on object "p:clk_i"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Apr 09 15:43:14 2019
+#
+
+
+Top view:               AD_ACQ
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -9.685
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+AD_ACQ|clk_i       100.0 MHz     50.8 MHz      10.000        19.685        -9.685     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------
+AD_ACQ|clk_i  AD_ACQ|clk_i  |  10.000      -9.685  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: AD_ACQ|clk_i
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                   Arrival           
+Instance         Reference        Type         Pin     Net                  Time        Slack 
+                 Clock                                                                        
+----------------------------------------------------------------------------------------------
+hi_addr[2]       AD_ACQ|clk_i     DFN1C0       Q       hi_addr_o_c[2]       0.580       -9.685
+hi_addr[1]       AD_ACQ|clk_i     DFN1C0       Q       hi_addr_o_c[1]       0.580       -9.567
+ad_sum[4]        AD_ACQ|clk_i     DFN1E0C0     Q       ad_sum[4]            0.580       -9.289
+ad_sum[3]        AD_ACQ|clk_i     DFN1E0C0     Q       ad_sum[3]            0.580       -9.183
+ad_sum[2]        AD_ACQ|clk_i     DFN1E0C0     Q       ad_sum[2]            0.580       -9.168
+hi_addr_0[3]     AD_ACQ|clk_i     DFN1C0       Q       hi_addr_o_c_0[3]     0.737       -9.155
+ad_sum_1[5]      AD_ACQ|clk_i     DFN1E0C0     Q       ad_sum_1[5]          0.737       -9.124
+ad_sum_0[3]      AD_ACQ|clk_i     DFN1E0C0     Q       ad_sum_0[3]          0.737       -9.020
+min_reg[8]       AD_ACQ|clk_i     DFN1E1C0     Q       min_reg[8]           0.580       -9.013
+hi_addr_0[0]     AD_ACQ|clk_i     DFN1C0       Q       hi_addr_o_c_0[0]     0.737       -8.907
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                             Required           
+Instance          Reference        Type         Pin     Net                            Time         Slack 
+                  Clock                                                                                   
+----------------------------------------------------------------------------------------------------------
+ram_wdata[10]     AD_ACQ|clk_i     DFN1E1C0     D       pro1\.ram_wdata_44_iv[10]      9.461        -9.685
+ram_wdata[7]      AD_ACQ|clk_i     DFN1E1C0     D       pro1\.ram_wdata_44_iv[7]       9.461        -9.570
+ram_wdata[2]      AD_ACQ|clk_i     DFN1E1C0     D       pro1\.ram_wdata_44_3_iv[2]     9.496        -9.289
+ram_wdata[0]      AD_ACQ|clk_i     DFN1E1C0     D       pro1\.ram_wdata_44_0_iv[0]     9.496        -9.281
+ad_sum[9]         AD_ACQ|clk_i     DFN1E0C0     D       pro1\.ad_sum_8[9]              9.461        -9.013
+ad_sum_0[9]       AD_ACQ|clk_i     DFN1E0C0     D       pro1\.ad_sum_8[9]              9.461        -9.013
+ad_sum_1[9]       AD_ACQ|clk_i     DFN1E0C0     D       pro1\.ad_sum_8[9]              9.461        -9.013
+ram_wdata[1]      AD_ACQ|clk_i     DFN1E1C0     D       pro1\.ram_wdata_44_1_iv[1]     9.461        -9.001
+ad_sum[12]        AD_ACQ|clk_i     DFN1E0C0     D       pro1\.ad_sum_8[12]             9.427        -8.955
+ad_sum_0[12]      AD_ACQ|clk_i     DFN1E0C0     D       pro1\.ad_sum_8[12]             9.427        -8.955
+==========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      19.147
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -9.685
+
+    Number of logic level(s):                15
+    Starting point:                          hi_addr[2] / Q
+    Ending point:                            ram_wdata[10] / D
+    The start point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+    The end   point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+hi_addr[2]                                       DFN1C0       Q        Out     0.580     0.580       -         
+hi_addr_o_c[2]                                   Net          -        -       2.263     -           18        
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]               OR2          A        In      -         2.843       -         
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]               OR2          Y        Out     0.363     3.207       -         
+N_2015                                           Net          -        -       1.423     -           6         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro             NOR2A        B        In      -         4.630       -         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro             NOR2A        Y        Out     0.386     5.016       -         
+pro1\.un36_clj_acq_pro                           Net          -        -       0.386     -           2         
+un5_ad_reg_1.un1_clj_acq_pro_3_0                 OR2A         B        In      -         5.402       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0                 OR2A         Y        Out     0.646     6.048       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0                 Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_3                   AO1          C        In      -         6.370       -         
+un5_ad_reg_1.un1_clj_acq_pro_3                   AO1          Y        Out     0.633     7.002       -         
+un1_clj_acq_pro_3                                Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]                MX2          A        In      -         7.324       -         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]                MX2          Y        Out     0.579     7.902       -         
+un1_clj_acq_pro_4[0]                             Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_acq_phase_1                     OR2A         B        In      -         8.224       -         
+un5_ad_reg_1.un1_acq_phase_1                     OR2A         Y        Out     0.646     8.870       -         
+un1_acq_phase_1                                  Net          -        -       1.669     -           9         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_0[10]         AO1A         B        In      -         10.539      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_0[10]         AO1A         Y        Out     0.598     11.137      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_0[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_1[10]         AO1A         C        In      -         11.458      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_1[10]         AO1A         Y        Out     0.633     12.091      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_1[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNI2G46S      AO1A         C        In      -         12.412      -         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNI2G46S      AO1A         Y        Out     0.633     13.045      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_3[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIR6CFM1     OR3          C        In      -         13.366      -         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIR6CFM1     OR3          Y        Out     0.751     14.117      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_5[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIIACBV1     AO1A         C        In      -         14.439      -         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIIACBV1     AO1A         Y        Out     0.633     15.071      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_6[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIJ8KR22       AO1A         C        In      -         15.393      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIJ8KR22       AO1A         Y        Out     0.633     16.025      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_8[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIPIKRU2       OR3          A        In      -         16.347      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIPIKRU2       OR3          Y        Out     0.488     16.835      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_12[10]        Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIC4PE83       AO1A         C        In      -         17.157      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIC4PE83       AO1A         Y        Out     0.633     17.789      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_14[10]        Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIUAVQI5       NOR3         B        In      -         18.111      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIUAVQI5       NOR3         Y        Out     0.714     18.825      -         
+pro1\.ram_wdata_44_iv[10]                        Net          -        -       0.322     -           1         
+ram_wdata[10]                                    DFN1E1C0     D        In      -         19.147      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 19.685 is 10.087(51.2%) logic and 9.599(48.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      19.032
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.571
+
+    Number of logic level(s):                15
+    Starting point:                          hi_addr[2] / Q
+    Ending point:                            ram_wdata[7] / D
+    The start point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+    The end   point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+hi_addr[2]                                    DFN1C0       Q        Out     0.580     0.580       -         
+hi_addr_o_c[2]                                Net          -        -       2.263     -           18        
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]            OR2          A        In      -         2.843       -         
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]            OR2          Y        Out     0.363     3.207       -         
+N_2015                                        Net          -        -       1.423     -           6         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro          NOR2A        B        In      -         4.630       -         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro          NOR2A        Y        Out     0.386     5.016       -         
+pro1\.un36_clj_acq_pro                        Net          -        -       0.386     -           2         
+un5_ad_reg_1.un1_clj_acq_pro_3_0              OR2A         B        In      -         5.402       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0              OR2A         Y        Out     0.646     6.048       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0              Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_3                AO1          C        In      -         6.370       -         
+un5_ad_reg_1.un1_clj_acq_pro_3                AO1          Y        Out     0.633     7.002       -         
+un1_clj_acq_pro_3                             Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]             MX2          A        In      -         7.324       -         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]             MX2          Y        Out     0.579     7.902       -         
+un1_clj_acq_pro_4[0]                          Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_acq_phase_1                  OR2A         B        In      -         8.224       -         
+un5_ad_reg_1.un1_acq_phase_1                  OR2A         Y        Out     0.646     8.870       -         
+un1_acq_phase_1                               Net          -        -       1.669     -           9         
+un13_ad_reg_1.ad_sum_i_m[9]                   NOR2A        A        In      -         10.539      -         
+un13_ad_reg_1.ad_sum_i_m[9]                   NOR2A        Y        Out     0.627     11.166      -         
+ad_sum_i_m[9]                                 Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_1[7]      OR3          C        In      -         11.488      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_1[7]      OR3          Y        Out     0.751     12.239      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_1[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_3[7]      AO1A         C        In      -         12.560      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_3[7]      AO1A         Y        Out     0.633     13.193      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_3[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_5[7]      OR3          A        In      -         13.514      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_5[7]      OR3          Y        Out     0.488     14.002      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_5[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_6[7]      AO1A         C        In      -         14.324      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_6[7]      AO1A         Y        Out     0.633     14.957      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_6[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_8[7]      AO1A         C        In      -         15.278      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_8[7]      AO1A         Y        Out     0.633     15.911      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_8[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_12[7]     OR3          A        In      -         16.232      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_12[7]     OR3          Y        Out     0.488     16.720      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_12[7]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_14[7]     AO1A         C        In      -         17.042      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_14[7]     AO1A         Y        Out     0.633     17.674      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_14[7]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv[7]        NOR3         B        In      -         17.996      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv[7]        NOR3         Y        Out     0.714     18.710      -         
+pro1\.ram_wdata_44_iv[7]                      Net          -        -       0.322     -           1         
+ram_wdata[7]                                  DFN1E1C0     D        In      -         19.032      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 19.571 is 9.972(51.0%) logic and 9.599(49.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      19.028
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.567
+
+    Number of logic level(s):                15
+    Starting point:                          hi_addr[1] / Q
+    Ending point:                            ram_wdata[10] / D
+    The start point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+    The end   point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+hi_addr[1]                                       DFN1C0       Q        Out     0.580     0.580       -         
+hi_addr_o_c[1]                                   Net          -        -       1.994     -           12        
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]               OR2          B        In      -         2.574       -         
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]               OR2          Y        Out     0.514     3.088       -         
+N_2015                                           Net          -        -       1.423     -           6         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro             NOR2A        B        In      -         4.512       -         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro             NOR2A        Y        Out     0.386     4.898       -         
+pro1\.un36_clj_acq_pro                           Net          -        -       0.386     -           2         
+un5_ad_reg_1.un1_clj_acq_pro_3_0                 OR2A         B        In      -         5.283       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0                 OR2A         Y        Out     0.646     5.930       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0                 Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_3                   AO1          C        In      -         6.251       -         
+un5_ad_reg_1.un1_clj_acq_pro_3                   AO1          Y        Out     0.633     6.884       -         
+un1_clj_acq_pro_3                                Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]                MX2          A        In      -         7.205       -         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]                MX2          Y        Out     0.579     7.784       -         
+un1_clj_acq_pro_4[0]                             Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_acq_phase_1                     OR2A         B        In      -         8.106       -         
+un5_ad_reg_1.un1_acq_phase_1                     OR2A         Y        Out     0.646     8.752       -         
+un1_acq_phase_1                                  Net          -        -       1.669     -           9         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_0[10]         AO1A         B        In      -         10.421      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_0[10]         AO1A         Y        Out     0.598     11.018      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_0[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_1[10]         AO1A         C        In      -         11.340      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_1[10]         AO1A         Y        Out     0.633     11.973      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_1[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNI2G46S      AO1A         C        In      -         12.294      -         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNI2G46S      AO1A         Y        Out     0.633     12.927      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_3[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIR6CFM1     OR3          C        In      -         13.248      -         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIR6CFM1     OR3          Y        Out     0.751     13.999      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_5[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIIACBV1     AO1A         C        In      -         14.320      -         
+un5_ad_reg_1.ram_wdata_18_sqmuxa_0_RNIIACBV1     AO1A         Y        Out     0.633     14.953      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_6[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIJ8KR22       AO1A         C        In      -         15.275      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIJ8KR22       AO1A         Y        Out     0.633     15.907      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_8[10]         Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIPIKRU2       OR3          A        In      -         16.229      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIPIKRU2       OR3          Y        Out     0.488     16.717      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_12[10]        Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIC4PE83       AO1A         C        In      -         17.038      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIC4PE83       AO1A         Y        Out     0.633     17.671      -         
+un5_ad_reg_1.pro1\.ram_wdata_44_iv_14[10]        Net          -        -       0.322     -           1         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIUAVQI5       NOR3         B        In      -         17.993      -         
+un5_ad_reg_1.ram_wdata_16_sqmuxa_RNIUAVQI5       NOR3         Y        Out     0.714     18.707      -         
+pro1\.ram_wdata_44_iv[10]                        Net          -        -       0.322     -           1         
+ram_wdata[10]                                    DFN1E1C0     D        In      -         19.028      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 19.567 is 10.238(52.3%) logic and 9.329(47.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      18.914
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.452
+
+    Number of logic level(s):                15
+    Starting point:                          hi_addr[1] / Q
+    Ending point:                            ram_wdata[7] / D
+    The start point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+    The end   point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+hi_addr[1]                                    DFN1C0       Q        Out     0.580     0.580       -         
+hi_addr_o_c[1]                                Net          -        -       1.994     -           12        
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]            OR2          B        In      -         2.574       -         
+un13_ad_reg_1.ad_addr_ns_0_o3_2[2]            OR2          Y        Out     0.514     3.088       -         
+N_2015                                        Net          -        -       1.423     -           6         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro          NOR2A        B        In      -         4.512       -         
+un13_ad_reg_1.pro1\.un36_clj_acq_pro          NOR2A        Y        Out     0.386     4.898       -         
+pro1\.un36_clj_acq_pro                        Net          -        -       0.386     -           2         
+un5_ad_reg_1.un1_clj_acq_pro_3_0              OR2A         B        In      -         5.283       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0              OR2A         Y        Out     0.646     5.930       -         
+un5_ad_reg_1.un1_clj_acq_pro_3_0              Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_3                AO1          C        In      -         6.251       -         
+un5_ad_reg_1.un1_clj_acq_pro_3                AO1          Y        Out     0.633     6.884       -         
+un1_clj_acq_pro_3                             Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]             MX2          A        In      -         7.205       -         
+un5_ad_reg_1.un1_clj_acq_pro_4[0]             MX2          Y        Out     0.579     7.784       -         
+un1_clj_acq_pro_4[0]                          Net          -        -       0.322     -           1         
+un5_ad_reg_1.un1_acq_phase_1                  OR2A         B        In      -         8.106       -         
+un5_ad_reg_1.un1_acq_phase_1                  OR2A         Y        Out     0.646     8.752       -         
+un1_acq_phase_1                               Net          -        -       1.669     -           9         
+un13_ad_reg_1.ad_sum_i_m[9]                   NOR2A        A        In      -         10.421      -         
+un13_ad_reg_1.ad_sum_i_m[9]                   NOR2A        Y        Out     0.627     11.048      -         
+ad_sum_i_m[9]                                 Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_1[7]      OR3          C        In      -         11.370      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_1[7]      OR3          Y        Out     0.751     12.120      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_1[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_3[7]      AO1A         C        In      -         12.442      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_3[7]      AO1A         Y        Out     0.633     13.074      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_3[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_5[7]      OR3          A        In      -         13.396      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_5[7]      OR3          Y        Out     0.488     13.884      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_5[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_6[7]      AO1A         C        In      -         14.206      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_6[7]      AO1A         Y        Out     0.633     14.838      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_6[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_8[7]      AO1A         C        In      -         15.160      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_8[7]      AO1A         Y        Out     0.633     15.792      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_8[7]      Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_12[7]     OR3          A        In      -         16.114      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_12[7]     OR3          Y        Out     0.488     16.602      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_12[7]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_14[7]     AO1A         C        In      -         16.924      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_14[7]     AO1A         Y        Out     0.633     17.556      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv_14[7]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv[7]        NOR3         B        In      -         17.878      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_iv[7]        NOR3         Y        Out     0.714     18.592      -         
+pro1\.ram_wdata_44_iv[7]                      Net          -        -       0.322     -           1         
+ram_wdata[7]                                  DFN1E1C0     D        In      -         18.914      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 19.452 is 10.123(52.0%) logic and 9.329(48.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.504
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.496
+
+    - Propagation time:                      18.785
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.289
+
+    Number of logic level(s):                13
+    Starting point:                          ad_sum[4] / Q
+    Ending point:                            ram_wdata[2] / D
+    The start point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+    The end   point is clocked by            AD_ACQ|clk_i [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+ad_sum[4]                                      DFN1E0C0     Q        Out     0.580     0.580       -         
+ad_sum[4]                                      Net          -        -       2.353     -           20        
+pro1\.ad_reg_10_1.m9                           AOI1         C        In      -         2.934       -         
+pro1\.ad_reg_10_1.m9                           AOI1         Y        Out     0.487     3.420       -         
+pro1\.ad_reg_3_1.i4_mux                        Net          -        -       1.423     -           6         
+pro1\.ad_reg_3_1.m15                           AO1C         B        In      -         4.844       -         
+pro1\.ad_reg_3_1.m15                           AO1C         Y        Out     0.596     5.440       -         
+pro1\.ad_reg_3_1.i8_mux                        Net          -        -       0.806     -           3         
+pro1\.ad_reg_3_1.m21                           NOR3A        A        In      -         6.246       -         
+pro1\.ad_reg_3_1.m21                           NOR3A        Y        Out     0.641     6.888       -         
+pro1\.ad_reg_3_1.i12_mux                       Net          -        -       0.386     -           2         
+pro1\.ad_reg_3_1.m24                           NOR2A        A        In      -         7.273       -         
+pro1\.ad_reg_3_1.m24                           NOR2A        Y        Out     0.627     7.901       -         
+pro1\.ad_reg_3_1.N_45                          Net          -        -       0.386     -           2         
+pro1\.ad_reg_3_1.m27                           NOR2A        A        In      -         8.287       -         
+pro1\.ad_reg_3_1.m27                           NOR2A        Y        Out     0.627     8.914       -         
+pro1\.ad_reg_3_1.N_43                          Net          -        -       0.386     -           2         
+pro1\.ad_reg_3_1.m30                           NOR2A        A        In      -         9.300       -         
+pro1\.ad_reg_3_1.m30                           NOR2A        Y        Out     0.627     9.927       -         
+pro1\.ad_reg_3_1.N_41                          Net          -        -       0.386     -           2         
+pro1\.ad_reg_3_1.m33                           NOR2A        A        In      -         10.313      -         
+pro1\.ad_reg_3_1.m33                           NOR2A        Y        Out     0.627     10.940      -         
+pro1\.ad_reg_3_1.N_39                          Net          -        -       0.386     -           2         
+pro1\.ad_reg_3_1.m36                           NOR2A        A        In      -         11.326      -         
+pro1\.ad_reg_3_1.m36                           NOR2A        Y        Out     0.627     11.954      -         
+pro1\.ad_reg_3[12]                             Net          -        -       0.386     -           2         
+un13_ad_reg_1.ram_wdata_17_sqmuxa              NOR2A        B        In      -         12.339      -         
+un13_ad_reg_1.ram_wdata_17_sqmuxa              NOR2A        Y        Out     0.407     12.746      -         
+ram_wdata_17_sqmuxa                            Net          -        -       1.776     -           11        
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_4[2]     OA1          A        In      -         14.522      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_4[2]     OA1          Y        Out     0.984     15.506      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_4[2]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_6[2]     AO1          C        In      -         15.827      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_6[2]     AO1          Y        Out     0.655     16.483      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_6[2]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_8[2]     AO1          C        In      -         16.804      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_8[2]     AO1          Y        Out     0.655     17.459      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv_8[2]     Net          -        -       0.322     -           1         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv[2]       NOR3         C        In      -         17.781      -         
+un13_ad_reg_1.pro1\.ram_wdata_44_3_iv[2]       NOR3         Y        Out     0.683     18.464      -         
+pro1\.ram_wdata_44_3_iv[2]                     Net          -        -       0.322     -           1         
+ram_wdata[2]                                   DFN1E1C0     D        In      -         18.785      -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 19.289 is 9.329(48.4%) logic and 9.960(51.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 158MB peak: 162MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 158MB peak: 162MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell AD_ACQ.rtl
+  Core Cell usage:
+              cell count     area count*area
+              AND2    22      1.0       22.0
+             AND2A     9      1.0        9.0
+              AND3    42      1.0       42.0
+               AO1    62      1.0       62.0
+              AO1A    50      1.0       50.0
+              AO1B     4      1.0        4.0
+              AO1C    11      1.0       11.0
+              AO1D     2      1.0        2.0
+              AOI1     6      1.0        6.0
+             AOI1A    15      1.0       15.0
+             AOI1B    20      1.0       20.0
+               AX1     2      1.0        2.0
+              AX1A     6      1.0        6.0
+              AX1C    23      1.0       23.0
+              AX1D     5      1.0        5.0
+              AX1E     1      1.0        1.0
+            CLKINT     4      0.0        0.0
+               GND     3      0.0        0.0
+               INV     5      1.0        5.0
+              MAJ3     6      1.0        6.0
+               MX2    48      1.0       48.0
+              MX2A     4      1.0        4.0
+              MX2B     3      1.0        3.0
+              MX2C     1      1.0        1.0
+              NOR2    49      1.0       49.0
+             NOR2A   204      1.0      204.0
+             NOR2B   189      1.0      189.0
+              NOR3    35      1.0       35.0
+             NOR3A    28      1.0       28.0
+             NOR3B    38      1.0       38.0
+             NOR3C    96      1.0       96.0
+               OA1    52      1.0       52.0
+              OA1A    12      1.0       12.0
+              OA1B     1      1.0        1.0
+              OA1C     1      1.0        1.0
+              OAI1     3      1.0        3.0
+               OR2    54      1.0       54.0
+              OR2A    40      1.0       40.0
+              OR2B     6      1.0        6.0
+               OR3   119      1.0      119.0
+              OR3A     4      1.0        4.0
+              OR3B     3      1.0        3.0
+              OR3C     7      1.0        7.0
+               VCC     3      0.0        0.0
+               XA1    30      1.0       30.0
+              XA1A    43      1.0       43.0
+              XA1B     2      1.0        2.0
+              XA1C     4      1.0        4.0
+              XAI1     1      1.0        1.0
+             XNOR2    38      1.0       38.0
+              XOR2    85      1.0       85.0
+
+
+            DFN1C0    45      1.0       45.0
+          DFN1E0C0    32      1.0       32.0
+          DFN1E1C0   160      1.0      160.0
+            DFN1P0     4      1.0        4.0
+         RAM512X18     2      0.0        0.0
+                   -----          ----------
+             TOTAL  1744              1732.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    25
+            OUTBUF   103
+                   -----
+             TOTAL   130
+
+
+Core Cells         : 1732 of 24576 (7%)
+IO Cells           : 130
+
+  RAM/ROM Usage Summary
+Block Rams : 2 of 32 (6%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 28MB peak: 162MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Tue Apr 09 15:43:14 2019
+
+###########################################################]

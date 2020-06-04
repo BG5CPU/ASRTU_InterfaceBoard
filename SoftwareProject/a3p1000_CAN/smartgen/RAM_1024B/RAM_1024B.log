@@ -1,0 +1,85 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Tue Apr 09 15:42:58 2019
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : RAM_1024B
+Family                          : PA3LC
+Output Format                   : VERILOG
+Type                            : RAM
+Write Enable                    : Active Low
+Read Enable                     : Active Low
+Reset                           : None
+LP                              : None
+FF                              : None
+Read Clock                      : Rising
+Write Clock                     : Rising
+Write Depth                     : 1024
+Write Width                     : 8
+Read Depth                      : 1024
+Read Width                      : 8
+RAM Type                        : Two Port
+Clocks                          : Single Read/Write Clock
+Write Mode A                    : Hold Data
+Write Mode B                    : Hold Data
+Read Pipeline A                 : No
+Read Pipeline B                 : Yes
+Optimized for                   : Speed
+Portname DataIn                 : WD
+Portname DataOut                : RD
+Portname Write En               : WEN
+Portname Read En                : REN
+Portname WClock                 :
+Portname RClock                 :
+Portname WAddress               : WADDR
+Portname RAddress               : RADDR
+Portname Reset                  :
+Portname Clock                  : CLK
+Portname DataAIn                :
+Portname DataBIn                :
+Portname DataAOut               :
+Portname DataBOut               :
+Portname AddressA               :
+Portname AddressB               :
+Portname CLKA                   :
+Portname CLKB                   :
+Portname RWA                    :
+Portname RWB                    :
+Portname BLKA                   :
+Portname BLKB                   :
+Portname LP                     :
+Portname FF                     :
+Initialize RAM                  : False
+
+Cascade Configuration:
+     Write Port configuration   : 1024x4
+     Read Port configuration    : 1024x4
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 2
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:  24576   (0.00%)
+    IO (W/ clocks)             Used:      0  Total:    154   (0.00%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      2  Total:     32   (6.25%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to D:/FPGA/a3p1000_CAN/smartgen\RAM_1024B\RAM_1024B.v.
+
+ ** Log Ended:   Tue Apr 09 15:42:58 2019
+

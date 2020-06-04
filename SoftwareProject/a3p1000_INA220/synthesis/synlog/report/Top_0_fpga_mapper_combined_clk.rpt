@@ -1,0 +1,26 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 278 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 5 clock pin(s) of sequential element(s)
+0 instances converted, 5 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+@K:CKID0002       PCLK                port                   278        UART_control_0.count[1]
+===============================================================================================
+========================================================================================== Gated/Generated Clocks ===========================================================================================
+Clock Tree ID     Driving Element                                   Drive Element Type     Fanout     Sample Instance                Explanation                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       COREI2C_0.I2C_NUM_GENERATION[0].ui2c.SCLO_int     DFN1P0                 5          IIC_control_0.ACK_count[3]     No generated or derived clock directive on output of sequential instance
+=============================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

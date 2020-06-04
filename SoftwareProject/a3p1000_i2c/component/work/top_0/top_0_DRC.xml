@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top_0</header>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Required Pin Connection</message>
+    <detail>Unconnected input pin COREI2C_1:PCLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/COREI2C_1:PCLK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Required Pin Connection</message>
+    <detail>Unconnected input pin COREI2C_1:PRESETN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_0/pins/COREI2C_1:PRESETN</crossprobe>
+  </drc>
+</drcreport>

@@ -1,0 +1,17 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[4:0] (in view: CORESPI_LIB.spi_fifo_4s_4s_2_1(verilog)) is 4 words by 5 bits.
+@N: MF239 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit decrementor, 'un1_counter_q_1_dec[5:0]'
+@N: MF238 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit incrementor, 'un1_counter_q_0_inc[5:0]'
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[4:0] (in view: CORESPI_LIB.spi_fifo_4s_4s_2_0(verilog)) is 4 words by 5 bits.
+@N: MF238 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit incrementor, 'un1_counter_q_inc[5:0]'
+@N: MF239 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit decrementor, 'un1_counter_q_dec[5:0]'
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z1(verilog) instance mtx_bitsel[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z1(verilog) instance spi_clk_count[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z1(verilog) instance stxs_bitcnt[4:0] 
+@N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
+@N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
+@N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
+@N: FP130 |Promoting Net PCLK_c on CLKBUF  PCLK_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

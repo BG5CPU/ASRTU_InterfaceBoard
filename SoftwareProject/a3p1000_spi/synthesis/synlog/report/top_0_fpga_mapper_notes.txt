@@ -1,0 +1,36 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[0] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[7] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[6] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[5] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[4] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[1] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[7] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[6] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[5] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[4] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[16:0] (in view: CORESPI_LIB.spi_fifo_16s_8s_3_1(verilog)) is 8 words by 17 bits.
+@N: MF176 |Default generator successful 
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[16:0] (in view: CORESPI_LIB.spi_fifo_16s_8s_3_0(verilog)) is 8 words by 17 bits.
+@N: MF176 |Default generator successful 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance mtx_bitsel[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance stxs_bitsel[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance spi_clk_count[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance stxs_bitcnt[4:0] 
+@N: MO223 :"d:\fpga\a3p1000_spi\hdl\spi_master.v":72:0:72:5|In FSM current_state[11:0] (in view: work.SPI_master_Z4(verilog)), reset input is driving data input. 
+@N: MF239 :"d:\fpga\a3p1000_spi\hdl\uart_tx.v":86:8:86:9|Found 19-bit decrementor, 'un1_prescale_0[18:0]'
+@N: MF239 :"d:\fpga\a3p1000_spi\hdl\uart_rx.v":105:8:105:9|Found 19-bit decrementor, 'un1_prescale_reg_0[18:0]'
+@N: MF239 :"d:\fpga\a3p1000_spi\hdl\uart_ad7606.v":112:25:112:45|Found 4-bit decrementor, 'un2_AD_data_count[3:0]'
+@N: MF794 |RAM fifo_mem_q[16:0] required 272 registers during mapping 
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":1194:0:1194:5|Removing sequential instance CORESPI_0.USPI.UCC.msrxp_pktend (in view: work.top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":1238:0:1238:5|Removing sequential instance CORESPI_0.USPI.UCC.rx_cmdsize (in view: work.top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":1172:0:1172:5|Removing sequential instance CORESPI_0.USPI.UCC.SYNC3_msrxp_pktsel (in view: work.top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF794 |RAM fifo_mem_q[16:0] required 272 registers during mapping 
+@N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
+@N: FP130 |Promoting Net uart_0.uart_rx_inst.prescale_reg_0_sqmuxa_0 on CLKINT  I_39 
+@N: FP130 |Promoting Net uart_0.uart_tx_inst.un1_prescale_b_I_0[1] on CLKINT  I_40 
+@N: FP130 |Promoting Net CORESPI_0.USPI.URXF.rd_pointer_q[0] on CLKINT  I_41 
+@N: FP130 |Promoting Net CORESPI_0.USPI.UTXF.rd_pointer_q[0] on CLKINT  I_42 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

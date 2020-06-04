@@ -1,0 +1,15 @@
+D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  D:\FPGA\a3p1000\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\FPGA\a3p1000\synthesis   -part A3P1000  -package PQFP208  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\FPGA\a3p1000\synthesis\synlog\report\top_0_premap.xml  -top_level_module  top_0  -oedif  D:\FPGA\a3p1000\synthesis\top_0.edn  -conchk_prepass  D:\FPGA\a3p1000\synthesis\top_0_cck.rpt   -freq 100.000   D:\FPGA\a3p1000\synthesis\synwork\top_0_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\FPGA\a3p1000\synthesis\synwork\top_0_prem.srd  -qsap  D:\FPGA\a3p1000\synthesis\top_0.sap  -devicelib  D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  D:\FPGA\a3p1000\synthesis\syntmp\top_0.plg  -osyn  D:\FPGA\a3p1000\synthesis\synwork\top_0_prem.srd  -prjdir  D:\FPGA\a3p1000\synthesis\  -prjname  top_0_syn  -log  D:\FPGA\a3p1000\synthesis\synlog\top_0_premap.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P1000 -package PQFP208 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\top_0_premap.xml -top_level_module top_0 -oedif ..\top_0.edn -conchk_prepass ..\top_0_cck.rpt -freq 100.000 ..\synwork\top_0_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\top_0_prem.srd -qsap ..\top_0.sap -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam top_0.plg -osyn ..\synwork\top_0_prem.srd -prjdir ..\ -prjname top_0_syn -log ..\synlog\top_0_premap.srr
+rc:1 success:1 runtime:2
+file:..\scratchproject.prs|io:o|time:1551696822|size:2791|exec:0|csum:
+file:..\top_0.edn|io:o|time:1551696829|size:411087|exec:0|csum:
+file:..\top_0_cck.rpt|io:o|time:1551697282|size:20136|exec:0|csum:
+file:..\synwork\top_0_mult.srs|io:i|time:1551697281|size:5260|exec:0|csum:DA1355EC1B7DA3FC7577C8CA4EA58F96
+file:..\synwork\top_0_prem.srd|io:o|time:1551697282|size:59491|exec:0|csum:
+file:..\top_0.sap|io:o|time:1551697283|size:1839|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:top_0.plg|io:o|time:1551697282|size:0|exec:0|csum:
+file:..\synwork\top_0_prem.srd|io:o|time:1551697282|size:59491|exec:0|csum:
+file:..\synlog\top_0_premap.srr|io:o|time:1551697283|size:10343|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

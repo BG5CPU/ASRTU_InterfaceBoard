@@ -1,0 +1,195 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/a3p1000_INA220/simulation
+vCOREI2C_COREI2CREAL
+!s110 1551700208
+!i10b 1
+!s100 RE<Q?XmfL<W7=m]=QilY:1
+IE7?K6JC]ZI@Hj>NYd^HW_0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1550150607
+8D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v
+FD:/FPGA/a3p1000_INA220/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v
+L0 26
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z3 !s108 1551700208.000000
+!s107 D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work presynth -O0
+Z5 tCvgOpt 0
+n@c@o@r@e@i2@c_@c@o@r@e@i2@c@r@e@a@l
+vI2C_slave
+Z6 !s110 1551700207
+!i10b 1
+!s100 Pkkj:5YPeEomM]@>_@IkU1
+IF5RE_zB>f9j4NPc84j:2`1
+R1
+R0
+w1551699051
+8D:/FPGA/a3p1000_INA220/hdl/I2C_slave.v
+FD:/FPGA/a3p1000_INA220/hdl/I2C_slave.v
+Z7 L0 21
+R2
+r1
+!s85 0
+31
+Z8 !s108 1551700207.000000
+!s107 D:/FPGA/a3p1000_INA220/hdl/I2C_slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/hdl/I2C_slave.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@i2@c_slave
+vI2C_test
+R6
+!i10b 1
+!s100 D]=D<9AEkIfH@D6UJQb=I1
+IORTdYBTXYOAG`14zid3H10
+R1
+R0
+w1551698654
+8D:/FPGA/a3p1000_INA220/hdl/INA220_control.v
+FD:/FPGA/a3p1000_INA220/hdl/INA220_control.v
+R7
+R2
+r1
+!s85 0
+31
+R8
+!s107 D:/FPGA/a3p1000_INA220/hdl/INA220_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/hdl/INA220_control.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@i2@c_test
+vRX_test
+!s110 1551699487
+!i10b 1
+!s100 ;DSHzf`PDAQgYmAMBkWYS3
+Ij>5UICE0Da`F0jdBkHfaf3
+R1
+R0
+w1551699351
+8D:/FPGA/a3p1000_INA220/stimulus/RX_test.v
+FD:/FPGA/a3p1000_INA220/stimulus/RX_test.v
+R7
+R2
+r1
+!s85 0
+31
+!s108 1551699487.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/RX_test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/stimulus/RX_test.v|
+!s101 -O0
+!i113 1
+R4
+Z9 !s92 +incdir+D:/FPGA/a3p1000_INA220/stimulus -vlog01compat -work presynth -O0
+R5
+n@r@x_test
+vtest
+Z10 !s110 1551700210
+!i10b 1
+!s100 m:^5QMg1<25J39e_e1=_@2
+IzP33Sd<N6fE`UMhh@FXeT1
+R1
+R0
+w1551699808
+8D:/FPGA/a3p1000_INA220/stimulus/test.v
+FD:/FPGA/a3p1000_INA220/stimulus/test.v
+R7
+R2
+r1
+!s85 0
+31
+Z11 !s108 1551700210.000000
+!s107 D:/FPGA/a3p1000_INA220/stimulus/test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000_INA220/stimulus|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/stimulus/test.v|
+!s101 -O0
+!i113 1
+R4
+R9
+R5
+vTop_0
+R10
+!i10b 1
+!s100 [HYHZ_RGfBl>5^chnaBP<3
+IQ0XzjVNBo3YTC[CzQ>Ijo1
+R1
+R0
+Z12 w1551699291
+8D:/FPGA/a3p1000_INA220/component/work/Top_0/Top_0.v
+FD:/FPGA/a3p1000_INA220/component/work/Top_0/Top_0.v
+L0 9
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/a3p1000_INA220/component/work/Top_0/Top_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/component/work/Top_0/Top_0.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@top_0
+vTop_0_COREI2C_0_COREI2C
+Z13 !s110 1551700209
+!i10b 1
+!s100 h74PgAG:S4GY6zbm:QR0Y2
+I2=NooRBG9l6jeOVf`VQei0
+R1
+R0
+R12
+8D:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_0/rtl/vlog/core/corei2c.v
+FD:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_0/rtl/vlog/core/corei2c.v
+R7
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_0/rtl/vlog/core/corei2c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_0/rtl/vlog/core/corei2c.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@top_0_@c@o@r@e@i2@c_0_@c@o@r@e@i2@c
+vTop_0_COREI2C_1_COREI2C
+R13
+!i10b 1
+!s100 NVWfz2e7jk@4QQL1CXjj^1
+I:co7;<4]U`R85BTJJ;m1T2
+R1
+R0
+R12
+8D:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_1/rtl/vlog/core/corei2c.v
+FD:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_1/rtl/vlog/core/corei2c.v
+R7
+R2
+r1
+!s85 0
+31
+!s108 1551700209.000000
+!s107 D:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_1/rtl/vlog/core/corei2c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000_INA220/component/work/Top_0/COREI2C_1/rtl/vlog/core/corei2c.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@top_0_@c@o@r@e@i2@c_1_@c@o@r@e@i2@c

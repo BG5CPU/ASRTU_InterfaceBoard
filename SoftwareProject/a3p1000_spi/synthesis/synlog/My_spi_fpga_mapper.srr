@@ -1,0 +1,602 @@
+# Fri Feb 08 18:13:55 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[4:0] (in view: CORESPI_LIB.spi_fifo_4s_4s_2_1(verilog)) is 4 words by 5 bits.
+@W: MF136 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@N: MF239 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit decrementor, 'un1_counter_q_1_dec[5:0]'
+@N: MF238 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit incrementor, 'un1_counter_q_0_inc[5:0]'
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[4:0] (in view: CORESPI_LIB.spi_fifo_4s_4s_2_0(verilog)) is 4 words by 5 bits.
+@W: MF136 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@N: MF238 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit incrementor, 'un1_counter_q_inc[5:0]'
+@N: MF239 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":176:5:176:6|Found 6-bit decrementor, 'un1_counter_q_dec[5:0]'
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z1(verilog) instance mtx_bitsel[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z1(verilog) instance spi_clk_count[7:0] 
+Encoding state machine mtx_state[5:0] (in view: CORESPI_LIB.spi_chanctrl_Z1(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0111 -> 001000
+   1000 -> 010000
+   1001 -> 100000
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z1(verilog) instance stxs_bitcnt[4:0] 
+@N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 117MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 117MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 117MB peak: 117MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 117MB)
+
+@N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 117MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+PRESETN_pad / Y                165 : 163 asynchronous set/reset
+===============================================================
+
+@N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
+@N: FP130 |Promoting Net PCLK_c on CLKBUF  PCLK_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 121MB peak: 122MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 121MB peak: 122MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 227 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+====================================== Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                      
+-------------------------------------------------------------------------------------------------------------
+@K:CKID0001       PCLK                port                   227        My_spi_0.USPI.UCC.txfifo_datadelay[3]
+=============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_spi\synthesis\synwork\My_spi_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 121MB peak: 122MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+@W: MT420 |Found inferred clock My_spi|PCLK with period 10.00ns. Please declare a user-defined clock on object "p:PCLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Feb 08 18:13:58 2019
+#
+
+
+Top view:               My_spi
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.932
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+My_spi|PCLK        100.0 MHz     77.3 MHz      10.000        12.932        -2.932     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------
+My_spi|PCLK  My_spi|PCLK  |  10.000      -2.932  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: My_spi|PCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                         Arrival           
+Instance                                  Reference       Type         Pin     Net                         Time        Slack 
+                                          Clock                                                                              
+-----------------------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.URF.control1[1]             My_spi|PCLK     DFN1E1C0     Q       SPIMODE_c                   0.737       -2.932
+My_spi_0.USPI.UTXF.counter_q[1]           My_spi|PCLK     DFN1C0       Q       counter_q[1]                0.737       -1.599
+My_spi_0.USPI.UTXF.counter_q[0]           My_spi|PCLK     DFN1C0       Q       counter_q[0]                0.737       -1.496
+My_spi_0.USPI.UTXF.counter_q[2]           My_spi|PCLK     DFN1C0       Q       counter_q[2]                0.737       -1.491
+My_spi_0.USPI.UCC.SYNC2_stxp_strobetx     My_spi|PCLK     DFN1C0       Q       SYNC2_stxp_strobetx         0.737       -1.209
+My_spi_0.USPI.UCC.SYNC3_stxp_strobetx     My_spi|PCLK     DFN1P0       Q       SYNC3_stxp_strobetx_i_0     0.737       -1.166
+My_spi_0.USPI.UCC.mtx_fiforead            My_spi|PCLK     DFN1P0       Q       mtx_fiforead_i_0            0.737       -0.704
+My_spi_0.USPI.URXF.counter_q[1]           My_spi|PCLK     DFN1C0       Q       counter_q[1]                0.737       -0.455
+My_spi_0.USPI.UTXF.counter_q[3]           My_spi|PCLK     DFN1C0       Q       counter_q[3]                0.737       -0.351
+My_spi_0.USPI.URXF.counter_q[2]           My_spi|PCLK     DFN1C0       Q       counter_q[2]                0.737       -0.349
+=============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                       Starting                                                 Required           
+Instance                               Reference       Type       Pin     Net                   Time         Slack 
+                                       Clock                                                                       
+-------------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.UTXF.full_out            My_spi|PCLK     DFN1C0     D       full_out_2            9.461        -2.932
+My_spi_0.USPI.UTXF.empty_out           My_spi|PCLK     DFN1P0     D       empty_out_2           9.461        -2.909
+My_spi_0.USPI.UTXF.rd_pointer_q[1]     My_spi|PCLK     DFN1C0     D       rd_pointer_q_3[1]     9.461        -1.682
+My_spi_0.USPI.UTXF.counter_q[3]        My_spi|PCLK     DFN1C0     D       counter_d[3]          9.461        -1.062
+My_spi_0.USPI.UTXF.counter_q[1]        My_spi|PCLK     DFN1C0     D       counter_d[1]          9.461        -1.001
+My_spi_0.USPI.UTXF.counter_q[2]        My_spi|PCLK     DFN1C0     D       counter_d[2]          9.461        -1.001
+My_spi_0.USPI.UTXF.rd_pointer_q[0]     My_spi|PCLK     DFN1C0     D       rd_pointer_q_3[0]     9.461        -0.840
+My_spi_0.USPI.UTXF.counter_q[4]        My_spi|PCLK     DFN1C0     D       counter_d[4]          9.461        -0.641
+My_spi_0.USPI.UTXF.counter_q[5]        My_spi|PCLK     DFN1C0     D       counter_d[5]          9.461        -0.624
+My_spi_0.USPI.UCC.stxs_bitsel[1]       My_spi|PCLK     DFN1C1     D       stxs_bitsel_6[1]      9.427        -0.575
+===================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      12.393
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.932
+
+    Number of logic level(s):                8
+    Starting point:                          My_spi_0.USPI.URF.control1[1] / Q
+    Ending point:                            My_spi_0.USPI.UTXF.full_out / D
+    The start point is clocked by            My_spi|PCLK [rising] on pin CLK
+    The end   point is clocked by            My_spi|PCLK [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.URF.control1[1]                     DFN1E1C0     Q        Out     0.737     0.737       -         
+SPIMODE_c                                         Net          -        -       2.437     -           23        
+My_spi_0.USPI.UCC.mtx_fiforead_RNIHQND            NOR2B        B        In      -         3.174       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIHQND            NOR2B        Y        Out     0.627     3.801       -         
+N_110                                             Net          -        -       0.322     -           1         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          A        In      -         4.122       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          Y        Out     0.507     4.630       -         
+N_60                                              Net          -        -       1.526     -           7         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        A        In      -         6.156       -         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        Y        Out     0.514     6.670       -         
+rd_pointer_d_1_sqmuxa_1                           Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          S        In      -         7.477       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          Y        Out     0.480     7.956       -         
+N_83                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          A        In      -         8.278       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          Y        Out     0.568     8.846       -         
+N_91                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        A        In      -         9.168       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        Y        Out     0.488     9.656       -         
+counter_d[2]                                      Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.full_out_RNO_0                 NOR3A        A        In      -         10.462      -         
+My_spi_0.USPI.UTXF.full_out_RNO_0                 NOR3A        Y        Out     0.664     11.126      -         
+full_out_2_1                                      Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.full_out_RNO                   NOR3B        B        In      -         11.448      -         
+My_spi_0.USPI.UTXF.full_out_RNO                   NOR3B        Y        Out     0.624     12.072      -         
+full_out_2                                        Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.full_out                       DFN1C0       D        In      -         12.393      -         
+================================================================================================================
+Total path delay (propagation time + setup) of 12.932 is 5.749(44.5%) logic and 7.183(55.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      12.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.874
+
+    Number of logic level(s):                8
+    Starting point:                          My_spi_0.USPI.URF.control1[1] / Q
+    Ending point:                            My_spi_0.USPI.UTXF.full_out / D
+    The start point is clocked by            My_spi|PCLK [rising] on pin CLK
+    The end   point is clocked by            My_spi|PCLK [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.URF.control1[1]                     DFN1E1C0     Q        Out     0.737     0.737       -         
+SPIMODE_c                                         Net          -        -       2.437     -           23        
+My_spi_0.USPI.UCC.SYNC3_stxp_strobetx_RNIE4EA     AOI1         C        In      -         3.174       -         
+My_spi_0.USPI.UCC.SYNC3_stxp_strobetx_RNIE4EA     AOI1         Y        Out     0.525     3.698       -         
+un1_txfifo_read                                   Net          -        -       0.386     -           2         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          B        In      -         4.084       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          Y        Out     0.514     4.599       -         
+N_60                                              Net          -        -       1.526     -           7         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        A        In      -         6.125       -         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        Y        Out     0.488     6.613       -         
+rd_pointer_d_1_sqmuxa_1                           Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          S        In      -         7.419       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          Y        Out     0.480     7.899       -         
+N_83                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          A        In      -         8.220       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          Y        Out     0.568     8.789       -         
+N_91                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        A        In      -         9.110       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        Y        Out     0.488     9.598       -         
+counter_d[2]                                      Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.full_out_RNO_0                 NOR3A        A        In      -         10.405      -         
+My_spi_0.USPI.UTXF.full_out_RNO_0                 NOR3A        Y        Out     0.664     11.069      -         
+full_out_2_1                                      Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.full_out_RNO                   NOR3B        B        In      -         11.390      -         
+My_spi_0.USPI.UTXF.full_out_RNO                   NOR3B        Y        Out     0.624     12.014      -         
+full_out_2                                        Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.full_out                       DFN1C0       D        In      -         12.336      -         
+================================================================================================================
+Total path delay (propagation time + setup) of 12.874 is 5.627(43.7%) logic and 7.247(56.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.834
+
+    Number of logic level(s):                8
+    Starting point:                          My_spi_0.USPI.URF.control1[1] / Q
+    Ending point:                            My_spi_0.USPI.UTXF.empty_out / D
+    The start point is clocked by            My_spi|PCLK [rising] on pin CLK
+    The end   point is clocked by            My_spi|PCLK [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.URF.control1[1]                     DFN1E1C0     Q        Out     0.737     0.737       -         
+SPIMODE_c                                         Net          -        -       2.437     -           23        
+My_spi_0.USPI.UCC.mtx_fiforead_RNIHQND            NOR2B        B        In      -         3.174       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIHQND            NOR2B        Y        Out     0.627     3.801       -         
+N_110                                             Net          -        -       0.322     -           1         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          A        In      -         4.122       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          Y        Out     0.507     4.630       -         
+N_60                                              Net          -        -       1.526     -           7         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        A        In      -         6.156       -         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        Y        Out     0.514     6.670       -         
+rd_pointer_d_1_sqmuxa_1                           Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          S        In      -         7.477       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          Y        Out     0.480     7.956       -         
+N_83                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          A        In      -         8.278       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          Y        Out     0.568     8.846       -         
+N_91                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        A        In      -         9.168       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        Y        Out     0.488     9.656       -         
+counter_d[2]                                      Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.empty_out_RNO_1                NOR2         B        In      -         10.462      -         
+My_spi_0.USPI.UTXF.empty_out_RNO_1                NOR2         Y        Out     0.514     10.977      -         
+empty_out_2_1                                     Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.empty_out_RNO                  NOR3C        C        In      -         11.298      -         
+My_spi_0.USPI.UTXF.empty_out_RNO                  NOR3C        Y        Out     0.641     11.940      -         
+empty_out_2                                       Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.empty_out                      DFN1P0       D        In      -         12.261      -         
+================================================================================================================
+Total path delay (propagation time + setup) of 12.834 is 5.651(44.0%) logic and 7.183(56.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.204
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.777
+
+    Number of logic level(s):                8
+    Starting point:                          My_spi_0.USPI.URF.control1[1] / Q
+    Ending point:                            My_spi_0.USPI.UTXF.empty_out / D
+    The start point is clocked by            My_spi|PCLK [rising] on pin CLK
+    The end   point is clocked by            My_spi|PCLK [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.URF.control1[1]                     DFN1E1C0     Q        Out     0.737     0.737       -         
+SPIMODE_c                                         Net          -        -       2.437     -           23        
+My_spi_0.USPI.UCC.SYNC3_stxp_strobetx_RNIE4EA     AOI1         C        In      -         3.174       -         
+My_spi_0.USPI.UCC.SYNC3_stxp_strobetx_RNIE4EA     AOI1         Y        Out     0.525     3.698       -         
+un1_txfifo_read                                   Net          -        -       0.386     -           2         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          B        In      -         4.084       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          Y        Out     0.514     4.599       -         
+N_60                                              Net          -        -       1.526     -           7         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        A        In      -         6.125       -         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        Y        Out     0.488     6.613       -         
+rd_pointer_d_1_sqmuxa_1                           Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          S        In      -         7.419       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[2]           MX2          Y        Out     0.480     7.899       -         
+N_83                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          A        In      -         8.220       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m[2]             MX2          Y        Out     0.568     8.789       -         
+N_91                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        A        In      -         9.110       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNIJ2MK[2]     NOR2B        Y        Out     0.488     9.598       -         
+counter_d[2]                                      Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.empty_out_RNO_1                NOR2         B        In      -         10.405      -         
+My_spi_0.USPI.UTXF.empty_out_RNO_1                NOR2         Y        Out     0.514     10.919      -         
+empty_out_2_1                                     Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.empty_out_RNO                  NOR3C        C        In      -         11.241      -         
+My_spi_0.USPI.UTXF.empty_out_RNO                  NOR3C        Y        Out     0.641     11.882      -         
+empty_out_2                                       Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.empty_out                      DFN1P0       D        In      -         12.204      -         
+================================================================================================================
+Total path delay (propagation time + setup) of 12.777 is 5.530(43.3%) logic and 7.247(56.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      12.231
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.770
+
+    Number of logic level(s):                8
+    Starting point:                          My_spi_0.USPI.URF.control1[1] / Q
+    Ending point:                            My_spi_0.USPI.UTXF.empty_out / D
+    The start point is clocked by            My_spi|PCLK [rising] on pin CLK
+    The end   point is clocked by            My_spi|PCLK [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+My_spi_0.USPI.URF.control1[1]                     DFN1E1C0     Q        Out     0.737     0.737       -         
+SPIMODE_c                                         Net          -        -       2.437     -           23        
+My_spi_0.USPI.UCC.mtx_fiforead_RNIHQND            NOR2B        B        In      -         3.174       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIHQND            NOR2B        Y        Out     0.627     3.801       -         
+N_110                                             Net          -        -       0.322     -           1         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          A        In      -         4.122       -         
+My_spi_0.USPI.UCC.mtx_fiforead_RNIVU5O            OR2          Y        Out     0.507     4.630       -         
+N_60                                              Net          -        -       1.526     -           7         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        A        In      -         6.156       -         
+My_spi_0.USPI.UTXF.rd_pointer_d_1_sqmuxa_1        NOR2B        Y        Out     0.514     6.670       -         
+rd_pointer_d_1_sqmuxa_1                           Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[1]           MX2          S        In      -         7.477       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_1[1]           MX2          Y        Out     0.396     7.873       -         
+N_82                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m[1]             MX2          A        In      -         8.194       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m[1]             MX2          Y        Out     0.579     8.773       -         
+N_90                                              Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNII1MK[1]     NOR2B        A        In      -         9.095       -         
+My_spi_0.USPI.UTXF.un1_counter_q_m_RNII1MK[1]     NOR2B        Y        Out     0.514     9.609       -         
+counter_d[1]                                      Net          -        -       0.806     -           3         
+My_spi_0.USPI.UTXF.empty_out_RNO_1                NOR2         A        In      -         10.415      -         
+My_spi_0.USPI.UTXF.empty_out_RNO_1                NOR2         Y        Out     0.507     10.923      -         
+empty_out_2_1                                     Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.empty_out_RNO                  NOR3C        C        In      -         11.244      -         
+My_spi_0.USPI.UTXF.empty_out_RNO                  NOR3C        Y        Out     0.666     11.910      -         
+empty_out_2                                       Net          -        -       0.322     -           1         
+My_spi_0.USPI.UTXF.empty_out                      DFN1P0       D        In      -         12.231      -         
+================================================================================================================
+Total path delay (propagation time + setup) of 12.770 is 5.587(43.8%) logic and 7.183(56.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 122MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell My_spi.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     5      1.0        5.0
+              AND3     6      1.0        6.0
+               AO1    15      1.0       15.0
+              AO1A    10      1.0       10.0
+              AO1B     1      1.0        1.0
+              AO1C     5      1.0        5.0
+              AO1D     1      1.0        1.0
+              AOI1     4      1.0        4.0
+             AOI1B     3      1.0        3.0
+              AX1B     1      1.0        1.0
+              AX1C     1      1.0        1.0
+              AXO7     1      1.0        1.0
+             AXOI7     1      1.0        1.0
+               GND     9      0.0        0.0
+               INV    10      1.0       10.0
+               MX2    75      1.0       75.0
+              MX2A     2      1.0        2.0
+              MX2B     2      1.0        2.0
+              MX2C     1      1.0        1.0
+              NOR2    19      1.0       19.0
+             NOR2A    42      1.0       42.0
+             NOR2B    81      1.0       81.0
+              NOR3     7      1.0        7.0
+             NOR3A    17      1.0       17.0
+             NOR3B    40      1.0       40.0
+             NOR3C    27      1.0       27.0
+               OA1     9      1.0        9.0
+              OA1A     4      1.0        4.0
+              OA1B    11      1.0       11.0
+              OA1C     2      1.0        2.0
+               OR2    23      1.0       23.0
+              OR2A     7      1.0        7.0
+              OR2B     4      1.0        4.0
+               OR3    30      1.0       30.0
+              OR3A    11      1.0       11.0
+              OR3B     4      1.0        4.0
+              OR3C     1      1.0        1.0
+               VCC     9      0.0        0.0
+               XA1    16      1.0       16.0
+              XA1B     1      1.0        1.0
+              XA1C     2      1.0        2.0
+             XNOR2    13      1.0       13.0
+               XO1     2      1.0        2.0
+              XO1A     2      1.0        2.0
+              XOR2    30      1.0       30.0
+              XOR3     2      1.0        2.0
+
+
+            DFN1C0    85      1.0       85.0
+            DFN1C1     6      1.0        6.0
+          DFN1E0C0     6      1.0        6.0
+          DFN1E0C1     4      1.0        4.0
+            DFN1E1    40      1.0       40.0
+          DFN1E1C0    46      1.0       46.0
+          DFN1E1C1    13      1.0       13.0
+          DFN1E1P0     9      1.0        9.0
+          DFN1E1P1     1      1.0        1.0
+            DFN1P0    17      1.0       17.0
+                   -----          ----------
+             TOTAL   796               778.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    19
+            OUTBUF    25
+                   -----
+             TOTAL    46
+
+
+Core Cells         : 778 of 24576 (3%)
+IO Cells           : 46
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 26MB peak: 122MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri Feb 08 18:13:59 2019
+
+###########################################################]

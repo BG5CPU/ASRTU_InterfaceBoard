@@ -1,0 +1,1 @@
+@W: MT530 :"d:\fpga\a3p1000_can\hdl\hdl\iml.v":222:0:222:5|Found inferred clock can_core|clk which controls 888 sequential elements including top_iml.address[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

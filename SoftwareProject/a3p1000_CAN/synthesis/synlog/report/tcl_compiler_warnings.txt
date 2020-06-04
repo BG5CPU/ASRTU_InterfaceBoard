@@ -1,0 +1,2 @@
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v":435:0:435:5|Pruning unused register crc_stat. Make sure that there are no unused intermediate registers.
+

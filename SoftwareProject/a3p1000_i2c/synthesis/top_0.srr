@@ -1,0 +1,1543 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: D:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: YOGA
+
+# Fri Mar 08 16:09:17 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v" (library work)
+@I::"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v" (library work)
+@I::"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v" (library work)
+@I::"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v" (library work)
+@I::"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v" (library work)
+@I::"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
+@I::"D:\FPGA\a3p1000_i2c\component\work\top_0\top_0.v" (library work)
+Verilog syntax check successful!
+File D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v changed - recompiling
+File D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v changed - recompiling
+File D:\FPGA\a3p1000_i2c\component\work\top_0\top_0.v changed - recompiling
+Selecting top level module top_0
+@W: CG775 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
+
+@N: CG364 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b001000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0010
+	FAMILY=32'b00000000000000000000000000001111
+	SYNC_RESET=32'b00000000000000000000000000000000
+	CAPB3OOl=32'b00000000000000000000000000000000
+	CAPB3IOl=32'b00000000000000000000000000000001
+	CAPB3lOl=32'b00000000000000000000000000000010
+	CAPB3OIl=32'b00000000000000000000000000000011
+	CAPB3IIl=32'b00000000000000000000000000000100
+	CAPB3lIl=32'b00000000000000000000000000000101
+	CAPB3Oll=32'b00000000000000000000000000000110
+	CAPB3Ill=32'b00000000000000000000000000000111
+	CAPB3lll=32'b00000000000000000000000000001000
+	CAPB3O0l=32'b00000000000000000000000000001001
+	CAPB3I0l=32'b00000000000000000000000000001010
+	CAPB3l0l=32'b00000000000000000000000000001011
+	CAPB3O1l=32'b00000000000000000000000000001100
+	CAPB3I1l=32'b00000000000000000000000000001101
+	CAPB3l1l=32'b00000000000000000000000000001110
+	CAPB3OO0=32'b00000000000000000000000000001111
+	CAPB3IO0=32'b00000000000000000000000000010000
+	CAPB3lO0=32'b00000000000000000000000000010001
+	CAPB3OI0=16'b0000000000000001
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b0000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+	CAPB3II1=16'b0000000000000000
+	CAPB3lI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+@W: CG360 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
+@N: CG364 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v":21:7:21:29|Synthesizing module top_0_COREI2C_0_COREI2C in library work.
+
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000001
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000110
+	BCLK_ENABLED=32'b00000000000000000000000000000000
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	I2C_NUM=32'b00000000000000000000000000000001
+	serADR0_ID=5'b01100
+	serADR0_RV=8'b00000000
+	serADR1_ID=5'b11100
+	serADR1_RV=8'b00000000
+   Generated name = top_0_COREI2C_0_COREI2C_Z2
+
+@N: CG364 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":26:7:26:25|Synthesizing module COREI2C_COREI2CREAL in library work.
+
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000001
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000110
+	BCLK_ENABLED=32'b00000000000000000000000000000000
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	DELLONGINX=32'b00000000000000000000000000000100
+	INFILTERDELAY=4'b0101
+	MST_TX_SLV_RX=1'b0
+	SLAVE_ONLY_EN=1'b0
+	serCON_ID=5'b00000
+	serCON_RV=8'b00000000
+	serSTA_ID=5'b00100
+	serSTA_RV=8'b11111000
+	serDAT_ID=5'b01000
+	serDAT_RV=8'b00000000
+	serSMB_ID=5'b10000
+	serSMB_RV=8'b01x1x000
+	serADR0_ID=5'b01100
+	serADR0_RV=8'b00000000
+	serADR1_ID=5'b11100
+	serADR1_RV=8'b00000000
+	FSMSTA08=5'b00000
+	FSMSTA10=5'b00001
+	FSMSTAE0=5'b11101
+	FSMSTA18=5'b00010
+	FSMSTA20=5'b00011
+	FSMSTA28=5'b00100
+	FSMSTA30=5'b00101
+	FSMSTA38=5'b00110
+	FSMSTA40=5'b00111
+	FSMSTA48=5'b01000
+	FSMSTA50=5'b01001
+	FSMSTA58=5'b01010
+	FSMSTA60=5'b01011
+	FSMSTA68=5'b01100
+	FSMSTA70=5'b01101
+	FSMSTA78=5'b01110
+	FSMSTA80=5'b01111
+	FSMSTA88=5'b10000
+	FSMSTA90=5'b10001
+	FSMSTA98=5'b10010
+	FSMSTAA0=5'b10011
+	FSMSTAA8=5'b10100
+	FSMSTAB0=5'b10101
+	FSMSTAB8=5'b10110
+	FSMSTAC0=5'b10111
+	FSMSTAC8=5'b11000
+	FSMSTAF8=5'b11001
+	FSMSTA00=5'b11010
+	FSMSTAD0=5'b11011
+	FSMSTAD8=5'b11100
+	FSMDET0=3'b000
+	FSMDET1=3'b001
+	FSMDET2=3'b010
+	FSMDET3=3'b011
+	FSMDET4=3'b100
+	FSMDET5=3'b101
+	FSMDET6=3'b110
+	FSMSYNC0=3'b000
+	FSMSYNC1=3'b001
+	FSMSYNC2=3'b010
+	FSMSYNC3=3'b011
+	FSMSYNC4=3'b100
+	FSMSYNC5=3'b101
+	FSMSYNC6=3'b110
+	FSMSYNC7=3'b111
+	FSMMOD0=3'b000
+	FSMMOD1=3'b001
+	FSMMOD2=3'b010
+	FSMMOD3=3'b011
+	FSMMOD4=3'b100
+	FSMMOD5=3'b101
+	FSMMOD6=3'b110
+	DATAWIDTH=32'b00000000000000000000000000001000
+	ADDRWIDTH=32'b00000000000000000000000000000111
+   Generated name = COREI2C_COREI2CREAL_Z3
+
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":261:14:261:20|Object sersmb7 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":262:14:262:20|Object sersmb6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":264:14:264:20|Object sersmb4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":266:14:266:20|Object sersmb2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":267:14:267:20|Object sersmb1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":268:14:268:20|Object sersmb0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":289:8:289:18|Object SMBSUS_NI_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":289:20:289:31|Object SMBSUS_NI_d2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":290:8:290:20|Object SMBALERT_NI_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":290:22:290:35|Object SMBALERT_NI_d2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3238:2:3238:7|Pruning unused register term_cnt_3ms_reg[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3212:2:3212:7|Pruning unused register term_cnt_25ms_reg[6:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3181:2:3181:7|Pruning unused register term_cnt_35ms_reg[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1613:3:1613:8|Pruning unused register PCLK_count2[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1087:6:1087:11|Pruning unused register smbus_mst_reset_ff0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1087:6:1087:11|Pruning unused register smbus_mst_reset_ff1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1087:6:1087:11|Pruning unused register smbus_mst_reset_ff2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2603:3:2603:8|Pruning unused register set_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2603:3:2603:8|Optimizing register bit ens1_pre to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2603:3:2603:8|Pruning unused register ens1_pre. Make sure that there are no unused intermediate registers.
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v":109:12:109:21|Object seradr1apb is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v":143:0:143:5|Pruning unused register BCLK_ff0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v":143:0:143:5|Pruning unused register BCLK_ff. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v":118:0:118:5|Pruning unused register term_cnt_215us_reg[12:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v":21:7:21:29|Synthesizing module top_0_COREI2C_1_COREI2C in library work.
+
+	OPERATING_MODE=32'b00000000000000000000000000000000
+	BAUD_RATE_FIXED=32'b00000000000000000000000000000001
+	BAUD_RATE_VALUE=32'b00000000000000000000000000000110
+	BCLK_ENABLED=32'b00000000000000000000000000000000
+	GLITCHREG_NUM=32'b00000000000000000000000000000011
+	SMB_EN=32'b00000000000000000000000000000000
+	IPMI_EN=32'b00000000000000000000000000000000
+	FREQUENCY=32'b00000000000000000000000000011110
+	FIXED_SLAVE0_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE0_ADDR_VALUE=32'b00000000000000000000000000000000
+	ADD_SLAVE1_ADDRESS_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_EN=32'b00000000000000000000000000000000
+	FIXED_SLAVE1_ADDR_VALUE=32'b00000000000000000000000000000000
+	I2C_NUM=32'b00000000000000000000000000000001
+	serADR0_ID=5'b01100
+	serADR0_RV=8'b00000000
+	serADR1_ID=5'b11100
+	serADR1_RV=8'b00000000
+   Generated name = top_0_COREI2C_1_COREI2C_Z4
+
+@W: CG133 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v":109:12:109:21|Object seradr1apb is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v":143:0:143:5|Pruning unused register BCLK_ff0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v":143:0:143:5|Pruning unused register BCLK_ff. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v":118:0:118:5|Pruning unused register term_cnt_215us_reg[12:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":21:7:21:15|Synthesizing module I2C_slave in library work.
+
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+	S7=32'b00000000000000000000000000000111
+	S8=32'b00000000000000000000000000001000
+	S9=32'b00000000000000000000000000001001
+	S10=32'b00000000000000000000000000001010
+	S11=32'b00000000000000000000000000001011
+	S12=32'b00000000000000000000000000001100
+	S13=32'b00000000000000000000000000001101
+	S14=32'b00000000000000000000000000001110
+	S15=32'b00000000000000000000000000001111
+	CTRL=32'b00000000000000000000000000000000
+	STAT=32'b00000000000000000000000000000100
+	DATA=32'b00000000000000000000000000001000
+	ADDR0=32'b00000000000000000000000000001100
+	SMB=32'b00000000000000000000000000010000
+	ADDR1=32'b00000000000000000000000000011100
+   Generated name = I2C_slave_Z5
+
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":139:30:139:34|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":250:24:250:27|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":256:22:256:23|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":260:24:260:27|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":261:22:261:23|Removing redundant assignment.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Optimizing register bit PADDR[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Pruning register bits 8 to 4 of PADDR[8:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":160:0:160:5|Pruning register bits 1 to 0 of PADDR[8:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":21:7:21:14|Synthesizing module I2C_test in library work.
+
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+	S7=32'b00000000000000000000000000000111
+	S8=32'b00000000000000000000000000001000
+	S9=32'b00000000000000000000000000001001
+	S10=32'b00000000000000000000000000001010
+	S11=32'b00000000000000000000000000001011
+	S12=32'b00000000000000000000000000001100
+	S13=32'b00000000000000000000000000001101
+	S14=32'b00000000000000000000000000001110
+	S_15=32'b00000000000000000000000000001111
+	S_16=32'b00000000000000000000000000010000
+	S_17=32'b00000000000000000000000000010001
+	S_18=32'b00000000000000000000000000010010
+	S_19=32'b00000000000000000000000000010011
+	S_20=32'b00000000000000000000000000010100
+	CTRL=32'b00000000000000000000000000000000
+	STAT=32'b00000000000000000000000000000100
+	DATA=32'b00000000000000000000000000001000
+	ADDR0=32'b00000000000000000000000000001100
+	SMB=32'b00000000000000000000000000010000
+	ADDR1=32'b00000000000000000000000000011100
+   Generated name = I2C_test_Z6
+
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":158:30:158:34|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":287:24:287:27|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":291:26:291:31|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":296:26:296:31|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":297:24:297:27|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000_i2c\component\work\top_0\top_0.v":9:7:9:11|Synthesizing module top_0 in library work.
+
+@W: CL279 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":179:0:179:5|Pruning register bits 8 to 4 of PADDR[8:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":179:0:179:5|Pruning register bit 1 of PADDR[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":179:0:179:5|Register bit PADDR[0] is always 0.
+@W: CL169 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":179:0:179:5|Pruning unused register PADDR[0]. Make sure that there are no unused intermediate registers.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":23:23:23:28|Input PREADY is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":24:23:24:29|Input PSLVERR is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":23:23:23:28|Input PREADY is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":24:23:24:29|Input PSLVERR is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\hdl\I2C_slave.v":28:23:28:26|Input SCLO is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_1\rtl\vlog\core\corei2c.v":41:7:41:10|Input BCLK is unused.
+@N: CL201 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3117:3:3117:8|Trying to extract state machine for register fsmmod.
+Extracted state machine for register fsmmod
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2846:3:2846:8|Trying to extract state machine for register fsmdet.
+Extracted state machine for register fsmdet
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Trying to extract state machine for register fsmsync.
+Extracted state machine for register fsmsync
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":42:7:42:17|Input pulse_215us is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":45:7:45:17|Input seradr1apb0 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":51:7:51:11|Input BCLKe is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":66:7:66:17|Input SMBALERT_NI is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":69:7:69:15|Input SMBSUS_NI is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\work\top_0\COREI2C_0\rtl\vlog\core\corei2c.v":41:7:41:10|Input BCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":521:0:521:7|Input PRDATAS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":528:0:528:7|Input PRDATAS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":630:0:630:7|Input PREADYS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":632:0:632:7|Input PREADYS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":664:0:664:8|Input PSLVERRS1 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":666:0:666:8|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\FPGA\a3p1000_i2c\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 08 16:09:19 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 08 16:09:19 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 08 16:09:19 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+File D:\FPGA\a3p1000_i2c\synthesis\synwork\top_0_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Mar 08 16:09:21 2019
+
+###########################################################]
+# Fri Mar 08 16:09:21 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\FPGA\a3p1000_i2c\synthesis\top_0_scck.rpt 
+Printing clock  summary report in "D:\FPGA\a3p1000_i2c\synthesis\top_0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                 Requested     Requested     Clock        Clock                   Clock
+Clock                                                 Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------
+COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock      100.0 MHz     10.000        inferred     Inferred_clkgroup_1     37   
+COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     64   
+COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     100.0 MHz     10.000        inferred     Inferred_clkgroup_3     64   
+top_0|PCLK                                            100.0 MHz     10.000        inferred     Inferred_clkgroup_0     264  
+============================================================================================================================
+
+@W: MT530 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Found inferred clock top_0|PCLK which controls 264 sequential elements including COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1470:3:1470:8|Found inferred clock COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock which controls 37 sequential elements including COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.PCLK_count1[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Found inferred clock COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3] which controls 64 sequential elements including COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Found inferred clock COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3] which controls 64 sequential elements including COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\FPGA\a3p1000_i2c\synthesis\top_0.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z3_0(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z3_1(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 114MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Mar 08 16:09:22 2019
+
+###########################################################]
+# Fri Mar 08 16:09:22 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1470:3:1470:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_0(verilog) instance PCLK_count1[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1340:3:1340:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_0(verilog) instance indelay[3:0] 
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z3_0(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1470:3:1470:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_1(verilog) instance PCLK_count1[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_i2c\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1340:3:1340:8|Found counter in view:work.COREI2C_COREI2CREAL_Z3_1(verilog) instance indelay[3:0] 
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z3_1(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z3_1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"d:\fpga\a3p1000_i2c\hdl\i2c_slave.v":266:0:266:5|Found counter in view:work.I2C_slave_Z5(verilog) instance count[3:0] 
+@N: MF238 :"d:\fpga\a3p1000_i2c\hdl\i2c_slave.v":150:22:150:39|Found 4-bit incrementor, 'un3_data_count[3:0]'
+@N: MO231 :"d:\fpga\a3p1000_i2c\hdl\i2c_test.v":302:0:302:5|Found counter in view:work.I2C_test_Z6(verilog) instance ACK_count[3:0] 
+@N: MF238 :"d:\fpga\a3p1000_i2c\hdl\i2c_test.v":169:22:169:39|Found 4-bit incrementor, 'un3_data_count[3:0]'
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 131MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 131MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 131MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 120MB peak: 131MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 131MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 139MB peak: 139MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 138MB peak: 139MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 138MB peak: 139MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 164MB peak: 166MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                             Fanout, notes                   
+---------------------------------------------------------------------------------------
+COREI2C_1.I2C_NUM_GENERATION[0].ui2c.fsmsta[2] / Q     27                              
+COREI2C_1.I2C_NUM_GENERATION[0].ui2c.fsmsta[4] / Q     32                              
+COREI2C_1.I2C_NUM_GENERATION[0].ui2c.fsmsta[3] / Q     25                              
+COREI2C_0.I2C_NUM_GENERATION[0].ui2c.fsmsta[2] / Q     26                              
+COREI2C_0.I2C_NUM_GENERATION[0].ui2c.fsmsta[4] / Q     28                              
+COREI2C_0.I2C_NUM_GENERATION[0].ui2c.fsmsta[3] / Q     27                              
+PRESETN_pad / Y                                        282 : 282 asynchronous set/reset
+=======================================================================================
+
+@N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
+@N: FP130 |Promoting Net PCLK_c on CLKBUF  PCLK_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 165MB peak: 166MB)
+
+Replicating Sequential Instance COREI2C_0.I2C_NUM_GENERATION[0].ui2c.fsmsta[3], fanout 27 segments 2
+Replicating Sequential Instance COREI2C_0.I2C_NUM_GENERATION[0].ui2c.fsmsta[4], fanout 28 segments 2
+Replicating Sequential Instance COREI2C_0.I2C_NUM_GENERATION[0].ui2c.fsmsta[2], fanout 26 segments 2
+Replicating Sequential Instance COREI2C_1.I2C_NUM_GENERATION[0].ui2c.fsmsta[3], fanout 25 segments 2
+Replicating Sequential Instance COREI2C_1.I2C_NUM_GENERATION[0].ui2c.fsmsta[4], fanout 32 segments 2
+Replicating Sequential Instance COREI2C_1.I2C_NUM_GENERATION[0].ui2c.fsmsta[2], fanout 27 segments 2
+
+Added 0 Buffers
+Added 6 Cells via replication
+	Added 6 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 165MB peak: 166MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 270 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 18 clock pin(s) of sequential element(s)
+0 instances converted, 18 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance            
+---------------------------------------------------------------------------------------------------
+@K:CKID0004       PCLK                port                   270        I2C_test_0.current_state[4]
+===================================================================================================
+=========================================================================================== Gated/Generated Clocks ============================================================================================
+Clock Tree ID     Driving Element                                      Drive Element Type     Fanout     Sample Instance               Explanation                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       COREI2C_0.I2C_NUM_GENERATION[0].ui2c.SCLO_int        DFN1P0                 10         I2C_test_0.ACK_count[3]       No generated or derived clock directive on output of sequential instance
+@K:CKID0002       COREI2C_1.I2C_NUM_GENERATION[0].ui2c.sercon_0[3]     DFN1C0                 4          I2C_slave_0.data_count[3]     No generated or derived clock directive on output of sequential instance
+@K:CKID0003       COREI2C_0.I2C_NUM_GENERATION[0].ui2c.sercon_0[3]     DFN1C0                 4          I2C_test_0.data_count[3]      No generated or derived clock directive on output of sequential instance
+===============================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 161MB peak: 166MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_i2c\synthesis\synwork\top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 162MB peak: 166MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 164MB peak: 166MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 166MB)
+
+@W: MT420 |Found inferred clock top_0|PCLK with period 10.00ns. Please declare a user-defined clock on object "p:PCLK"
+@W: MT420 |Found inferred clock COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3] with period 10.00ns. Please declare a user-defined clock on object "n:COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.sercon[3]"
+@W: MT420 |Found inferred clock COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3] with period 10.00ns. Please declare a user-defined clock on object "n:COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon[3]"
+@W: MT420 |Found inferred clock COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.SCLO_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Mar 08 16:09:31 2019
+#
+
+
+Top view:               top_0
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -5.674
+
+                                                      Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                        Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock      100.0 MHz     169.0 MHz     10.000        5.916         4.084      inferred     Inferred_clkgroup_1
+COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     100.0 MHz     172.9 MHz     10.000        5.782         4.218      inferred     Inferred_clkgroup_2
+COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     100.0 MHz     156.6 MHz     10.000        6.385         3.615      inferred     Inferred_clkgroup_3
+top_0|PCLK                                            100.0 MHz     63.8 MHz      10.000        15.674        -5.674     inferred     Inferred_clkgroup_0
+=========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                           Ending                                             |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top_0|PCLK                                         top_0|PCLK                                         |  10.000      -5.674  |  No paths    -      |  No paths    -      |  No paths    -    
+top_0|PCLK                                         COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock   |  No paths    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock   COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock   |  No paths    -       |  10.000      4.084  |  No paths    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]  top_0|PCLK                                         |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]  COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock   |  No paths    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]  COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]  |  10.000      4.218   |  No paths    -      |  No paths    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]  top_0|PCLK                                         |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]  COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock   |  No paths    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]  COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]  |  10.000      3.615   |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                                                                 Arrival          
+Instance                    Reference                                            Type       Pin     Net              Time        Slack
+                            Clock                                                                                                     
+--------------------------------------------------------------------------------------------------------------------------------------
+I2C_test_0.ACK_count[2]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       ACK_count[2]     0.653       4.084
+I2C_slave_0.count[1]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       count[1]         0.653       4.096
+I2C_test_0.ACK_count[1]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       ACK_count[1]     0.653       4.223
+I2C_test_0.ACK_count[0]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       ACK_count[0]     0.653       4.270
+I2C_slave_0.count[3]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       count[3]         0.653       4.303
+I2C_slave_0.count[0]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       count[0]         0.653       4.362
+I2C_slave_0.count[2]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       count[2]         0.653       4.442
+I2C_test_0.ACK_count[3]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     Q       ACK_count[3]     0.653       5.718
+======================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                                                                     Required          
+Instance                    Reference                                            Type       Pin     Net                  Time         Slack
+                            Clock                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------
+I2C_test_0.out_en           COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0P0     D       N_135_i              9.287        4.084
+I2C_slave_0.count[3]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       count_n3             9.287        4.096
+I2C_test_0.ACK_count[3]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       N_14                 9.287        4.270
+I2C_slave_0.count[0]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       N_58                 9.287        4.303
+I2C_test_0.ACK_count[0]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       ACK_count_RNO[0]     9.287        4.415
+I2C_test_0.ACK_count[1]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       N_10                 9.287        4.415
+I2C_slave_0.count[1]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       count_n1             9.287        4.442
+I2C_slave_0.out_en          COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       out_en_2             9.287        5.103
+I2C_slave_0.count[2]        COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       count_n2             9.287        5.235
+I2C_test_0.ACK_count[2]     COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock     DFN0C0     D       N_12                 9.287        5.591
+===========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.713
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.287
+
+    - Propagation time:                      5.203
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.084
+
+    Number of logic level(s):                3
+    Starting point:                          I2C_test_0.ACK_count[2] / Q
+    Ending point:                            I2C_test_0.out_en / D
+    The start point is clocked by            COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock [falling] on pin CLK
+    The end   point is clocked by            COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock [falling] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+I2C_test_0.ACK_count[2]              DFN0C0     Q        Out     0.653     0.653       -         
+ACK_count[2]                         Net        -        -       0.806     -           3         
+I2C_test_0.ACK_count_RNIL4EN[1]      OR2        B        In      -         1.460       -         
+I2C_test_0.ACK_count_RNIL4EN[1]      OR2        Y        Out     0.646     2.106       -         
+N_113                                Net        -        -       0.386     -           2         
+I2C_test_0.ACK_count_RNIH8531[3]     OR2A       B        In      -         2.492       -         
+I2C_test_0.ACK_count_RNIH8531[3]     OR2A       Y        Out     0.646     3.139       -         
+N_115                                Net        -        -       0.806     -           3         
+I2C_test_0.out_en_RNO                XNOR2      B        In      -         3.945       -         
+I2C_test_0.out_en_RNO                XNOR2      Y        Out     0.937     4.882       -         
+N_135_i                              Net        -        -       0.322     -           1         
+I2C_test_0.out_en                    DFN0P0     D        In      -         5.203       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 5.916 is 3.596(60.8%) logic and 2.320(39.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                                   Arrival          
+Instance                     Reference                                             Type       Pin     Net               Time        Slack
+                             Clock                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------
+I2C_test_0.data_count[1]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     Q       data_count[1]     0.580       4.218
+I2C_test_0.data_count[3]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     Q       data_count[3]     0.737       4.407
+I2C_test_0.data_count[2]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     Q       data_count[2]     0.580       4.413
+I2C_test_0.data_count[0]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     Q       data_count[0]     0.737       4.972
+=========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                                                     Required          
+Instance                     Reference                                             Type       Pin     Net                 Time         Slack
+                             Clock                                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------
+I2C_test_0.data_count[0]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     D       data_count_3[0]     9.427        4.218
+I2C_test_0.data_count[1]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     D       data_count_3[1]     9.427        4.218
+I2C_test_0.data_count[2]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     D       data_count_3[2]     9.427        4.218
+I2C_test_0.data_count[3]     COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]     DFN1C0     D       I_9_0               9.461        5.707
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      5.209
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.218
+
+    Number of logic level(s):                2
+    Starting point:                          I2C_test_0.data_count[1] / Q
+    Ending point:                            I2C_test_0.data_count[0] / D
+    The start point is clocked by            COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3] [rising] on pin CLK
+    The end   point is clocked by            COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3] [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                 Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+I2C_test_0.data_count[1]             DFN1C0     Q        Out     0.580     0.580       -         
+data_count[1]                        Net        -        -       1.279     -           5         
+I2C_test_0.data_count_RNII99L[3]     OR3B       B        In      -         1.860       -         
+I2C_test_0.data_count_RNII99L[3]     OR3B       Y        Out     0.624     2.483       -         
+N_100                                Net        -        -       1.776     -           11        
+I2C_test_0.data_count_RNO[0]         NOR2A      A        In      -         4.260       -         
+I2C_test_0.data_count_RNO[0]         NOR2A      Y        Out     0.627     4.887       -         
+data_count_3[0]                      Net        -        -       0.322     -           1         
+I2C_test_0.data_count[0]             DFN1C0     D        In      -         5.209       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 5.782 is 2.405(41.6%) logic and 3.377(58.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                                                   Arrival          
+Instance                      Reference                                             Type       Pin     Net               Time        Slack
+                              Clock                                                                                                       
+------------------------------------------------------------------------------------------------------------------------------------------
+I2C_slave_0.data_count[0]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     Q       data_count[0]     0.737       3.615
+I2C_slave_0.data_count[1]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     Q       data_count[1]     0.737       3.943
+I2C_slave_0.data_count[2]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     Q       data_count[2]     0.737       3.975
+I2C_slave_0.data_count[3]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     Q       data_count[3]     0.737       4.713
+==========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                                     Required          
+Instance                      Reference                                             Type       Pin     Net                 Time         Slack
+                              Clock                                                                                                          
+---------------------------------------------------------------------------------------------------------------------------------------------
+I2C_slave_0.data_count[1]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     D       data_count_3[1]     9.461        3.615
+I2C_slave_0.data_count[2]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     D       data_count_3[2]     9.461        3.615
+I2C_slave_0.data_count[3]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     D       I_9                 9.461        5.803
+I2C_slave_0.data_count[0]     COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]     DFN1C0     D       I_4                 9.461        6.616
+=============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      5.846
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.615
+
+    Number of logic level(s):                3
+    Starting point:                          I2C_slave_0.data_count[0] / Q
+    Ending point:                            I2C_slave_0.data_count[1] / D
+    The start point is clocked by            COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3] [rising] on pin CLK
+    The end   point is clocked by            COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3] [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                   Type       Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+I2C_slave_0.data_count[0]              DFN1C0     Q        Out     0.737     0.737       -         
+data_count[0]                          Net        -        -       1.279     -           5         
+I2C_slave_0.data_count_RNIV0MV[1]      NOR2A      A        In      -         2.016       -         
+I2C_slave_0.data_count_RNIV0MV[1]      NOR2A      Y        Out     0.627     2.644       -         
+data_count8_1                          Net        -        -       0.322     -           1         
+I2C_slave_0.data_count_RNI26CV1[1]     NOR2B      A        In      -         2.965       -         
+I2C_slave_0.data_count_RNI26CV1[1]     NOR2B      Y        Out     0.514     3.479       -         
+data_count8                            Net        -        -       1.639     -           8         
+I2C_slave_0.data_count_RNO[1]          NOR2A      B        In      -         5.118       -         
+I2C_slave_0.data_count_RNO[1]          NOR2A      Y        Out     0.407     5.525       -         
+data_count_3[1]                        Net        -        -       0.322     -           1         
+I2C_slave_0.data_count[1]              DFN1C0     D        In      -         5.846       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.385 is 2.824(44.2%) logic and 3.561(55.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: top_0|PCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                             Arrival           
+Instance                                                 Reference      Type         Pin     Net              Time        Slack 
+                                                         Clock                                                                  
+--------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]        top_0|PCLK     DFN1E1C0     Q       fsmsta[1]        0.580       -5.674
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[0]        top_0|PCLK     DFN1E0P0     Q       fsmsta[0]        0.737       -5.533
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.framesync[0]     top_0|PCLK     DFN1P0       Q       framesync[0]     0.580       -5.497
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.framesync[3]     top_0|PCLK     DFN1P0       Q       framesync[3]     0.737       -5.433
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[0]        top_0|PCLK     DFN1E1P0     Q       fsmsta[0]        0.580       -5.433
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.framesync[1]     top_0|PCLK     DFN1P0       Q       framesync[1]     0.580       -5.415
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.framesync[2]     top_0|PCLK     DFN1P0       Q       framesync[2]     0.737       -5.389
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[3]        top_0|PCLK     DFN1E0P0     Q       fsmsta[3]        0.737       -5.229
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.fsmdet[3]        top_0|PCLK     DFN1C0       Q       fsmdet[3]        0.737       -5.101
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]        top_0|PCLK     DFN1E0C0     Q       fsmsta[1]        0.737       -5.099
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                             Required           
+Instance                                              Reference      Type         Pin     Net              Time         Slack 
+                                                      Clock                                                                   
+------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[0]     top_0|PCLK     DFN1E0C0     D       serdat_20[0]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[1]     top_0|PCLK     DFN1E0C0     D       serdat_20[1]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[2]     top_0|PCLK     DFN1E0C0     D       serdat_20[2]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[3]     top_0|PCLK     DFN1E0C0     D       serdat_20[3]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[4]     top_0|PCLK     DFN1E0C0     D       serdat_20[4]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[5]     top_0|PCLK     DFN1E0C0     D       serdat_20[5]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[6]     top_0|PCLK     DFN1E0C0     D       serdat_20[6]     9.461        -5.674
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[7]     top_0|PCLK     DFN1E0C0     D       serdat_20[7]     9.461        -5.674
+COREI2C_1.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[0]     top_0|PCLK     DFN1E0P0     D       fsmsta_10[0]     9.461        -5.533
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[0]     top_0|PCLK     DFN1E1P0     D       fsmsta_10[0]     9.427        -4.799
+==============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      15.136
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.674
+
+    Number of logic level(s):                9
+    Starting point:                          COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1] / Q
+    Ending point:                            COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[0] / D
+    The start point is clocked by            top_0|PCLK [rising] on pin CLK
+    The end   point is clocked by            top_0|PCLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]                             DFN1E1C0     Q        Out     0.580     0.580       -         
+fsmsta[1]                                                                     Net          -        -       2.353     -           20        
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         B        In      -         2.934       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         Y        Out     0.514     3.448       -         
+sersta74_1                                                                    Net          -        -       1.184     -           4         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        B        In      -         4.632       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        Y        Out     0.627     5.259       -         
+sersta78                                                                      Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          C        In      -         5.581       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          Y        Out     0.633     6.213       -         
+un1_sersta69_0_0_4                                                            Net          -        -       0.386     -           2         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          B        In      -         6.599       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          Y        Out     0.646     7.245       -         
+un1_sersta78                                                                  Net          -        -       0.806     -           3         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          B        In      -         8.052       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          Y        Out     0.646     8.698       -         
+N_45                                                                          Net          -        -       1.669     -           9         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        B        In      -         10.367      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        Y        Out     0.407     10.774      -         
+un1_ack_0_sqmuxa_2_0_a2_0                                                     Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        B        In      -         11.095      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        Y        Out     0.624     11.719      -         
+N_63                                                                          Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         C        In      -         12.040      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         Y        Out     0.655     12.696      -         
+un1_ack_0_sqmuxa_2                                                            Net          -        -       1.639     -           8         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[0]                         MX2          S        In      -         14.335      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[0]                         MX2          Y        Out     0.480     14.814      -         
+serdat_20[0]                                                                  Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[0]                             DFN1E0C0     D        In      -         15.136      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 15.674 is 6.352(40.5%) logic and 9.323(59.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      15.136
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.674
+
+    Number of logic level(s):                9
+    Starting point:                          COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1] / Q
+    Ending point:                            COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[2] / D
+    The start point is clocked by            top_0|PCLK [rising] on pin CLK
+    The end   point is clocked by            top_0|PCLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]                             DFN1E1C0     Q        Out     0.580     0.580       -         
+fsmsta[1]                                                                     Net          -        -       2.353     -           20        
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         B        In      -         2.934       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         Y        Out     0.514     3.448       -         
+sersta74_1                                                                    Net          -        -       1.184     -           4         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        B        In      -         4.632       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        Y        Out     0.627     5.259       -         
+sersta78                                                                      Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          C        In      -         5.581       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          Y        Out     0.633     6.213       -         
+un1_sersta69_0_0_4                                                            Net          -        -       0.386     -           2         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          B        In      -         6.599       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          Y        Out     0.646     7.245       -         
+un1_sersta78                                                                  Net          -        -       0.806     -           3         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          B        In      -         8.052       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          Y        Out     0.646     8.698       -         
+N_45                                                                          Net          -        -       1.669     -           9         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        B        In      -         10.367      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        Y        Out     0.407     10.774      -         
+un1_ack_0_sqmuxa_2_0_a2_0                                                     Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        B        In      -         11.095      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        Y        Out     0.624     11.719      -         
+N_63                                                                          Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         C        In      -         12.040      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         Y        Out     0.655     12.696      -         
+un1_ack_0_sqmuxa_2                                                            Net          -        -       1.639     -           8         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[2]                         MX2          S        In      -         14.335      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[2]                         MX2          Y        Out     0.480     14.814      -         
+serdat_20[2]                                                                  Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[2]                             DFN1E0C0     D        In      -         15.136      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 15.674 is 6.352(40.5%) logic and 9.323(59.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      15.136
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.674
+
+    Number of logic level(s):                9
+    Starting point:                          COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1] / Q
+    Ending point:                            COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[1] / D
+    The start point is clocked by            top_0|PCLK [rising] on pin CLK
+    The end   point is clocked by            top_0|PCLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]                             DFN1E1C0     Q        Out     0.580     0.580       -         
+fsmsta[1]                                                                     Net          -        -       2.353     -           20        
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         B        In      -         2.934       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         Y        Out     0.514     3.448       -         
+sersta74_1                                                                    Net          -        -       1.184     -           4         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        B        In      -         4.632       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        Y        Out     0.627     5.259       -         
+sersta78                                                                      Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          C        In      -         5.581       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          Y        Out     0.633     6.213       -         
+un1_sersta69_0_0_4                                                            Net          -        -       0.386     -           2         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          B        In      -         6.599       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          Y        Out     0.646     7.245       -         
+un1_sersta78                                                                  Net          -        -       0.806     -           3         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          B        In      -         8.052       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          Y        Out     0.646     8.698       -         
+N_45                                                                          Net          -        -       1.669     -           9         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        B        In      -         10.367      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        Y        Out     0.407     10.774      -         
+un1_ack_0_sqmuxa_2_0_a2_0                                                     Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        B        In      -         11.095      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        Y        Out     0.624     11.719      -         
+N_63                                                                          Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         C        In      -         12.040      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         Y        Out     0.655     12.696      -         
+un1_ack_0_sqmuxa_2                                                            Net          -        -       1.639     -           8         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[1]                         MX2          S        In      -         14.335      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[1]                         MX2          Y        Out     0.480     14.814      -         
+serdat_20[1]                                                                  Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[1]                             DFN1E0C0     D        In      -         15.136      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 15.674 is 6.352(40.5%) logic and 9.323(59.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      15.136
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.674
+
+    Number of logic level(s):                9
+    Starting point:                          COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1] / Q
+    Ending point:                            COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[4] / D
+    The start point is clocked by            top_0|PCLK [rising] on pin CLK
+    The end   point is clocked by            top_0|PCLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]                             DFN1E1C0     Q        Out     0.580     0.580       -         
+fsmsta[1]                                                                     Net          -        -       2.353     -           20        
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         B        In      -         2.934       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         Y        Out     0.514     3.448       -         
+sersta74_1                                                                    Net          -        -       1.184     -           4         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        B        In      -         4.632       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        Y        Out     0.627     5.259       -         
+sersta78                                                                      Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          C        In      -         5.581       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          Y        Out     0.633     6.213       -         
+un1_sersta69_0_0_4                                                            Net          -        -       0.386     -           2         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          B        In      -         6.599       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          Y        Out     0.646     7.245       -         
+un1_sersta78                                                                  Net          -        -       0.806     -           3         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          B        In      -         8.052       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          Y        Out     0.646     8.698       -         
+N_45                                                                          Net          -        -       1.669     -           9         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        B        In      -         10.367      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        Y        Out     0.407     10.774      -         
+un1_ack_0_sqmuxa_2_0_a2_0                                                     Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        B        In      -         11.095      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        Y        Out     0.624     11.719      -         
+N_63                                                                          Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         C        In      -         12.040      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         Y        Out     0.655     12.696      -         
+un1_ack_0_sqmuxa_2                                                            Net          -        -       1.639     -           8         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[4]                         MX2          S        In      -         14.335      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[4]                         MX2          Y        Out     0.480     14.814      -         
+serdat_20[4]                                                                  Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[4]                             DFN1E0C0     D        In      -         15.136      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 15.674 is 6.352(40.5%) logic and 9.323(59.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      15.136
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.674
+
+    Number of logic level(s):                9
+    Starting point:                          COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1] / Q
+    Ending point:                            COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[7] / D
+    The start point is clocked by            top_0|PCLK [rising] on pin CLK
+    The end   point is clocked by            top_0|PCLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta[1]                             DFN1E1C0     Q        Out     0.580     0.580       -         
+fsmsta[1]                                                                     Net          -        -       2.353     -           20        
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         B        In      -         2.934       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIJROE_1[0]                   NOR2         Y        Out     0.514     3.448       -         
+sersta74_1                                                                    Net          -        -       1.184     -           4         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        B        In      -         4.632       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNINCU41_0[2]                  NOR2B        Y        Out     0.627     5.259       -         
+sersta78                                                                      Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          C        In      -         5.581       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNIEPS92[3]                    AO1          Y        Out     0.633     6.213       -         
+un1_sersta69_0_0_4                                                            Net          -        -       0.386     -           2         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          B        In      -         6.599       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_0_RNIKOML3[4]                  OR2          Y        Out     0.646     7.245       -         
+un1_sersta78                                                                  Net          -        -       0.806     -           3         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          B        In      -         8.052       -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsta_RNI2O8J4[2]                    OR2          Y        Out     0.646     8.698       -         
+N_45                                                                          Net          -        -       1.669     -           9         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        B        In      -         10.367      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNI200L5                     NOR2A        Y        Out     0.407     10.774      -         
+un1_ack_0_sqmuxa_2_0_a2_0                                                     Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        B        In      -         11.095      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.pedetect_RNIIPFJG                     NOR3B        Y        Out     0.624     11.719      -         
+N_63                                                                          Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         C        In      -         12.040      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.sercon_inferred_clock_RNIJ3BPH[3]     AO1A         Y        Out     0.655     12.696      -         
+un1_ack_0_sqmuxa_2                                                            Net          -        -       1.639     -           8         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[7]                         MX2          S        In      -         14.335      -         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat_RNO[7]                         MX2          Y        Out     0.480     14.814      -         
+serdat_20[7]                                                                  Net          -        -       0.322     -           1         
+COREI2C_0.I2C_NUM_GENERATION\[0\]\.ui2c.serdat[7]                             DFN1E0C0     D        In      -         15.136      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 15.674 is 6.352(40.5%) logic and 9.323(59.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 166MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 166MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell top_0.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    12      1.0       12.0
+              AND3     2      1.0        2.0
+               AO1    85      1.0       85.0
+              AO12     1      1.0        1.0
+              AO1A    25      1.0       25.0
+              AO1B     6      1.0        6.0
+              AO1C    15      1.0       15.0
+              AO1D     7      1.0        7.0
+              AOI1    15      1.0       15.0
+             AOI1B    15      1.0       15.0
+               AX1     3      1.0        3.0
+              AX1A     1      1.0        1.0
+              AX1C     2      1.0        2.0
+              AX1D     1      1.0        1.0
+              AX1E     2      1.0        2.0
+              AXO6     1      1.0        1.0
+             AXOI3     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+               GND    11      0.0        0.0
+               INV     3      1.0        3.0
+              MAJ3     1      1.0        1.0
+               MX2    56      1.0       56.0
+              MX2A     6      1.0        6.0
+              MX2B     7      1.0        7.0
+              MX2C     4      1.0        4.0
+              NOR2    67      1.0       67.0
+             NOR2A   170      1.0      170.0
+             NOR2B   164      1.0      164.0
+              NOR3    34      1.0       34.0
+             NOR3A    94      1.0       94.0
+             NOR3B   102      1.0      102.0
+             NOR3C    72      1.0       72.0
+               OA1    31      1.0       31.0
+              OA1A    14      1.0       14.0
+              OA1B    13      1.0       13.0
+              OA1C    21      1.0       21.0
+              OAI1     6      1.0        6.0
+               OR2    78      1.0       78.0
+              OR2A    59      1.0       59.0
+              OR2B    24      1.0       24.0
+               OR3    78      1.0       78.0
+              OR3A    23      1.0       23.0
+              OR3B     7      1.0        7.0
+              OR3C     4      1.0        4.0
+               VCC    11      0.0        0.0
+               XA1     8      1.0        8.0
+              XA1A     1      1.0        1.0
+              XA1C     3      1.0        3.0
+             XNOR2     4      1.0        4.0
+               XO1     3      1.0        3.0
+              XOR2    31      1.0       31.0
+              ZOR3     2      1.0        2.0
+
+
+            DFN0C0     9      1.0        9.0
+            DFN0P0     1      1.0        1.0
+            DFN1C0   102      1.0      102.0
+          DFN1E0C0    35      1.0       35.0
+          DFN1E0P0    12      1.0       12.0
+          DFN1E1C0    60      1.0       60.0
+          DFN1E1P0    17      1.0       17.0
+            DFN1P0    52      1.0       52.0
+                   -----          ----------
+             TOTAL  1695              1673.0
+
+
+  IO Cell usage:
+              cell count
+             BIBUF     1
+            CLKBUF     2
+             INBUF    24
+            OUTBUF    26
+                   -----
+             TOTAL    53
+
+
+Core Cells         : 1673 of 24576 (7%)
+IO Cells           : 53
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 29MB peak: 166MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Fri Mar 08 16:09:31 2019
+
+###########################################################]

@@ -1,0 +1,22 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance time_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance acq_cnt[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance ram_waddr[6:0] 
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":373:41:373:82|Found 9-bit decrementor, 'ad_reg_9[12:4]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":174:21:174:33|Found 8-bit incrementor, 'un2_acq_cycle[7:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":394:41:394:82|Found 10-bit incrementor, 'un81_ad_reg[12:2]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":431:41:431:82|Found 9-bit incrementor, 'un118_ad_reg[12:3]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":445:41:445:82|Found 12-bit incrementor, 'un132_ad_reg[12:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":250:33:250:50|Found 12 by 12 bit less-than operator ('<') pro1\.un4_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":256:30:256:47|Found 12 by 12 bit less-than operator ('<') pro1\.un16_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":259:32:259:49|Found 12 by 12 bit less-than operator ('<') pro1\.un17_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: FP130 |Promoting Net rst_i_c on CLKBUF  rst_i_pad 
+@N: FP130 |Promoting Net clk_i_c on CLKBUF  clk_i_pad 
+@N: FP130 |Promoting Net ad_sum[8] on CLKINT  I_849 
+@N: FP130 |Promoting Net acq_state[0] on CLKINT  I_850 
+@N: FP130 |Promoting Net ad_sum[7] on CLKINT  I_851 
+@N: FP130 |Promoting Net ad_sum[6] on CLKINT  I_852 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

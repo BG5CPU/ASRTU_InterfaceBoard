@@ -1,0 +1,194 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 D:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:46:01 on Feb 03,2019
+# vlog -vlog01compat -work presynth D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Clock_gen.v 
+# -- Compiling module myUART_myUART_0_Clock_gen
+# 
+# Top level modules:
+# 	myUART_myUART_0_Clock_gen
+# End time: 15:46:01 on Feb 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:46:01 on Feb 03,2019
+# vlog -vlog01compat -work presynth D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Rx_async.v 
+# -- Compiling module myUART_myUART_0_Rx_async
+# 
+# Top level modules:
+# 	myUART_myUART_0_Rx_async
+# End time: 15:46:01 on Feb 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:46:01 on Feb 03,2019
+# vlog -vlog01compat -work presynth D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Tx_async.v 
+# -- Compiling module myUART_myUART_0_Tx_async
+# 
+# Top level modules:
+# 	myUART_myUART_0_Tx_async
+# End time: 15:46:01 on Feb 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:46:01 on Feb 03,2019
+# vlog -vlog01compat -work presynth D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/fifo_256x8_pa3.v 
+# -- Compiling module myUART_myUART_0_fifo_256x8
+# -- Compiling module myUART_myUART_0_fifo_256x8_pa3
+# 
+# Top level modules:
+# 	myUART_myUART_0_fifo_256x8
+# End time: 15:46:01 on Feb 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:46:01 on Feb 03,2019
+# vlog -vlog01compat -work presynth D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/CoreUART.v 
+# -- Compiling module myUART_myUART_0_COREUART
+# 
+# Top level modules:
+# 	myUART_myUART_0_COREUART
+# End time: 15:46:01 on Feb 03,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:46:01 on Feb 03,2019
+# vlog "+incdir+D:/FPGA/a3p1000/component/work/myUART/myUART_0" "+incdir+D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user" -vlog01compat -work presynth D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v 
+# -- Compiling module testbnch
+# 
+# Top level modules:
+# 	testbnch
+# End time: 15:46:02 on Feb 03,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.testbnch 
+# Start time: 15:46:02 on Feb 03,2019
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.testbnch
+# Loading presynth.myUART_myUART_0_COREUART
+# Loading presynth.myUART_myUART_0_Clock_gen
+# Loading presynth.myUART_myUART_0_Tx_async
+# Loading presynth.myUART_myUART_0_Rx_async
+# Loading presynth.myUART_myUART_0_fifo_256x8
+# Loading presynth.myUART_myUART_0_fifo_256x8_pa3
+# Loading proasic3.VCC
+# Loading proasic3.GND
+# Loading proasic3.INV
+# Loading proasic3.FIFO4K18
+# Actel UART Testbench  v3.00 
+# --------------------------------------
+#  
+# Applying Reset
+# Setting UART1 Operating Mode 8 bit, parity enabled, and even parity
+# Setting UART2 Operating Mode 8 bit, parity enabled, and even parity
+# Setting UART1 baud_val = 1
+# Setting UART2 baud_val = 1
+# Testing Continuous Data Stream UART1 to UART2
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 Operating Mode 8 bit, parity enabled, and odd parity
+# Setting UART2 Operating Mode 8 bit, parity enabled, and odd parity
+# Setting UART1 baud_val = 1.125
+# Setting UART2 baud_val = 1.125
+# Testing Continuous Data Stream UART1 to UART2
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 Operating Mode 7 bit, parity enabled, and even parity
+# Setting UART2 Operating Mode 7 bit, parity enabled, and even parity
+# Setting UART1 baud_val = 1.25
+# Setting UART2 baud_val = 1.25
+# Testing Continuous Data Stream UART1 to UART2
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 Operating Mode 7 bit, parity enabled, and odd parity
+# Setting UART2 Operating Mode 7 bit, parity enabled, and odd parity
+# Setting UART1 baud_val = 1.375
+# Setting UART2 baud_val = 1.375
+# Testing Continuous Data Stream UART1 to UART2
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 Operating Mode 8 bit, parity disabled
+# Setting UART2 Operating Mode 8 bit, parity disabled
+# Setting UART1 baud_val = 1.5
+# Setting UART2 baud_val = 1.5
+# Testing Continuous Data Stream UART1 to UART2
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 Operating Mode 7 bit, parity disabled
+# Setting UART2 Operating Mode 7 bit, parity disabled
+# Setting UART1 baud_val = 1.625
+# Setting UART2 baud_val = 1.625
+# Testing Continuous Data Stream UART1 to UART2
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 8bit, parity enabled, and even parity
+# Setting UART2 8bit, parity enabled, and odd parity
+# Setting UART1 baud_val = 1.75
+# Setting UART2 baud_val = 1.75
+# Testing parity error generation
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 8bit, parity enabled, and odd parity
+# Setting UART2 8bit, parity enabled, and even parity
+# Setting UART1 baud_val = 1.875
+# Setting UART2 baud_val = 1.875
+# Testing parity error generation
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 7bit, parity enabled, and even parity
+# Setting UART2 7bit, parity enabled, and odd parity
+# Setting UART1 baud_val = 5.5
+# Setting UART2 baud_val = 5.5
+# Testing parity error generation
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Setting UART1 7bit, parity enabled, and odd parity
+# Setting UART2 8bit, parity enabled, and even parity
+# Setting UART1 baud_val = 3.125
+# Setting UART2 baud_val = 3.125
+# Testing parity error generation
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Clearing out FIFO for next test
+# Setting UART1 Operating Mode 8 bit, parity enabled, and even parity
+# Setting UART2 Operating Mode 8 bit, parity enabled, and even parity
+# Setting UART1 baud_val = 2.25
+# Setting UART2 baud_val = 2.25
+# Testing for RX data overflow
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# Clearing out FIFO for next test
+# Framing Error Test
+# THIS TEST IS PASSED
+# 
+# -----------------------------------------------------
+# END OF SIMULATION
+# ALL TESTS ARE PASSED
+# ** Note: $stop    : D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v(1242)
+#    Time: 36704565 ns  Iteration: 1  Instance: /testbnch
+# Break in NamedBeginStat xhdl_7 at D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v line 1242
+# End time: 15:47:00 on Feb 03,2019, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

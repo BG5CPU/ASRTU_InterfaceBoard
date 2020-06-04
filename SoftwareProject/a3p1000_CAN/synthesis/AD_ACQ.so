@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>AD_ACQ</design>
+	<target_edif>D:\FPGA\a3p1000_CAN\synthesis\AD_ACQ.edn</target_edif>
+</SynplifyOutput>

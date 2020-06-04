@@ -1,0 +1,1979 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: D:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: YOGA
+
+# Mon Apr 08 22:10:12 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\FPGA\a3p1000_CAN\hdl\hdl\piu_top.vhd":18:7:18:13|Top entity is set to piu_top.
+VHDL syntax check successful!
+@N: CD231 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+
+Process completed successfully.
+# Mon Apr 08 22:10:12 2019
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\bsp.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\buf_13x8.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\eml.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buf_13x8.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buffer.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\status_buffer.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\fifo_ctrl.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\iml.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\mm.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\can_core.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+
+Process completed successfully.
+# Mon Apr 08 22:10:12 2019
+
+###########################################################]
+@N: CD720 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\FPGA\a3p1000_CAN\hdl\hdl\piu_top.vhd":18:7:18:13|Top entity is set to piu_top.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\piu_top.vhd":18:7:18:13|Synthesizing work.piu_top.behavioral.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\piu_top.vhd":82:8:82:17|Signal cana_int_c is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\tick.vhd":20:7:20:10|Synthesizing work.tick.behavioral.
+Post processing for work.tick.behavioral
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\can_if.vhd":20:7:20:12|Synthesizing work.can_if.behavioral.
+Post processing for work.can_if.behavioral
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":20:7:20:9|Synthesizing work.mcu.behavioral.
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":152:18:152:19|Using onehot encoding for type step2. For example, enumeration st1 is mapped to "100000000".
+@N: CD232 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":151:18:151:19|Using gray code encoding for type step1.
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":153:15:153:16|Using onehot encoding for type step3. For example, enumeration st1 is mapped to "1000000000".
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":154:32:154:33|Using onehot encoding for type step5. For example, enumeration st1 is mapped to "10000".
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":155:32:155:33|Using onehot encoding for type step6. For example, enumeration st1 is mapped to "100000".
+@N: CD604 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2125:4:2125:17|OTHERS clause is not synthesized.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":166:8:166:16|Signal ram_rdata is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":169:8:169:15|Signal ram_done is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":347:12:347:22|Signal imp_ren_not is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":348:12:348:22|Signal imp_wen_not is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\onoff.vhd":20:7:20:11|Synthesizing work.onoff.behavioral.
+Post processing for work.onoff.behavioral
+Post processing for work.mcu.behavioral
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register test_data1_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register test_c_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tick_1s_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tick_1ms_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tick_1us_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register scaler_1s_1(9 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register scaler_1ms_1(9 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register scaler_1us_2(5 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register clj_cmd_cnt_6(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ren_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ram_ren_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_new_waddr_1(9 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_tx_end_8. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_frame_cnt_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ask_type_6(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ask_13. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register rst_frame_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register clj_acq_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register err_cnt_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register err_flag_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tx_cnt_10(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ad_busy_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ad_addr_1(6 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_sel_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_busy_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_send_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_sum_2(15 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_busy_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_waddr_1(6 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_wdata_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_wen_1. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Optimizing register bit frame_info(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Optimizing register bit tx_frame_cnt(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning register bit 7 of tx_frame_cnt(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning register bit 4 of frame_info(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":23:7:23:13|Synthesizing work.ad_comp.rtl.
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":47:14:47:15|Using onehot encoding for type ad_fsm. For example, enumeration st1 is mapped to "10000".
+@N: CD604 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":195:13:195:26|OTHERS clause is not synthesized.
+Post processing for work.ad_comp.rtl
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Pruning unused register acq_cnt_4(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Optimizing register bit config_reg(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Pruning register bit 0 of config_reg(15 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Synthesizing work.ad_acq.rtl.
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":67:15:67:16|Using onehot encoding for type acq_fsm. For example, enumeration st1 is mapped to "10000".
+@N: CD604 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":559:10:559:23|OTHERS clause is not synthesized.
+Post processing for work.ad_acq.rtl
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Pruning unused register clj_mode_8(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Pruning unused register clj_cmd_1. Make sure that there are no unused intermediate registers.
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":18:7:18:12|Synthesizing work.rst_if.rtl.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":31:9:31:13|Signal rst_c is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":33:9:33:14|Signal hot_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":34:9:34:19|Signal piu_rst_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.rst_if.rtl
+Post processing for work.piu_top.behavioral
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register ad_addr.
+Extracted state machine for register ad_addr
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register acq_phase.
+Extracted state machine for register acq_phase
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register acq_state.
+Extracted state machine for register acq_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":25:10:25:19|Input init_end_i is unused.
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":30:10:30:17|Input ad_ren_i is unused.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Optimizing register bit config_reg(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Pruning register bit 1 of config_reg(15 downto 1). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Trying to extract state machine for register ad_state.
+Extracted state machine for register ad_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":26:10:26:19|Input tick_1ms_i is unused.
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":29:10:29:18|Input acq_end_i is unused.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Trying to extract state machine for register init_step.
+Extracted state machine for register init_step
+State machine has 30 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+   01101
+   01110
+   01111
+   10010
+   10011
+   10100
+   10101
+   10110
+   10111
+   11000
+   11001
+   11010
+   11011
+   11100
+   11101
+   11110
+   11111
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Trying to extract state machine for register tick_step.
+Extracted state machine for register tick_step
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Trying to extract state machine for register send_step.
+Extracted state machine for register send_step
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Trying to extract state machine for register int_step.
+Extracted state machine for register int_step
+State machine has 10 reachable states with original encodings of:
+   0000000001
+   0000000010
+   0000000100
+   0000001000
+   0000010000
+   0000100000
+   0001000000
+   0010000000
+   0100000000
+   1000000000
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Trying to extract state machine for register clj_state.
+Extracted state machine for register clj_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":24:9:24:18|Input init_end_i is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 120MB peak: 146MB)
+
+
+Process completed successfully.
+# Mon Apr 08 22:10:18 2019
+
+###########################################################]
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\bsp.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\buf_13x8.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\eml.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buf_13x8.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buffer.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\status_buffer.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\fifo_ctrl.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\iml.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\mm.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v" (library work)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\can_core.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\iml.v":35:7:35:9|Synthesizing module iml in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v":34:7:34:9|Synthesizing module tcl in library work.
+
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v":435:0:435:5|Pruning unused register crc_stat. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\bsp.v":34:7:34:9|Synthesizing module bsp in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v":40:7:40:17|Synthesizing module btl_1ph_clk in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\eml.v":35:7:35:9|Synthesizing module eml in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mm.v":34:7:34:8|Synthesizing module mm in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buf_13x8.v":34:7:34:17|Synthesizing module rx_buf_13x8 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buffer.v":34:7:34:15|Synthesizing module rx_buffer in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\status_buffer.v":34:7:34:19|Synthesizing module status_buffer in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\fifo_ctrl.v":34:7:34:15|Synthesizing module fifo_ctrl in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\buf_13x8.v":34:7:34:14|Synthesizing module buf_13x8 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\hdl\hdl\can_core.v":35:7:35:14|Synthesizing module can_core in library work.
+
+@N: CL134 :"D:\FPGA\a3p1000_CAN\hdl\hdl\status_buffer.v":68:0:68:5|Found RAM reg0, depth=4, width=2
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v":199:0:199:5|Optimizing register bit k2[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v":199:0:199:5|Pruning register bit 3 of k2[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v":435:0:435:5|Trying to extract state machine for register err.
+Extracted state machine for register err
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+
+At c_ver Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 116MB peak: 152MB)
+
+
+Process completed successfully.
+# Mon Apr 08 22:10:32 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":626:0:626:3|Unbound component RAM_128X12 of instance RAM1 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":636:0:636:3|Unbound component RAM_128X12 of instance RAM2 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2305:0:2305:3|Unbound component RAM_1024B of instance RAM0 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2315:0:2315:3|Unbound component RAM_1024B of instance RAM1 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2324:0:2324:3|Unbound component RAM_1024B of instance RAM2 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2333:0:2333:3|Unbound component RAM_1024B of instance RAM3 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2342:0:2342:3|Unbound component RAM_1024B of instance RAM4 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2351:0:2351:3|Unbound component RAM_1024B of instance RAM5 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2361:0:2361:3|Unbound component RAM_1024B of instance RAM6 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2371:0:2371:3|Unbound component RAM_1024B of instance RAM7 
+@W: Z198 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":2381:0:2381:3|Unbound component RAM_1024B of instance RAM8 
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: D:\FPGA\a3p1000_CAN\synthesis\synwork\piu_top_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 08 22:10:33 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:20s realtime, 0h:00m:20s cputime
+
+Process completed successfully.
+# Mon Apr 08 22:10:33 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 08 22:10:34 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Apr 08 22:10:35 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\FPGA\a3p1000_CAN\synthesis\piu_top_scck.rpt 
+Printing clock  summary report in "D:\FPGA\a3p1000_CAN\synthesis\piu_top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 115MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 115MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 124MB)
+
+
+
+Clock Summary
+*****************
+
+Start             Requested     Requested     Clock        Clock                   Clock
+Clock             Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------
+piu_top|clk_i     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     2935 
+========================================================================================
+
+@W: MT530 :"d:\fpga\a3p1000_can\hdl\hdl\rst_if.vhd":40:8:40:9|Found inferred clock piu_top|clk_i which controls 2935 sequential elements including C2.rst_reg[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\FPGA\a3p1000_CAN\synthesis\piu_top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 121MB peak: 124MB)
+
+Encoding state machine acq_phase[0:7] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine ad_addr[0:15] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine acq_state[0:4] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine ad_state[0:4] (in view: work.AD_Comp(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine int_step[0:9] (in view: work.MCU(behavioral))
+original code -> new code
+   0000000001 -> 0000000001
+   0000000010 -> 0000000010
+   0000000100 -> 0000000100
+   0000001000 -> 0000001000
+   0000010000 -> 0000010000
+   0000100000 -> 0000100000
+   0001000000 -> 0001000000
+   0010000000 -> 0010000000
+   0100000000 -> 0100000000
+   1000000000 -> 1000000000
+Encoding state machine tick_step[0:4] (in view: work.MCU(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine send_step[0:8] (in view: work.MCU(behavioral))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine init_step[0:29] (in view: work.MCU(behavioral))
+original code -> new code
+   00000 -> 00000
+   00001 -> 00001
+   00010 -> 00011
+   00011 -> 00010
+   00100 -> 00110
+   00101 -> 00111
+   00110 -> 00101
+   00111 -> 00100
+   01000 -> 01100
+   01001 -> 01101
+   01010 -> 01111
+   01011 -> 01110
+   01100 -> 01010
+   01101 -> 01011
+   01110 -> 01001
+   01111 -> 01000
+   10010 -> 11000
+   10011 -> 11001
+   10100 -> 11011
+   10101 -> 11010
+   10110 -> 11110
+   10111 -> 11111
+   11000 -> 11101
+   11001 -> 11100
+   11010 -> 10100
+   11011 -> 10101
+   11100 -> 10111
+   11101 -> 10110
+   11110 -> 10010
+   11111 -> 10011
+Encoding state machine clj_state[0:5] (in view: work.MCU(behavioral))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine err_1[7:0] (in view: work.tcl_0(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine err_1[7:0] (in view: work.tcl_1(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 138MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 47MB peak: 138MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Apr 08 22:10:37 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Apr 08 22:10:37 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Removing sequential instance eoc_test (in view: work.AD_Comp(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: BN132 :"d:\fpga\a3p1000_can\hdl\hdl\can_if.vhd":59:2:59:3|Removing sequential instance C7.canb_addr_o[5:0] because it is equivalent to instance C7.cana_addr_o[5:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga\a3p1000_can\hdl\hdl\can_if.vhd":59:2:59:3|Removing sequential instance C7.canb_data_o[7:0] because it is equivalent to instance C7.cana_data_o[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 124MB)
+
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance time_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance acq_cnt[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance ram_waddr[6:0] 
+Encoding state machine acq_phase[0:7] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine ad_addr[0:15] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine acq_state[0:4] (in view: work.AD_ACQ(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":373:41:373:82|Found 9-bit decrementor, 'ad_reg_9[12:4]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":174:21:174:33|Found 8-bit incrementor, 'un2_acq_cycle[7:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":394:41:394:82|Found 10-bit incrementor, 'un81_ad_reg[12:2]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":431:41:431:82|Found 9-bit incrementor, 'un118_ad_reg[12:3]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":445:41:445:82|Found 12-bit incrementor, 'un132_ad_reg[12:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":250:33:250:50|Found 12 by 12 bit less-than operator ('<') pro1\.un4_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":256:30:256:47|Found 12 by 12 bit less-than operator ('<') pro1\.un16_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":259:32:259:49|Found 12 by 12 bit less-than operator ('<') pro1\.un17_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance rbit_cnt[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance wbit_cnt[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance cnt[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance scaler[3:0] 
+Encoding state machine ad_state[0:4] (in view: work.AD_Comp(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance ram_raddr[6:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_cnt[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance bus_cmd_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_tx_raddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance tm_ask_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance frame_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_waddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance rst_cnt[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance wait_hold[11:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance close_time[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_renew_waddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_raddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp8_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp7_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp6_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp5_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp4_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp3_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp2_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp1_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance dog_time[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance clj_timeout[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance cnt[2:0] 
+Encoding state machine int_step[0:9] (in view: work.MCU(behavioral))
+original code -> new code
+   0000000001 -> 0000000001
+   0000000010 -> 0000000010
+   0000000100 -> 0000000100
+   0000001000 -> 0000001000
+   0000010000 -> 0000010000
+   0000100000 -> 0000100000
+   0001000000 -> 0001000000
+   0010000000 -> 0010000000
+   0100000000 -> 0100000000
+   1000000000 -> 1000000000
+Encoding state machine tick_step[0:4] (in view: work.MCU(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine send_step[0:8] (in view: work.MCU(behavioral))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine init_step[0:29] (in view: work.MCU(behavioral))
+original code -> new code
+   00000 -> 00000
+   00001 -> 00001
+   00010 -> 00011
+   00011 -> 00010
+   00100 -> 00110
+   00101 -> 00111
+   00110 -> 00101
+   00111 -> 00100
+   01000 -> 01100
+   01001 -> 01101
+   01010 -> 01111
+   01011 -> 01110
+   01100 -> 01010
+   01101 -> 01011
+   01110 -> 01001
+   01111 -> 01000
+   10010 -> 11000
+   10011 -> 11001
+   10100 -> 11011
+   10101 -> 11010
+   10110 -> 11110
+   10111 -> 11111
+   11000 -> 11101
+   11001 -> 11100
+   11010 -> 10100
+   11011 -> 10101
+   11100 -> 10111
+   11101 -> 10110
+   11110 -> 10010
+   11111 -> 10011
+Encoding state machine clj_state[0:5] (in view: work.MCU(behavioral))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1507:8:1507:11|Found ROM .delname. (in view: work.MCU(behavioral)) with 79 words by 2 bits.
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1507:8:1507:11|Found ROM .delname. (in view: work.MCU(behavioral)) with 79 words by 2 bits.
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1309:42:1309:73|Found 7-bit decrementor, 'imp_tx_frame_1[6:0]'
+@N: MF176 |Default generator successful 
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1301:41:1301:63|Found 9-bit incrementor, 'un1_imp_tx_byte_cnt[9:1]'
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1319:46:1319:59|Found 10-bit decrementor, 'imp8_rec_cnt_1[9:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":921:18:921:41|Found 8 by 8 bit less-than operator ('<') un47_send_busy (in view: work.MCU(behavioral))
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tick.vhd":57:30:57:43|Found 6-bit incrementor, 'un5_scaler_1us[5:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tick.vhd":63:18:63:31|Found 10-bit incrementor, 'un2_scaler_1ms[9:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tick.vhd":72:17:72:29|Found 10-bit incrementor, 'un1_scaler_1s[9:0]'
+@N: MO230 :"d:\fpga\a3p1000_can\hdl\hdl\iml.v":222:0:222:5|Found up-down counter in view:work.iml(verilog) instance address[3:0]  
+Encoding state machine err_1[7:0] (in view: work.tcl(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":2489:11:2489:14|Found ROM .delname. (in view: work.tcl(verilog)) with 12 words by 1 bit.
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":211:10:211:21|Found 6-bit incrementor, 'un1_b_0[5:0]'
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":313:23:313:49|Found 4-bit decrementor, 'un1_dlc[6:3]'
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":113:0:113:5|Found counter in view:work.btl_1ph_clk(verilog) instance count[7:0] 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":333:24:333:29|Found 5 by 5 bit subtractor, 'un1_k2_0_0[4:0]'
+@N: MF176 |Default generator successful 
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:38:109:63|Found 5 by 5 bit less-than operator ('<') un1_timing_3 (in view: work.btl_1ph_clk(verilog))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":306:24:306:47|Found 5 by 5 bit less-than operator ('<') k225 (in view: work.btl_1ph_clk(verilog))
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:42:109:62|Found 4-bit incrementor, 'un1_timing_1[4:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":272:23:272:50|Found 5 by 5 bit less-than operator ('<') t13 (in view: work.btl_1ph_clk(verilog))
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF135 :"d:\fpga\a3p1000_can\hdl\hdl\status_buffer.v":68:0:68:5|RAM i_status_buffer.reg0[1:0] (in view: work.fifo_ctrl(verilog)) is 4 words by 2 bits.
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\fifo_ctrl.v":121:18:121:29|Found 2 by 2 bit subtractor, 'diff_ptr_0_0[1:0]'
+
+Starting factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 153MB peak: 174MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:21s; Memory used current: 231MB peak: 231MB)
+
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Removing sequential instance C6.ram_ren (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Removing sequential instance C3.fsm_st[0] (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Removing sequential instance C3.fsm_st[1] (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Removing sequential instance C3.fsm_st[2] (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 223MB peak: 233MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 223MB peak: 233MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:31s; Memory used current: 192MB peak: 255MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:34s; CPU Time elapsed 0h:00m:32s; Memory used current: 196MB peak: 255MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:01m:08s; CPU Time elapsed 0h:01m:06s; Memory used current: 262MB peak: 262MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:01m:08s; CPU Time elapsed 0h:01m:07s; Memory used current: 259MB peak: 263MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:01m:09s; CPU Time elapsed 0h:01m:08s; Memory used current: 260MB peak: 263MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:01m:13s; CPU Time elapsed 0h:01m:11s; Memory used current: 248MB peak: 287MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name          Fanout, notes                   
+--------------------------------------------------------------------
+C1 / Y                              815 : 815 asynchronous set/reset
+C10.tick_1ms / Q                    42                              
+C10.tick_1us / Q                    26                              
+C6.can_addr[0] / Q                  50                              
+C6.can_addr[1] / Q                  50                              
+C6.can_addr[2] / Q                  32                              
+C6.cana_rst_o / Q                   803 : 803 asynchronous set/reset
+C6.canb_rst_o / Q                   803 : 803 asynchronous set/reset
+C7.cana_addr_o[0] / Q               117                             
+C7.cana_addr_o[1] / Q               206                             
+C7.cana_addr_o[2] / Q               521                             
+C7.cana_addr_o[3] / Q               645                             
+C7.cana_addr_o[4] / Q               43                              
+C7.cana_addr_o[5] / Q               29                              
+C7.cana_data_o[0] / Q               66                              
+C7.cana_data_o[1] / Q               70                              
+C7.cana_data_o[2] / Q               70                              
+C7.cana_data_o[3] / Q               80                              
+C7.cana_data_o[4] / Q               82                              
+C7.cana_data_o[5] / Q               80                              
+C7.cana_data_o[6] / Q               82                              
+C7.cana_data_o[7] / Q               82                              
+C8.top_eml.trcount_int[8] / Q       40                              
+C8.top_tcl.transmit / Q             72                              
+C8.top_iml.address[1] / Q           25                              
+C8.top_iml.address[2] / Q           41                              
+C8.top_iml.trrequ1 / Q              46                              
+C8.top_iml.reset_request / Q        93 : 91 asynchronous set/reset  
+C8.top_bsp.dataout[0] / Q           65                              
+C8.top_bsp.dataout[1] / Q           65                              
+C8.top_bsp.dataout[2] / Q           65                              
+C8.top_bsp.dataout[3] / Q           68                              
+C8.top_bsp.dataout[4] / Q           68                              
+C8.top_bsp.dataout[5] / Q           68                              
+C8.top_bsp.dataout[6] / Q           68                              
+C8.top_bsp.dataout[7] / Q           67                              
+C8.top_btl.clock / Q                36                              
+C8.top_tcl.equal[0] / Q             39                              
+C8.top_btl.sample / Q               39                              
+C8.top_btl.rx2tcl / Q               84                              
+C8.top_mm.adr_trbuf[1] / Y          44                              
+C8.top_mm.adr_trbuf_1[3] / Y        68                              
+C8.top_tcl.bnull / Q                30                              
+C8.top_tcl.acf / Q                  30                              
+C8.top_tcl.err_1[0] / Q             40                              
+C8.top_tcl.err_1[1] / Q             27                              
+C8.top_tcl.err_1[3] / Q             26                              
+C8.top_tcl.err_1[4] / Q             25                              
+C8.top_tcl.err_1[5] / Q             27                              
+C9.top_eml.trcount_int[8] / Q       41                              
+C9.top_tcl.transmit / Q             70                              
+C9.top_iml.address[1] / Q           25                              
+C9.top_iml.address[2] / Q           42                              
+C9.top_iml.trrequ1 / Q              50                              
+C9.top_iml.reset_request / Q        94 : 91 asynchronous set/reset  
+C9.top_bsp.dataout[0] / Q           65                              
+C9.top_bsp.dataout[1] / Q           65                              
+C9.top_bsp.dataout[2] / Q           65                              
+C9.top_bsp.dataout[3] / Q           68                              
+C9.top_bsp.dataout[4] / Q           68                              
+C9.top_bsp.dataout[5] / Q           68                              
+C9.top_bsp.dataout[6] / Q           68                              
+C9.top_bsp.dataout[7] / Q           67                              
+C9.top_btl.clock / Q                37                              
+C9.top_tcl.eof / Y                  34                              
+C9.top_tcl.equal[0] / Q             38                              
+C9.top_btl.sample / Q               39                              
+C9.top_btl.rx2tcl / Q               88                              
+C9.top_mm.adr_trbuf[1] / Y          44                              
+C9.top_mm.adr_trbuf_1[3] / Y        68                              
+C9.top_btl.tq_work_tic / Q          25                              
+C9.top_tcl.bnull / Q                32                              
+C9.top_tcl.acf / Q                  27                              
+C9.top_tcl.err_1[0] / Q             37                              
+C9.top_tcl.err_1[1] / Q             25                              
+C9.top_tcl.err_1[3] / Q             25                              
+C9.top_tcl.err_1[4] / Q             25                              
+C9.top_tcl.err_1[5] / Q             27                              
+C6.imp_renew / Q                    26                              
+C6.can_busy / Q                     46                              
+C6.frame_data[4] / Q                26                              
+C6.frame_data[5] / Q                35                              
+C6.frame_data[7] / Q                39                              
+C6.clj_new / Q                      49                              
+C6.int_step[9] / Q                  69                              
+C6.init_step[3] / Q                 27                              
+C3.ram_sel / Q                      31                              
+C3.acq_state[0] / Q                 70                              
+C3.ad_sum[2] / Q                    27                              
+C3.ad_sum[3] / Q                    29                              
+C3.ad_sum[4] / Q                    37                              
+C3.ad_sum[5] / Q                    48                              
+C3.ad_sum[6] / Q                    58                              
+C3.ad_sum[7] / Q                    57                              
+C3.ad_sum[8] / Q                    57                              
+C3.ad_sum[9] / Q                    59                              
+C3.ad_sum[10] / Q                   56                              
+C3.ad_sum[11] / Q                   56                              
+C3.ad_sum[12] / Q                   50                              
+C3.ad_sum[13] / Q                   44                              
+rst_i_pad / Y                       300 : 300 asynchronous set/reset
+C3.hi_addr[0] / Q                   28                              
+C3.hi_addr[3] / Q                   35                              
+C9.top_tcl.un1_b_60_m[3] / Y        37                              
+C9.top_tcl.err_1_tr0_5_2 / Y        28                              
+C9.top_tcl.un1_b_60_m[4] / Y        41                              
+C9.top_tcl.un1_receive_stop / Y     54                              
+C9.top_tcl.b_l24 / Y                25                              
+C9.top_tcl.err_1_ns_0_o3[3] / Y     32                              
+C9.top_tcl.equal38 / Y              58                              
+C9.top_tcl.un1_b_60_m[0] / Y        30                              
+C9.top_tcl.stfb / Y                 37                              
+C9.top_tcl.acf_l_1 / Y              40                              
+C9.top_tcl.bnull73 / Y              33                              
+C9.top_tcl.b_l1[5] / Y              25                              
+C9.top_tcl.b_l1[3] / Y              34                              
+C9.top_tcl.b_l1_0[1] / Y            25                              
+C9.top_tcl.b_l1_0[2] / Y            32                              
+C9.top_tcl.b_l1[0] / Y              33                              
+C9.top_tcl.bnull72 / Y              32                              
+C6.un1_imp_wen_c_3_0_o2 / Y         27                              
+C6.can_busy_0_sqmuxa / Y            29                              
+C6.un1_int_busy_243_i / Y           64                              
+C8.top_tcl.b_l1_0[3] / Y            26                              
+C8.top_tcl.b_l1_0[0] / Y            27                              
+C8.top_tcl.b_l1_0[2] / Y            26                              
+C8.top_tcl.un1_b_60_m[5] / Y        27                              
+C8.top_tcl.equal38 / Y              55                              
+C8.top_tcl.bnull73 / Y              30                              
+C8.top_tcl.stfb / Y                 31                              
+C8.top_tcl.bnull72 / Y              30                              
+C8.top_tcl.un1_b_60_m_0[2] / Y      26                              
+C8.top_tcl.un1_b_60_m_0[0] / Y      30                              
+C8.top_tcl.un1_receive_stop / Y     56                              
+C8.top_tcl.un1_b_60_m[4] / Y        44                              
+C8.top_tcl.eof / Y                  29                              
+C8.top_tcl.err_1_ns_0_o3[3] / Y     29                              
+C8.top_tcl.un1_b_60_m[3] / Y        43                              
+C8.top_tcl.err_1_tr0_5_2 / Y        35                              
+C8.top_tcl.b_m1_e / Y               28                              
+C9.top_tcl.b_m1_e / Y               34                              
+C8.top_tcl.cd_m2 / Y                25                              
+C8.top_tcl.err_1_tr0_19_0 / Y       28                              
+C9.top_tcl.err_1_tr0_19_0 / Y       31                              
+====================================================================
+
+@N: FP130 |Promoting Net rst_i_c on CLKBUF  rst_i_pad 
+@N: FP130 |Promoting Net cana_rst_c on CLKINT  I_752 
+@N: FP130 |Promoting Net canb_rst_c on CLKINT  I_753 
+@N: FP130 |Promoting Net cana_addr_c[3] on CLKINT  I_754 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:01m:14s; CPU Time elapsed 0h:01m:13s; Memory used current: 248MB peak: 287MB)
+
+Replicating Combinational Instance C9.top_tcl.err_1_tr0_19_0, fanout 31 segments 2
+Replicating Combinational Instance C8.top_tcl.err_1_tr0_19_0, fanout 28 segments 2
+Replicating Combinational Instance C8.top_tcl.cd_m2, fanout 25 segments 2
+Replicating Combinational Instance C9.top_tcl.b_m1_e, fanout 34 segments 2
+Replicating Combinational Instance C8.top_tcl.b_m1_e, fanout 28 segments 2
+Replicating Combinational Instance C8.top_tcl.err_1_tr0_5_2, fanout 35 segments 2
+Replicating Combinational Instance C8.top_tcl.un1_b_60_m[3], fanout 43 segments 2
+Replicating Combinational Instance C8.top_tcl.err_1_ns_0_o3[3], fanout 29 segments 2
+Replicating Combinational Instance C8.top_tcl.eof, fanout 29 segments 2
+Replicating Combinational Instance C8.top_tcl.un1_b_60_m[4], fanout 44 segments 2
+Replicating Combinational Instance C8.top_tcl.un1_receive_stop, fanout 58 segments 3
+Replicating Combinational Instance C8.top_tcl.un1_b_60_m_0[0], fanout 30 segments 2
+Replicating Combinational Instance C8.top_tcl.un1_b_60_m_0[2], fanout 26 segments 2
+Replicating Combinational Instance C8.top_tcl.bnull72, fanout 30 segments 2
+Replicating Combinational Instance C8.top_tcl.stfb, fanout 31 segments 2
+Replicating Combinational Instance C8.top_tcl.bnull73, fanout 30 segments 2
+Replicating Combinational Instance C8.top_tcl.equal38, fanout 55 segments 3
+Replicating Combinational Instance C8.top_tcl.un1_b_60_m[5], fanout 27 segments 2
+Replicating Combinational Instance C8.top_tcl.b_l1_0[2], fanout 26 segments 2
+Replicating Combinational Instance C8.top_tcl.b_l1_0[0], fanout 27 segments 2
+Replicating Combinational Instance C8.top_tcl.b_l1_0[3], fanout 26 segments 2
+Replicating Combinational Instance C6.un1_int_busy_243_i, fanout 64 segments 3
+Replicating Combinational Instance C6.can_busy_0_sqmuxa, fanout 29 segments 2
+Replicating Combinational Instance C6.un1_imp_wen_c_3_0_o2, fanout 29 segments 2
+Replicating Combinational Instance C9.top_tcl.bnull72, fanout 32 segments 2
+Replicating Combinational Instance C9.top_tcl.b_l1[0], fanout 33 segments 2
+Replicating Combinational Instance C9.top_tcl.b_l1_0[2], fanout 32 segments 2
+Replicating Combinational Instance C9.top_tcl.b_l1_0[1], fanout 25 segments 2
+Replicating Combinational Instance C9.top_tcl.b_l1[3], fanout 34 segments 2
+Replicating Combinational Instance C9.top_tcl.b_l1[5], fanout 25 segments 2
+Replicating Combinational Instance C9.top_tcl.bnull73, fanout 33 segments 2
+Replicating Combinational Instance C9.top_tcl.acf_l_1, fanout 40 segments 2
+Replicating Combinational Instance C9.top_tcl.stfb, fanout 37 segments 2
+Replicating Combinational Instance C9.top_tcl.un1_b_60_m[0], fanout 30 segments 2
+Replicating Combinational Instance C9.top_tcl.equal38, fanout 58 segments 3
+Replicating Combinational Instance C9.top_tcl.err_1_ns_0_o3[3], fanout 32 segments 2
+Replicating Combinational Instance C9.top_tcl.b_l24, fanout 25 segments 2
+Replicating Combinational Instance C9.top_tcl.un1_receive_stop, fanout 56 segments 3
+Replicating Combinational Instance C9.top_tcl.un1_b_60_m[4], fanout 41 segments 2
+Replicating Combinational Instance C9.top_tcl.err_1_tr0_5_2, fanout 28 segments 2
+Replicating Combinational Instance C9.top_tcl.un1_b_60_m[3], fanout 37 segments 2
+Replicating Sequential Instance C3.hi_addr[3], fanout 35 segments 2
+Replicating Sequential Instance C3.hi_addr[0], fanout 28 segments 2
+Replicating Sequential Instance C3.ad_sum[13], fanout 44 segments 2
+Replicating Sequential Instance C3.ad_sum[12], fanout 50 segments 3
+Replicating Sequential Instance C3.ad_sum[11], fanout 56 segments 3
+Replicating Sequential Instance C3.ad_sum[10], fanout 56 segments 3
+Replicating Sequential Instance C3.ad_sum[9], fanout 59 segments 3
+Replicating Sequential Instance C3.ad_sum[8], fanout 57 segments 3
+Replicating Sequential Instance C3.ad_sum[7], fanout 57 segments 3
+Replicating Sequential Instance C3.ad_sum[6], fanout 58 segments 3
+Replicating Sequential Instance C3.ad_sum[5], fanout 48 segments 2
+Replicating Sequential Instance C3.ad_sum[4], fanout 37 segments 2
+Replicating Sequential Instance C3.ad_sum[3], fanout 29 segments 2
+Replicating Sequential Instance C3.ad_sum[2], fanout 27 segments 2
+Replicating Sequential Instance C3.acq_state[0], fanout 70 segments 3
+Replicating Sequential Instance C3.ram_sel, fanout 31 segments 2
+Replicating Sequential Instance C6.init_step[3], fanout 27 segments 2
+Replicating Sequential Instance C6.int_step[9], fanout 69 segments 3
+Replicating Sequential Instance C6.clj_new, fanout 49 segments 3
+Replicating Sequential Instance C6.frame_data[7], fanout 39 segments 2
+Replicating Sequential Instance C6.frame_data[5], fanout 35 segments 2
+Replicating Sequential Instance C6.frame_data[4], fanout 26 segments 2
+Replicating Sequential Instance C6.can_busy, fanout 47 segments 2
+Replicating Sequential Instance C6.imp_renew, fanout 26 segments 2
+Replicating Sequential Instance C9.top_tcl.err_1[5], fanout 27 segments 2
+Replicating Sequential Instance C9.top_tcl.err_1[4], fanout 25 segments 2
+Replicating Sequential Instance C9.top_tcl.err_1[3], fanout 25 segments 2
+Replicating Sequential Instance C9.top_tcl.err_1[1], fanout 25 segments 2
+Replicating Sequential Instance C9.top_tcl.err_1[0], fanout 37 segments 2
+Replicating Sequential Instance C9.top_tcl.acf, fanout 27 segments 2
+Replicating Sequential Instance C9.top_tcl.bnull, fanout 33 segments 2
+Replicating Sequential Instance C9.top_btl.tq_work_tic, fanout 25 segments 2
+Replicating Combinational Instance C9.top_mm.adr_trbuf_1[3], fanout 68 segments 3
+Replicating Combinational Instance C9.top_mm.adr_trbuf[1], fanout 44 segments 2
+Replicating Sequential Instance C9.top_btl.rx2tcl, fanout 90 segments 4
+Replicating Sequential Instance C9.top_btl.sample, fanout 46 segments 2
+Replicating Sequential Instance C9.top_tcl.equal[0], fanout 38 segments 2
+Replicating Combinational Instance C9.top_tcl.eof, fanout 36 segments 2
+Replicating Sequential Instance C9.top_btl.clock, fanout 37 segments 2
+Replicating Sequential Instance C9.top_bsp.dataout[7], fanout 67 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[6], fanout 68 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[5], fanout 68 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[4], fanout 68 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[3], fanout 68 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[2], fanout 65 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[1], fanout 65 segments 3
+Replicating Sequential Instance C9.top_bsp.dataout[0], fanout 65 segments 3
+Replicating Sequential Instance C9.top_iml.reset_request, fanout 118 segments 5
+Replicating Sequential Instance C9.top_iml.trrequ1, fanout 50 segments 3
+Replicating Sequential Instance C9.top_iml.address[2], fanout 42 segments 2
+Replicating Sequential Instance C9.top_iml.address[1], fanout 25 segments 2
+Replicating Sequential Instance C9.top_tcl.transmit, fanout 73 segments 4
+Replicating Sequential Instance C9.top_eml.trcount_int[8], fanout 41 segments 2
+Replicating Sequential Instance C8.top_tcl.err_1[5], fanout 27 segments 2
+Replicating Sequential Instance C8.top_tcl.err_1[4], fanout 25 segments 2
+Replicating Sequential Instance C8.top_tcl.err_1[3], fanout 26 segments 2
+Replicating Sequential Instance C8.top_tcl.err_1[1], fanout 27 segments 2
+Replicating Sequential Instance C8.top_tcl.err_1[0], fanout 40 segments 2
+Replicating Sequential Instance C8.top_tcl.acf, fanout 30 segments 2
+Replicating Sequential Instance C8.top_tcl.bnull, fanout 30 segments 2
+Replicating Combinational Instance C8.top_mm.adr_trbuf_1[3], fanout 68 segments 3
+Replicating Combinational Instance C8.top_mm.adr_trbuf[1], fanout 44 segments 2
+Replicating Sequential Instance C8.top_btl.rx2tcl, fanout 86 segments 4
+Replicating Sequential Instance C8.top_btl.sample, fanout 46 segments 2
+Replicating Sequential Instance C8.top_tcl.equal[0], fanout 39 segments 2
+Replicating Sequential Instance C8.top_btl.clock, fanout 36 segments 2
+Replicating Sequential Instance C8.top_bsp.dataout[7], fanout 67 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[6], fanout 68 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[5], fanout 68 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[4], fanout 68 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[3], fanout 68 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[2], fanout 65 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[1], fanout 65 segments 3
+Replicating Sequential Instance C8.top_bsp.dataout[0], fanout 65 segments 3
+Replicating Sequential Instance C8.top_iml.reset_request, fanout 117 segments 5
+Replicating Sequential Instance C8.top_iml.trrequ1, fanout 46 segments 2
+Replicating Sequential Instance C8.top_iml.address[2], fanout 41 segments 2
+Replicating Sequential Instance C8.top_iml.address[1], fanout 25 segments 2
+Replicating Sequential Instance C8.top_tcl.transmit, fanout 76 segments 4
+Replicating Sequential Instance C8.top_eml.trcount_int[8], fanout 40 segments 2
+Replicating Sequential Instance C7.cana_data_o[7], fanout 82 segments 4
+Replicating Sequential Instance C7.cana_data_o[6], fanout 82 segments 4
+Replicating Sequential Instance C7.cana_data_o[5], fanout 80 segments 4
+Replicating Sequential Instance C7.cana_data_o[4], fanout 82 segments 4
+Replicating Sequential Instance C7.cana_data_o[3], fanout 80 segments 4
+Replicating Sequential Instance C7.cana_data_o[2], fanout 70 segments 3
+Replicating Sequential Instance C7.cana_data_o[1], fanout 70 segments 3
+Replicating Sequential Instance C7.cana_data_o[0], fanout 66 segments 3
+Replicating Sequential Instance C7.cana_addr_o[5], fanout 29 segments 2
+Replicating Sequential Instance C7.cana_addr_o[4], fanout 43 segments 2
+Replicating Sequential Instance C7.cana_addr_o[2], fanout 521 segments 22
+Replicating Sequential Instance C7.cana_addr_o[1], fanout 206 segments 9
+Replicating Sequential Instance C7.cana_addr_o[0], fanout 117 segments 5
+Replicating Sequential Instance C6.can_addr[2], fanout 53 segments 3
+Replicating Sequential Instance C6.can_addr[1], fanout 58 segments 3
+Replicating Sequential Instance C6.can_addr[0], fanout 54 segments 3
+Replicating Sequential Instance C10.tick_1us, fanout 26 segments 2
+Replicating Sequential Instance C10.tick_1ms, fanout 42 segments 2
+Replicating Sequential Instance C8.top_iml.reset_request_2, fanout 27 segments 2
+Replicating Sequential Instance C9.top_iml.reset_request_1, fanout 27 segments 2
+Replicating Combinational Instance C7.un1_can_ren_i, fanout 72 segments 3
+Replicating Combinational Instance C3.un1_acq_state_9_i, fanout 33 segments 2
+Replicating Sequential Instance C8.top_btl.tq_work_tic, fanout 27 segments 2
+
+Added 0 Buffers
+Added 239 Cells via replication
+	Added 183 Sequential Cells via replication
+	Added 56 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:13s; Memory used current: 250MB peak: 287MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 3086 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================ Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance  
+-----------------------------------------------------------------------------------------
+@K:CKID0001       clk_i               port                   3086       C10.scaler_1us[5]
+=========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:14s; Memory used current: 211MB peak: 287MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_CAN\synthesis\synwork\piu_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:01m:17s; CPU Time elapsed 0h:01m:15s; Memory used current: 227MB peak: 287MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:01m:18s; CPU Time elapsed 0h:01m:16s; Memory used current: 233MB peak: 287MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:01m:18s; CPU Time elapsed 0h:01m:17s; Memory used current: 226MB peak: 287MB)
+
+@W: MT246 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":2381:0:2381:3|Blackbox RAM_1024B is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":636:0:636:3|Blackbox RAM_128X12 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock piu_top|clk_i with period 10.00ns. Please declare a user-defined clock on object "p:clk_i"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Apr 08 22:11:56 2019
+#
+
+
+Top view:               piu_top
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -27.183
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+piu_top|clk_i      100.0 MHz     26.9 MHz      10.000        37.183        -27.183     inferred     Inferred_clkgroup_0
+System             100.0 MHz     610.2 MHz     10.000        1.639         8.361       system       system_clkgroup    
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+System         System         |  10.000      8.361    |  No paths    -      |  No paths    -      |  No paths    -    
+System         piu_top|clk_i  |  10.000      0.638    |  No paths    -      |  No paths    -      |  No paths    -    
+piu_top|clk_i  System         |  10.000      6.142    |  No paths    -      |  No paths    -      |  No paths    -    
+piu_top|clk_i  piu_top|clk_i  |  10.000      -27.183  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: piu_top|clk_i
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                              Arrival            
+Instance                      Reference         Type         Pin     Net            Time        Slack  
+                              Clock                                                                    
+-------------------------------------------------------------------------------------------------------
+C8.top_eml.recount_int[7]     piu_top|clk_i     DFN1C1       Q       RecCnt[7]      0.737       -27.183
+C8.top_tcl.b[0]               piu_top|clk_i     DFN1E1C1     Q       b[0]           0.737       -27.166
+C8.top_tcl.b[4]               piu_top|clk_i     DFN1E1C1     Q       b[4]           0.737       -26.910
+C8.top_tcl.b[1]               piu_top|clk_i     DFN1E1C1     Q       b[1]           0.737       -26.836
+C8.top_eml.trcount_int[7]     piu_top|clk_i     DFN1C1       Q       trcount[7]     0.737       -26.691
+C8.top_tcl.b[5]               piu_top|clk_i     DFN1E1C1     Q       b[5]           0.737       -26.670
+C8.top_tcl.b[3]               piu_top|clk_i     DFN1E1C1     Q       b[3]           0.580       -26.639
+C8.top_tcl.b[2]               piu_top|clk_i     DFN1E1C1     Q       b[2]           0.580       -26.590
+C9.top_tcl.b[0]               piu_top|clk_i     DFN1E1C1     Q       b[0]           0.737       -26.519
+C9.top_tcl.b[4]               piu_top|clk_i     DFN1E1C1     Q       b[4]           0.737       -26.297
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                Required            
+Instance                  Reference         Type         Pin     Net              Time         Slack  
+                          Clock                                                                       
+------------------------------------------------------------------------------------------------------
+C8.top_tcl.equal[0]       piu_top|clk_i     DFN1E0P1     D       equal_555[0]     9.461        -27.183
+C8.top_tcl.equal_0[0]     piu_top|clk_i     DFN1E0P1     D       equal_555[0]     9.461        -27.183
+C8.top_tcl.equal[5]       piu_top|clk_i     DFN1E0P1     D       equal_555[5]     9.427        -26.950
+C8.top_tcl.equal[1]       piu_top|clk_i     DFN1E0P1     D       equal_555[1]     9.427        -26.929
+C8.top_tcl.equal[4]       piu_top|clk_i     DFN1E0P1     D       equal_555[4]     9.427        -26.837
+C8.top_tcl.equal[2]       piu_top|clk_i     DFN1E0C1     D       equal_555[2]     9.496        -26.768
+C8.top_tcl.equal[3]       piu_top|clk_i     DFN1E0C1     D       equal_555[3]     9.496        -26.768
+C9.top_tcl.equal[0]       piu_top|clk_i     DFN1E0P1     D       equal_555[0]     9.461        -26.519
+C9.top_tcl.equal_0[0]     piu_top|clk_i     DFN1E0P1     D       equal_555[0]     9.461        -26.519
+C9.top_tcl.equal[1]       piu_top|clk_i     DFN1E0P1     D       equal_555[1]     9.461        -26.130
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      36.644
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -27.183
+
+    Number of logic level(s):                21
+    Starting point:                          C8.top_eml.recount_int[7] / Q
+    Ending point:                            C8.top_tcl.equal[0] / D
+    The start point is clocked by            piu_top|clk_i [rising] on pin CLK
+    The end   point is clocked by            piu_top|clk_i [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+C8.top_eml.recount_int[7]               DFN1C1       Q        Out     0.737     0.737       -         
+RecCnt[7]                               Net          -        -       1.776     -           11        
+C8.top_eml.trcount_int_RNIF6HI[7]       NOR2         B        In      -         2.513       -         
+C8.top_eml.trcount_int_RNIF6HI[7]       NOR2         Y        Out     0.646     3.160       -         
+error_state                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNIV8651[0]                NOR3B        B        In      -         5.423       -         
+C8.top_tcl.b_RNIV8651[0]                NOR3B        Y        Out     0.624     6.046       -         
+next_start_id_reg_2_1                   Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNI22JO2[0]                NOR3B        B        In      -         6.368       -         
+C8.top_tcl.b_RNI22JO2[0]                NOR3B        Y        Out     0.624     6.992       -         
+next_start_id_reg_2                     Net          -        -       1.423     -           6         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         A        In      -         8.415       -         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         Y        Out     0.360     8.775       -         
+halt_N_7_mux                            Net          -        -       0.322     -           1         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          B        In      -         9.096       -         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          Y        Out     0.646     9.743       -         
+halt_N_4                                Net          -        -       2.127     -           15        
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        B        In      -         11.870      -         
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        Y        Out     0.627     12.498      -         
+un1_N_3_mux                             Net          -        -       2.082     -           14        
+C8.top_tcl.b_RNI1HNG01[1]               OR2          B        In      -         14.580      -         
+C8.top_tcl.b_RNI1HNG01[1]               OR2          Y        Out     0.646     15.226      -         
+un1_b_60_m_0[1]                         Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        A        In      -         15.548      -         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        Y        Out     0.627     16.175      -         
+un1_b_60[1]                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         B        In      -         18.438      -         
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         Y        Out     0.646     19.084      -         
+b_RNI97QD34_2[2]                        Net          -        -       0.386     -           2         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         A        In      -         19.470      -         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         Y        Out     0.363     19.834      -         
+equal_555_sn_N_55                       Net          -        -       2.172     -           16        
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         B        In      -         22.006      -         
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         Y        Out     0.646     22.653      -         
+cd_m3_0                                 Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        A        In      -         23.459      -         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        Y        Out     0.516     23.975      -         
+transmit21lt5                           Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        C        In      -         24.361      -         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        Y        Out     0.360     24.721      -         
+cd_N_6                                  Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         B        In      -         25.106      -         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         Y        Out     0.646     25.753      -         
+cd_N_5_mux                              Net          -        -       1.994     -           12        
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        B        In      -         27.746      -         
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        Y        Out     0.386     28.132      -         
+dlc_5_sqmuxa_3                          Net          -        -       1.184     -           4         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        B        In      -         29.316      -         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        Y        Out     0.627     29.943      -         
+equal_555_sn_m69_i_o2_7                 Net          -        -       0.806     -           3         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          C        In      -         30.750      -         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          Y        Out     0.633     31.382      -         
+equal_555_sn_m26_i_0_0                  Net          -        -       0.322     -           1         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          A        In      -         31.704      -         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          Y        Out     0.507     32.211      -         
+equal_555_sn_N_177                      Net          -        -       1.423     -           6         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         A        In      -         33.634      -         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         Y        Out     0.933     34.568      -         
+bnull71_RNIDSOC0A                       Net          -        -       0.322     -           1         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          S        In      -         34.889      -         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          Y        Out     0.480     35.369      -         
+N_1813                                  Net          -        -       0.322     -           1         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          A        In      -         35.690      -         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          Y        Out     0.568     36.259      -         
+equal_555[0]                            Net          -        -       0.386     -           2         
+C8.top_tcl.equal[0]                     DFN1E0P1     D        In      -         36.644      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 37.183 is 13.390(36.0%) logic and 23.793(64.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      36.644
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -27.183
+
+    Number of logic level(s):                21
+    Starting point:                          C8.top_eml.recount_int[7] / Q
+    Ending point:                            C8.top_tcl.equal_0[0] / D
+    The start point is clocked by            piu_top|clk_i [rising] on pin CLK
+    The end   point is clocked by            piu_top|clk_i [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+C8.top_eml.recount_int[7]               DFN1C1       Q        Out     0.737     0.737       -         
+RecCnt[7]                               Net          -        -       1.776     -           11        
+C8.top_eml.trcount_int_RNIF6HI[7]       NOR2         B        In      -         2.513       -         
+C8.top_eml.trcount_int_RNIF6HI[7]       NOR2         Y        Out     0.646     3.160       -         
+error_state                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNIV8651[0]                NOR3B        B        In      -         5.423       -         
+C8.top_tcl.b_RNIV8651[0]                NOR3B        Y        Out     0.624     6.046       -         
+next_start_id_reg_2_1                   Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNI22JO2[0]                NOR3B        B        In      -         6.368       -         
+C8.top_tcl.b_RNI22JO2[0]                NOR3B        Y        Out     0.624     6.992       -         
+next_start_id_reg_2                     Net          -        -       1.423     -           6         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         A        In      -         8.415       -         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         Y        Out     0.360     8.775       -         
+halt_N_7_mux                            Net          -        -       0.322     -           1         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          B        In      -         9.096       -         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          Y        Out     0.646     9.743       -         
+halt_N_4                                Net          -        -       2.127     -           15        
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        B        In      -         11.870      -         
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        Y        Out     0.627     12.498      -         
+un1_N_3_mux                             Net          -        -       2.082     -           14        
+C8.top_tcl.b_RNI1HNG01[1]               OR2          B        In      -         14.580      -         
+C8.top_tcl.b_RNI1HNG01[1]               OR2          Y        Out     0.646     15.226      -         
+un1_b_60_m_0[1]                         Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        A        In      -         15.548      -         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        Y        Out     0.627     16.175      -         
+un1_b_60[1]                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         B        In      -         18.438      -         
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         Y        Out     0.646     19.084      -         
+b_RNI97QD34_2[2]                        Net          -        -       0.386     -           2         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         A        In      -         19.470      -         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         Y        Out     0.363     19.834      -         
+equal_555_sn_N_55                       Net          -        -       2.172     -           16        
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         B        In      -         22.006      -         
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         Y        Out     0.646     22.653      -         
+cd_m3_0                                 Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        A        In      -         23.459      -         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        Y        Out     0.516     23.975      -         
+transmit21lt5                           Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        C        In      -         24.361      -         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        Y        Out     0.360     24.721      -         
+cd_N_6                                  Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         B        In      -         25.106      -         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         Y        Out     0.646     25.753      -         
+cd_N_5_mux                              Net          -        -       1.994     -           12        
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        B        In      -         27.746      -         
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        Y        Out     0.386     28.132      -         
+dlc_5_sqmuxa_3                          Net          -        -       1.184     -           4         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        B        In      -         29.316      -         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        Y        Out     0.627     29.943      -         
+equal_555_sn_m69_i_o2_7                 Net          -        -       0.806     -           3         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          C        In      -         30.750      -         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          Y        Out     0.633     31.382      -         
+equal_555_sn_m26_i_0_0                  Net          -        -       0.322     -           1         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          A        In      -         31.704      -         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          Y        Out     0.507     32.211      -         
+equal_555_sn_N_177                      Net          -        -       1.423     -           6         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         A        In      -         33.634      -         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         Y        Out     0.933     34.568      -         
+bnull71_RNIDSOC0A                       Net          -        -       0.322     -           1         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          S        In      -         34.889      -         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          Y        Out     0.480     35.369      -         
+N_1813                                  Net          -        -       0.322     -           1         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          A        In      -         35.690      -         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          Y        Out     0.568     36.259      -         
+equal_555[0]                            Net          -        -       0.386     -           2         
+C8.top_tcl.equal_0[0]                   DFN1E0P1     D        In      -         36.644      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 37.183 is 13.390(36.0%) logic and 23.793(64.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      36.627
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -27.166
+
+    Number of logic level(s):                21
+    Starting point:                          C8.top_tcl.b[0] / Q
+    Ending point:                            C8.top_tcl.equal[0] / D
+    The start point is clocked by            piu_top|clk_i [rising] on pin CLK
+    The end   point is clocked by            piu_top|clk_i [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+C8.top_tcl.b[0]                         DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                                    Net          -        -       2.409     -           22        
+C8.top_tcl.b_RNIDMIS_0[1]               NOR2         B        In      -         3.146       -         
+C8.top_tcl.b_RNIDMIS_0[1]               NOR2         Y        Out     0.646     3.792       -         
+N_20                                    Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIJFOL2[2]                NOR3A        A        In      -         4.599       -         
+C8.top_tcl.b_RNIJFOL2[2]                NOR3A        Y        Out     0.664     5.263       -         
+txd9                                    Net          -        -       1.526     -           7         
+C8.top_tcl.b_RNISRBN7[5]                OA1B         A        In      -         6.789       -         
+C8.top_tcl.b_RNISRBN7[5]                OA1B         Y        Out     0.900     7.689       -         
+overld4_0                               Net          -        -       0.386     -           2         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         C        In      -         8.075       -         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         Y        Out     0.683     8.758       -         
+halt_N_7_mux                            Net          -        -       0.322     -           1         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          B        In      -         9.079       -         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          Y        Out     0.646     9.726       -         
+halt_N_4                                Net          -        -       2.127     -           15        
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        B        In      -         11.853      -         
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        Y        Out     0.627     12.480      -         
+un1_N_3_mux                             Net          -        -       2.082     -           14        
+C8.top_tcl.b_RNI1HNG01[1]               OR2          B        In      -         14.562      -         
+C8.top_tcl.b_RNI1HNG01[1]               OR2          Y        Out     0.646     15.209      -         
+un1_b_60_m_0[1]                         Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        A        In      -         15.530      -         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        Y        Out     0.627     16.158      -         
+un1_b_60[1]                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         B        In      -         18.421      -         
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         Y        Out     0.646     19.067      -         
+b_RNI97QD34_2[2]                        Net          -        -       0.386     -           2         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         A        In      -         19.453      -         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         Y        Out     0.363     19.816      -         
+equal_555_sn_N_55                       Net          -        -       2.172     -           16        
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         B        In      -         21.989      -         
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         Y        Out     0.646     22.635      -         
+cd_m3_0                                 Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        A        In      -         23.442      -         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        Y        Out     0.516     23.958      -         
+transmit21lt5                           Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        C        In      -         24.343      -         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        Y        Out     0.360     24.703      -         
+cd_N_6                                  Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         B        In      -         25.089      -         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         Y        Out     0.646     25.735      -         
+cd_N_5_mux                              Net          -        -       1.994     -           12        
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        B        In      -         27.729      -         
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        Y        Out     0.386     28.115      -         
+dlc_5_sqmuxa_3                          Net          -        -       1.184     -           4         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        B        In      -         29.298      -         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        Y        Out     0.627     29.926      -         
+equal_555_sn_m69_i_o2_7                 Net          -        -       0.806     -           3         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          C        In      -         30.732      -         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          Y        Out     0.633     31.365      -         
+equal_555_sn_m26_i_0_0                  Net          -        -       0.322     -           1         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          A        In      -         31.686      -         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          Y        Out     0.507     32.194      -         
+equal_555_sn_N_177                      Net          -        -       1.423     -           6         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         A        In      -         33.617      -         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         Y        Out     0.933     34.550      -         
+bnull71_RNIDSOC0A                       Net          -        -       0.322     -           1         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          S        In      -         34.872      -         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          Y        Out     0.480     35.352      -         
+N_1813                                  Net          -        -       0.322     -           1         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          A        In      -         35.673      -         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          Y        Out     0.568     36.241      -         
+equal_555[0]                            Net          -        -       0.386     -           2         
+C8.top_tcl.equal[0]                     DFN1E0P1     D        In      -         36.627      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 37.166 is 14.030(37.7%) logic and 23.136(62.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      36.627
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -27.166
+
+    Number of logic level(s):                21
+    Starting point:                          C8.top_tcl.b[0] / Q
+    Ending point:                            C8.top_tcl.equal_0[0] / D
+    The start point is clocked by            piu_top|clk_i [rising] on pin CLK
+    The end   point is clocked by            piu_top|clk_i [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+C8.top_tcl.b[0]                         DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                                    Net          -        -       2.409     -           22        
+C8.top_tcl.b_RNIDMIS_0[1]               NOR2         B        In      -         3.146       -         
+C8.top_tcl.b_RNIDMIS_0[1]               NOR2         Y        Out     0.646     3.792       -         
+N_20                                    Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIJFOL2[2]                NOR3A        A        In      -         4.599       -         
+C8.top_tcl.b_RNIJFOL2[2]                NOR3A        Y        Out     0.664     5.263       -         
+txd9                                    Net          -        -       1.526     -           7         
+C8.top_tcl.b_RNISRBN7[5]                OA1B         A        In      -         6.789       -         
+C8.top_tcl.b_RNISRBN7[5]                OA1B         Y        Out     0.900     7.689       -         
+overld4_0                               Net          -        -       0.386     -           2         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         C        In      -         8.075       -         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         Y        Out     0.683     8.758       -         
+halt_N_7_mux                            Net          -        -       0.322     -           1         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          B        In      -         9.079       -         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          Y        Out     0.646     9.726       -         
+halt_N_4                                Net          -        -       2.127     -           15        
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        B        In      -         11.853      -         
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        Y        Out     0.627     12.480      -         
+un1_N_3_mux                             Net          -        -       2.082     -           14        
+C8.top_tcl.b_RNI1HNG01[1]               OR2          B        In      -         14.562      -         
+C8.top_tcl.b_RNI1HNG01[1]               OR2          Y        Out     0.646     15.209      -         
+un1_b_60_m_0[1]                         Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        A        In      -         15.530      -         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        Y        Out     0.627     16.158      -         
+un1_b_60[1]                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         B        In      -         18.421      -         
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         Y        Out     0.646     19.067      -         
+b_RNI97QD34_2[2]                        Net          -        -       0.386     -           2         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         A        In      -         19.453      -         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         Y        Out     0.363     19.816      -         
+equal_555_sn_N_55                       Net          -        -       2.172     -           16        
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         B        In      -         21.989      -         
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         Y        Out     0.646     22.635      -         
+cd_m3_0                                 Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        A        In      -         23.442      -         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        Y        Out     0.516     23.958      -         
+transmit21lt5                           Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        C        In      -         24.343      -         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        Y        Out     0.360     24.703      -         
+cd_N_6                                  Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         B        In      -         25.089      -         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         Y        Out     0.646     25.735      -         
+cd_N_5_mux                              Net          -        -       1.994     -           12        
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        B        In      -         27.729      -         
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        Y        Out     0.386     28.115      -         
+dlc_5_sqmuxa_3                          Net          -        -       1.184     -           4         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        B        In      -         29.298      -         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        Y        Out     0.627     29.926      -         
+equal_555_sn_m69_i_o2_7                 Net          -        -       0.806     -           3         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          C        In      -         30.732      -         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          Y        Out     0.633     31.365      -         
+equal_555_sn_m26_i_0_0                  Net          -        -       0.322     -           1         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          A        In      -         31.686      -         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          Y        Out     0.507     32.194      -         
+equal_555_sn_N_177                      Net          -        -       1.423     -           6         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         A        In      -         33.617      -         
+C8.top_tcl.bnull71_RNIDSOC0A            OA1A         Y        Out     0.933     34.550      -         
+bnull71_RNIDSOC0A                       Net          -        -       0.322     -           1         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          S        In      -         34.872      -         
+C8.top_tcl.crc_reg_RNI83KSQ82[14]       MX2          Y        Out     0.480     35.352      -         
+N_1813                                  Net          -        -       0.322     -           1         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          A        In      -         35.673      -         
+C8.top_tcl.equal_RNIJS16D71[0]          MX2          Y        Out     0.568     36.241      -         
+equal_555[0]                            Net          -        -       0.386     -           2         
+C8.top_tcl.equal_0[0]                   DFN1E0P1     D        In      -         36.627      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 37.166 is 14.030(37.7%) logic and 23.136(62.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      36.377
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -26.950
+
+    Number of logic level(s):                21
+    Starting point:                          C8.top_eml.recount_int[7] / Q
+    Ending point:                            C8.top_tcl.equal[5] / D
+    The start point is clocked by            piu_top|clk_i [rising] on pin CLK
+    The end   point is clocked by            piu_top|clk_i [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+C8.top_eml.recount_int[7]               DFN1C1       Q        Out     0.737     0.737       -         
+RecCnt[7]                               Net          -        -       1.776     -           11        
+C8.top_eml.trcount_int_RNIF6HI[7]       NOR2         B        In      -         2.513       -         
+C8.top_eml.trcount_int_RNIF6HI[7]       NOR2         Y        Out     0.646     3.160       -         
+error_state                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNIV8651[0]                NOR3B        B        In      -         5.423       -         
+C8.top_tcl.b_RNIV8651[0]                NOR3B        Y        Out     0.624     6.046       -         
+next_start_id_reg_2_1                   Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNI22JO2[0]                NOR3B        B        In      -         6.368       -         
+C8.top_tcl.b_RNI22JO2[0]                NOR3B        Y        Out     0.624     6.992       -         
+next_start_id_reg_2                     Net          -        -       1.423     -           6         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         A        In      -         8.415       -         
+C8.top_tcl.bnull_0_RNIMCMPA             NOR3         Y        Out     0.360     8.775       -         
+halt_N_7_mux                            Net          -        -       0.322     -           1         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          B        In      -         9.096       -         
+C8.top_tcl.bnull_0_RNIJTKQL             OR2          Y        Out     0.646     9.743       -         
+halt_N_4                                Net          -        -       2.127     -           15        
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        B        In      -         11.870      -         
+C8.top_tcl.bnull_0_RNIA5E201_0          NOR2B        Y        Out     0.627     12.498      -         
+un1_N_3_mux                             Net          -        -       2.082     -           14        
+C8.top_tcl.b_RNI1HNG01[1]               OR2          B        In      -         14.580      -         
+C8.top_tcl.b_RNI1HNG01[1]               OR2          Y        Out     0.646     15.226      -         
+un1_b_60_m_0[1]                         Net          -        -       0.322     -           1         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        A        In      -         15.548      -         
+C8.top_tcl.b_RNIOCOF12[1]               NOR2A        Y        Out     0.627     16.175      -         
+un1_b_60[1]                             Net          -        -       2.263     -           18        
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         B        In      -         18.438      -         
+C8.top_tcl.b_RNI97QD34_2[2]             NOR2         Y        Out     0.646     19.084      -         
+b_RNI97QD34_2[2]                        Net          -        -       0.386     -           2         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         A        In      -         19.470      -         
+C8.top_tcl.b_RNICHBRB6[2]               NOR2         Y        Out     0.363     19.834      -         
+equal_555_sn_N_55                       Net          -        -       2.172     -           16        
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         B        In      -         22.006      -         
+C8.top_tcl.b_RNICHQSC8[0]               NOR2         Y        Out     0.646     22.653      -         
+cd_m3_0                                 Net          -        -       0.806     -           3         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        A        In      -         23.459      -         
+C8.top_tcl.b_RNIFT0Q2F[0]               NOR2A        Y        Out     0.516     23.975      -         
+transmit21lt5                           Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        C        In      -         24.361      -         
+C8.top_tcl.acf_RNI03SHEI                NOR3B        Y        Out     0.360     24.721      -         
+cd_N_6                                  Net          -        -       0.386     -           2         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         B        In      -         25.106      -         
+C8.top_tcl.acf_RNIEATFD61_0             NOR2         Y        Out     0.646     25.753      -         
+cd_N_5_mux                              Net          -        -       1.994     -           12        
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        B        In      -         27.746      -         
+C8.top_tcl.un1_busoff_21_RNIRHE7D81     NOR2A        Y        Out     0.386     28.132      -         
+dlc_5_sqmuxa_3                          Net          -        -       1.184     -           4         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        B        In      -         29.316      -         
+C8.top_tcl.txd_RNILSQIUH2               NOR2B        Y        Out     0.627     29.943      -         
+equal_555_sn_m69_i_o2_7                 Net          -        -       0.806     -           3         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          C        In      -         30.750      -         
+C8.top_tcl.bnull71_RNIKPQDEV3           AO1          Y        Out     0.633     31.382      -         
+equal_555_sn_m26_i_0_0                  Net          -        -       0.322     -           1         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          A        In      -         31.704      -         
+C8.top_tcl.bnull71_RNI1I8AAE1           OR2          Y        Out     0.507     32.211      -         
+equal_555_sn_N_177                      Net          -        -       1.423     -           6         
+C8.top_tcl.equal_RNO_3[5]               NOR2B        B        In      -         33.634      -         
+C8.top_tcl.equal_RNO_3[5]               NOR2B        Y        Out     0.627     34.262      -         
+N_1786                                  Net          -        -       0.322     -           1         
+C8.top_tcl.equal_RNO_1[5]               MX2          A        In      -         34.583      -         
+C8.top_tcl.equal_RNO_1[5]               MX2          Y        Out     0.579     35.162      -         
+N_1808                                  Net          -        -       0.322     -           1         
+C8.top_tcl.equal_RNO[5]                 MX2          B        In      -         35.483      -         
+C8.top_tcl.equal_RNO[5]                 MX2          Y        Out     0.572     36.055      -         
+equal_555[5]                            Net          -        -       0.322     -           1         
+C8.top_tcl.equal[5]                     DFN1E0P1     D        In      -         36.377      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 36.950 is 13.222(35.8%) logic and 23.729(64.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                                Arrival          
+Instance     Reference     Type          Pin       Net               Time        Slack
+             Clock                                                                    
+--------------------------------------------------------------------------------------
+C6.RAM5      System        RAM_1024B     RD[2]     imp5_rdata[2]     0.000       0.638
+C6.RAM1      System        RAM_1024B     RD[4]     imp1_rdata[4]     0.000       0.676
+C6.RAM4      System        RAM_1024B     RD[0]     imp4_rdata[0]     0.000       0.676
+C6.RAM4      System        RAM_1024B     RD[5]     imp4_rdata[5]     0.000       0.676
+C6.RAM4      System        RAM_1024B     RD[6]     imp4_rdata[6]     0.000       0.676
+C6.RAM5      System        RAM_1024B     RD[3]     imp5_rdata[3]     0.000       0.676
+C6.RAM6      System        RAM_1024B     RD[1]     imp6_rdata[1]     0.000       0.781
+C6.RAM6      System        RAM_1024B     RD[7]     imp6_rdata[7]     0.000       0.781
+C6.RAM8      System        RAM_1024B     RD[1]     imp8_rdata[1]     0.000       0.920
+C6.RAM8      System        RAM_1024B     RD[7]     imp8_rdata[7]     0.000       0.920
+======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                  Required          
+Instance            Reference     Type          Pin       Net                 Time         Slack
+                    Clock                                                                       
+------------------------------------------------------------------------------------------------
+C6.can_wdata[2]     System        DFN1E0C0      D         can_wdata_69[2]     9.427        0.638
+C6.can_wdata[0]     System        DFN1E0C0      D         can_wdata_69[0]     9.427        0.676
+C6.can_wdata[3]     System        DFN1E0C0      D         can_wdata_69[3]     9.427        0.676
+C6.can_wdata[4]     System        DFN1E0C0      D         can_wdata_69[4]     9.427        0.676
+C6.can_wdata[5]     System        DFN1E0C0      D         can_wdata_69[5]     9.427        0.676
+C6.can_wdata[6]     System        DFN1E0C0      D         can_wdata_69[6]     9.427        0.676
+C6.can_wdata[1]     System        DFN1E0C0      D         can_wdata_69[1]     9.427        0.781
+C6.can_wdata[7]     System        DFN1E0C0      D         can_wdata_69[7]     9.427        0.781
+C6.RAM1             System        RAM_1024B     WD[0]     imp_rdata[0]        10.000       8.361
+C6.RAM1             System        RAM_1024B     WD[1]     imp_rdata[1]        10.000       8.361
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      8.788
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.638
+
+    Number of logic level(s):                9
+    Starting point:                          C6.RAM5 / RD[2]
+    Ending point:                            C6.can_wdata[2] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            piu_top|clk_i [rising] on pin CLK
+
+Instance / Net                           Pin       Pin               Arrival     No. of    
+Name                       Type          Name      Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+C6.RAM5                    RAM_1024B     RD[2]     Out     0.000     0.000       -         
+imp5_rdata[2]              Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_35[2]     NOR2B         A         In      -         0.322       -         
+C6.can_wdata_RNO_35[2]     NOR2B         Y         Out     0.514     0.836       -         
+imp5_rdata_m[2]            Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_34[2]     AO1           C         In      -         1.157       -         
+C6.can_wdata_RNO_34[2]     AO1           Y         Out     0.633     1.790       -         
+imp_tx_data_1_iv_1[2]      Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_29[2]     OR3           C         In      -         2.111       -         
+C6.can_wdata_RNO_29[2]     OR3           Y         Out     0.751     2.862       -         
+imp_tx_data_1_iv_4[2]      Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_20[2]     OR3           C         In      -         3.184       -         
+C6.can_wdata_RNO_20[2]     OR3           Y         Out     0.751     3.935       -         
+imp_tx_data_1[2]           Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_10[2]     MX2           A         In      -         4.256       -         
+C6.can_wdata_RNO_10[2]     MX2           Y         Out     0.579     4.835       -         
+N_2312                     Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_5[2]      MX2           A         In      -         5.156       -         
+C6.can_wdata_RNO_5[2]      MX2           Y         Out     0.579     5.735       -         
+N_2365                     Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_2[2]      MX2A          B         In      -         6.056       -         
+C6.can_wdata_RNO_2[2]      MX2A          Y         Out     0.610     6.667       -         
+N_2421                     Net           -         -       0.322     -           1         
+C6.can_wdata_RNO_0[2]      MX2           A         In      -         6.988       -         
+C6.can_wdata_RNO_0[2]      MX2           Y         Out     0.579     7.567       -         
+N_2441                     Net           -         -       0.322     -           1         
+C6.can_wdata_RNO[2]        MX2           A         In      -         7.888       -         
+C6.can_wdata_RNO[2]        MX2           Y         Out     0.579     8.467       -         
+can_wdata_69[2]            Net           -         -       0.322     -           1         
+C6.can_wdata[2]            DFN1E0C0      D         In      -         8.788       -         
+===========================================================================================
+Total path delay (propagation time + setup) of 9.362 is 6.147(65.7%) logic and 3.215(34.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:01m:19s; CPU Time elapsed 0h:01m:17s; Memory used current: 226MB peak: 287MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:19s; CPU Time elapsed 0h:01m:17s; Memory used current: 226MB peak: 287MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell piu_top.behavioral
+  Core Cell usage:
+              cell count     area count*area
+              AND2   167      1.0      167.0
+             AND2A    10      1.0       10.0
+              AND3    78      1.0       78.0
+               AO1   494      1.0      494.0
+              AO13    12      1.0       12.0
+              AO18    30      1.0       30.0
+              AO1A   287      1.0      287.0
+              AO1B    29      1.0       29.0
+              AO1C    73      1.0       73.0
+              AO1D    38      1.0       38.0
+              AOI1    49      1.0       49.0
+             AOI1A    16      1.0       16.0
+             AOI1B   106      1.0      106.0
+               AX1    12      1.0       12.0
+              AX1A    15      1.0       15.0
+              AX1B    17      1.0       17.0
+              AX1C    55      1.0       55.0
+              AX1D     6      1.0        6.0
+              AX1E     3      1.0        3.0
+              AXO2     2      1.0        2.0
+              AXO5     2      1.0        2.0
+              AXO6     3      1.0        3.0
+             AXOI3     2      1.0        2.0
+             AXOI4     1      1.0        1.0
+            CLKINT     5      0.0        0.0
+               GND    42      0.0        0.0
+               INV    14      1.0       14.0
+              MAJ3    12      1.0       12.0
+              MIN3     9      1.0        9.0
+               MX2  2231      1.0     2231.0
+              MX2A    35      1.0       35.0
+              MX2B    57      1.0       57.0
+              MX2C    54      1.0       54.0
+              NOR2   436      1.0      436.0
+             NOR2A  1457      1.0     1457.0
+             NOR2B  1567      1.0     1567.0
+              NOR3   152      1.0      152.0
+             NOR3A   437      1.0      437.0
+             NOR3B   620      1.0      620.0
+             NOR3C   575      1.0      575.0
+               OA1   256      1.0      256.0
+              OA1A   126      1.0      126.0
+              OA1B    77      1.0       77.0
+              OA1C   128      1.0      128.0
+              OAI1    31      1.0       31.0
+               OR2   620      1.0      620.0
+              OR2A   322      1.0      322.0
+              OR2B    88      1.0       88.0
+               OR3   618      1.0      618.0
+              OR3A    75      1.0       75.0
+              OR3B    37      1.0       37.0
+              OR3C    24      1.0       24.0
+         RAM_1024B     9      0.0        0.0
+        RAM_128X12     2      0.0        0.0
+               VCC    42      0.0        0.0
+               XA1    63      1.0       63.0
+              XA1A    48      1.0       48.0
+              XA1B   157      1.0      157.0
+              XA1C    38      1.0       38.0
+              XAI1     2      1.0        2.0
+             XAI1A     1      1.0        1.0
+             XNOR2   117      1.0      117.0
+             XNOR3    19      1.0       19.0
+               XO1    19      1.0       19.0
+              XO1A     4      1.0        4.0
+              XOR2   486      1.0      486.0
+              XOR3     9      1.0        9.0
+              ZOR3     1      1.0        1.0
+
+
+            DFN1C0   272      1.0      272.0
+            DFN1C1    36      1.0       36.0
+          DFN1E0C0   318      1.0      318.0
+          DFN1E0C1    90      1.0       90.0
+          DFN1E0P0    25      1.0       25.0
+          DFN1E0P1    12      1.0       12.0
+          DFN1E1C0   891      1.0      891.0
+          DFN1E1C1    84      1.0       84.0
+          DFN1E1P0  1280      1.0     1280.0
+          DFN1E1P1    10      1.0       10.0
+            DFN1P0    62      1.0       62.0
+            DFN1P1     6      1.0        6.0
+                   -----          ----------
+             TOTAL 15715             15615.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     6
+            OUTBUF    50
+                   -----
+             TOTAL    57
+
+
+Core Cells         : 15615 of 24576 (64%)
+IO Cells           : 57
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:19s; CPU Time elapsed 0h:01m:17s; Memory used current: 53MB peak: 287MB)
+
+Process took 0h:01m:19s realtime, 0h:01m:17s cputime
+# Mon Apr 08 22:11:56 2019
+
+###########################################################]

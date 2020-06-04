@@ -1,0 +1,426 @@
+----------------------------------------------------------------------
+Report for cell top_0.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                         CORESPI_Z3         1    1173.0     1173.0
+                        CoreAPB3_Z1         1      16.0       16.0
+                                GND         1       0.0        0.0
+                              INBUF         3       0.0        0.0
+                             OUTBUF        38       0.0        0.0
+                      SPI_master_Z4         1      99.0       99.0
+                        UART_AD7606         1     142.0      142.0
+                          UART_fifo         1      94.0       94.0
+                                VCC         1       0.0        0.0
+                               clok         1       0.0        0.0
+                            sp_fifo         1      95.0       95.0
+                               uart         1     709.0      709.0
+                            
+                         TOTAL             52               2328.0
+----------------------------------------------------------------------
+Report for cell UART_fifo.netlist
+     Instance path:  UART_fifo_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        16       1.0       16.0
+                              AND2A         1       1.0        1.0
+                               AND3         2       1.0        2.0
+                                AO1         8       1.0        8.0
+                             DFN1C0        12       1.0       12.0
+                           DFN1E1C0        16       1.0       16.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                              NAND2         2       1.0        2.0
+                          RAM512X18         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2         9       1.0        9.0
+                               XOR2        25       1.0       25.0
+                            
+                         TOTAL             97                 94.0
+----------------------------------------------------------------------
+Report for cell UART_AD7606.netlist
+     Instance path:  UART_AD7606_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AOI1         3       1.0        3.0
+                              AOI1B         3       1.0        3.0
+                             DFI1P0         1       1.0        1.0
+                             DFN1C0        11       1.0       11.0
+                           DFN1E0C0        17       1.0       17.0
+                           DFN1E1C0        24       1.0       24.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         9       1.0        9.0
+                               MX2A         1       1.0        1.0
+                               MX2B         1       1.0        1.0
+                               NOR2         8       1.0        8.0
+                              NOR2A        12       1.0       12.0
+                              NOR2B        30       1.0       30.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                OR3         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                               XOR2         6       1.0        6.0
+                            
+                         TOTAL            144                142.0
+----------------------------------------------------------------------
+Report for cell uart.netlist
+     Instance path:  uart_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                         uart_rx_8s         1     403.0      403.0
+                         uart_tx_8s         1     306.0      306.0
+                            
+                         TOTAL              4                709.0
+----------------------------------------------------------------------
+Report for cell uart_rx_8s.netlist
+     Instance path:  uart_0.uart_rx_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        35       1.0       35.0
+                                AO1        37       1.0       37.0
+                               AO1A         6       1.0        6.0
+                              AOI1B        19       1.0       19.0
+                               AXO2         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        23       1.0       23.0
+                           DFN1E0C0         1       1.0        1.0
+                             DFN1E1         8       1.0        8.0
+                           DFN1E1C0         8       1.0        8.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         4       1.0        4.0
+                                MX2        54       1.0       54.0
+                               MX2A         2       1.0        2.0
+                               MX2B         2       1.0        2.0
+                               NOR2         7       1.0        7.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B        25       1.0       25.0
+                              NOR3A         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2        24       1.0       24.0
+                               OR2A         7       1.0        7.0
+                               OR2B         1       1.0        1.0
+                                OR3        28       1.0       28.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                              XNOR2        30       1.0       30.0
+                               XOR2        64       1.0       64.0
+                            
+                         TOTAL            406                403.0
+----------------------------------------------------------------------
+Report for cell uart_tx_8s.netlist
+     Instance path:  uart_0.uart_tx_inst
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        30       1.0       30.0
+                                AO1        32       1.0       32.0
+                               AO1D         5       1.0        5.0
+                              AOI1B         2       1.0        2.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        24       1.0       24.0
+                           DFN1E0P0         1       1.0        1.0
+                             DFN1E1         9       1.0        9.0
+                           DFN1E1C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        26       1.0       26.0
+                               MX2A         1       1.0        1.0
+                               MX2B         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A        19       1.0       19.0
+                              NOR2B         4       1.0        4.0
+                                OA1        14       1.0       14.0
+                               OA1C         1       1.0        1.0
+                                OR2        21       1.0       21.0
+                               OR2A         2       1.0        2.0
+                                OR3        29       1.0       29.0
+                                VCC         1       0.0        0.0
+                              XNOR2        24       1.0       24.0
+                               XOR2        58       1.0       58.0
+                            
+                         TOTAL            309                306.0
+----------------------------------------------------------------------
+Report for cell SPI_master_Z4.netlist
+     Instance path:  SPI_master_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0        26       1.0       26.0
+                           DFN1E0C0        16       1.0       16.0
+                             DFN1P0         8       1.0        8.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               MX2A         2       1.0        2.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B        20       1.0       20.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                               OR2A         3       1.0        3.0
+                               OR2B         2       1.0        2.0
+                                OR3         1       1.0        1.0
+                               OR3A         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            101                 99.0
+----------------------------------------------------------------------
+Report for cell sp_fifo.netlist
+     Instance path:  sp_fifo_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        16       1.0       16.0
+                              AND2A         1       1.0        1.0
+                               AND3         2       1.0        2.0
+                                AO1         8       1.0        8.0
+                             DFN1C0        12       1.0       12.0
+                           DFN1E1C0        16       1.0       16.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         3       1.0        3.0
+                              NAND2         2       1.0        2.0
+                          RAM512X18         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2         9       1.0        9.0
+                               XOR2        25       1.0       25.0
+                            
+                         TOTAL             98                 95.0
+----------------------------------------------------------------------
+Report for cell CORESPI_Z3.netlist
+     Instance path:  CORESPI_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+          spi_16s_16s_8s_60s_1_1_0_0s         1    1173.0     1173.0
+                            
+                         TOTAL              3               1173.0
+----------------------------------------------------------------------
+Report for cell spi_16s_16s_8s_60s_1_1_0_0s.netlist
+     Instance path:  CORESPI_0.USPI
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                    spi_chanctrl_Z2         1     405.0      405.0
+                    spi_control_16s         1       8.0        8.0
+                spi_fifo_16s_8s_3_0         1     331.0      331.0
+                spi_fifo_16s_8s_3_1         1     327.0      327.0
+                   spi_rf_16s_60s_0         1     102.0      102.0
+                            
+                         TOTAL              7               1173.0
+----------------------------------------------------------------------
+Report for cell spi_chanctrl_Z2.netlist
+     Instance path:  CORESPI_0.USPI.UCC
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         4       1.0        4.0
+                                AO1         7       1.0        7.0
+                               AO1A         4       1.0        4.0
+                               AO1C         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         3       1.0        3.0
+                               AX1A         1       1.0        1.0
+                               AX1B         1       1.0        1.0
+                               AX1D         1       1.0        1.0
+                             DFN1C0        53       1.0       53.0
+                           DFN1E0C0        21       1.0       21.0
+                           DFN1E1C0        62       1.0       62.0
+                           DFN1E1P0        10       1.0       10.0
+                             DFN1P0        13       1.0       13.0
+                                GND         1       0.0        0.0
+                                INV         7       1.0        7.0
+                                MX2        43       1.0       43.0
+                               MX2A         1       1.0        1.0
+                               MX2C         8       1.0        8.0
+                               NOR2         8       1.0        8.0
+                              NOR2A        50       1.0       50.0
+                              NOR2B        20       1.0       20.0
+                               NOR3         4       1.0        4.0
+                              NOR3A         8       1.0        8.0
+                              NOR3B         7       1.0        7.0
+                              NOR3C         9       1.0        9.0
+                                OA1         2       1.0        2.0
+                               OA1B         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                                OR2         9       1.0        9.0
+                               OR2A         8       1.0        8.0
+                               OR2B         2       1.0        2.0
+                                OR3         4       1.0        4.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1        13       1.0       13.0
+                               XA1B         1       1.0        1.0
+                                XO1         2       1.0        2.0
+                               XO1A         4       1.0        4.0
+                               XOR2         6       1.0        6.0
+                       spi_clockmux         1       1.0        1.0
+                            
+                         TOTAL            407                405.0
+----------------------------------------------------------------------
+Report for cell spi_clockmux.netlist
+     Instance path:  CORESPI_0.USPI.UCC.UCLKMUX1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
+----------------------------------------------------------------------
+Report for cell spi_fifo_16s_8s_3_0.netlist
+  Original Cell name spi_fifo_16s_8s_3
+     Instance path:  CORESPI_0.USPI.URXF
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO18         3       1.0        3.0
+                              AOI1B         1       1.0        1.0
+                               AX1D         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        14       1.0       14.0
+                             DFN1E1       136       1.0      136.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               MIN3         1       1.0        1.0
+                                MX2       119       1.0      119.0
+                               MX2A         4       1.0        4.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         9       1.0        9.0
+                              NOR2B         8       1.0        8.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         3       1.0        3.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         2       1.0        2.0
+                              XNOR3         2       1.0        2.0
+                               XOR2        10       1.0       10.0
+                            
+                         TOTAL            334                331.0
+----------------------------------------------------------------------
+Report for cell spi_fifo_16s_8s_3_1.netlist
+  Original Cell name spi_fifo_16s_8s_3
+     Instance path:  CORESPI_0.USPI.UTXF
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO18         3       1.0        3.0
+                               AX1D         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        13       1.0       13.0
+                             DFN1E1       136       1.0      136.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               MIN3         1       1.0        1.0
+                                MX2       119       1.0      119.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B         5       1.0        5.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         6       1.0        6.0
+                              NOR3C         5       1.0        5.0
+                                OA1         1       1.0        1.0
+                               OA1A         3       1.0        3.0
+                               OR2A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         2       1.0        2.0
+                              XNOR3         2       1.0        2.0
+                               XOR2        10       1.0       10.0
+                            
+                         TOTAL            330                327.0
+----------------------------------------------------------------------
+Report for cell spi_control_16s.netlist
+     Instance path:  CORESPI_0.USPI.UCON
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                            
+                         TOTAL             10                  8.0
+----------------------------------------------------------------------
+Report for cell spi_rf_16s_60s_0.netlist
+     Instance path:  CORESPI_0.USPI.URF
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         3       1.0        3.0
+                               AO1D         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0         3       1.0        3.0
+                           DFN1E1C0        20       1.0       20.0
+                           DFN1E1P0         4       1.0        4.0
+                             DFN1P0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                               MX2A         4       1.0        4.0
+                               NOR2         9       1.0        9.0
+                              NOR2A        20       1.0       20.0
+                              NOR2B         6       1.0        6.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                               OA1B         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                OR3        15       1.0       15.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            104                102.0
+----------------------------------------------------------------------
+Report for cell CoreAPB3_Z1.netlist
+     Instance path:  CoreAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                            CAPB3II         1      16.0       16.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                 16.0
+----------------------------------------------------------------------
+Report for cell CAPB3II.netlist
+     Instance path:  CoreAPB3_0.CAPB3IIII
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2B         8       1.0        8.0
+                              NOR3C         8       1.0        8.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             18                 16.0
+----------------------------------------------------------------------
+Report for cell clok.netlist
+     Instance path:  clok_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                PLL         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0

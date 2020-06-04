@@ -1,0 +1,186 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v" (library CORESPI_LIB)
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v" (library CORESPI_LIB)
+@W:"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":805:7:805:17|Net resetn_rx_s is not declared.
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v" (library CORESPI_LIB)
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v" (library CORESPI_LIB)
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v" (library CORESPI_LIB)
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v" (library CORESPI_LIB)
+@I::"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v" (library CORESPI_LIB)
+@I::"D:\FPGA\a3p1000_spi\component\work\My_spi\My_spi.v" (library work)
+Verilog syntax check successful!
+Selecting top level module My_spi
+@W: CG775 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Found Component CORESPI in library CORESPI_LIB
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	CFG_CLK=32'b00000000000000000000000000000111
+	ZEROS=8'b00000000
+   Generated name = spi_rf_8s_7s_0
+
+@W: CL208 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|All reachable assignments to bit 3 of control2[7:0] assign 0, register removed by optimization.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+
+	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
+   Generated name = spi_control_4s
+
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+
+	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
+	PTR_WIDTH=32'b00000000000000000000000000000010
+   Generated name = spi_fifo_4s_4s_2
+
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+
+	SPH=1'b0
+	SPO=1'b0
+	SPS=1'b0
+	CFG_MODE=32'b00000000000000000000000000000000
+	CFG_CLKRATE=32'b00000000000000000000000000000111
+	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
+	MTX_IDLE1=4'b0000
+	MTX_IDLE2=4'b0001
+	MTX_MOTSTART=4'b0010
+	MTX_TISTART1=4'b0011
+	MTX_TISTART2=4'b0100
+	MTX_NSCSTART1=4'b0101
+	MTX_NSCSTART2=4'b0110
+	MTX_SHIFT1=4'b0111
+	MTX_SHIFT2=4'b1000
+	MTX_END=4'b1001
+	STXS_IDLE=1'b0
+	STXS_SHIFT=1'b1
+	MOTMODE=1'b1
+	TIMODE=1'b0
+	NSCMODE=1'b0
+	MOTNOSSEL=1'b0
+	NSCNOSSEL=1'b0
+	cfg_framesizeM1=32'b00000000000000000000000000000011
+   Generated name = spi_chanctrl_Z1
+
+@W:"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":132:12:132:21|Index into variable txfifo_dhold could be out of range - a simulation mismatch is possible
+@W: CG133 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":195:12:195:22|Object resetn_rx_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":196:12:196:22|Removing wire resetn_rx_p, as there is no assignment to it.
+@W: CG360 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":200:12:200:22|Removing wire resetn_rx_r, as there is no assignment to it.
+@W: CG133 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":222:12:222:36|Object stxs_txready_at_ssel_temp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":1130:0:1130:5|Pruning unused register msrxs_ssel. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning unused register stxs_oen. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":719:0:719:5|Pruning unused register spi_ssel_neg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_bitcnt[4:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_ssel. Make sure that there are no unused intermediate registers.
+@W: CL177 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":343:0:343:5|Sharing sequential element cfg_enable_P1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Optimizing register bit mtx_holdsel to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_holdsel. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
+	CFG_CLK=32'b00000000000000000000000000000111
+	SPO=1'b0
+	SPH=1'b0
+	SPS=1'b0
+	CFG_MODE=32'b00000000000000000000000000000000
+   Generated name = spi_8s_4s_4s_7s_0_0_0_0s
+
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
+	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
+	CFG_CLK=32'b00000000000000000000000000000111
+	CFG_MODE=32'b00000000000000000000000000000000
+	CFG_MOT_MODE=32'b00000000000000000000000000000000
+	CFG_MOT_SSEL=32'b00000000000000000000000000000000
+	CFG_TI_NSC_CUSTOM=32'b00000000000000000000000000000000
+	CFG_TI_NSC_FRC=32'b00000000000000000000000000000000
+	CFG_TI_JMB_FRAMES=32'b00000000000000000000000000000000
+	CFG_NSC_OPERATION=32'b00000000000000000000000000000000
+	SPS=1'b0
+	SPO=1'b0
+	SPH=1'b0
+   Generated name = CORESPI_Z2
+
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\work\My_spi\My_spi.v":9:7:9:12|Synthesizing module My_spi in library work.
+
+@W: CL246 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":70:12:70:16|Input port bits 1 to 0 of PADDR[6:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 4 of stxs_bitsel[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 3 of stxs_bitsel[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 2 of stxs_bitsel[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+Extracted state machine for register mtx_state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0111
+   1000
+   1001
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL134 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=1
+@N: CL134 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=4
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 78MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 08 18:13:53 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 08 18:13:53 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Feb 08 18:13:53 2019
+
+###########################################################]

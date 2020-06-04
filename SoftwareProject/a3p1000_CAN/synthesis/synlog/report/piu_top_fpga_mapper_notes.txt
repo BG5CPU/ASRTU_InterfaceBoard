@@ -1,0 +1,80 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Removing sequential instance eoc_test (in view: work.AD_Comp(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance time_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance acq_cnt[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Found counter in view:work.AD_ACQ(rtl) instance ram_waddr[6:0] 
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":373:41:373:82|Found 9-bit decrementor, 'ad_reg_9[12:4]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":174:21:174:33|Found 8-bit incrementor, 'un2_acq_cycle[7:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":394:41:394:82|Found 10-bit incrementor, 'un81_ad_reg[12:2]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":431:41:431:82|Found 9-bit incrementor, 'un118_ad_reg[12:3]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":445:41:445:82|Found 12-bit incrementor, 'un132_ad_reg[12:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":250:33:250:50|Found 12 by 12 bit less-than operator ('<') pro1\.un4_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":256:30:256:47|Found 12 by 12 bit less-than operator ('<') pro1\.un16_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":259:32:259:49|Found 12 by 12 bit less-than operator ('<') pro1\.un17_ad_done_i (in view: work.AD_ACQ(rtl))
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance rbit_cnt[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance wbit_cnt[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance cnt[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\ad_comp.vhd":78:5:78:6|Found counter in view:work.AD_Comp(rtl) instance scaler[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance ram_raddr[6:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_cnt[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance bus_cmd_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_tx_raddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance tm_ask_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance frame_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_waddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance rst_cnt[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance wait_hold[11:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance close_time[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_renew_waddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp_raddr[9:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp8_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp7_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp6_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp5_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp4_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp3_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp2_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance imp1_cnt[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance dog_time[7:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance clj_timeout[2:0] 
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Found counter in view:work.MCU(behavioral) instance cnt[2:0] 
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1507:8:1507:11|Found ROM .delname. (in view: work.MCU(behavioral)) with 79 words by 2 bits.
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1507:8:1507:11|Found ROM .delname. (in view: work.MCU(behavioral)) with 79 words by 2 bits.
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1301:41:1301:63|Found 9-bit incrementor, 'un1_imp_tx_byte_cnt[9:1]'
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1319:46:1319:59|Found 10-bit decrementor, 'imp8_rec_cnt_1[9:0]'
+@N: MF176 |Default generator successful 
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":1309:42:1309:73|Found 7-bit decrementor, 'imp_tx_frame_1[6:0]'
+@N: MF176 |Default generator successful 
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":921:18:921:41|Found 8 by 8 bit less-than operator ('<') un47_send_busy (in view: work.MCU(behavioral))
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tick.vhd":57:30:57:43|Found 6-bit incrementor, 'un5_scaler_1us[5:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tick.vhd":63:18:63:31|Found 10-bit incrementor, 'un2_scaler_1ms[9:0]'
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tick.vhd":72:17:72:29|Found 10-bit incrementor, 'un1_scaler_1s[9:0]'
+@N: MO230 :"d:\fpga\a3p1000_can\hdl\hdl\iml.v":222:0:222:5|Found up-down counter in view:work.iml(verilog) instance address[3:0]  
+@N: MO106 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":2489:11:2489:14|Found ROM .delname. (in view: work.tcl(verilog)) with 12 words by 1 bit.
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":211:10:211:21|Found 6-bit incrementor, 'un1_b_0[5:0]'
+@N: MF239 :"d:\fpga\a3p1000_can\hdl\hdl\tcl.v":313:23:313:49|Found 4-bit decrementor, 'un1_dlc[6:3]'
+@N: MO231 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":113:0:113:5|Found counter in view:work.btl_1ph_clk(verilog) instance count[7:0] 
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":333:24:333:29|Found 5 by 5 bit subtractor, 'un1_k2_0_0[4:0]'
+@N: MF176 |Default generator successful 
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:38:109:63|Found 5 by 5 bit less-than operator ('<') un1_timing_3 (in view: work.btl_1ph_clk(verilog))
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":306:24:306:47|Found 5 by 5 bit less-than operator ('<') k225 (in view: work.btl_1ph_clk(verilog))
+@N: MF238 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":109:42:109:62|Found 4-bit incrementor, 'un1_timing_1[4:0]'
+@N: MF179 :"d:\fpga\a3p1000_can\hdl\hdl\btl_1ph_clk.v":272:23:272:50|Found 5 by 5 bit less-than operator ('<') t13 (in view: work.btl_1ph_clk(verilog))
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF135 :"d:\fpga\a3p1000_can\hdl\hdl\status_buffer.v":68:0:68:5|RAM i_status_buffer.reg0[1:0] (in view: work.fifo_ctrl(verilog)) is 4 words by 2 bits.
+@N: MF184 :"d:\fpga\a3p1000_can\hdl\hdl\fifo_ctrl.v":121:18:121:29|Found 2 by 2 bit subtractor, 'diff_ptr_0_0[1:0]'
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\mcu.vhd":370:2:370:3|Removing sequential instance C6.ram_ren (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Removing sequential instance C3.fsm_st[0] (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Removing sequential instance C3.fsm_st[1] (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_can\hdl\hdl\ad_acq.vhd":129:5:129:6|Removing sequential instance C3.fsm_st[2] (in view: work.piu_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net rst_i_c on CLKBUF  rst_i_pad 
+@N: FP130 |Promoting Net cana_rst_c on CLKINT  I_745 
+@N: FP130 |Promoting Net canb_rst_c on CLKINT  I_746 
+@N: FP130 |Promoting Net cana_addr_c[3] on CLKINT  I_747 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

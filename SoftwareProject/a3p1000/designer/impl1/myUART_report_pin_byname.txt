@@ -1,0 +1,59 @@
+*****************************************************************
+Pin Report - Date: Sun Feb 03 15:48:21 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: myUART
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port                 |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+---------------------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+BAUD_VAL[0]           34   No     GFC2/IO204PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[1]           31   No     IO206NDB3       LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[2]           28   No     GFA1/IO207PPB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[3]           24   No     GFB0/IO208NDB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[4]           20   No     IO212NDB3       LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[5]           26   No     GFA0/IO207NPB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[6]           19   No     IO212PDB3       LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[7]           15   No     IO216NDB3       LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[8]           21   No     GFC1/IO209PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[9]           33   No     IO205NDB3       LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[10]          35   No     IO204NDB3       LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[11]          30   No     GFA2/IO206PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL[12]          32   No     GFB2/IO205PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL_FRACTION[0]  22   No     GFC0/IO209NDB3  LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL_FRACTION[1]  197  No     IO11RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+BAUD_VAL_FRACTION[2]  198  No     IO10RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+BIT8                  84   No     IO139RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+CLK                   128  No     GCC2/IO96PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+CSN                   164  No     GBC0/IO72RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[0]            172  No     IO54RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[1]            175  No     IO45RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[2]            182  No     IO31RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[3]            179  No     IO38RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[4]            181  No     IO33RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[5]            176  No     IO42RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[6]            174  No     IO48RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_IN[7]            173  No     IO51RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+DATA_OUT[0]           91   No     IO126RSB2       LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[1]           90   No     IO128RSB2       LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[2]           93   No     IO122RSB2       LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[3]           96   No     GDC2/IO116RSB2  LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[4]           95   No     IO118RSB2       LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[5]           94   No     IO120RSB2       LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[6]           87   No     IO133RSB2       LVTTL    12                 High  None           No    35                No           No
+DATA_OUT[7]           99   No     GDA2/IO114RSB2  LVTTL    12                 High  None           No    35                No           No
+FRAMING_ERR           85   No     IO137RSB2       LVTTL    12                 High  None           No    35                No           No
+ODD_N_EVEN            86   No     IO135RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+OEN                   163  No     GBC1/IO73RSB0   LVTTL    ---                ---   None           ---   ---               No           No
+OVERFLOW              92   No     IO124RSB2       LVTTL    12                 High  None           No    35                No           No
+PARITY_EN             169  No     IO57RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+PARITY_ERR            98   No     GDB2/IO115RSB2  LVTTL    12                 High  None           No    35                No           No
+RESET_N               23   No     GFB1/IO208PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+RX                    127  No     IO96NDB1        LVTTL    ---                ---   None           ---   ---               No           No
+RXRDY                 124  No     IO99NDB1        LVTTL    12                 High  None           No    35                No           No
+TX                    180  No     IO35RSB0        LVTTL    12                 High  None           No    35                No           No
+TXRDY                 177  No     IO40RSB0        LVTTL    12                 High  None           No    35                No           No
+WEN                   165  No     IO70RSB0        LVTTL    ---                ---   None           ---   ---               No           No

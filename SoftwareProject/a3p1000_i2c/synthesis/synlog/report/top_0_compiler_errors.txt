@@ -1,0 +1,2 @@
+@E: CL172 :"D:\FPGA\a3p1000_i2c\hdl\I2C_test.v":46:20:46:28|Only one always block can assign a given variable ACK_count[3:0]
+

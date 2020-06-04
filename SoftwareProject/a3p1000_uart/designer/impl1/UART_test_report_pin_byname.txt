@@ -1,0 +1,32 @@
+*****************************************************************
+Pin Report - Date: Sun Feb 10 10:24:59 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: UART_test
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port         |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+clk           128  No     GCC2/IO96PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+rst           23   No     GFB1/IO208PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+TX_0          185  No     IO25RSB0        LVTTL    12                 High  None           No    35                No           No
+TX_1          87   No     IO133RSB2       LVTTL    12                 High  None           No    35                No           No
+TX_data_0[0]  196  No     IO12RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[1]  194  No     IO13RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[2]  190  No     IO18RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[3]  188  No     IO22RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[4]  189  No     IO20RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[5]  193  No     IO14RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[6]  191  No     IO16RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_0[7]  192  No     IO15RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[0]  92   No     IO124RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[1]  93   No     IO122RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[2]  95   No     IO118RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[3]  91   No     IO126RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[4]  90   No     IO128RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[5]  94   No     IO120RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[6]  98   No     GDB2/IO115RSB2  LVTTL    ---                ---   None           ---   ---               No           No
+TX_data_1[7]  96   No     GDC2/IO116RSB2  LVTTL    ---                ---   None           ---   ---               No           No

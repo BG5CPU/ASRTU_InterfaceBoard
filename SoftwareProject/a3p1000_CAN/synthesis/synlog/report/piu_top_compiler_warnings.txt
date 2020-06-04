@@ -1,0 +1,56 @@
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\piu_top.vhd":82:8:82:17|Signal cana_int_c is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":166:8:166:16|Signal ram_rdata is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":169:8:169:15|Signal ram_done is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":347:12:347:22|Signal imp_ren_not is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":348:12:348:22|Signal imp_wen_not is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register test_data1_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register test_c_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tick_1s_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tick_1ms_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tick_1us_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register scaler_1s_1(9 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register scaler_1ms_1(9 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register scaler_1us_2(5 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register clj_cmd_cnt_6(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ren_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ram_ren_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_new_waddr_1(9 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_tx_end_8. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_frame_cnt_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ask_type_6(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_ask_13. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register imp_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register rst_frame_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register clj_acq_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register err_cnt_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register err_flag_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register tx_cnt_10(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ad_busy_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ad_addr_1(6 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_sel_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_busy_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_en_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register frame_send_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_sum_2(15 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_busy_1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_waddr_1(6 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_wdata_1(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning unused register ram_wen_1. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Optimizing register bit frame_info(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Optimizing register bit tx_frame_cnt(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning register bit 7 of tx_frame_cnt(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\mcu.vhd":370:2:370:3|Pruning register bit 4 of frame_info(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Pruning unused register acq_cnt_4(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Optimizing register bit config_reg(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Pruning register bit 0 of config_reg(15 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Pruning unused register clj_mode_8(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Pruning unused register clj_cmd_1. Make sure that there are no unused intermediate registers.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":31:9:31:13|Signal rst_c is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":33:9:33:14|Signal hot_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA\a3p1000_CAN\hdl\hdl\RST_IF.vhd":34:9:34:19|Signal piu_rst_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Optimizing register bit config_reg(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_Comp.vhd":78:5:78:6|Pruning register bit 1 of config_reg(15 downto 1). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v":435:0:435:5|Pruning unused register crc_stat. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v":199:0:199:5|Optimizing register bit k2[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v":199:0:199:5|Pruning register bit 3 of k2[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

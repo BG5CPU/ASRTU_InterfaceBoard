@@ -1,0 +1,236 @@
+***************************************************************************
+                               Status Report
+                          Tue Apr 09 15:43:21 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+File Name: D:\FPGA\a3p1000_CAN\designer\impl1\AD_ACQ_1.adb
+Design Name: AD_ACQ  Design State: compile
+Last Saved: Tue Apr 09 15:43:19 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Apr 09 15:43:18 2019:
+        D:\FPGA\a3p1000_CAN\synthesis\AD_ACQ.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\FPGA\a3p1000_CAN\synthesis\AD_ACQ.edn
+Format      : EDIF
+Topcell     : AD_ACQ
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net RAM2/RAM_128X12_R0C0_RD12 drives no load.
+Warning: CMP201: Net RAM2/RAM_128X12_R0C0_RD13 drives no load.
+Warning: CMP201: Net RAM2/RAM_128X12_R0C0_RD14 drives no load.
+Warning: CMP201: Net RAM2/RAM_128X12_R0C0_RD15 drives no load.
+Warning: CMP201: Net RAM2/RAM_128X12_R0C0_RD16 drives no load.
+Warning: CMP201: Net RAM2/RAM_128X12_R0C0_RD17 drives no load.
+Warning: CMP201: Net RAM1/RAM_128X12_R0C0_RD12_0 drives no load.
+Warning: CMP201: Net RAM1/RAM_128X12_R0C0_RD13_0 drives no load.
+Warning: CMP201: Net RAM1/RAM_128X12_R0C0_RD14_0 drives no load.
+Warning: CMP201: Net RAM1/RAM_128X12_R0C0_RD15_0 drives no load.
+Warning: CMP201: Net RAM1/RAM_128X12_R0C0_RD16_0 drives no load.
+Warning: CMP201: Net RAM1/RAM_128X12_R0C0_RD17_0 drives no load.
+Warning: Top level port init_end_i is not connected to any IO pad
+Warning: Top level port ad_ren_i is not connected to any IO pad
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        68
+
+    Total macros optimized  68
+
+There were 0 error(s) and 14 warning(s) in this design.
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   1664  Total:  24576   (6.77%)
+    IO (W/ clocks)             Used:    130  Total:    154   (84.42%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      2  Total:     32   (6.25%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 6      | 6  (100.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 1423         | 1423
+    SEQ     | 241          | 241
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 27            | 0            | 0
+    Output I/O                            | 103           | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 27    | 103    | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced: 130 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    245     CLK_NET       Net   : clk_i_c
+                          Driver: clk_i_pad
+                          Source: NETLIST
+    241     SET/RESET_NET Net   : rst_i_c
+                          Driver: rst_i_pad
+                          Source: NETLIST
+    64      INT_NET       Net   : ad_sum[8]
+                          Driver: ad_sum_RNI91IC[8]
+                          Source: NETLIST
+    63      INT_NET       Net   : acq_state[0]
+                          Driver: acq_state_RNIT53E[0]
+                          Source: NETLIST
+    59      INT_NET       Net   : ad_sum[7]
+                          Driver: ad_sum_RNI80IC[7]
+                          Source: NETLIST
+    58      INT_NET       Net   : ad_sum[6]
+                          Driver: ad_sum_RNI7VHC[6]
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : test_o_c[3]
+                          Driver: clj_acq_pro
+    23      INT_NET       Net   : ad_sum[13]
+                          Driver: ad_sum[13]
+    23      INT_NET       Net   : ad_sum_0[13]
+                          Driver: ad_sum_0[13]
+    22      INT_NET       Net   : ad_addr[13]
+                          Driver: ad_addr[13]
+    22      INT_NET       Net   : N_1995
+                          Driver: un13_ad_reg_1_ad_addr_ns_i_o3_0[6]
+    20      INT_NET       Net   : acq_phase[6]
+                          Driver: acq_phase[6]
+    20      INT_NET       Net   : ad_sum[4]
+                          Driver: ad_sum[4]
+    20      INT_NET       Net   : ad_sum_0[10]
+                          Driver: ad_sum_0[10]
+    20      INT_NET       Net   : ad_sum_1[10]
+                          Driver: ad_sum_1[10]
+    20      INT_NET       Net   : ad_sum_0[4]
+                          Driver: ad_sum_0[4]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : test_o_c[3]
+                          Driver: clj_acq_pro
+    23      INT_NET       Net   : ad_sum[13]
+                          Driver: ad_sum[13]
+    23      INT_NET       Net   : ad_sum_0[13]
+                          Driver: ad_sum_0[13]
+    22      INT_NET       Net   : ad_addr[13]
+                          Driver: ad_addr[13]
+    22      INT_NET       Net   : N_1995
+                          Driver: un13_ad_reg_1_ad_addr_ns_i_o3_0[6]
+    20      INT_NET       Net   : acq_phase[6]
+                          Driver: acq_phase[6]
+    20      INT_NET       Net   : ad_sum[4]
+                          Driver: ad_sum[4]
+    20      INT_NET       Net   : ad_sum_0[10]
+                          Driver: ad_sum_0[10]
+    20      INT_NET       Net   : ad_sum_1[10]
+                          Driver: ad_sum_1[10]
+    20      INT_NET       Net   : ad_sum_0[4]
+                          Driver: ad_sum_0[4]
+
+

@@ -1,0 +1,84 @@
+#OPTIONS:"|-mixedhdl|-modhint|D:\\FPGA\\a3p1000_CAN\\synthesis\\synwork\\_verilog_hintfile|-top|work.RAM_128X12|-top|work.RAM_1024B|-top|work.can_core|-mpparams|D:\\FPGA\\a3p1000_CAN\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\FPGA\\a3p1000_CAN\\synthesis\\synwork\\piu_top_comp.srs|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|D:\\FPGA\\a3p1000_CAN\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"D:\\FPGA\\a3p1000_CAN\\synthesis\\synwork\\_verilog_hintfile":1554795901
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"D:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"D:\\FPGA\\a3p1000_CAN\\smartgen\\RAM_128X12\\RAM_128X12.v":1554795714
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\bsp.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\btl_1ph_clk.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\buf_13x8.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\eml.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\rx_buf_13x8.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\rx_buffer.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\status_buffer.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\fifo_ctrl.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\iml.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\mm.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\tcl.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\hdl\\hdl\\can_core.v":1554795572
+#CUR:"D:\\FPGA\\a3p1000_CAN\\smartgen\\RAM_1024B\\RAM_1024B.v":1554795778
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\FPGA\a3p1000_CAN\smartgen\RAM_128X12\RAM_128X12.v" verilog
+1			"D:\FPGA\a3p1000_CAN\hdl\hdl\bsp.v" verilog
+2			"D:\FPGA\a3p1000_CAN\hdl\hdl\btl_1ph_clk.v" verilog
+3			"D:\FPGA\a3p1000_CAN\hdl\hdl\buf_13x8.v" verilog
+4			"D:\FPGA\a3p1000_CAN\hdl\hdl\eml.v" verilog
+5			"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buf_13x8.v" verilog
+6			"D:\FPGA\a3p1000_CAN\hdl\hdl\rx_buffer.v" verilog
+7			"D:\FPGA\a3p1000_CAN\hdl\hdl\status_buffer.v" verilog
+8			"D:\FPGA\a3p1000_CAN\hdl\hdl\fifo_ctrl.v" verilog
+9			"D:\FPGA\a3p1000_CAN\hdl\hdl\iml.v" verilog
+10			"D:\FPGA\a3p1000_CAN\hdl\hdl\mm.v" verilog
+11			"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v" verilog
+12			"D:\FPGA\a3p1000_CAN\hdl\hdl\can_core.v" verilog
+13			"D:\FPGA\a3p1000_CAN\smartgen\RAM_1024B\RAM_1024B.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 5
+7 -1
+8 6 7
+9 -1
+10 -1
+11 -1
+12 9 11 1 2 4 10 8 3
+13 -1
+#Dependency Lists(Users Of)
+0 -1
+1 12
+2 12
+3 12
+4 12
+5 6
+6 8
+7 8
+8 12
+9 12
+10 12
+11 12
+12 -1
+13 -1
+#Design Unit to File Association
+module work RAM_128X12 0
+module work bsp 1
+module work btl_1ph_clk 2
+module work buf_13x8 3
+module work eml 4
+module work rx_buf_13x8 5
+module work rx_buffer 6
+module work status_buffer 7
+module work fifo_ctrl 8
+module work iml 9
+module work mm 10
+module work tcl 11
+module work can_core 12
+module work RAM_1024B 13
+#Unbound instances to file Association.

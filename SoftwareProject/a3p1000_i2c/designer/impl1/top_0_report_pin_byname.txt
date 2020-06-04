@@ -1,0 +1,40 @@
+*****************************************************************
+Pin Report - Date: Tue Feb 26 11:54:47 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: top_0
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port         |Pin |Fixed |Function       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------------|----|------|---------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+ADDR[0]       188  No     IO22RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[1]       68   No     IO170RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[2]       193  No     IO14RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[3]       183  No     IO29RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[4]       22   No     GFC0/IO209NDB3  LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[5]       196  No     IO12RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[6]       80   No     IO148RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+ADDR[7]       26   No     GFA0/IO207NPB3  LVTTL    ---                ---   None           ---   ---               No           No
+data_0[0]     75   No     IO158RSB2       LVTTL    12                 High  None           No    35                No           No
+data_0[1]     73   No     IO162RSB2       LVTTL    12                 High  None           No    35                No           No
+data_0[2]     74   No     IO160RSB2       LVTTL    12                 High  None           No    35                No           No
+data_0[3]     77   No     IO154RSB2       LVTTL    12                 High  None           No    35                No           No
+data_0[4]     76   No     IO156RSB2       LVTTL    12                 High  None           No    35                No           No
+data_0[5]     78   No     IO152RSB2       LVTTL    12                 High  None           No    35                No           No
+data_0[6]     185  No     IO25RSB0        LVTTL    12                 High  None           No    35                No           No
+data_0[7]     69   No     IO168RSB2       LVTTL    12                 High  None           No    35                No           No
+data_in_0[0]  189  No     IO20RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[1]  70   No     IO166RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[2]  192  No     IO15RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[3]  182  No     IO31RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[4]  21   No     GFC1/IO209PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[5]  194  No     IO13RSB0        LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[6]  79   No     IO150RSB2       LVTTL    ---                ---   None           ---   ---               No           No
+data_in_0[7]  28   No     GFA1/IO207PPB3  LVTTL    ---                ---   None           ---   ---               No           No
+PCLK          128  No     GCC2/IO96PDB1   LVTTL    ---                ---   None           ---   ---               No           No
+PRESETN       23   No     GFB1/IO208PDB3  LVTTL    ---                ---   None           ---   ---               No           No
+SCL           191  No     IO16RSB0        LVTTL    12                 High  None           No    35                No           No
+SDA           190  No     IO18RSB0        LVTTL    12                 High  None           No    35                No           No

@@ -1,0 +1,16 @@
+D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\FPGA\a3p1000_uart\synthesis   -part A3P1000  -package PQFP208  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\FPGA\a3p1000_uart\synthesis\synlog\report\UART_test_fpga_mapper.xml  -top_level_module  UART_test  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\FPGA\a3p1000_uart\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\FPGA\a3p1000_uart\synthesis\UART_test.edn   -freq 100.000   D:\FPGA\a3p1000_uart\synthesis\synwork\UART_test_prem.srd  -sap  D:\FPGA\a3p1000_uart\synthesis\UART_test.sap  -otap  D:\FPGA\a3p1000_uart\synthesis\UART_test.tap  -omap  D:\FPGA\a3p1000_uart\synthesis\UART_test.map  -devicelib  D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  D:\FPGA\a3p1000_uart\synthesis\UART_test.sap  -ologparam  D:\FPGA\a3p1000_uart\synthesis\syntmp\UART_test.plg  -osyn  D:\FPGA\a3p1000_uart\synthesis\UART_test.srm  -prjdir  D:\FPGA\a3p1000_uart\synthesis\  -prjname  UART_test_syn  -log  D:\FPGA\a3p1000_uart\synthesis\synlog\UART_test_fpga_mapper.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P1000 -package PQFP208 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\UART_test_fpga_mapper.xml -top_level_module UART_test -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\UART_test.edn -freq 100.000 ..\synwork\UART_test_prem.srd -sap ..\UART_test.sap -otap ..\UART_test.tap -omap ..\UART_test.map -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\UART_test.sap -ologparam UART_test.plg -osyn ..\UART_test.srm -prjdir ..\ -prjname UART_test_syn -log ..\synlog\UART_test_fpga_mapper.srr
+rc:1 success:1 runtime:1
+file:..\scratchproject.prs|io:o|time:1549592626|size:2813|exec:0|csum:
+file:..\UART_test.edn|io:o|time:1551528129|size:353239|exec:0|csum:
+file:..\synwork\UART_test_prem.srd|io:i|time:1551528128|size:58622|exec:0|csum:1C7CF25BC83BE6183023B6EF072208F4
+file:..\UART_test.sap|io:o|time:1551528128|size:2032|exec:0|csum:
+file:..\UART_test.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\UART_test.map|io:o|time:1551528129|size:28|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\UART_test.sap|io:o|time:1551528128|size:2032|exec:0|csum:
+file:UART_test.plg|io:o|time:1551528129|size:772|exec:0|csum:
+file:..\UART_test.srm|io:o|time:1551528129|size:69025|exec:0|csum:
+file:..\synlog\UART_test_fpga_mapper.srr|io:o|time:1551528129|size:46757|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

@@ -1,0 +1,61 @@
+*****************************************************************
+Pin Report - Date: Mon Apr 08 22:01:46 2019 UNCOMPLETED LAYOUT
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Design Name: can_core
+Family: ProASIC3
+Die: A3P1000
+Package: 208 PQFP
+*****************************************************************
+Port       |Pin        |Fixed      |Function |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|-----------|-----------|---------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+adr[0]      Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+adr[1]      Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+adr[2]      Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+adr[3]      Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+adr[4]      Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+adr[5]      Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+clk         Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+cs_b        Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[0]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[1]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[2]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[3]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[4]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[5]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[6]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+datain[7]   Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+dataout[0]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[1]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[2]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[3]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[4]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[5]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[6]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+dataout[7]  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+int         Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+rd_b        Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+RecCnt[0]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[1]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[2]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[3]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[4]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[5]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[6]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+RecCnt[7]   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+rst_b       Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+rxd         Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No
+TrCnt[0]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[1]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[2]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[3]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[4]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[5]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[6]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[7]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+TrCnt[8]    Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+tst_clock   Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+tst_sample  Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+txd         Unassigned  Unassigned            LVTTL    12                 High  None           No    35                No           No
+wr_b        Unassigned  Unassigned            LVTTL    ---                ---   None           ---   ---               No           No

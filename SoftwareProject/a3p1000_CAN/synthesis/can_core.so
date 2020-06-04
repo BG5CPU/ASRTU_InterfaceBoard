@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>can_core</design>
+	<target_edif>D:\FPGA\a3p1000_CAN\synthesis\can_core.edn</target_edif>
+</SynplifyOutput>

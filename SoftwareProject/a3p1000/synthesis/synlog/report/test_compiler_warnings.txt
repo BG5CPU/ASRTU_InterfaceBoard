@@ -1,0 +1,3 @@
+@W: CG146 :"D:\FPGA\a3p1000\hdl\test.v":21:7:21:10|Creating black box for empty module test
+@W: CL157 :"D:\FPGA\a3p1000\hdl\test.v":23:7:23:10|*Output data has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

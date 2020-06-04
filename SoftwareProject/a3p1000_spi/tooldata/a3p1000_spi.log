@@ -1,0 +1,16 @@
+Project Name: a3p1000_spi
+Location: D:\FPGA\a3p1000_spi
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P1000-PQ208
+Family         : ProASIC3
+Die            : A3P1000
+Package        : 208 PQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

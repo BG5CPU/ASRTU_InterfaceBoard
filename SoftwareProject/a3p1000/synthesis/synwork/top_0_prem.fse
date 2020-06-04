@@ -1,0 +1,84 @@
+
+fsm_encoding {1011901196} onehot
+
+fsm_state_encoding {1011901196} tx_idle {0000001}
+
+fsm_state_encoding {1011901196} tx_load {0000010}
+
+fsm_state_encoding {1011901196} start_bit {0000100}
+
+fsm_state_encoding {1011901196} tx_data_bits {0001000}
+
+fsm_state_encoding {1011901196} parity_bit {0010000}
+
+fsm_state_encoding {1011901196} tx_stop_bit {0100000}
+
+fsm_state_encoding {1011901196} delay_state {1000000}
+
+fsm_registers {1011901196} {xmit_state[6]}  {xmit_state[5]}  {xmit_state[4]}  {xmit_state[3]}  {xmit_state[2]}  {xmit_state[1]}  {xmit_state[0]} 
+
+fsm_encoding {928602865} sequential
+
+fsm_state_encoding {928602865} 00 {00}
+
+fsm_state_encoding {928602865} 01 {01}
+
+fsm_state_encoding {928602865} 10 {10}
+
+fsm_state_encoding {928602865} 11 {11}
+
+fsm_registers {928602865} {rx_state[1]}  {rx_state[0]} 
+
+fsm_encoding {1229302934} sequential
+
+fsm_state_encoding {1229302934} 00 {00}
+
+fsm_state_encoding {1229302934} 01 {01}
+
+fsm_state_encoding {1229302934} 10 {10}
+
+fsm_state_encoding {1229302934} 11 {11}
+
+fsm_registers {1229302934} {rx_state[1]}  {rx_state[0]} 
+
+fsm_encoding {1511901193} onehot
+
+fsm_state_encoding {1511901193} tx_idle {0000001}
+
+fsm_state_encoding {1511901193} tx_load {0000010}
+
+fsm_state_encoding {1511901193} start_bit {0000100}
+
+fsm_state_encoding {1511901193} tx_data_bits {0001000}
+
+fsm_state_encoding {1511901193} parity_bit {0010000}
+
+fsm_state_encoding {1511901193} tx_stop_bit {0100000}
+
+fsm_state_encoding {1511901193} delay_state {1000000}
+
+fsm_registers {1511901193} {xmit_state[6]}  {xmit_state[5]}  {xmit_state[4]}  {xmit_state[3]}  {xmit_state[2]}  {xmit_state[1]}  {xmit_state[0]} 
+
+fsm_encoding {1428602862} sequential
+
+fsm_state_encoding {1428602862} 00 {00}
+
+fsm_state_encoding {1428602862} 01 {01}
+
+fsm_state_encoding {1428602862} 10 {10}
+
+fsm_state_encoding {1428602862} 11 {11}
+
+fsm_registers {1428602862} {rx_state[1]}  {rx_state[0]} 
+
+fsm_encoding {1729302931} sequential
+
+fsm_state_encoding {1729302931} 00 {00}
+
+fsm_state_encoding {1729302931} 01 {01}
+
+fsm_state_encoding {1729302931} 10 {10}
+
+fsm_state_encoding {1729302931} 11 {11}
+
+fsm_registers {1729302931} {rx_state[1]}  {rx_state[0]} 

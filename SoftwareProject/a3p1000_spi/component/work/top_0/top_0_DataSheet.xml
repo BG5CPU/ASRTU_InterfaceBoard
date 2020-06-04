@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>top_0</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P1000</die>
+    <package>208 PQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>D:/FPGA/a3p1000_spi/component/work/top_0</location>
+    <state>GENERATED ( Tue Dec 03 22:15:52 2019 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v</file>
+    <file>D:\FPGA\a3p1000_spi\component\work\top_0\top_0.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\SPI_master.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\SPI_slave.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\SPI_test.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\uart.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\UART_AD7606.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\uart_control.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\uart_rx.v</file>
+    <file>D:\FPGA\a3p1000_spi\hdl\uart_tx.v</file>
+    <file>D:\FPGA\a3p1000_spi\smartgen\clok\clok.v</file>
+    <file>D:\FPGA\a3p1000_spi\smartgen\sp_fifo\sp_fifo.v</file>
+    <file>D:\FPGA\a3p1000_spi\smartgen\UART_fifo\UART_fifo.v</file>
+  </fileset>
+  <io>
+    <port-name>SPI_data[11]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[4]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[12]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPISDI</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[11]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[7]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[9]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>RE</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[5]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[10]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[14]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[6]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>PRESETN</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[10]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[13]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[14]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[6]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[5]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>CLKA</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>empty</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>rxd</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[13]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[9]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>txd</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[12]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[8]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPISCLKO</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPIRXAVAIL</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[7]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[8]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[15]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPISDO</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SPI_data[4]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[15]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>dout[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>D:/FPGA/a3p1000_spi/smartgen/clok</core-location>
+    <core-name>clok_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreAPB3</core-intname>
+    <core-ver>4.1.100</core-ver>
+    <core-desc>
+The CoreAPB3 component implements an APB3 (AMBA3 APB) fabric, which is backwards compatible with APB2 slave peripherals.
+
+There is one APB3 Master interface.
+
+        </core-desc>
+    <core-param>
+      <param-name>APB Master Data Bus Width</param-name>
+      <param-value>8-bit</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT0ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT1ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT2ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT3ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT4ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT5ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT6ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT7ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT8ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT9ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT10ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT11ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT12ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT13ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT14ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT15ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Indirect Addressing:</param-name>
+      <param-value>Not in use</param-value>
+      <param-hdlname>IADDR_OPTION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of address bits driven by master:</param-name>
+      <param-value>12</param-value>
+      <param-hdlname>MADDR_BITS</param-hdlname>
+      <param-hdlvalue>12</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_0</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_1</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_2</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_3</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_4</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_5</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_6</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_7</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_8</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_9</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_10</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_11</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_12</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_13</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_14</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_15</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Position in slave address of upper 4 bits of master address:</param-name>
+      <param-value>[11:8] (Ignored if master address width >= 16 bits)</param-value>
+      <param-hdlname>UPR_NIBBLE_POSN</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreAPB3_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CORESPI</core-intname>
+    <core-ver>5.2.104</core-ver>
+    <core-desc>CoreSPI is a controller core designed for synchronous serial communication using the Motorola, TI, or NSC Serial Peripheral Interface (SPI).  The core is parameterized to allow user specification of clock phase, clock polarity, slave select behavior, FIFO depth, frame width, and mode.  Operation is fully synchronous and operates on the system clock as well as the external SPI clock for slave mode.
+</core-desc>
+    <core-param>
+      <param-name>APB Data Width:</param-name>
+      <param-value>16</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>16</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Clock Rate (0-255):</param-name>
+      <param-value>60</param-value>
+      <param-hdlname>CFG_CLK</param-hdlname>
+      <param-hdlvalue>60</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FIFO Depth (1-32):</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>CFG_FIFO_DEPTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Frame Size (4-32):</param-name>
+      <param-value>16</param-value>
+      <param-hdlname>CFG_FRAME_SIZE</param-hdlname>
+      <param-hdlvalue>16</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Mode:</param-name>
+      <param-value>Motorola Mode</param-value>
+      <param-hdlname>CFG_MODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Mode:</param-name>
+      <param-value>Mode 3</param-value>
+      <param-hdlname>CFG_MOT_MODE</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Keep SSEL active</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_MOT_SSEL</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>NSC Specific Configuration</param-name>
+      <param-value>Standard</param-value>
+      <param-hdlname>CFG_NSC_OPERATION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Jumbo frames</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_TI_JMB_FRAMES</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Transfer Mode:</param-name>
+      <param-value>Normal</param-value>
+      <param-hdlname>CFG_TI_NSC_CUSTOM</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Free running clock</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_TI_NSC_FRC</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CORESPI_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>D:/FPGA/a3p1000_spi/smartgen/sp_fifo</core-location>
+    <core-name>sp_fifo_0</core-name>
+  </core>
+  <core>
+    <core-name>SPI_master_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>uart</core-exttype>
+    <core-location>hdl\uart.v</core-location>
+    <core-name>uart_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>UART_AD7606</core-exttype>
+    <core-location>hdl\UART_AD7606.v</core-location>
+    <core-name>UART_AD7606_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>D:/FPGA/a3p1000_spi/smartgen/UART_fifo</core-location>
+    <core-name>UART_fifo_0</core-name>
+  </core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>CoreSPI_Driver</core-intname>
+    <core-ver>3.3.100</core-ver>
+    <core-desc>Bare metal software driver for CoreSPI.</core-desc>
+    <core-name>CoreSPI_Driver_0</core-name>
+  </firmware_core>
+  <memorysystem>
+    <title>Memory Map for top_0</title>
+    <description>The project contains the following subsystems:</description>
+    <subsystems>
+      <subsystem>
+        <name>SPI_master_0</name>
+        <master>SPI_master_0</master>
+        <addressNames>
+          <count>1</count>
+          <name>
+          </name>
+        </addressNames>
+        <slave>
+          <name>CORESPI_0</name>
+          <fullPinName>CORESPI_0:APB_bif</fullPinName>
+          <remapAddress>0x00000000</remapAddress>
+          <fullAddressSpace>0x00000000 - 0x000000FF</fullAddressSpace>
+          <range>0x00000100</range>
+        </slave>
+      </subsystem>
+    </subsystems>
+  </memorysystem>
+</datasheet>

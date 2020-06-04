@@ -1,0 +1,25 @@
+Target Part: A3P1000_PQFP208_STD
+Report for cell test.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+           TRIBUFF     1
+                   -----
+             TOTAL     1
+
+
+Core Cells         : 0 of 24576 (0%)
+IO Cells           : 1
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+

@@ -1,0 +1,30 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP2 (Version 11.9.2.1)
+
+Date      :  Sat Mar 02 20:00:37 2019
+Project   :  D:\FPGA\a3p1000_uart
+Component :  UART_test
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/rtl/vlog/core/Clock_gen.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/rtl/vlog/core/CoreUART.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/rtl/vlog/core/Rx_async.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/rtl/vlog/core/Tx_async.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/rtl/vlog/core/fifo_256x8_pa3.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/rtl/vlog/core/Clock_gen.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/rtl/vlog/core/CoreUART.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/rtl/vlog/core/Rx_async.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/rtl/vlog/core/Tx_async.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/rtl/vlog/core/fifo_256x8_pa3.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/UART_test.v
+
+Stimulus files for all Simulation tools:
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/mti/scripts/wave_vlog.do
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/mti/scripts/wave_vlog.do
+
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/coreparameters.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_0/rtl/vlog/test/user/testbnch.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/coreparameters.v
+    D:/FPGA/a3p1000_uart/component/work/UART_test/COREUART_1/rtl/vlog/test/user/testbnch.v
+

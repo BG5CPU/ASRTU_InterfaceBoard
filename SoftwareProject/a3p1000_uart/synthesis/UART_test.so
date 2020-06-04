@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>UART_test</design>
+	<target_edif>D:\FPGA\a3p1000_uart\synthesis\UART_test.edn</target_edif>
+</SynplifyOutput>

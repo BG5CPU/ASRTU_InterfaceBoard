@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|Tristate driver AFULL (in view: work.myUART_myUART_0_fifo_256x8_pa3(verilog)) on net AFULL (in view: work.myUART_myUART_0_fifo_256x8_pa3(verilog)) has its enable tied to GND.
+@N: MO225 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.myUART_myUART_0_COREUART_1s_1s_0s_15s_1s_0s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\clock_gen.v":310:0:310:5|Found counter in view:work.myUART_myUART_0_Clock_gen_1s_0s(verilog) instance xmit_cntr[3:0] 
+@N: MF239 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\clock_gen.v":119:47:119:64|Found 13-bit decrementor, 'un3_baud_cntr[12:0]'
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\tx_async.v":268:0:268:5|Found counter in view:work.myUART_myUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog) instance xmit_bit_sel[3:0] 
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\rx_async.v":377:0:377:5|Found counter in view:work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance rx_bit_cnt[3:0] 
+@N: MO225 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\fpga\a3p1000\component\work\myuart\myuart_0\rtl\vlog\core\rx_async.v":181:0:181:5|Found counter in view:work.myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance receive_count[3:0] 
+@N: FP130 |Promoting Net RESET_N_c on CLKBUF  RESET_N_pad 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

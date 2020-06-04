@@ -1,0 +1,4 @@
+CKID0001:@|S:COREI2C_0.I2C_NUM_GENERATION[0].ui2c.SCLO_int@|E:I2C_test_0.ACK_count[3]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:COREI2C_1.I2C_NUM_GENERATION[0].ui2c.sercon_0[3]@|E:I2C_slave_0.data_count[3]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:COREI2C_0.I2C_NUM_GENERATION[0].ui2c.sercon_0[3]@|E:I2C_test_0.data_count[3]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:PCLK@|E:I2C_test_0.current_state[4]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 

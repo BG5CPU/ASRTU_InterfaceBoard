@@ -1,0 +1,23 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Top entity is set to AD_ACQ.
+@N: CD231 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CD720 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Top entity is set to AD_ACQ.
+@N: CD231 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Synthesizing work.ad_acq.rtl.
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":67:15:67:16|Using onehot encoding for type acq_fsm. For example, enumeration st1 is mapped to "10000".
+@N: CD604 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":559:10:559:23|OTHERS clause is not synthesized.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register ad_addr.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register acq_phase.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register acq_state.
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":25:10:25:19|Input init_end_i is unused.
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":30:10:30:17|Input ad_ren_i is unused.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2086:8:2086:16|Synthesizing module RAM512X18 in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+@N: CG364 :"D:\FPGA\a3p1000_CAN\smartgen\RAM_128X12\RAM_128X12.v":5:7:5:16|Synthesizing module RAM_128X12 in library work.
+@N|Running in 64-bit mode
+

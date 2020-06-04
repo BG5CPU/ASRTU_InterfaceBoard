@@ -1,0 +1,994 @@
+<html><body><samp><pre>
+<!@TC:1554731827>
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: D:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: YOGA
+
+# Mon Apr 08 21:57:07 2019
+
+#Implementation: synthesis
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1554731841> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017</a>
+@N: : <!@TM:1554731841> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v" (library work)
+Verilog syntax check successful!
+Selecting top level module tcl
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v:34:7:34:10:@N:CG364:@XP_MSG">tcl.v(34)</a><!@TM:1554731841> | Synthesizing module tcl in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v:435:0:435:6:@W:CL169:@XP_MSG">tcl.v(435)</a><!@TM:1554731841> | Pruning unused register crc_stat. Make sure that there are no unused intermediate registers.</font>
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="D:\FPGA\a3p1000_CAN\hdl\hdl\tcl.v:435:0:435:6:@N:CL201:@XP_MSG">tcl.v(435)</a><!@TM:1554731841> | Trying to extract state machine for register err.
+Extracted state machine for register err
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+
+At c_ver Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 110MB peak: 141MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:13s cputime
+
+Process completed successfully.
+# Mon Apr 08 21:57:20 2019
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1554731841> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 08 21:57:21 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:14s realtime, 0h:00m:13s cputime
+
+Process completed successfully.
+# Mon Apr 08 21:57:21 2019
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1554731842> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 08 21:57:22 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Apr 08 21:57:22 2019
+
+<a name=mapperReport5></a>Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1554731843> | No constraint file specified. 
+Linked File: <a href="D:\FPGA\a3p1000_CAN\synthesis\tcl_scck.rpt:@XP_FILE">tcl_scck.rpt</a>
+Printing clock  summary report in "D:\FPGA\a3p1000_CAN\synthesis\tcl_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1554731843> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1554731843> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start       Requested     Requested     Clock        Clock                   Clock
+Clock       Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------
+tcl|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     61   
+==================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="d:\fpga\a3p1000_can\hdl\hdl\tcl.v:435:0:435:6:@W:MT530:@XP_MSG">tcl.v(435)</a><!@TM:1554731843> | Found inferred clock tcl|clk which controls 61 sequential elements including halt_int. This clock has no specified timing constraint which may adversely impact design performance. </font>
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1554731843> | Writing default property annotation file D:\FPGA\a3p1000_CAN\synthesis\tcl.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Encoding state machine err_1[7:0] (in view: work.tcl(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 114MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 08 21:57:23 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Apr 08 21:57:23 2019
+
+<a name=mapperReport7></a>Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1554731870> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1554731870> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+Encoding state machine err_1[7:0] (in view: work.tcl(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="d:\fpga\a3p1000_can\hdl\hdl\tcl.v:2489:11:2489:15:@N:MO106:@XP_MSG">tcl.v(2489)</a><!@TM:1554731870> | Found ROM .delname. (in view: work.tcl(verilog)) with 12 words by 1 bit.
+@N:<a href="@N:MF238:@XP_HELP">MF238</a> : <a href="d:\fpga\a3p1000_can\hdl\hdl\tcl.v:211:10:211:22:@N:MF238:@XP_MSG">tcl.v(211)</a><!@TM:1554731870> | Found 6-bit incrementor, 'un1_b_0[5:0]'
+@N:<a href="@N:MF239:@XP_HELP">MF239</a> : <a href="d:\fpga\a3p1000_can\hdl\hdl\tcl.v:313:23:313:50:@N:MF239:@XP_MSG">tcl.v(313)</a><!@TM:1554731870> | Found 4-bit decrementor, 'un1_dlc[6:3]'
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 122MB peak: 148MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 138MB peak: 148MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 132MB peak: 148MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 132MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 128MB peak: 172MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 129MB peak: 172MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 180MB peak: 180MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 179MB peak: 180MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 178MB peak: 180MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 167MB peak: 209MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+bnull / Q                      34                            
+acf / Q                        28                            
+err_1[0] / Q                   42                            
+err_1[7] / Q                   27                            
+err_1[1] / Q                   27                            
+err_1[3] / Q                   26                            
+err_1[4] / Q                   26                            
+err_1[5] / Q                   27                            
+transmit / Q                   39                            
+eof / Y                        27                            
+sample_pad / Y                 37                            
+rxd_pad / Y                    89                            
+reset_pad / Y                  61 : 61 asynchronous set/reset
+id_in_pad / Y                  40                            
+busoff_pad / Y                 28                            
+bnull73 / Y                    34                            
+bnull72 / Y                    29                            
+un1_receive_stop / Y           53                            
+un1_b_60_m[4] / Y              43                            
+err_1_tr0_5_2 / Y              29                            
+err_1_ns_0_o3[3] / Y           31                            
+un1_b_60_m[0] / Y              29                            
+un1_b_60_m[3] / Y              41                            
+b_l24 / Y                      30                            
+un1_b_60_m[2] / Y              25                            
+equal38 / Y                    52                            
+b_l1_0[5] / Y                  26                            
+b_l1_0[2] / Y                  38                            
+acf_l_1 / Y                    26                            
+b_l1_0[3] / Y                  34                            
+b_l1_0_sqmuxa_m1_e_m3 / Y      31                            
+b_l1_0_0_m13_0 / Y             35                            
+cd_l5_1_0_m4_i / Y             44                            
+b_l1_0_1_m5 / Y                28                            
+err_1_tr0_19_0 / Y             28                            
+=============================================================
+
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1554731870> | Promoting Net reset_c on CLKBUF  reset_pad  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1554731870> | Promoting Net clk_c on CLKBUF  clk_pad  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1554731870> | Promoting Net rxd_c on CLKINT  I_1551  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1554731870> | Promoting Net un1_receive_stop on CLKINT  I_1552  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1554731870> | Promoting Net b_l322 on CLKINT  I_1553  
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 167MB peak: 209MB)
+
+Replicating Combinational Instance err_1_tr0_19_0, fanout 28 segments 2
+Replicating Combinational Instance b_l1_0_1_m5, fanout 28 segments 2
+Replicating Combinational Instance cd_l5_1_0_m4_i, fanout 44 segments 2
+Replicating Combinational Instance b_l1_0_0_m13_0, fanout 35 segments 2
+Replicating Combinational Instance b_l1_0_sqmuxa_m1_e_m3, fanout 32 segments 2
+Replicating Combinational Instance b_l1_0[3], fanout 34 segments 2
+Replicating Combinational Instance acf_l_1, fanout 26 segments 2
+Replicating Combinational Instance b_l1_0[2], fanout 38 segments 2
+Replicating Combinational Instance b_l1_0[5], fanout 26 segments 2
+Replicating Combinational Instance un1_b_60_m[2], fanout 25 segments 2
+Replicating Combinational Instance b_l24, fanout 30 segments 2
+Replicating Combinational Instance un1_b_60_m[3], fanout 41 segments 2
+Replicating Combinational Instance un1_b_60_m[0], fanout 29 segments 2
+Replicating Combinational Instance err_1_ns_0_o3[3], fanout 31 segments 2
+Replicating Combinational Instance err_1_tr0_5_2, fanout 29 segments 2
+Replicating Combinational Instance un1_b_60_m[4], fanout 43 segments 2
+Replicating Combinational Instance bnull72, fanout 29 segments 2
+Replicating Combinational Instance bnull73, fanout 34 segments 2
+Buffering busoff_c, fanout 29 segments 2
+Buffering id_in_c, fanout 40 segments 2
+Buffering sample_c, fanout 37 segments 2
+Replicating Combinational Instance eof, fanout 27 segments 2
+Replicating Sequential Instance transmit, fanout 42 segments 2
+Replicating Sequential Instance err_1[5], fanout 27 segments 2
+Replicating Sequential Instance err_1[4], fanout 26 segments 2
+Replicating Sequential Instance err_1[3], fanout 26 segments 2
+Replicating Sequential Instance err_1[1], fanout 27 segments 2
+Replicating Sequential Instance err_1[7], fanout 27 segments 2
+Replicating Sequential Instance err_1[0], fanout 42 segments 2
+Replicating Sequential Instance acf, fanout 28 segments 2
+Replicating Sequential Instance bnull, fanout 35 segments 2
+Buffering sample_c, fanout 25 segments 2
+
+Added 4 Buffers
+Added 28 Cells via replication
+	Added 9 Sequential Cells via replication
+	Added 19 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 168MB peak: 209MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 70 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+<a href="@|S:clk@|E:bnull_0@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       clk                 port                   70         bnull_0        
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 159MB peak: 209MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_CAN\synthesis\synwork\tcl_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 161MB peak: 209MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 164MB peak: 209MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 161MB peak: 209MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1554731870> | Found inferred clock tcl|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Mon Apr 08 21:57:49 2019
+#
+
+
+Top view:               tcl
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1554731870> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1554731870> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -22.884
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+tcl|clk            100.0 MHz     30.4 MHz      10.000        32.883        -22.884     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+tcl|clk   tcl|clk  |  10.000      -22.884  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: tcl|clk</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+             Starting                                        Arrival            
+Instance     Reference     Type         Pin     Net          Time        Slack  
+             Clock                                                              
+--------------------------------------------------------------------------------
+b[0]         tcl|clk       DFN1E1C1     Q       b[0]         0.737       -22.884
+b[3]         tcl|clk       DFN1E1C1     Q       b[3]         0.737       -22.776
+b[4]         tcl|clk       DFN1E1C1     Q       b[4]         0.737       -22.663
+b[1]         tcl|clk       DFN1E1C1     Q       b[1]         0.737       -22.631
+b[5]         tcl|clk       DFN1E1C1     Q       b[5]         0.737       -22.407
+b[2]         tcl|clk       DFN1E1C1     Q       b[2]         0.737       -22.317
+equal[1]     tcl|clk       DFN1E0P1     Q       equal[1]     0.737       -22.192
+equal[2]     tcl|clk       DFN1E0C1     Q       equal[2]     0.737       -22.162
+equal[3]     tcl|clk       DFN1E0C1     Q       equal[3]     0.737       -22.049
+equal[4]     tcl|clk       DFN1E0P1     Q       equal[4]     0.737       -22.049
+================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+             Starting                                            Required            
+Instance     Reference     Type         Pin     Net              Time         Slack  
+             Clock                                                                   
+-------------------------------------------------------------------------------------
+equal[5]     tcl|clk       DFN1E0P1     D       equal_555[5]     9.427        -22.884
+equal[1]     tcl|clk       DFN1E0P1     D       equal_555[1]     9.427        -22.863
+equal[0]     tcl|clk       DFN1E0P1     D       equal_555[0]     9.461        -22.776
+equal[4]     tcl|clk       DFN1E0P1     D       equal_555[4]     9.427        -22.770
+equal[2]     tcl|clk       DFN1E0C1     D       equal_555[2]     9.496        -22.701
+equal[3]     tcl|clk       DFN1E0C1     D       equal_555[3]     9.496        -22.701
+halt_int     tcl|clk       DFN1E1P1     E       N_4412           9.392        -22.543
+b[5]         tcl|clk       DFN1E1C1     D       b_30[5]          9.496        -22.522
+receive      tcl|clk       DFN1E1C1     D       receive_29       9.461        -22.496
+b[2]         tcl|clk       DFN1E1C1     D       b_30[2]          9.496        -22.474
+=====================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="D:\FPGA\a3p1000_CAN\synthesis\tcl.srr:srsfD:\FPGA\a3p1000_CAN\synthesis\tcl.srs:fp:23422:29155:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      32.310
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -22.884
+
+    Number of logic level(s):                20
+    Starting point:                          b[0] / Q
+    Ending point:                            equal[5] / D
+    The start point is clocked by            tcl|clk [rising] on pin CLK
+    The end   point is clocked by            tcl|clk [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+b[0]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                       Net          -        -       2.466     -           24        
+b_RNILD3T[1]               OR2          B        In      -         3.203       -         
+b_RNILD3T[1]               OR2          Y        Out     0.646     3.850       -         
+un4_eof_1                  Net          -        -       1.279     -           5         
+crc_reg_RNIHVGV2[9]        NOR3B        C        In      -         5.129       -         
+crc_reg_RNIHVGV2[9]        NOR3B        Y        Out     0.488     5.617       -         
+un1_crc_reg_11             Net          -        -       0.322     -           1         
+crc_reg_RNI1U1V5[9]        OR2          A        In      -         5.939       -         
+crc_reg_RNI1U1V5[9]        OR2          Y        Out     0.363     6.302       -         
+crc_reg_RNI1U1V5[9]        Net          -        -       0.386     -           2         
+crc_reg_RNI9TPI9_0[11]     NOR2A        B        In      -         6.688       -         
+crc_reg_RNI9TPI9_0[11]     NOR2A        Y        Out     0.386     7.073       -         
+crc_reg_RNI9TPI9_0[11]     Net          -        -       0.322     -           1         
+busidle_RNIFF4VA           NOR2A        B        In      -         7.395       -         
+busidle_RNIFF4VA           NOR2A        Y        Out     0.407     7.801       -         
+interms4                   Net          -        -       1.184     -           4         
+rxd_pad_RNI82UPI           NOR2A        A        In      -         8.985       -         
+rxd_pad_RNI82UPI           NOR2A        Y        Out     0.516     9.501       -         
+overld4                    Net          -        -       2.037     -           13        
+stopp_RNIP9EB51            NOR2         B        In      -         11.538      -         
+stopp_RNIP9EB51            NOR2         Y        Out     0.514     12.053      -         
+un1_acf_l                  Net          -        -       1.708     -           10        
+b_RNIG5I802[3]             NOR3B        B        In      -         13.761      -         
+b_RNIG5I802[3]             NOR3B        Y        Out     0.607     14.368      -         
+b_RNIG5I802[3]             Net          -        -       0.806     -           3         
+b_RNI87BHS2_0[3]           OR2          B        In      -         15.174      -         
+b_RNI87BHS2_0[3]           OR2          Y        Out     0.646     15.820      -         
+b_l1[3]                    Net          -        -       2.218     -           17        
+b_RNI2K4KO5_0[3]           NOR2A        A        In      -         18.038      -         
+b_RNI2K4KO5_0[3]           NOR2A        Y        Out     0.627     18.666      -         
+equal225_2                 Net          -        -       1.184     -           4         
+strms_RNI7QK7DC            OR3          C        In      -         19.849      -         
+strms_RNI7QK7DC            OR3          Y        Out     0.751     20.600      -         
+un1_busidle_l              Net          -        -       0.386     -           2         
+strms_RNIG21JAI            NOR2B        B        In      -         20.986      -         
+strms_RNIG21JAI            NOR2B        Y        Out     0.627     21.613      -         
+busidle_l                  Net          -        -       1.184     -           4         
+b_RNIEB8HMI[0]             OR2          B        In      -         22.797      -         
+b_RNIEB8HMI[0]             OR2          Y        Out     0.646     23.443      -         
+un2_sof                    Net          -        -       0.386     -           2         
+rxd_pad_RNIFFSKAJ          NOR3B        B        In      -         23.829      -         
+rxd_pad_RNIFFSKAJ          NOR3B        Y        Out     0.607     24.436      -         
+rxd_pad_RNIFFSKAJ          Net          -        -       0.322     -           1         
+trrequ_pad_RNIAR7MFN1      OR3          C        In      -         24.757      -         
+trrequ_pad_RNIAR7MFN1      OR3          Y        Out     0.751     25.508      -         
+stopp_0_sqmuxa_286         Net          -        -       0.806     -           3         
+id_in_pad_RNIRRFG44        OR3          C        In      -         26.314      -         
+id_in_pad_RNIRRFG44        OR3          Y        Out     0.751     27.065      -         
+equal_555_sn_m69_i_0_4     Net          -        -       0.322     -           1         
+id_in_pad_RNIHQ8GHC2       OR3          C        In      -         27.387      -         
+id_in_pad_RNIHQ8GHC2       OR3          Y        Out     0.751     28.137      -         
+equal_555_sn_N_177         Net          -        -       1.423     -           6         
+equal_RNO_2[5]             NOR2B        B        In      -         29.561      -         
+equal_RNO_2[5]             NOR2B        Y        Out     0.627     30.188      -         
+N_1780                     Net          -        -       0.322     -           1         
+equal_RNO_0[5]             MX2          A        In      -         30.510      -         
+equal_RNO_0[5]             MX2          Y        Out     0.579     31.088      -         
+N_1802                     Net          -        -       0.322     -           1         
+equal_RNO[5]               MX2          A        In      -         31.410      -         
+equal_RNO[5]               MX2          Y        Out     0.579     31.988      -         
+equal_555[5]               Net          -        -       0.322     -           1         
+equal[5]                   DFN1E0P1     D        In      -         32.310      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 32.883 is 13.180(40.1%) logic and 19.703(59.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      32.289
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -22.863
+
+    Number of logic level(s):                20
+    Starting point:                          b[0] / Q
+    Ending point:                            equal[1] / D
+    The start point is clocked by            tcl|clk [rising] on pin CLK
+    The end   point is clocked by            tcl|clk [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+b[0]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                       Net          -        -       2.466     -           24        
+b_RNILD3T[1]               OR2          B        In      -         3.203       -         
+b_RNILD3T[1]               OR2          Y        Out     0.646     3.850       -         
+un4_eof_1                  Net          -        -       1.279     -           5         
+crc_reg_RNIHVGV2[9]        NOR3B        C        In      -         5.129       -         
+crc_reg_RNIHVGV2[9]        NOR3B        Y        Out     0.488     5.617       -         
+un1_crc_reg_11             Net          -        -       0.322     -           1         
+crc_reg_RNI1U1V5[9]        OR2          A        In      -         5.939       -         
+crc_reg_RNI1U1V5[9]        OR2          Y        Out     0.363     6.302       -         
+crc_reg_RNI1U1V5[9]        Net          -        -       0.386     -           2         
+crc_reg_RNI9TPI9_0[11]     NOR2A        B        In      -         6.688       -         
+crc_reg_RNI9TPI9_0[11]     NOR2A        Y        Out     0.386     7.073       -         
+crc_reg_RNI9TPI9_0[11]     Net          -        -       0.322     -           1         
+busidle_RNIFF4VA           NOR2A        B        In      -         7.395       -         
+busidle_RNIFF4VA           NOR2A        Y        Out     0.407     7.801       -         
+interms4                   Net          -        -       1.184     -           4         
+rxd_pad_RNI82UPI           NOR2A        A        In      -         8.985       -         
+rxd_pad_RNI82UPI           NOR2A        Y        Out     0.516     9.501       -         
+overld4                    Net          -        -       2.037     -           13        
+stopp_RNIP9EB51            NOR2         B        In      -         11.538      -         
+stopp_RNIP9EB51            NOR2         Y        Out     0.514     12.053      -         
+un1_acf_l                  Net          -        -       1.708     -           10        
+b_RNIG5I802[3]             NOR3B        B        In      -         13.761      -         
+b_RNIG5I802[3]             NOR3B        Y        Out     0.607     14.368      -         
+b_RNIG5I802[3]             Net          -        -       0.806     -           3         
+b_RNI87BHS2_0[3]           OR2          B        In      -         15.174      -         
+b_RNI87BHS2_0[3]           OR2          Y        Out     0.646     15.820      -         
+b_l1[3]                    Net          -        -       2.218     -           17        
+b_RNI2K4KO5_0[3]           NOR2A        A        In      -         18.038      -         
+b_RNI2K4KO5_0[3]           NOR2A        Y        Out     0.627     18.666      -         
+equal225_2                 Net          -        -       1.184     -           4         
+strms_RNI7QK7DC            OR3          C        In      -         19.849      -         
+strms_RNI7QK7DC            OR3          Y        Out     0.751     20.600      -         
+un1_busidle_l              Net          -        -       0.386     -           2         
+strms_RNIG21JAI            NOR2B        B        In      -         20.986      -         
+strms_RNIG21JAI            NOR2B        Y        Out     0.627     21.613      -         
+busidle_l                  Net          -        -       1.184     -           4         
+b_RNIEB8HMI[0]             OR2          B        In      -         22.797      -         
+b_RNIEB8HMI[0]             OR2          Y        Out     0.646     23.443      -         
+un2_sof                    Net          -        -       0.386     -           2         
+rxd_pad_RNIFFSKAJ          NOR3B        B        In      -         23.829      -         
+rxd_pad_RNIFFSKAJ          NOR3B        Y        Out     0.607     24.436      -         
+rxd_pad_RNIFFSKAJ          Net          -        -       0.322     -           1         
+trrequ_pad_RNIAR7MFN1      OR3          C        In      -         24.757      -         
+trrequ_pad_RNIAR7MFN1      OR3          Y        Out     0.751     25.508      -         
+stopp_0_sqmuxa_286         Net          -        -       0.806     -           3         
+id_in_pad_RNIRRFG44        OR3          C        In      -         26.314      -         
+id_in_pad_RNIRRFG44        OR3          Y        Out     0.751     27.065      -         
+equal_555_sn_m69_i_0_4     Net          -        -       0.322     -           1         
+id_in_pad_RNIHQ8GHC2       OR3          C        In      -         27.387      -         
+id_in_pad_RNIHQ8GHC2       OR3          Y        Out     0.751     28.137      -         
+equal_555_sn_N_177         Net          -        -       1.423     -           6         
+equal_RNO_2[1]             NOR3B        B        In      -         29.561      -         
+equal_RNO_2[1]             NOR3B        Y        Out     0.607     30.167      -         
+N_1776                     Net          -        -       0.322     -           1         
+equal_RNO_0[1]             MX2          A        In      -         30.489      -         
+equal_RNO_0[1]             MX2          Y        Out     0.579     31.067      -         
+N_1798                     Net          -        -       0.322     -           1         
+equal_RNO[1]               MX2          A        In      -         31.389      -         
+equal_RNO[1]               MX2          Y        Out     0.579     31.968      -         
+equal_555[1]               Net          -        -       0.322     -           1         
+equal[1]                   DFN1E0P1     D        In      -         32.289      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 32.863 is 13.159(40.0%) logic and 19.703(60.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.237
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -22.776
+
+    Number of logic level(s):                21
+    Starting point:                          b[3] / Q
+    Ending point:                            equal[0] / D
+    The start point is clocked by            tcl|clk [rising] on pin CLK
+    The end   point is clocked by            tcl|clk [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+b[3]                             DFN1E1C1     Q        Out     0.737     0.737       -         
+b[3]                             Net          -        -       2.353     -           20        
+b_RNINF3T[3]                     NOR2B        B        In      -         3.090       -         
+b_RNINF3T[3]                     NOR2B        Y        Out     0.627     3.718       -         
+transvalid_1                     Net          -        -       0.386     -           2         
+crc_reg_RNIGRRP1[10]             NOR3B        B        In      -         4.103       -         
+crc_reg_RNIGRRP1[10]             NOR3B        Y        Out     0.607     4.710       -         
+un1_crc_reg_10_1                 Net          -        -       0.386     -           2         
+crc_reg_RNI8VNJ3[11]             AOI1         A        In      -         5.096       -         
+crc_reg_RNI8VNJ3[11]             AOI1         Y        Out     0.911     6.006       -         
+interms4_m1_e_0                  Net          -        -       0.806     -           3         
+crc_reg_RNI9TPI9_0[11]           NOR2A        A        In      -         6.813       -         
+crc_reg_RNI9TPI9_0[11]           NOR2A        Y        Out     0.516     7.329       -         
+crc_reg_RNI9TPI9_0[11]           Net          -        -       0.322     -           1         
+busidle_RNIFF4VA                 NOR2A        B        In      -         7.650       -         
+busidle_RNIFF4VA                 NOR2A        Y        Out     0.386     8.036       -         
+interms4                         Net          -        -       1.184     -           4         
+rxd_pad_RNI82UPI                 NOR2A        A        In      -         9.220       -         
+rxd_pad_RNI82UPI                 NOR2A        Y        Out     0.627     9.847       -         
+overld4                          Net          -        -       2.037     -           13        
+stopp_RNIP9EB51                  NOR2         B        In      -         11.884      -         
+stopp_RNIP9EB51                  NOR2         Y        Out     0.646     12.531      -         
+un1_acf_l                        Net          -        -       1.708     -           10        
+b_RNIG5I802[3]                   NOR3B        B        In      -         14.239      -         
+b_RNIG5I802[3]                   NOR3B        Y        Out     0.624     14.863      -         
+b_RNIG5I802[3]                   Net          -        -       0.806     -           3         
+b_RNI87BHS2_0[3]                 OR2          B        In      -         15.669      -         
+b_RNI87BHS2_0[3]                 OR2          Y        Out     0.514     16.184      -         
+b_l1[3]                          Net          -        -       2.218     -           17        
+b_RNIF6QVP5_1[5]                 NOR2         B        In      -         18.401      -         
+b_RNIF6QVP5_1[5]                 NOR2         Y        Out     0.514     18.916      -         
+equal_555_sn_N_128_1             Net          -        -       0.806     -           3         
+b_RNINDUHQE[4]                   NOR3B        B        In      -         19.722      -         
+b_RNINDUHQE[4]                   NOR3B        Y        Out     0.607     20.329      -         
+equal430                         Net          -        -       1.279     -           5         
+b_RNI5J18T51[0]                  OR3          C        In      -         21.608      -         
+b_RNI5J18T51[0]                  OR3          Y        Out     0.751     22.359      -         
+un1_equal430_2                   Net          -        -       0.322     -           1         
+b_RNIJEUBI32[0]                  OR3          C        In      -         22.680      -         
+b_RNIJEUBI32[0]                  OR3          Y        Out     0.751     23.431      -         
+un1_equal430_3                   Net          -        -       0.322     -           1         
+b_RNIKR87DU2[1]                  OR2          A        In      -         23.753      -         
+b_RNIKR87DU2[1]                  OR2          Y        Out     0.507     24.260      -         
+un1_equal430                     Net          -        -       0.806     -           3         
+cd_RNIN054SP3                    NOR3A        C        In      -         25.066      -         
+cd_RNIN054SP3                    NOR3A        Y        Out     0.716     25.782      -         
+equal_29_sqmuxa                  Net          -        -       0.386     -           2         
+id_in_pad_RNIJDO8MO              OR2          A        In      -         26.168      -         
+id_in_pad_RNIJDO8MO              OR2          Y        Out     0.363     26.531      -         
+equal_555_sn_m69_i_o2_7_3        Net          -        -       0.386     -           2         
+trrequ_pad_RNITNS9F12            NOR3A        C        In      -         26.917      -         
+trrequ_pad_RNITNS9F12            NOR3A        Y        Out     0.641     27.558      -         
+equal_555_sn_m69_i_0_m1_e_3      Net          -        -       0.322     -           1         
+trrequ_pad_RNIT7PPCP2            NOR2B        A        In      -         27.880      -         
+trrequ_pad_RNIT7PPCP2            NOR2B        Y        Out     0.514     28.394      -         
+equal_555_sn_m69_i_0_N_3_mux     Net          -        -       1.423     -           6         
+equal_RNO_4[0]                   NOR2A        B        In      -         29.818      -         
+equal_RNO_4[0]                   NOR2A        Y        Out     0.407     30.224      -         
+equal_RNO_4[0]                   Net          -        -       0.322     -           1         
+equal_RNO_0[0]                   MX2          S        In      -         30.546      -         
+equal_RNO_0[0]                   MX2          Y        Out     0.480     31.026      -         
+N_1807                           Net          -        -       0.322     -           1         
+equal_RNO[0]                     MX2          A        In      -         31.347      -         
+equal_RNO[0]                     MX2          Y        Out     0.568     31.915      -         
+equal_555[0]                     Net          -        -       0.322     -           1         
+equal[0]                         DFN1E0P1     D        In      -         32.237      -         
+===============================================================================================
+Total path delay (propagation time + setup) of 32.776 is 13.554(41.4%) logic and 19.222(58.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      32.237
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -22.775
+
+    Number of logic level(s):                21
+    Starting point:                          b[0] / Q
+    Ending point:                            equal[0] / D
+    The start point is clocked by            tcl|clk [rising] on pin CLK
+    The end   point is clocked by            tcl|clk [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+b[0]                             DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                             Net          -        -       2.466     -           24        
+b_RNINF3T[3]                     NOR2B        A        In      -         3.203       -         
+b_RNINF3T[3]                     NOR2B        Y        Out     0.514     3.717       -         
+transvalid_1                     Net          -        -       0.386     -           2         
+crc_reg_RNIGRRP1[10]             NOR3B        B        In      -         4.103       -         
+crc_reg_RNIGRRP1[10]             NOR3B        Y        Out     0.607     4.710       -         
+un1_crc_reg_10_1                 Net          -        -       0.386     -           2         
+crc_reg_RNI8VNJ3[11]             AOI1         A        In      -         5.096       -         
+crc_reg_RNI8VNJ3[11]             AOI1         Y        Out     0.911     6.006       -         
+interms4_m1_e_0                  Net          -        -       0.806     -           3         
+crc_reg_RNI9TPI9_0[11]           NOR2A        A        In      -         6.813       -         
+crc_reg_RNI9TPI9_0[11]           NOR2A        Y        Out     0.516     7.329       -         
+crc_reg_RNI9TPI9_0[11]           Net          -        -       0.322     -           1         
+busidle_RNIFF4VA                 NOR2A        B        In      -         7.650       -         
+busidle_RNIFF4VA                 NOR2A        Y        Out     0.386     8.036       -         
+interms4                         Net          -        -       1.184     -           4         
+rxd_pad_RNI82UPI                 NOR2A        A        In      -         9.220       -         
+rxd_pad_RNI82UPI                 NOR2A        Y        Out     0.627     9.847       -         
+overld4                          Net          -        -       2.037     -           13        
+stopp_RNIP9EB51                  NOR2         B        In      -         11.884      -         
+stopp_RNIP9EB51                  NOR2         Y        Out     0.646     12.531      -         
+un1_acf_l                        Net          -        -       1.708     -           10        
+b_RNIG5I802[3]                   NOR3B        B        In      -         14.239      -         
+b_RNIG5I802[3]                   NOR3B        Y        Out     0.624     14.863      -         
+b_RNIG5I802[3]                   Net          -        -       0.806     -           3         
+b_RNI87BHS2_0[3]                 OR2          B        In      -         15.669      -         
+b_RNI87BHS2_0[3]                 OR2          Y        Out     0.514     16.184      -         
+b_l1[3]                          Net          -        -       2.218     -           17        
+b_RNIF6QVP5_1[5]                 NOR2         B        In      -         18.401      -         
+b_RNIF6QVP5_1[5]                 NOR2         Y        Out     0.514     18.916      -         
+equal_555_sn_N_128_1             Net          -        -       0.806     -           3         
+b_RNINDUHQE[4]                   NOR3B        B        In      -         19.722      -         
+b_RNINDUHQE[4]                   NOR3B        Y        Out     0.607     20.329      -         
+equal430                         Net          -        -       1.279     -           5         
+b_RNI5J18T51[0]                  OR3          C        In      -         21.608      -         
+b_RNI5J18T51[0]                  OR3          Y        Out     0.751     22.359      -         
+un1_equal430_2                   Net          -        -       0.322     -           1         
+b_RNIJEUBI32[0]                  OR3          C        In      -         22.680      -         
+b_RNIJEUBI32[0]                  OR3          Y        Out     0.751     23.431      -         
+un1_equal430_3                   Net          -        -       0.322     -           1         
+b_RNIKR87DU2[1]                  OR2          A        In      -         23.753      -         
+b_RNIKR87DU2[1]                  OR2          Y        Out     0.507     24.260      -         
+un1_equal430                     Net          -        -       0.806     -           3         
+cd_RNIN054SP3                    NOR3A        C        In      -         25.066      -         
+cd_RNIN054SP3                    NOR3A        Y        Out     0.716     25.782      -         
+equal_29_sqmuxa                  Net          -        -       0.386     -           2         
+id_in_pad_RNIJDO8MO              OR2          A        In      -         26.168      -         
+id_in_pad_RNIJDO8MO              OR2          Y        Out     0.363     26.531      -         
+equal_555_sn_m69_i_o2_7_3        Net          -        -       0.386     -           2         
+trrequ_pad_RNITNS9F12            NOR3A        C        In      -         26.917      -         
+trrequ_pad_RNITNS9F12            NOR3A        Y        Out     0.641     27.558      -         
+equal_555_sn_m69_i_0_m1_e_3      Net          -        -       0.322     -           1         
+trrequ_pad_RNIT7PPCP2            NOR2B        A        In      -         27.880      -         
+trrequ_pad_RNIT7PPCP2            NOR2B        Y        Out     0.514     28.394      -         
+equal_555_sn_m69_i_0_N_3_mux     Net          -        -       1.423     -           6         
+equal_RNO_4[0]                   NOR2A        B        In      -         29.818      -         
+equal_RNO_4[0]                   NOR2A        Y        Out     0.407     30.224      -         
+equal_RNO_4[0]                   Net          -        -       0.322     -           1         
+equal_RNO_0[0]                   MX2          S        In      -         30.546      -         
+equal_RNO_0[0]                   MX2          Y        Out     0.480     31.025      -         
+N_1807                           Net          -        -       0.322     -           1         
+equal_RNO[0]                     MX2          A        In      -         31.347      -         
+equal_RNO[0]                     MX2          Y        Out     0.568     31.915      -         
+equal_555[0]                     Net          -        -       0.322     -           1         
+equal[0]                         DFN1E0P1     D        In      -         32.237      -         
+===============================================================================================
+Total path delay (propagation time + setup) of 32.775 is 13.441(41.0%) logic and 19.335(59.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      32.197
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -22.771
+
+    Number of logic level(s):                20
+    Starting point:                          b[0] / Q
+    Ending point:                            equal[4] / D
+    The start point is clocked by            tcl|clk [rising] on pin CLK
+    The end   point is clocked by            tcl|clk [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+b[0]                       DFN1E1C1     Q        Out     0.737     0.737       -         
+b[0]                       Net          -        -       2.466     -           24        
+b_RNILD3T[1]               OR2          B        In      -         3.203       -         
+b_RNILD3T[1]               OR2          Y        Out     0.646     3.850       -         
+un4_eof_1                  Net          -        -       1.279     -           5         
+crc_reg_RNIHVGV2[9]        NOR3B        C        In      -         5.129       -         
+crc_reg_RNIHVGV2[9]        NOR3B        Y        Out     0.488     5.617       -         
+un1_crc_reg_11             Net          -        -       0.322     -           1         
+crc_reg_RNI1U1V5[9]        OR2          A        In      -         5.939       -         
+crc_reg_RNI1U1V5[9]        OR2          Y        Out     0.363     6.302       -         
+crc_reg_RNI1U1V5[9]        Net          -        -       0.386     -           2         
+crc_reg_RNI9TPI9_0[11]     NOR2A        B        In      -         6.688       -         
+crc_reg_RNI9TPI9_0[11]     NOR2A        Y        Out     0.386     7.073       -         
+crc_reg_RNI9TPI9_0[11]     Net          -        -       0.322     -           1         
+busidle_RNIFF4VA           NOR2A        B        In      -         7.395       -         
+busidle_RNIFF4VA           NOR2A        Y        Out     0.407     7.801       -         
+interms4                   Net          -        -       1.184     -           4         
+rxd_pad_RNI82UPI           NOR2A        A        In      -         8.985       -         
+rxd_pad_RNI82UPI           NOR2A        Y        Out     0.516     9.501       -         
+overld4                    Net          -        -       2.037     -           13        
+stopp_RNIP9EB51            NOR2         B        In      -         11.538      -         
+stopp_RNIP9EB51            NOR2         Y        Out     0.514     12.053      -         
+un1_acf_l                  Net          -        -       1.708     -           10        
+b_RNIG5I802[3]             NOR3B        B        In      -         13.761      -         
+b_RNIG5I802[3]             NOR3B        Y        Out     0.607     14.368      -         
+b_RNIG5I802[3]             Net          -        -       0.806     -           3         
+b_RNI87BHS2_0[3]           OR2          B        In      -         15.174      -         
+b_RNI87BHS2_0[3]           OR2          Y        Out     0.646     15.820      -         
+b_l1[3]                    Net          -        -       2.218     -           17        
+b_RNI2K4KO5_0[3]           NOR2A        A        In      -         18.038      -         
+b_RNI2K4KO5_0[3]           NOR2A        Y        Out     0.627     18.666      -         
+equal225_2                 Net          -        -       1.184     -           4         
+strms_RNI7QK7DC            OR3          C        In      -         19.849      -         
+strms_RNI7QK7DC            OR3          Y        Out     0.751     20.600      -         
+un1_busidle_l              Net          -        -       0.386     -           2         
+strms_RNIG21JAI            NOR2B        B        In      -         20.986      -         
+strms_RNIG21JAI            NOR2B        Y        Out     0.627     21.613      -         
+busidle_l                  Net          -        -       1.184     -           4         
+b_RNIEB8HMI[0]             OR2          B        In      -         22.797      -         
+b_RNIEB8HMI[0]             OR2          Y        Out     0.646     23.443      -         
+un2_sof                    Net          -        -       0.386     -           2         
+rxd_pad_RNIFFSKAJ          NOR3B        B        In      -         23.829      -         
+rxd_pad_RNIFFSKAJ          NOR3B        Y        Out     0.607     24.436      -         
+rxd_pad_RNIFFSKAJ          Net          -        -       0.322     -           1         
+trrequ_pad_RNIAR7MFN1      OR3          C        In      -         24.757      -         
+trrequ_pad_RNIAR7MFN1      OR3          Y        Out     0.751     25.508      -         
+stopp_0_sqmuxa_286         Net          -        -       0.806     -           3         
+id_in_pad_RNIRRFG44        OR3          C        In      -         26.314      -         
+id_in_pad_RNIRRFG44        OR3          Y        Out     0.751     27.065      -         
+equal_555_sn_m69_i_0_4     Net          -        -       0.322     -           1         
+id_in_pad_RNIHQ8GHC2       OR3          C        In      -         27.387      -         
+id_in_pad_RNIHQ8GHC2       OR3          Y        Out     0.751     28.137      -         
+equal_555_sn_N_177         Net          -        -       1.423     -           6         
+equal_RNO_2[4]             NOR2B        A        In      -         29.561      -         
+equal_RNO_2[4]             NOR2B        Y        Out     0.514     30.075      -         
+N_1779                     Net          -        -       0.322     -           1         
+equal_RNO_0[4]             MX2          A        In      -         30.397      -         
+equal_RNO_0[4]             MX2          Y        Out     0.579     30.975      -         
+N_1801                     Net          -        -       0.322     -           1         
+equal_RNO[4]               MX2          A        In      -         31.297      -         
+equal_RNO[4]               MX2          Y        Out     0.579     31.875      -         
+equal_555[4]               Net          -        -       0.322     -           1         
+equal[4]                   DFN1E0P1     D        In      -         32.197      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 32.770 is 13.067(39.9%) logic and 19.703(60.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 161MB peak: 209MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 161MB peak: 209MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+<a name=cellReport17></a>Report for cell tcl.verilog</a>
+  Core Cell usage:
+              cell count     area count*area
+              AND2    23      1.0       23.0
+              AND3     3      1.0        3.0
+               AO1   129      1.0      129.0
+              AO1A    65      1.0       65.0
+              AO1B     6      1.0        6.0
+              AO1C     9      1.0        9.0
+              AO1D    10      1.0       10.0
+              AOI1    22      1.0       22.0
+             AOI1B    21      1.0       21.0
+              AX1C     1      1.0        1.0
+              AXO2     1      1.0        1.0
+              AXO6     1      1.0        1.0
+             AXOI3     1      1.0        1.0
+              BUFF     4      1.0        4.0
+            CLKINT     3      0.0        0.0
+               GND     1      0.0        0.0
+               MX2    89      1.0       89.0
+              MX2A     7      1.0        7.0
+              MX2B    12      1.0       12.0
+              MX2C    17      1.0       17.0
+              NOR2    98      1.0       98.0
+             NOR2A   286      1.0      286.0
+             NOR2B   369      1.0      369.0
+              NOR3    39      1.0       39.0
+             NOR3A    97      1.0       97.0
+             NOR3B   184      1.0      184.0
+             NOR3C   136      1.0      136.0
+               OA1    75      1.0       75.0
+              OA1A    36      1.0       36.0
+              OA1B    20      1.0       20.0
+              OA1C    14      1.0       14.0
+              OAI1     6      1.0        6.0
+               OR2   145      1.0      145.0
+              OR2A    45      1.0       45.0
+              OR2B    12      1.0       12.0
+               OR3   161      1.0      161.0
+              OR3A    13      1.0       13.0
+              OR3B     4      1.0        4.0
+               VCC     1      0.0        0.0
+               XA1     3      1.0        3.0
+              XA1A     2      1.0        2.0
+              XA1C     1      1.0        1.0
+             XAI1A     1      1.0        1.0
+             XNOR2     7      1.0        7.0
+              XOR2    13      1.0       13.0
+
+
+          DFN1E0C1    20      1.0       20.0
+          DFN1E0P1     5      1.0        5.0
+          DFN1E1C1    40      1.0       40.0
+          DFN1E1P1     5      1.0        5.0
+                   -----          ----------
+             TOTAL  2263              2258.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     8
+            OUTBUF    26
+                   -----
+             TOTAL    36
+
+
+Core Cells         : 2258 of 24576 (9%)
+IO Cells           : 36
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 32MB peak: 209MB)
+
+Process took 0h:00m:26s realtime, 0h:00m:25s cputime
+# Mon Apr 08 21:57:49 2019
+
+###########################################################]
+
+</pre></samp></body></html>

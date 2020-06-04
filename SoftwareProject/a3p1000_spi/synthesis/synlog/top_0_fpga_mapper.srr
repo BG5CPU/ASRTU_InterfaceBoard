@@ -1,0 +1,772 @@
+# Tue Dec 03 22:16:13 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[0] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[7] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[6] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[5] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[4] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance int_raw[1] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[7] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[6] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[5] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|Removing sequential instance control2[4] (in view: CORESPI_LIB.spi_rf_16s_60s_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[16:0] (in view: CORESPI_LIB.spi_fifo_16s_8s_3_1(verilog)) is 8 words by 17 bits.
+@W: MF136 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@N: MF176 |Default generator successful 
+@N: MF135 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[16:0] (in view: CORESPI_LIB.spi_fifo_16s_8s_3_0(verilog)) is 8 words by 17 bits.
+@W: MF136 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@N: MF176 |Default generator successful 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance mtx_bitsel[4:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance stxs_bitsel[3:0] 
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance spi_clk_count[7:0] 
+Encoding state machine mtx_state[5:0] (in view: CORESPI_LIB.spi_chanctrl_Z2(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0111 -> 001000
+   1000 -> 010000
+   1001 -> 100000
+@N: MO231 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z2(verilog) instance stxs_bitcnt[4:0] 
+@N: MO223 :"d:\fpga\a3p1000_spi\hdl\spi_master.v":72:0:72:5|In FSM current_state[11:0] (in view: work.SPI_master_Z4(verilog)), reset input is driving data input. 
+Encoding state machine current_state[11:0] (in view: work.SPI_master_Z4(verilog))
+original code -> new code
+   0000 -> 000000000001
+   0001 -> 000000000010
+   0010 -> 000000000100
+   0011 -> 000000001000
+   0100 -> 000000010000
+   0101 -> 000000100000
+   0110 -> 000001000000
+   0111 -> 000010000000
+   1000 -> 000100000000
+   1001 -> 001000000000
+   1010 -> 010000000000
+   1011 -> 100000000000
+@N: MF239 :"d:\fpga\a3p1000_spi\hdl\uart_tx.v":86:8:86:9|Found 19-bit decrementor, 'un1_prescale_0[18:0]'
+@N: MF239 :"d:\fpga\a3p1000_spi\hdl\uart_rx.v":105:8:105:9|Found 19-bit decrementor, 'un1_prescale_reg_0[18:0]'
+@N: MF239 :"d:\fpga\a3p1000_spi\hdl\uart_ad7606.v":112:25:112:45|Found 4-bit decrementor, 'un2_AD_data_count[3:0]'
+@N: MF794 |RAM fifo_mem_q[16:0] required 272 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 114MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 117MB peak: 118MB)
+
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":1194:0:1194:5|Removing sequential instance CORESPI_0.USPI.UCC.msrxp_pktend (in view: work.top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":1238:0:1238:5|Removing sequential instance CORESPI_0.USPI.UCC.rx_cmdsize (in view: work.top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga\a3p1000_spi\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":1172:0:1172:5|Removing sequential instance CORESPI_0.USPI.UCC.SYNC3_msrxp_pktsel (in view: work.top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 118MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 118MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 120MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 120MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 120MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 120MB)
+
+@N: MF794 |RAM fifo_mem_q[16:0] required 272 registers during mapping 
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 120MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 120MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                               Fanout, notes                   
+-----------------------------------------------------------------------------------------
+UART_AD7606_0.m12 / Y                                    27                              
+uart_0.uart_rx_inst.un13_0[0] / Y                        138                             
+uart_0.uart_tx_inst.s_axis_tready_reg_1_sqmuxa_0 / Y     74                              
+CORESPI_0.USPI.URXF.rd_pointer_q[0] / Q                  71                              
+CORESPI_0.USPI.URXF.rd_pointer_q[1] / Q                  37                              
+CORESPI_0.USPI.UTXF.rd_pointer_q[0] / Q                  71                              
+CORESPI_0.USPI.UTXF.rd_pointer_q[1] / Q                  37                              
+PRESETN_pad / Y                                          462 : 439 asynchronous set/reset
+UART_AD7606_0.un1_data_count_2 / Y                       29                              
+CORESPI_0.USPI.UCC.msrxs_datain_0_sqmuxa_1 / Y           31                              
+uart_0.uart_rx_inst.un11lt3 / Y                          31                              
+=========================================================================================
+
+@N: FP130 |Promoting Net PRESETN_c on CLKBUF  PRESETN_pad 
+@N: FP130 |Promoting Net uart_0.uart_rx_inst.prescale_reg_0_sqmuxa_0 on CLKINT  I_39 
+@N: FP130 |Promoting Net uart_0.uart_tx_inst.un1_prescale_b_I_0[1] on CLKINT  I_40 
+@N: FP130 |Promoting Net CORESPI_0.USPI.URXF.rd_pointer_q[0] on CLKINT  I_41 
+@N: FP130 |Promoting Net CORESPI_0.USPI.UTXF.rd_pointer_q[0] on CLKINT  I_42 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 118MB peak: 120MB)
+
+Replicating Combinational Instance uart_0.uart_rx_inst.un11lt3, fanout 31 segments 2
+Replicating Combinational Instance CORESPI_0.USPI.UCC.msrxs_datain_0_sqmuxa_1, fanout 31 segments 2
+Replicating Combinational Instance UART_AD7606_0.un1_data_count_2, fanout 29 segments 2
+Replicating Sequential Instance CORESPI_0.USPI.UTXF.rd_pointer_q[1], fanout 37 segments 2
+Replicating Sequential Instance CORESPI_0.USPI.URXF.rd_pointer_q[1], fanout 37 segments 2
+Replicating Combinational Instance UART_AD7606_0.m12, fanout 27 segments 2
+
+Added 0 Buffers
+Added 6 Cells via replication
+	Added 2 Sequential Cells via replication
+	Added 4 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 118MB peak: 120MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 734 clock pin(s) of sequential element(s)
+0 instances converted, 734 sequential instances remain driven by gated/generated clocks
+
+======================================================================================================= Gated/Generated Clocks ========================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                  Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clok_0.Core         PLL                    734        UART_fifo_0.DFN1E1C0_dout[3]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=======================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 114MB peak: 120MB)
+
+Writing Analyst data base D:\FPGA\a3p1000_spi\synthesis\synwork\top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 116MB peak: 120MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 118MB peak: 120MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 116MB peak: 120MB)
+
+@W: MT420 |Found inferred clock clok|GLA_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:clok_0.GLA"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Dec 03 22:16:18 2019
+#
+
+
+Top view:               top_0
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -14.301
+
+                            Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock              Frequency     Frequency     Period        Period        Slack       Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------
+clok|GLA_inferred_clock     100.0 MHz     41.2 MHz      10.000        24.301        -14.301     inferred     Inferred_clkgroup_0
+================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------
+Starting                 Ending                   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------
+clok|GLA_inferred_clock  clok|GLA_inferred_clock  |  10.000      -14.301  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clok|GLA_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                                         Arrival            
+Instance                            Reference                   Type         Pin     Net                             Time        Slack  
+                                    Clock                                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.bit_cnt[1]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[1]                      0.737       -14.301
+uart_0.uart_rx_inst.bit_cnt[2]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[2]                      0.737       -14.162
+uart_0.uart_rx_inst.bit_cnt[3]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[3]                      0.737       -13.504
+uart_0.uart_rx_inst.bit_cnt[0]      clok|GLA_inferred_clock     DFN1C0       Q       un12lto0                        0.737       -12.923
+uart_0.uart_tx_inst.bit_cnt[1]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[1]                      0.737       -12.155
+uart_0.uart_tx_inst.bit_cnt[2]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[2]                      0.737       -12.016
+uart_0.uart_tx_inst.bit_cnt[0]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[0]                      0.737       -11.710
+uart_0.uart_tx_inst.bit_cnt[3]      clok|GLA_inferred_clock     DFN1C0       Q       bit_cnt[3]                      0.737       -11.571
+uart_0.uart_rx_inst.rxd_reg         clok|GLA_inferred_clock     DFN1P0       Q       rxd_reg                         0.737       -9.816 
+UART_AD7606_0.m_axis_tvalid_reg     clok|GLA_inferred_clock     DFN1E0C0     Q       UART_AD7606_0_m_axis_tvalid     0.737       -9.223 
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                              Required            
+Instance                                 Reference                   Type       Pin     Net                    Time         Slack  
+                                         Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.prescale_reg[15]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[15]     9.461        -14.301
+uart_0.uart_rx_inst.prescale_reg[14]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[14]     9.461        -13.382
+uart_0.uart_rx_inst.prescale_reg[13]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[13]     9.461        -13.318
+uart_0.uart_rx_inst.prescale_reg[17]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[17]     9.461        -13.318
+uart_0.uart_rx_inst.prescale_reg[18]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[18]     9.461        -13.318
+uart_0.uart_rx_inst.prescale_reg[11]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[11]     9.461        -12.897
+uart_0.uart_rx_inst.prescale_reg[12]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[12]     9.461        -12.398
+uart_0.uart_rx_inst.prescale_reg[16]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[16]     9.461        -12.398
+uart_0.uart_tx_inst.prescale_reg[15]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_8[15]     9.461        -12.155
+uart_0.uart_rx_inst.prescale_reg[10]     clok|GLA_inferred_clock     DFN1C0     D       prescale_reg_9[10]     9.461        -11.978
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      23.763
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -14.301
+
+    Number of logic level(s):                16
+    Starting point:                          uart_0.uart_rx_inst.bit_cnt[1] / Q
+    Ending point:                            uart_0.uart_rx_inst.prescale_reg[15] / D
+    The start point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.bit_cnt[1]                    DFN1C0     Q        Out     0.737     0.737       -         
+bit_cnt[1]                                        Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        B        In      -         1.921       -         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        Y        Out     0.646     2.567       -         
+un11lt3_1                                         Net        -        -       1.526     -           7         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        A        In      -         4.093       -         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        Y        Out     0.507     4.600       -         
+un11lto3_0                                        Net        -        -       2.172     -           16        
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      A        In      -         6.773       -         
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      Y        Out     0.641     7.414       -         
+prescale_reg_2_sqmuxa_0                           Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        B        In      -         7.736       -         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        Y        Out     0.646     8.382       -         
+un1_prescale_reg46_2_0                            Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      B        In      -         8.768       -         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      Y        Out     0.627     9.395       -         
+un1_prescale_reg_0[0]                             Net        -        -       1.423     -           6         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       A        In      -         10.819      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       Y        Out     0.514     11.333      -         
+DWACT_ADD_CI_0_TMP_2[0]                           Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        B        In      -         11.719      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        Y        Out     0.598     12.317      -         
+DWACT_ADD_CI_0_g_array_1[0]                       Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      A        In      -         13.123      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      Y        Out     0.514     13.638      -         
+DWACT_ADD_CI_0_g_array_2[0]                       Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        B        In      -         14.821      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        Y        Out     0.598     15.419      -         
+DWACT_ADD_CI_0_g_array_3_0[0]                     Net        -        -       1.279     -           5         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        B        In      -         16.698      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        Y        Out     0.598     17.296      -         
+DWACT_ADD_CI_0_g_array_10_0[0]                    Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        B        In      -         18.102      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        Y        Out     0.598     18.700      -         
+DWACT_ADD_CI_0_g_array_11_2_1[0]                  Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        B        In      -         19.086      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        Y        Out     0.598     19.684      -         
+DWACT_ADD_CI_0_g_array_12_6_1[0]                  Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       B        In      -         20.005      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       Y        Out     0.937     20.942      -         
+un1_prescale_reg_10_s0[15]                        Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        A        In      -         21.264      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        Y        Out     0.568     21.832      -         
+N_152                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        A        In      -         22.153      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        Y        Out     0.568     22.722      -         
+N_194                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      C        In      -         23.043      -         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      Y        Out     0.398     23.441      -         
+prescale_reg_9[15]                                Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg[15]              DFN1C0     D        In      -         23.763      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 24.301 is 10.834(44.6%) logic and 13.467(55.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      23.624
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -14.162
+
+    Number of logic level(s):                16
+    Starting point:                          uart_0.uart_rx_inst.bit_cnt[2] / Q
+    Ending point:                            uart_0.uart_rx_inst.prescale_reg[15] / D
+    The start point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.bit_cnt[2]                    DFN1C0     Q        Out     0.737     0.737       -         
+bit_cnt[2]                                        Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        A        In      -         1.921       -         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        Y        Out     0.507     2.428       -         
+un11lt3_1                                         Net        -        -       1.526     -           7         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        A        In      -         3.954       -         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        Y        Out     0.507     4.461       -         
+un11lto3_0                                        Net        -        -       2.172     -           16        
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      A        In      -         6.634       -         
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      Y        Out     0.641     7.275       -         
+prescale_reg_2_sqmuxa_0                           Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        B        In      -         7.597       -         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        Y        Out     0.646     8.243       -         
+un1_prescale_reg46_2_0                            Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      B        In      -         8.629       -         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      Y        Out     0.627     9.256       -         
+un1_prescale_reg_0[0]                             Net        -        -       1.423     -           6         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       A        In      -         10.680      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       Y        Out     0.514     11.194      -         
+DWACT_ADD_CI_0_TMP_2[0]                           Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        B        In      -         11.580      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        Y        Out     0.598     12.178      -         
+DWACT_ADD_CI_0_g_array_1[0]                       Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      A        In      -         12.984      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      Y        Out     0.514     13.499      -         
+DWACT_ADD_CI_0_g_array_2[0]                       Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        B        In      -         14.682      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        Y        Out     0.598     15.280      -         
+DWACT_ADD_CI_0_g_array_3_0[0]                     Net        -        -       1.279     -           5         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        B        In      -         16.559      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        Y        Out     0.598     17.157      -         
+DWACT_ADD_CI_0_g_array_10_0[0]                    Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        B        In      -         17.963      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        Y        Out     0.598     18.561      -         
+DWACT_ADD_CI_0_g_array_11_2_1[0]                  Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        B        In      -         18.947      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        Y        Out     0.598     19.545      -         
+DWACT_ADD_CI_0_g_array_12_6_1[0]                  Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       B        In      -         19.866      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       Y        Out     0.937     20.803      -         
+un1_prescale_reg_10_s0[15]                        Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        A        In      -         21.124      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        Y        Out     0.568     21.693      -         
+N_152                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        A        In      -         22.014      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        Y        Out     0.568     22.583      -         
+N_194                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      C        In      -         22.904      -         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      Y        Out     0.398     23.302      -         
+prescale_reg_9[15]                                Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg[15]              DFN1C0     D        In      -         23.624      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 24.162 is 10.695(44.3%) logic and 13.467(55.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.965
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -13.504
+
+    Number of logic level(s):                16
+    Starting point:                          uart_0.uart_rx_inst.bit_cnt[3] / Q
+    Ending point:                            uart_0.uart_rx_inst.prescale_reg[15] / D
+    The start point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.bit_cnt[3]                    DFN1C0     Q        Out     0.737     0.737       -         
+bit_cnt[3]                                        Net        -        -       1.526     -           7         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[0]            OR2        A        In      -         2.263       -         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[0]            OR2        Y        Out     0.507     2.770       -         
+un11lt3_0                                         Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        B        In      -         3.156       -         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        Y        Out     0.646     3.803       -         
+un11lto3_0                                        Net        -        -       2.172     -           16        
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      A        In      -         5.975       -         
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      Y        Out     0.641     6.616       -         
+prescale_reg_2_sqmuxa_0                           Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        B        In      -         6.938       -         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        Y        Out     0.646     7.584       -         
+un1_prescale_reg46_2_0                            Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      B        In      -         7.970       -         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      Y        Out     0.627     8.598       -         
+un1_prescale_reg_0[0]                             Net        -        -       1.423     -           6         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       A        In      -         10.021      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       Y        Out     0.514     10.535      -         
+DWACT_ADD_CI_0_TMP_2[0]                           Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        B        In      -         10.921      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        Y        Out     0.598     11.519      -         
+DWACT_ADD_CI_0_g_array_1[0]                       Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      A        In      -         12.325      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      Y        Out     0.514     12.840      -         
+DWACT_ADD_CI_0_g_array_2[0]                       Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        B        In      -         14.023      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        Y        Out     0.598     14.621      -         
+DWACT_ADD_CI_0_g_array_3_0[0]                     Net        -        -       1.279     -           5         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        B        In      -         15.900      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        Y        Out     0.598     16.498      -         
+DWACT_ADD_CI_0_g_array_10_0[0]                    Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        B        In      -         17.305      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        Y        Out     0.598     17.902      -         
+DWACT_ADD_CI_0_g_array_11_2_1[0]                  Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        B        In      -         18.288      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        Y        Out     0.598     18.886      -         
+DWACT_ADD_CI_0_g_array_12_6_1[0]                  Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       B        In      -         19.208      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       Y        Out     0.937     20.144      -         
+un1_prescale_reg_10_s0[15]                        Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        A        In      -         20.466      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        Y        Out     0.568     21.034      -         
+N_152                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        A        In      -         21.355      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        Y        Out     0.568     21.924      -         
+N_194                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      C        In      -         22.245      -         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      Y        Out     0.398     22.643      -         
+prescale_reg_9[15]                                Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg[15]              DFN1C0     D        In      -         22.965      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 23.504 is 10.834(46.1%) logic and 12.670(53.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.944
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -13.482
+
+    Number of logic level(s):                16
+    Starting point:                          uart_0.uart_rx_inst.bit_cnt[1] / Q
+    Ending point:                            uart_0.uart_rx_inst.prescale_reg[15] / D
+    The start point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.bit_cnt[1]                    DFN1C0     Q        Out     0.737     0.737       -         
+bit_cnt[1]                                        Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        B        In      -         1.921       -         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        Y        Out     0.646     2.567       -         
+un11lt3_1                                         Net        -        -       1.526     -           7         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS_0[0]          OR2        A        In      -         4.093       -         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS_0[0]          OR2        Y        Out     0.507     4.600       -         
+un11lto3                                          Net        -        -       2.127     -           15        
+uart_0.uart_rx_inst.rxd_reg_RNIADU11              NOR2A      B        In      -         6.728       -         
+uart_0.uart_rx_inst.rxd_reg_RNIADU11              NOR2A      Y        Out     0.407     7.134       -         
+bit_cnt_1_sqmuxa_1_0                              Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        A        In      -         7.520       -         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        Y        Out     0.363     7.883       -         
+un1_prescale_reg46_2_0                            Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      B        In      -         8.269       -         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      Y        Out     0.516     8.785       -         
+un1_prescale_reg_0[0]                             Net        -        -       1.423     -           6         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       A        In      -         10.209      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       Y        Out     0.488     10.697      -         
+DWACT_ADD_CI_0_TMP_2[0]                           Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        B        In      -         11.083      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        Y        Out     0.567     11.649      -         
+DWACT_ADD_CI_0_g_array_1[0]                       Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      A        In      -         12.456      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      Y        Out     0.488     12.944      -         
+DWACT_ADD_CI_0_g_array_2[0]                       Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        B        In      -         14.128      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        Y        Out     0.567     14.694      -         
+DWACT_ADD_CI_0_g_array_3_0[0]                     Net        -        -       1.279     -           5         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        B        In      -         15.973      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        Y        Out     0.567     16.540      -         
+DWACT_ADD_CI_0_g_array_10_0[0]                    Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        B        In      -         17.346      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        Y        Out     0.567     17.913      -         
+DWACT_ADD_CI_0_g_array_11_2_1[0]                  Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        B        In      -         18.298      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_98      AO1        Y        Out     0.567     18.865      -         
+DWACT_ADD_CI_0_g_array_12_6_1[0]                  Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       B        In      -         19.186      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_65      XOR2       Y        Out     0.937     20.123      -         
+un1_prescale_reg_10_s0[15]                        Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        A        In      -         20.445      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[15]        MX2        Y        Out     0.568     21.013      -         
+N_152                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        A        In      -         21.334      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[15]        MX2        Y        Out     0.568     21.903      -         
+N_194                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      C        In      -         22.224      -         
+uart_0.uart_rx_inst.prescale_reg_RNO[15]          AOI1B      Y        Out     0.398     22.622      -         
+prescale_reg_9[15]                                Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg[15]              DFN1C0     D        In      -         22.944      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 23.482 is 9.996(42.6%) logic and 13.487(57.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.843
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -13.382
+
+    Number of logic level(s):                15
+    Starting point:                          uart_0.uart_rx_inst.bit_cnt[1] / Q
+    Ending point:                            uart_0.uart_rx_inst.prescale_reg[14] / D
+    The start point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clok|GLA_inferred_clock [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+uart_0.uart_rx_inst.bit_cnt[1]                    DFN1C0     Q        Out     0.737     0.737       -         
+bit_cnt[1]                                        Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        B        In      -         1.921       -         
+uart_0.uart_rx_inst.bit_cnt_RNIB65E[1]            OR2        Y        Out     0.646     2.567       -         
+un11lt3_1                                         Net        -        -       1.526     -           7         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        A        In      -         4.093       -         
+uart_0.uart_rx_inst.bit_cnt_RNIMCAS[0]            OR2        Y        Out     0.507     4.600       -         
+un11lto3_0                                        Net        -        -       2.172     -           16        
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      A        In      -         6.773       -         
+uart_0.uart_rx_inst.bit_cnt_RNIO7IH1[3]           NOR3A      Y        Out     0.641     7.414       -         
+prescale_reg_2_sqmuxa_0                           Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        B        In      -         7.736       -         
+uart_0.uart_rx_inst.bit_cnt_RNI2LGJ2[3]           OR2        Y        Out     0.646     8.382       -         
+un1_prescale_reg46_2_0                            Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      B        In      -         8.768       -         
+uart_0.uart_rx_inst.prescale_reg_RNIVU9O2[0]      NOR2B      Y        Out     0.627     9.395       -         
+un1_prescale_reg_0[0]                             Net        -        -       1.423     -           6         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       A        In      -         10.819      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_1       AND2       Y        Out     0.514     11.333      -         
+DWACT_ADD_CI_0_TMP_2[0]                           Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        B        In      -         11.719      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_79      AO1        Y        Out     0.598     12.317      -         
+DWACT_ADD_CI_0_g_array_1[0]                       Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      A        In      -         13.123      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_89      NOR2B      Y        Out     0.514     13.638      -         
+DWACT_ADD_CI_0_g_array_2[0]                       Net        -        -       1.184     -           4         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        B        In      -         14.821      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_102     AO1        Y        Out     0.598     15.419      -         
+DWACT_ADD_CI_0_g_array_3_0[0]                     Net        -        -       1.279     -           5         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        B        In      -         16.698      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_80      AO1        Y        Out     0.598     17.296      -         
+DWACT_ADD_CI_0_g_array_10_0[0]                    Net        -        -       0.806     -           3         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        B        In      -         18.102      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_94      AO1        Y        Out     0.598     18.700      -         
+DWACT_ADD_CI_0_g_array_11_2_1[0]                  Net        -        -       0.386     -           2         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_63      XOR2       B        In      -         19.086      -         
+uart_0.uart_rx_inst.un1_prescale_reg_d0.I_63      XOR2       Y        Out     0.937     20.023      -         
+un1_prescale_reg_10_s0[14]                        Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[14]        MX2        A        In      -         20.344      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_1[14]        MX2        Y        Out     0.568     20.913      -         
+N_151                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[14]        MX2        A        In      -         21.234      -         
+uart_0.uart_rx_inst.prescale_reg_RNO_0[14]        MX2        Y        Out     0.568     21.802      -         
+N_193                                             Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg_RNO[14]          AOI1B      C        In      -         22.124      -         
+uart_0.uart_rx_inst.prescale_reg_RNO[14]          AOI1B      Y        Out     0.398     22.522      -         
+prescale_reg_9[14]                                Net        -        -       0.322     -           1         
+uart_0.uart_rx_inst.prescale_reg[14]              DFN1C0     D        In      -         22.843      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 23.382 is 10.236(43.8%) logic and 13.146(56.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 116MB peak: 120MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 116MB peak: 120MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P1000_PQFP208_STD
+Report for cell top_0.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2   107      1.0      107.0
+             AND2A     2      1.0        2.0
+              AND3     4      1.0        4.0
+               AO1    93      1.0       93.0
+              AO18     6      1.0        6.0
+              AO1A    13      1.0       13.0
+              AO1B     1      1.0        1.0
+              AO1C     2      1.0        2.0
+              AO1D     6      1.0        6.0
+              AOI1     4      1.0        4.0
+             AOI1B    30      1.0       30.0
+              AX1A     1      1.0        1.0
+              AX1B     1      1.0        1.0
+              AX1D     3      1.0        3.0
+              AXO2     1      1.0        1.0
+            CLKINT     4      0.0        0.0
+               GND    19      0.0        0.0
+               INV    19      1.0       19.0
+              MIN3     2      1.0        2.0
+               MX2   370      1.0      370.0
+              MX2A    15      1.0       15.0
+              MX2B     4      1.0        4.0
+              MX2C     8      1.0        8.0
+             NAND2     4      1.0        4.0
+              NOR2    38      1.0       38.0
+             NOR2A   134      1.0      134.0
+             NOR2B   128      1.0      128.0
+              NOR3     7      1.0        7.0
+             NOR3A    19      1.0       19.0
+             NOR3B    23      1.0       23.0
+             NOR3C    32      1.0       32.0
+               OA1    20      1.0       20.0
+              OA1A     7      1.0        7.0
+              OA1B     4      1.0        4.0
+              OA1C     5      1.0        5.0
+               OR2    61      1.0       61.0
+              OR2A    25      1.0       25.0
+              OR2B     5      1.0        5.0
+               OR3    78      1.0       78.0
+              OR3A     4      1.0        4.0
+              OR3B     2      1.0        2.0
+              OR3C     1      1.0        1.0
+               PLL     1      0.0        0.0
+               VCC    19      0.0        0.0
+               XA1    15      1.0       15.0
+              XA1B     1      1.0        1.0
+             XNOR2    79      1.0       79.0
+             XNOR3     4      1.0        4.0
+               XO1     2      1.0        2.0
+              XO1A     4      1.0        4.0
+              XOR2   204      1.0      204.0
+
+
+            DFI1P0     1      1.0        1.0
+            DFN1C0   191      1.0      191.0
+          DFN1E0C0    55      1.0       55.0
+          DFN1E0P0     1      1.0        1.0
+            DFN1E1   289      1.0      289.0
+          DFN1E1C0   147      1.0      147.0
+          DFN1E1P0    14      1.0       14.0
+            DFN1P0    32      1.0       32.0
+         RAM512X18     2      0.0        0.0
+                   -----          ----------
+             TOTAL  2373              2328.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     3
+            OUTBUF    38
+                   -----
+             TOTAL    42
+
+
+Core Cells         : 2328 of 24576 (9%)
+IO Cells           : 42
+
+  RAM/ROM Usage Summary
+Block Rams : 2 of 32 (6%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 28MB peak: 120MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Tue Dec 03 22:16:18 2019
+
+###########################################################]

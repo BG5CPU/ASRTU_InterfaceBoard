@@ -1,0 +1,84 @@
+Microsemi Libero Software
+Version: 11.9.2.1
+Release: v11.9 SP2
+
+Info: The design Top_0.adb was last modified by software version 11.9.2.1.
+Opened an existing Libero design Top_0.adb.
+'BA_NAME' set to 'Top_0_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'D:\FPGA\a3p1000_INA220\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Mar 10 21:48:41 2019
+
+Placer Finished: Sun Mar 10 21:49:05 2019
+Total Placer CPU Time:     00:00:24
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: Top_0                           Started: Sun Mar 10 21:49:08 2019
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: Top_0                           
+Finished: Sun Mar 10 21:49:47 2019
+Total CPU Time:     00:00:38            Total Elapsed Time: 00:00:39
+Total Memory Usage: 383.5 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:01:12 )
+Wrote status report to file: Top_0_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: Top_0_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: Top_0_globalusage_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote iobank report to file: Top_0_iobank_report.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: Top_0_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: Top_0_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file D:\FPGA\a3p1000_INA220\designer\impl1\Top_0.adb.
+
+The Execute Script command succeeded ( 00:01:16 )
+Design closed.
+

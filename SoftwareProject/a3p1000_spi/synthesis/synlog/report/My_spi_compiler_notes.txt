@@ -1,0 +1,32 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+@N: CG364 :"D:\FPGA\a3p1000_spi\component\work\My_spi\My_spi.v":9:7:9:12|Synthesizing module My_spi in library work.
+@N: CL201 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL134 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=1
+@N: CL134 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=4
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000_spi\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+@N|Running in 64-bit mode
+

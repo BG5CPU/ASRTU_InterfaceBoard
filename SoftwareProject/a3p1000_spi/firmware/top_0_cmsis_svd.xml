@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<device>
+  <name>top_0</name>
+  <version>1.0</version>
+  <description>CMSIS description for top_0.  Created by Microsemi SmartDesign on Tue Dec 03 22:15:52 2019</description>
+  <addressUnitBits>8</addressUnitBits>
+  <width>32</width>
+  <peripherals>
+    <peripheral>
+      <name>CORESPI_0</name>
+      <baseAddress>0x00000000</baseAddress>
+    </peripheral>
+  </peripherals>
+</device>

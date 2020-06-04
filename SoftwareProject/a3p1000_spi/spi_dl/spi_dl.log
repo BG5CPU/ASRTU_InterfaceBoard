@@ -1,0 +1,79 @@
+FlashPro
+Version: 11.9.2.1
+Release: v11.9 SP2
+
+Software Version: 11.9.2.1
+PDB file 'D:\FPGA\LED_blink\designer\impl1\LED_blink.pdb' has been loaded successfully.
+DESIGN : LED_blink;  CHECKSUM : 4095;  PDB_VERSION : 1.9
+Warning: The programmer with id 'S201Z5SQ56' in the project file cannot be detected and
+         connected.
+Opened 'D:\FPGA\a3p1000_spi\spi_dl\spi_dl.pro'
+PDB file 'D:\FPGA\a3p1000_spi\designer\impl1\top_0.pdb' has been loaded successfully.
+DESIGN : top_0;  CHECKSUM : 212E;  PDB_VERSION : 1.9
+Rescanning for Programmers...
+programmer 'S201Z5SQ56' : FlashPro5
+Rescanning for Programmers DONE.
+programmer 'S201Z5SQ56' : Scan Chain...
+Warning: programmer 'S201Z5SQ56' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S201Z5SQ56' : Scan Chain PASSED.
+programmer 'S201Z5SQ56' : Executing action PROGRAM
+programmer 'S201Z5SQ56' : EXPORT FSN[48] = 0177c12c2054
+programmer 'S201Z5SQ56' : Erase ...
+programmer 'S201Z5SQ56' : Completed erase
+programmer 'S201Z5SQ56' : EXPORT CHECKSUM[16] = 212e
+programmer 'S201Z5SQ56' : Programming FPGA Array
+programmer 'S201Z5SQ56' : Verifying FPGA Array
+programmer 'S201Z5SQ56' :         Verifying FPGA Array -- pass
+programmer 'S201Z5SQ56' : Finished: Wed Jul 17 15:43:13 2019 (Elapsed time 00:01:29)
+programmer 'S201Z5SQ56' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+PDB file 'D:\FPGA\a3p1000_spi\designer\impl1\top_0.pdb' has been loaded successfully.
+DESIGN : top_0;  CHECKSUM : 47C3;  PDB_VERSION : 1.9
+Rescanning for Programmers...
+programmer 'S201Z5SQ56' : FlashPro5
+Rescanning for Programmers DONE.
+programmer 'S201Z5SQ56' : Scan Chain...
+Warning: programmer 'S201Z5SQ56' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S201Z5SQ56' : Scan Chain PASSED.
+programmer 'S201Z5SQ56' : Executing action PROGRAM
+programmer 'S201Z5SQ56' : EXPORT FSN[48] = 0177c12c2054
+programmer 'S201Z5SQ56' : Erase ...
+programmer 'S201Z5SQ56' : Completed erase
+programmer 'S201Z5SQ56' : EXPORT CHECKSUM[16] = 47c3
+programmer 'S201Z5SQ56' : Programming FPGA Array
+programmer 'S201Z5SQ56' : Verifying FPGA Array
+programmer 'S201Z5SQ56' :         Verifying FPGA Array -- pass
+programmer 'S201Z5SQ56' : Finished: Wed Jul 17 17:21:35 2019 (Elapsed time 00:01:29)
+programmer 'S201Z5SQ56' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Project saved.
+PDB file 'D:\FPGA\a3p1000_spi\designer\impl1\top_0.pdb' has been loaded successfully.
+DESIGN : top_0;  CHECKSUM : 8961;  PDB_VERSION : 1.9
+Rescanning for Programmers...
+programmer 'S201Z5SQ56' : FlashPro5
+Rescanning for Programmers DONE.
+programmer 'S201Z5SQ56' : Scan Chain...
+Warning: programmer 'S201Z5SQ56' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S201Z5SQ56' : Scan Chain PASSED.
+programmer 'S201Z5SQ56' : Executing action PROGRAM
+programmer 'S201Z5SQ56' : EXPORT FSN[48] = 0177c12c2054
+programmer 'S201Z5SQ56' : Erase ...
+programmer 'S201Z5SQ56' : Completed erase
+programmer 'S201Z5SQ56' : EXPORT CHECKSUM[16] = 8961
+programmer 'S201Z5SQ56' : Programming FPGA Array
+programmer 'S201Z5SQ56' : Verifying FPGA Array
+programmer 'S201Z5SQ56' :         Verifying FPGA Array -- pass
+programmer 'S201Z5SQ56' : Finished: Wed Jul 17 17:33:42 2019 (Elapsed time 00:01:30)
+programmer 'S201Z5SQ56' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.

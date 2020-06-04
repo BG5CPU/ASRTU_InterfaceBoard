@@ -1,0 +1,16 @@
+
+fsm_encoding {641604161} onehot
+
+fsm_state_encoding {641604161} MTX_IDLE1 {000001}
+
+fsm_state_encoding {641604161} MTX_IDLE2 {000010}
+
+fsm_state_encoding {641604161} MTX_MOTSTART {000100}
+
+fsm_state_encoding {641604161} MTX_SHIFT1 {001000}
+
+fsm_state_encoding {641604161} MTX_SHIFT2 {010000}
+
+fsm_state_encoding {641604161} MTX_END {100000}
+
+fsm_registers {641604161} {mtx_state[5]}  {mtx_state[4]}  {mtx_state[3]}  {mtx_state[2]}  {mtx_state[1]}  {mtx_state[0]} 

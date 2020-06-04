@@ -1,0 +1,16 @@
+D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\FPGA\a3p1000_CAN\synthesis   -part A3P1000  -package PQFP208  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\FPGA\a3p1000_CAN\synthesis\synlog\report\piu_top_fpga_mapper.xml  -top_level_module  work.piu_top  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\FPGA\a3p1000_CAN\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\FPGA\a3p1000_CAN\synthesis\piu_top.edn   -freq 100.000   D:\FPGA\a3p1000_CAN\synthesis\synwork\piu_top_prem.srd  -sap  D:\FPGA\a3p1000_CAN\synthesis\piu_top.sap  -otap  D:\FPGA\a3p1000_CAN\synthesis\piu_top.tap  -omap  D:\FPGA\a3p1000_CAN\synthesis\piu_top.map  -devicelib  D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  D:\FPGA\a3p1000_CAN\synthesis\piu_top.sap  -ologparam  D:\FPGA\a3p1000_CAN\synthesis\syntmp\piu_top.plg  -osyn  D:\FPGA\a3p1000_CAN\synthesis\piu_top.srm  -prjdir  D:\FPGA\a3p1000_CAN\synthesis\  -prjname  piu_top_syn  -log  D:\FPGA\a3p1000_CAN\synthesis\synlog\piu_top_fpga_mapper.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P1000 -package PQFP208 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\piu_top_fpga_mapper.xml -top_level_module work.piu_top -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\piu_top.edn -freq 100.000 ..\synwork\piu_top_prem.srd -sap ..\piu_top.sap -otap ..\piu_top.tap -omap ..\piu_top.map -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\piu_top.sap -ologparam piu_top.plg -osyn ..\piu_top.srm -prjdir ..\ -prjname piu_top_syn -log ..\synlog\piu_top_fpga_mapper.srr
+rc:1 success:1 runtime:78
+file:..\scratchproject.prs|io:o|time:1554795900|size:3058|exec:0|csum:
+file:..\piu_top.edn|io:o|time:1554796000|size:7100879|exec:0|csum:
+file:..\synwork\piu_top_prem.srd|io:i|time:1554795923|size:274206|exec:0|csum:9DA00096DA13839ACFF0F2D121787177
+file:..\piu_top.sap|io:o|time:1554795923|size:7617|exec:0|csum:
+file:..\piu_top.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\piu_top.map|io:o|time:1554796001|size:28|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\piu_top.sap|io:o|time:1554795923|size:7617|exec:0|csum:
+file:piu_top.plg|io:o|time:1554796001|size:1629|exec:0|csum:
+file:..\piu_top.srm|io:o|time:1554795999|size:77994|exec:0|csum:
+file:..\synlog\piu_top_fpga_mapper.srr|io:o|time:1554796001|size:98933|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

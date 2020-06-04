@@ -1,0 +1,303 @@
+***************************************************************************
+                               Status Report
+                          Sun Feb 10 10:24:36 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+File Name: D:\FPGA\a3p1000_uart\designer\impl1\UART_test.adb
+Design Name: UART_test  Design State: compile
+Last Saved: Sun Feb 10 10:21:43 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P1000  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Sun Feb 10 10:24:34 2019:
+        D:\FPGA\a3p1000_uart\synthesis\UART_test.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P1000
+Package     : 208 PQFP
+Source      : D:\FPGA\a3p1000_uart\synthesis\UART_test.edn
+Format      : EDIF
+Topcell     : UART_test
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/AEMPTY
+         drives no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_FULL_0 drives
+         no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[0]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[1]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[2]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[3]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[4]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[5]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[6]
+         drives no load.
+Warning: CMP201: Net COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/Q_1[7]
+         drives no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD8_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD9_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD10_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD11_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD12_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD13_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD14_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD15_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD16_0 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk3_rx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD17_0 drives
+         no load.
+Warning: CMP201: Net COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/AEMPTY
+         drives no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_FULL drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD8 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD9 drives no
+         load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD10 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD11 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD12 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD13 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD14 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD15 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD16 drives
+         no load.
+Warning: CMP201: Net
+         COREUART_0/genblk2_tx_fifo/UART_test_COREUART_0_fifo_256x8_pa3/FIFOBLOCK0_RD17 drives
+         no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   166
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        2
+
+    Total macros optimized  168
+
+There were 0 error(s) and 32 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:    293  Total:  24576   (1.19%)
+    IO (W/ clocks)             Used:     20  Total:    154   (12.99%)
+    Differential IO            Used:      0  Total:     35   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     18   (11.11%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      1  Total:     32   (3.13%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 6  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 172          | 172
+    SEQ     | 121          | 121
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 18            | 0            | 0
+    Output I/O                            | 2             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 18    | 2      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :  20 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    123     CLK_NET       Net   : clk_c
+                          Driver: clk_pad
+                          Source: NETLIST
+    114     SET/RESET_NET Net   : rst_c
+                          Driver: rst_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    13      INT_NET       Net   : COREUART_1/make_CLOCK_GEN/baud_cntr8
+                          Driver: COREUART_1/make_CLOCK_GEN/genblk1.baud_cntr_RNIMR5O3[10]
+    13      INT_NET       Net   : COREUART_0/make_CLOCK_GEN/baud_cntr8
+                          Driver: COREUART_0/make_CLOCK_GEN/genblk1.baud_cntr_RNI94DU4[10]
+    11      INT_NET       Net   : COREUART_1/xmit_pulse
+                          Driver: COREUART_1/make_CLOCK_GEN/xmit_clock_RNIMR0M
+    10      INT_NET       Net   : COREUART_1.WEN_i_1
+                          Driver: UART_control_1/TX_state_RNI5D5R
+    10      INT_NET       Net   : COREUART_1/make_TX/N_26
+                          Driver: COREUART_1/make_TX/xmit_state_RNISJ821[2]
+    10      INT_NET       Net   : COREUART_0/xmit_pulse
+                          Driver: COREUART_0/make_CLOCK_GEN/xmit_clock_RNIKRQP
+    9       INT_NET       Net   : TX_state_RNI3I7H
+                          Driver: UART_control_0/TX_state_RNI3I7H
+    9       INT_NET       Net   : UART_control_1/TX6
+                          Driver: UART_control_1/TX_RNIFQMA4[1]
+    9       INT_NET       Net   : UART_control_0/TX6
+                          Driver: UART_control_0/TX_RNIUVP46[1]
+    8       INT_NET       Net   : COREUART_1/make_TX/xmit_state[3]
+                          Driver: COREUART_1/make_TX/xmit_state[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    13      INT_NET       Net   : COREUART_1/make_CLOCK_GEN/baud_cntr8
+                          Driver: COREUART_1/make_CLOCK_GEN/genblk1.baud_cntr_RNIMR5O3[10]
+    13      INT_NET       Net   : COREUART_0/make_CLOCK_GEN/baud_cntr8
+                          Driver: COREUART_0/make_CLOCK_GEN/genblk1.baud_cntr_RNI94DU4[10]
+    11      INT_NET       Net   : COREUART_1/xmit_pulse
+                          Driver: COREUART_1/make_CLOCK_GEN/xmit_clock_RNIMR0M
+    10      INT_NET       Net   : COREUART_1.WEN_i_1
+                          Driver: UART_control_1/TX_state_RNI5D5R
+    10      INT_NET       Net   : COREUART_1/make_TX/N_26
+                          Driver: COREUART_1/make_TX/xmit_state_RNISJ821[2]
+    10      INT_NET       Net   : COREUART_0/xmit_pulse
+                          Driver: COREUART_0/make_CLOCK_GEN/xmit_clock_RNIKRQP
+    9       INT_NET       Net   : TX_state_RNI3I7H
+                          Driver: UART_control_0/TX_state_RNI3I7H
+    9       INT_NET       Net   : UART_control_1/TX6
+                          Driver: UART_control_1/TX_RNIFQMA4[1]
+    9       INT_NET       Net   : UART_control_0/TX6
+                          Driver: UART_control_0/TX_RNIUVP46[1]
+    8       INT_NET       Net   : COREUART_1/make_TX/xmit_state[3]
+                          Driver: COREUART_1/make_TX/xmit_state[3]
+
+

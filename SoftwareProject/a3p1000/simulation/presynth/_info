@@ -1,0 +1,377 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/a3p1000/simulation
+va3p1000_test
+Z1 !s110 1551519836
+!i10b 1
+!s100 @c9Xf_1nzgDkG0keXDGC12
+I;F]A=jDhza4i>^oDZaXOf0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551519322
+8D:/FPGA/a3p1000/hdl/a3p1000_test.v
+FD:/FPGA/a3p1000/hdl/a3p1000_test.v
+Z3 L0 21
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z5 !s108 1551519836.000000
+!s107 D:/FPGA/a3p1000/hdl/a3p1000_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/hdl/a3p1000_test.v|
+!s101 -O0
+!i113 1
+Z6 o-vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
+vmyUART_myUART_0_Clock_gen
+Z8 !s110 1549179961
+!i10b 1
+!s100 0DD7]Y?bzc=c81ULKcX9J0
+Iz]ZaHz_JeiJj24Y@=aP8^0
+R2
+R0
+Z9 w1549179903
+8D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Clock_gen.v
+FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Clock_gen.v
+Z10 L0 38
+R4
+r1
+!s85 0
+31
+Z11 !s108 1549179961.000000
+!s107 D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Clock_gen.v|
+!s90 -vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Clock_gen.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmy@u@a@r@t_my@u@a@r@t_0_@clock_gen
+vmyUART_myUART_0_COREUART
+R8
+!i10b 1
+!s100 QVkLhD<:kR3?dE5ZH:^I03
+ICC^FJl5T3]Lf<R]d4S1U13
+R2
+R0
+R9
+8D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/CoreUART.v
+FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/CoreUART.v
+Z12 L0 31
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/CoreUART.v|
+!s90 -vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/CoreUART.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmy@u@a@r@t_my@u@a@r@t_0_@c@o@r@e@u@a@r@t
+vmyUART_myUART_0_fifo_256x8
+R8
+!i10b 1
+!s100 7N<NbL_CFIBJl=;AdbDTT2
+IDj8_dbe<@Oo:<QDNKaYf@1
+R2
+R0
+R9
+Z13 8D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/fifo_256x8_pa3.v
+Z14 FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/fifo_256x8_pa3.v
+Z15 L0 32
+R4
+r1
+!s85 0
+31
+R11
+Z16 !s107 D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/fifo_256x8_pa3.v|
+Z17 !s90 -vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/fifo_256x8_pa3.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmy@u@a@r@t_my@u@a@r@t_0_fifo_256x8
+vmyUART_myUART_0_fifo_256x8_pa3
+R8
+!i10b 1
+!s100 8Bb<fQaBHoA`K4ETKS^@13
+IbE4>=ilnO[cUUBB61cAf[2
+R2
+R0
+R9
+R13
+R14
+Z18 L0 61
+R4
+r1
+!s85 0
+31
+R11
+R16
+R17
+!s101 -O0
+!i113 1
+R6
+R7
+nmy@u@a@r@t_my@u@a@r@t_0_fifo_256x8_pa3
+vmyUART_myUART_0_Rx_async
+R8
+!i10b 1
+!s100 JEABb1I]Tfg_Ij]OGk;I10
+Ij7OAIGP9XRcGMhAHSKA8<0
+R2
+R0
+R9
+8D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Rx_async.v
+FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Rx_async.v
+Z19 L0 30
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Rx_async.v|
+!s90 -vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Rx_async.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmy@u@a@r@t_my@u@a@r@t_0_@rx_async
+vmyUART_myUART_0_Tx_async
+R8
+!i10b 1
+!s100 I]3?O^lbnzCJ`29<n=:zl3
+I8jf5>;f:H`]R?`A;9@<zA1
+R2
+R0
+R9
+8D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Tx_async.v
+FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Tx_async.v
+R12
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Tx_async.v|
+!s90 -vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/core/Tx_async.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmy@u@a@r@t_my@u@a@r@t_0_@tx_async
+vtest
+!s110 1551519837
+!i10b 1
+!s100 GGaYz;h`h6QCC<4dHX:z92
+I>Ol^CZJbfSo>0J3?4?jRC2
+R2
+R0
+w1551519819
+8D:/FPGA/a3p1000/stimulus/test.v
+FD:/FPGA/a3p1000/stimulus/test.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1551519837.000000
+!s107 D:/FPGA/a3p1000/stimulus/test.v|
+!s90 -reportprogress|300|+incdir+D:/FPGA/a3p1000/stimulus|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/stimulus/test.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+D:/FPGA/a3p1000/stimulus -vlog01compat -work presynth -O0
+R7
+vtestbnch
+!s110 1549179962
+!i10b 1
+!s100 ZQ8OOOlhTUCC3b`UAUfhS3
+I5D;^l<1FOe9kZoSI<n04Y0
+R2
+R0
+R9
+8D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v
+FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v
+FD:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/../../../../coreparameters.v
+L0 24
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/../../../../coreparameters.v|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v|
+!s90 +incdir+D:/FPGA/a3p1000/component/work/myUART/myUART_0|+incdir+D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user/testbnch.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+D:/FPGA/a3p1000/component/work/myUART/myUART_0 +incdir+D:/FPGA/a3p1000/component/work/myUART/myUART_0/rtl/vlog/test/user -vlog01compat -work presynth -O0
+R7
+vtop_0
+R1
+!i10b 1
+!s100 i_FfB0l^P[Ig`EaS1H3V01
+I4FbjKnHLA1Wi394?9OiU^3
+R2
+R0
+Z20 w1551519454
+8D:/FPGA/a3p1000/component/work/top_0/top_0.v
+FD:/FPGA/a3p1000/component/work/top_0/top_0.v
+L0 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/a3p1000/component/work/top_0/top_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/top_0/top_0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vtop_0_COREUART_0_Clock_gen
+R1
+!i10b 1
+!s100 T[C>2^lFomZMa5a_CTX8H1
+Iel=F@ZhCGbbILQzZcG5ab0
+R2
+R0
+R20
+8D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Clock_gen.v
+FD:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Clock_gen.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Clock_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Clock_gen.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ntop_0_@c@o@r@e@u@a@r@t_0_@clock_gen
+vtop_0_COREUART_0_COREUART
+R1
+!i10b 1
+!s100 ?0V4jf>f132:7@7jQHhIE3
+In^EYA7KeE7^7ANB]jfg8P1
+R2
+R0
+R20
+8D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/CoreUART.v
+FD:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/CoreUART.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/CoreUART.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/CoreUART.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ntop_0_@c@o@r@e@u@a@r@t_0_@c@o@r@e@u@a@r@t
+vtop_0_COREUART_0_fifo_256x8
+R1
+!i10b 1
+!s100 953dj`HG7HDn1TVRDYgN;2
+IiHe[eGk@i`^J9dij8YF:;2
+R2
+R0
+R20
+Z21 8D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/fifo_256x8_pa3.v
+Z22 FD:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/fifo_256x8_pa3.v
+R15
+R4
+r1
+!s85 0
+31
+R5
+Z23 !s107 D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/fifo_256x8_pa3.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/fifo_256x8_pa3.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ntop_0_@c@o@r@e@u@a@r@t_0_fifo_256x8
+vtop_0_COREUART_0_fifo_256x8_pa3
+R1
+!i10b 1
+!s100 Zj:QTH3>E_GDf9291kh7z2
+Ia5^HG`?AhM9lmXnnPh1e70
+R2
+R0
+R20
+R21
+R22
+R18
+R4
+r1
+!s85 0
+31
+R5
+R23
+R24
+!s101 -O0
+!i113 1
+R6
+R7
+ntop_0_@c@o@r@e@u@a@r@t_0_fifo_256x8_pa3
+vtop_0_COREUART_0_Rx_async
+R1
+!i10b 1
+!s100 5NQ0z?Mh?mLoc0cH_LRh^1
+I]KOA3_TKhIGLEGf^[f^mf2
+R2
+R0
+R20
+8D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Rx_async.v
+FD:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Rx_async.v
+R19
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Rx_async.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Rx_async.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ntop_0_@c@o@r@e@u@a@r@t_0_@rx_async
+vtop_0_COREUART_0_Tx_async
+R1
+!i10b 1
+!s100 EPonGTcE[i^Hk14[G4lQm2
+IN?ZM6iTh28IN_;Flk6IHl2
+R2
+R0
+R20
+8D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Tx_async.v
+FD:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Tx_async.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Tx_async.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/FPGA/a3p1000/component/work/top_0/COREUART_0/rtl/vlog/core/Tx_async.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ntop_0_@c@o@r@e@u@a@r@t_0_@tx_async

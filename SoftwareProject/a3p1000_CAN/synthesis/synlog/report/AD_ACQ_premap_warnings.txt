@@ -1,0 +1,1 @@
+@W: MT530 :"d:\fpga\a3p1000_can\smartgen\ram_128x12\ram_128x12.v":28:14:28:28|Found inferred clock AD_ACQ|clk_i which controls 227 sequential elements including RAM2.RAM_128X12_R0C0. This clock has no specified timing constraint which may adversely impact design performance. 

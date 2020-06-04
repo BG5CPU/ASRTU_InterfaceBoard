@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\FPGA\a3p1000\hdl\test.v":21:7:21:10|Synthesizing module test in library work.
+@N: CG706 :"D:\FPGA\a3p1000\hdl\test.v":21:7:21:10|Selected top-level module test is a black box, ignoring black box ...
+@N: CL159 :"D:\FPGA\a3p1000\hdl\test.v":22:6:22:8|Input rst is unused.
+@N: CL159 :"D:\FPGA\a3p1000\hdl\test.v":22:10:22:12|Input clk is unused.
+@N|Running in 64-bit mode
+

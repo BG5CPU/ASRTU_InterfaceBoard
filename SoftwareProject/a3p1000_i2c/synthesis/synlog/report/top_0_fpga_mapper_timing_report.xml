@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\FPGA\a3p1000_i2c\synthesis\synlog\top_0_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>COREI2C_COREI2CREAL_Z3_0|SCLO_int_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>169.0 MHz</data>
+<data>4.084</data>
+</row>
+<row>
+<data>COREI2C_COREI2CREAL_Z3_0|sercon_inferred_clock[3]</data>
+<data>100.0 MHz</data>
+<data>172.9 MHz</data>
+<data>4.218</data>
+</row>
+<row>
+<data>COREI2C_COREI2CREAL_Z3_1|sercon_inferred_clock[3]</data>
+<data>100.0 MHz</data>
+<data>156.6 MHz</data>
+<data>3.615</data>
+</row>
+<row>
+<data>top_0|PCLK</data>
+<data>100.0 MHz</data>
+<data>63.8 MHz</data>
+<data>-5.674</data>
+</row>
+</report_table>

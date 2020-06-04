@@ -1,0 +1,147 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Top entity is set to AD_ACQ.
+VHDL syntax check successful!
+@N: CD231 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+
+Process completed successfully.
+# Tue Apr 09 15:43:05 2019
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_CAN\smartgen\RAM_128X12\RAM_128X12.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+Process completed successfully.
+# Tue Apr 09 15:43:05 2019
+
+###########################################################]
+@N: CD720 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Top entity is set to AD_ACQ.
+VHDL syntax check successful!
+@N: CD231 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":22:7:22:12|Synthesizing work.ad_acq.rtl.
+@N: CD231 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":67:15:67:16|Using onehot encoding for type acq_fsm. For example, enumeration st1 is mapped to "10000".
+@N: CD604 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":559:10:559:23|OTHERS clause is not synthesized.
+Post processing for work.ad_acq.rtl
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Pruning unused register clj_mode_8(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Pruning unused register clj_cmd_1. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register ad_addr.
+Extracted state machine for register ad_addr
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register acq_phase.
+Extracted state machine for register acq_phase
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL201 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":129:5:129:6|Trying to extract state machine for register acq_state.
+Extracted state machine for register acq_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":25:10:25:19|Input init_end_i is unused.
+@N: CL159 :"D:\FPGA\a3p1000_CAN\hdl\hdl\AD_ACQ.vhd":30:10:30:17|Input ad_ren_i is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 86MB)
+
+
+Process completed successfully.
+# Tue Apr 09 15:43:06 2019
+
+###########################################################]
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000_CAN\smartgen\RAM_128X12\RAM_128X12.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2086:8:2086:16|Synthesizing module RAM512X18 in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000_CAN\smartgen\RAM_128X12\RAM_128X12.v":5:7:5:16|Synthesizing module RAM_128X12 in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+
+Process completed successfully.
+# Tue Apr 09 15:43:06 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: D:\FPGA\a3p1000_CAN\synthesis\synwork\AD_ACQ_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 09 15:43:06 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Apr 09 15:43:06 2019
+
+###########################################################]

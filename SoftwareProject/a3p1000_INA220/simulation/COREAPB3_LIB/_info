@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/a3p1000_INA220/simulation
+vCAPB3II
+!s110 1551700209
+!i10b 1
+!s100 ?J^^4eC>>XINW<;bF9fGi3
+I`We2nbEg6F5S43EClhDJ_2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1550885796
+8D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+FD:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+Z3 L0 13
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z5 !s108 1551700209.000000
+!s107 D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAPB3_LIB|D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v|
+!s101 -O0
+!i113 1
+Z6 o-vlog01compat -work COREAPB3_LIB -O0
+Z7 tCvgOpt 0
+n@c@a@p@b3@i@i
+vCAPB3O
+Z8 !s110 1551700210
+!i10b 1
+!s100 ZFE2SbA1S9l>>;^Sfb@m`2
+IKzO>CNh;d1ZFP6EN=EndS3
+R1
+R0
+R2
+8D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+FD:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+L0 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAPB3_LIB|D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@c@a@p@b3@o
+vCoreAPB3
+R8
+!i10b 1
+!s100 Wn]LO[oa[aQ<:HiS5BGej1
+IW][z]X_<kWVZQo_=F`AcI1
+R1
+R0
+R2
+8D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+FD:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1551700210.000000
+!s107 D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAPB3_LIB|D:/FPGA/a3p1000_INA220/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@core@a@p@b3

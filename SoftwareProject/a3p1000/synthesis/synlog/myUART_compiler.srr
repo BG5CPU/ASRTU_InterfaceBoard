@@ -1,0 +1,165 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\fifo_256x8_pa3.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v" (library work)
+@I::"D:\FPGA\a3p1000\component\work\myUART\myUART.v" (library work)
+Verilog syntax check successful!
+File D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v changed - recompiling
+File D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v changed - recompiling
+File D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v changed - recompiling
+File D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\fifo_256x8_pa3.v changed - recompiling
+File D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v changed - recompiling
+File D:\FPGA\a3p1000\component\work\myUART\myUART.v changed - recompiling
+Selecting top level module myUART
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":38:7:38:31|Synthesizing module myUART_myUART_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000001
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = myUART_myUART_0_Clock_gen_1s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":128:51:128:59|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":149:51:149:59|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":169:51:169:59|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":189:51:189:59|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":209:51:209:59|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":229:51:229:59|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Clock_gen.v":249:51:249:59|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":31:7:31:30|Synthesizing module myUART_myUART_0_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000001
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = myUART_myUART_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@W:"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":66:9:66:20|Index into variable tx_byte could be out of range - a simulation mismatch is possible
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":30:7:30:30|Synthesizing module myUART_myUART_0_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000001
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+	receive_states_rx_wait_state=32'b00000000000000000000000000000011
+   Generated name = myUART_myUART_0_Rx_async_0s_1s_0s_1s_2s_3s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@W: CL177 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Sharing sequential element clear_framing_error_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Optimizing register bit receive_full_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":501:0:501:5|Pruning unused register receive_full_int. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v":31:7:31:30|Synthesizing module myUART_myUART_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000001
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = myUART_myUART_0_COREUART_1s_1s_0s_15s_1s_0s
+
+@N: CG179 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"D:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1976:7:1976:14|Synthesizing module FIFO4K18 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\fifo_256x8_pa3.v":61:7:61:36|Synthesizing module myUART_myUART_0_fifo_256x8_pa3 in library work.
+
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\fifo_256x8_pa3.v":32:7:32:32|Synthesizing module myUART_myUART_0_fifo_256x8 in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	LEVEL=8'b11111111
+   Generated name = myUART_myUART_0_fifo_256x8_0s_4294967295s
+
+@W: CG360 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\fifo_256x8_pa3.v":46:14:46:18|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v":136:8:136:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v":341:0:341:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\FPGA\a3p1000\component\work\myUART\myUART.v":9:7:9:12|Synthesizing module myUART in library work.
+
+@W: CL157 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\fifo_256x8_pa3.v":68:16:68:20|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Optimizing register bit overflow_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Pruning unused register overflow_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":206:0:206:5|Optimizing register bit overflow to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":206:0:206:5|Pruning unused register overflow. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Rx_async.v":68:8:68:19|Input read_rx_byte is unused.
+@N: CL201 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":42:6:42:17|Input rst_tx_empty is unused.
+@N: CL159 :"D:\FPGA\a3p1000\component\work\myUART\myUART_0\rtl\vlog\core\Tx_async.v":43:11:43:21|Input tx_hold_reg is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 77MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 03 15:47:32 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 03 15:47:33 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 03 15:47:33 2019
+
+###########################################################]
